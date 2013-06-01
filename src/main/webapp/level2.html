@@ -1,9 +1,33 @@
 <!doctype html>
 <meta charset="utf-8">
 <style>
+input[type=range]#day {
+    -webkit-appearance: none;
+    background-color: gray;
+background-image: -webkit-gradient(
+	linear,
+	left  bottom,
+	right bottom,
+	color-stop(0.2, rgba(250,133,92,0.6)),
+	color-stop(0.31, rgba(255,260,31,1.0)),
+	color-stop(0.61, rgba(255,260,31,1.0)),
+	color-stop(0.86, rgba(205,142,205,0.4))
+);
+    width: 200px;
+    height:20px;
+}
+input[type="range"]#day::-webkit-slider-thumb{
+   -webkit-appearance:none !important;
+   background-color: white;
+   opacity: 0.8;
+   width: 10px;
+   height: 20px;
+ }
 
 </style>
 <body>
+<div><img src="glyphicons_231_sun.png" alt="DAY"/><input style="width: 830px" id="day" type="range" min="0" max="20" value="0"/><img src="glyphicons_230_moon.png" alt="NIGHT"/></div>
+
 <script src="http://d3js.org/d3.v3.min.js" type="text/javascript"></script>
 <script>
 
@@ -81,9 +105,16 @@ var
     [20, 80, 10],
   ];
 
-var data = {};
+var data = {}, prev = {};
 
 function fetchLogData() {
+  var cday = d3.select('span.day'),
+      cmonth = d3.select('span.month')
+      cyear = d3.select('span.year')
+  cday.html(day);
+  cmonth.html(month);
+  cyear.html(year);
+
   var dataUrl = "/govhack/rest/observations/"+year+"/"+month+"/"+day;
   // console.log(year + " " + month + " " + day + ": " + dataUrl);
 
@@ -145,15 +176,23 @@ l2.selectAll('rect')
     .attr('fill-opacity', 0.8)
 
 function update(){
+  var time = "";
   // Iterate over each location
   for (var i=0;i < levels.length; i++) {
     var l = levels[i],
-        name = l.name
+        name = l.name,
+        last = 0;
+
+    if (name in prev) {
+    } else {
+      last = prev[name] = 0;
+    }
     if (data && name in data) {
         m = data[name];
 
         if (count in m) {
           levels[i].value = m[count].in * l.scale;
+          if (time in m[count]) {time = m[count].time;}
         } else {
           levels[i].value = 0;
         }
@@ -166,6 +205,26 @@ function update(){
     .transition()
     .style('stop-color', function(l){return rgb([l.value,0,0]);})
     .duration(delay)
+
+  // handle weather
+  weather(time);
+}
+
+function weather(time) {
+  var dataUrl = year+"/"+month+".json",
+      dayInt = parseInt(day),
+      wmin = d3.select('span.min'),
+      wmax = d3.select('span.max')
+
+  d3.json(dataUrl, function(error, json) {
+    if (error) {
+        wmin.html('??');
+        wmax.html('??');
+    } else {
+        wmin.html(json[dayInt]['Minimum temperature (�C)']);
+        wmax.html(json[dayInt]['Maximum temperature (�C)']);
+    }
+  });
 }
 
 var daySlider =
@@ -208,10 +267,16 @@ var callback = function(){
 var timer = setInterval(callback, 400);
 
 </script>
-<div style="position: absolute; right: 10px; top:10px; width: 100px;">
-  
+<div id="calendar" style="position: absolute; right: 10px; top:10px; width: 100px;">
+  <span class="year"></span><br>
+  <span class="day"></span>
+  <span class="month"></span>
 </div>
-<div><img src="glyphicons_231_sun.png" alt="DAY"/><input style="width: 847px" id="day" type="range" min="0" max="20" value="0"/><img src="glyphicons_230_moon.png" alt="NIGHT"/></div>
+<div id="weather" style="position: absolute; right: 10px; top:60px; width: 100px;">
+  <span class="min"></span>
+  <span class="max"></span>
+</div>
+
 <p>
 
 <input name="year" type="hidden" value="2012"/>
