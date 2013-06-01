@@ -7,6 +7,30 @@
 <script src="http://d3js.org/d3.v3.min.js" type="text/javascript"></script>
 <script>
 
+function getURLParameter(name) {
+        return decodeURI(
+                (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+        );
+}
+
+var year = "2011", month = "05", day = "01";
+year = getURLParameter("year");
+month = getURLParameter("month");
+day = getURLParameter("day");
+
+function incrementDay() {
+  var theDate = new Date(year+"/"+month+"/"+day),
+      millis = theDate.getTime();
+
+  theDate.setTime(millis + (24*60*60*1000));
+  var nextYear = theDate.getFullYear(),
+      nextMonth = theDate.getMonth() + 1;
+      nextDay = theDate.getDate();
+  year = "" + nextYear;
+  month= nextMonth < 10 ? "0"+nextMonth : ""+nextMonth;
+  day= nextDay < 10 ? "0"+nextDay : ""+nextDay;
+}
+
 function rgb(array){
   return 'rgb('+ array.map(function(r){return Math.round(r);}).join(',') +')';
 }
@@ -18,7 +42,7 @@ var
   gridx = width/25, gridy = height/10,
   svg = d3.select('body')
           .append('svg')
-            .attr('width', width).attr('height', height)
+            .attr('width', width).attr('height', 2*height)
             .style('background-image', 'url("Level2.png")')
             .style('background-repeat', 'no-repeat')
 ;
@@ -27,10 +51,22 @@ var
 var
   defs = svg.append('defs'),
   l2 = svg.append('g').attr('class','level').attr('transform','translate('+margin+', '+margin+')'),
-  level2 = [
-    {"id": "c1",	"name": "Level 2 Lift",		"y": 4,	"x": 8.5, "r": 5, "scale": 300, "value": 200},
-    {"id": "c2",	"name": "Level 2 Cafe",		"y": 6,	"x": 23, "r": 5, "scale": 300, "value": 150},
-    {"id": "c3",	"name": "Level 2 Main Entry",	"y": 7, "x": 4.3, "r": 5, "scale": 300, "value": 233},
+  levels = [
+    {"id": "c1",	"name": "Level 2 Lift",		"y": 4,	"x": 8.5, "r": 5,	"scale": 255/1003, "value": 20},
+    {"id": "c2",	"name": "Cafe Entry",		"y": 6,	"x": 22.5, "r": 3,	"scale": 255/1953, "value": 15},
+    {"id": "c3",	"name": "Level 2 Main Entry",	"y": 7, "x": 4.3, "r": 5,	"scale": 255/3300, "value": 23},
+
+    {"id": "c4",	"name": "Shop A",	"y": 6, "x": 8, "r": 3,	"scale": 255/2065, "value": 23},
+    {"id": "c5",	"name": "Shop B",	"y": 6, "x": 9, "r": 3,	"scale": 255/889, "value": 23},
+    {"id": "c6",	"name": "Shop Whale Mall",	"y": 7.5, "x": 8.5, "r": 4,	"scale": 255/1683, "value": 23},
+    {"id": "c7",	"name": "Level 2 Cafe",	"y": 6, "x": 23, "r": 5,	"scale": 255/1211, "value": 23},
+
+    {"id": "c9",	"name": "Level 1 Entry 1",	"y": 17, "x": 4, "r": 5,	"scale": 255/1232, "value": 23},
+    {"id": "c9",	"name": "Level 1 Entry 2",	"y": 17, "x": 5, "r": 5,	"scale": 255/2442, "value": 23},
+    {"id": "c9",	"name": "Level 1 Lift",	"y": 14, "x": 8.5, "r": 5,	"scale": 255/525, "value": 23},
+    {"id": "c9",	"name": "Level 1 Science Centre Entry 1",	"y": 17, "x": 4, "r": 5,	"scale": 255/1141, "value": 23},
+    {"id": "c9",	"name": "Level 1 Science Centre Entry 2",	"y": 17, "x": 5, "r": 5,	"scale": 255/1830, "value": 23},
+    {"id": "c8",	"name": "Level 0 Entry",	"y": 22, "x": 14.3, "r": 5,	"scale": 255/1211, "value": 23},
   ];
 
 var
@@ -45,13 +81,34 @@ var
     [20, 80, 10],
   ];
 
-d3.json("/govhack/rest/observations/2013/01/01", function(error, json) {
+var data = {};
+
+function fetchLogData() {
+  var dataUrl = "/govhack/rest/observations/"+year+"/"+month+"/"+day;
+  // console.log(year + " " + month + " " + day + ": " + dataUrl);
+
+  d3.json(dataUrl, function(error, json) {
     //rendering logic here
+    data = json;
+    if (error) {
+      console.log('error: ' + error);
+      if (parseInt(year) >= 2013) {
+        alert('Could not get data for ' + dataUrl);
+        clearInterval(timer);
+      } else {
+        tomorrow();
+      }
+    } else {
+      // console.log('set data: ' + data);
+    }
+  });
 }
+
+fetchLogData();
 
 var gradient =
   defs.selectAll('rect')
-    .data(level2)
+    .data(levels)
 var gradientEnter =
   gradient.enter().append('radialGradient')
     .attr('id', function(l){return "g"+l.id;})
@@ -65,7 +122,7 @@ gradientEnter
   .append('stop')
     .attr('class', 'color')
     .attr('offset', '0%')
-    .style('stop-color', function(l){console.log(l.id + ":" + l.value); return rgb([l.value,0,0]);})
+    .style('stop-color', function(l){return rgb([l.value,0,0]);})
     .style('stop-opacity', 0.9)
 
 gradientEnter
@@ -75,7 +132,7 @@ gradientEnter
     .style('stop-opacity', 0.5)
 
 l2.selectAll('rect')
-  .data(level2)
+  .data(levels)
   .enter().append('circle')
     .attr('class','locn')
     .attr('id', function(l){return l.id;})
@@ -89,10 +146,20 @@ l2.selectAll('rect')
 
 function update(){
   // Iterate over each location
-  
+  for (var i=0;i < levels.length; i++) {
+    var l = levels[i],
+        name = l.name
+    if (data && name in data) {
+        m = data[name];
 
-  for (var i=0;i < 3; i++) {
-    level2[i].value = log[count][i];
+        if (count in m) {
+          levels[i].value = m[count].in * l.scale;
+        } else {
+          levels[i].value = 0;
+        }
+    } else {
+        levels[i].value = 0;
+    }
   }
   // l2.selectAll('circle').transition().style('fill', function(l){return rgb([l.value,0,0]);})
   defs.selectAll('stop.color')
@@ -101,30 +168,58 @@ function update(){
     .duration(delay)
 }
 
+var daySlider =
+  d3.select('day');
+
+function tomorrow() {
+  // console.log("Date: " + day);
+  incrementDay()
+  // console.log("Date: " + year + "/" + month + "/" + day);
+  fetchLogData();
+}
+  
 var delay = 400;
 var count = 0;
 var callback = function(){
-  update();
-  count++;
-  if (count >= log.length) {
-    console.log('loop');
-    // clearInterval(timer);
-    count=0;
-    return;
+  try {
+    update();
+    count++;
+    var dayLength = 0;
+    if (data) dayLength = data["Shop A"].length;
+    if (count >= dayLength) {
+      // console.log('loop');
+      // clearInterval(timer);
+      count=0;
+      tomorrow();
+      return;
+    }
+    document.getElementById('day').max = dayLength;
+    // daySlider.transition().attr('value', count).duration(delay);
+    document.getElementById('day').value = count;
+    delay = document.getElementById('delay').value;
+    clearInterval(timer);
+    timer = setInterval(callback, delay);
+    // console.log('tick: ' + count);
+  } catch (err) {
+    clearInterval(timer);
+    console.log("ERR:" + err.message);
   }
-  delay = document.getElementById('delay').value;
-  clearInterval(timer);
-  timer = setInterval(callback, delay);
-  // console.log('tick: ' + count);
 }
 var timer = setInterval(callback, 400);
 
 </script>
+<div style="position: absolute; right: 10px; top:10px; width: 100px;">
+  
+</div>
+<div><img src="glyphicons_231_sun.png" alt="DAY"/><input style="width: 847px" id="day" type="range" min="0" max="20" value="0"/><img src="glyphicons_230_moon.png" alt="NIGHT"/></div>
 <p>
+
 <input name="year" type="hidden" value="2012"/>
 <input name="month" type="hidden" value="5"/>
 <input name="day" type="hidden" value="7"/>
-faster <input id="delay" type="range" min="100" max="1000"/> slower
+<img src="glyphicons_339_rabbit.png" alt="faster"/><input id="delay" type="range" min="10" max="1000"/><img src="glyphicons_338_turtle.png" alt="slower"/>
 </p>
+
+<div style="width: 100%; font-size:7pt; text-align:center"><a href="http://www.glyphicons.com">glyphicons</a> in use</div>
 </body>
 
