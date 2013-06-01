@@ -1,0 +1,3067 @@
+
+07:28:00  RECAP $Revision: 3.13.2.13 $ ($State: Exp $) built 09:15:45, Aug  3 2010
+07:28:00  Logging Counting Started
+07:28:00  Start time: 09:30 (570 minutes past midnight)
+07:28:00  Stop time: 22:00 (1320 minutes past midnight)
+07:28:00  Log period: 30 minutes
+07:28:00  Initialising 0 display(s)
+07:28:00  Initialising 9 camera(s)
+07:28:00  IrisysIP counter(s) in use, Starting BlackFin API
+07:28:00  If RECAP crashes, check .NET framework and VCRedist are installed.
+07:28:00  BlackFin API Started.
+07:28:00  BlackFin API Started up OK. Version: 1.10.0.5
+07:28:00  Initialising 2 zone(s)
+07:28:00  Outputting 'Zone1' zone data to 'Zones\Zone1.txt'
+07:28:00  Outputting 'Zone2' zone data to 'Zones\Zone2.txt'
+07:28:00  Displaying shutdown on 0 display(s)
+07:28:00  Waiting till start time
+09:30:00  Start time reached
+09:30:00  Adding Level 1 Science Centre Entry 1 thread to Watchdog
+09:30:00  Level 1 Science Centre Entry 1: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Science Centre Entry 1: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 1 Science Centre Entry 2 thread to Watchdog
+09:30:00  Level 1 Science Centre Entry 2: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Science Centre Entry 2: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 1 Science Centre Lift thread to Watchdog
+09:30:00  Level 1 Science Centre Lift: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Science Centre Lift: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 2 Main Entry thread to Watchdog
+09:30:00  Level 2 Main Entry: InCountCorrection set in registry to: 0
+09:30:00  Level 2 Main Entry: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 2 Lift thread to Watchdog
+09:30:00  Level 2 Lift: InCountCorrection set in registry to: 0
+09:30:00  Level 2 Lift: OutCountCorrection set in registry to: 0
+09:30:00  Adding Shop A thread to Watchdog
+09:30:00  Shop A: InCountCorrection set in registry to: 0
+09:30:00  Shop A: OutCountCorrection set in registry to: 0
+09:30:00  Adding Shop B thread to Watchdog
+09:30:00  Shop B: InCountCorrection set in registry to: 0
+09:30:00  Shop B: OutCountCorrection set in registry to: 0
+09:30:00  Adding Shop Whale Mall thread to Watchdog
+09:30:00  Shop Whale Mall: InCountCorrection set in registry to: 0
+09:30:00  Shop Whale Mall: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 2 Cafe thread to Watchdog
+09:30:00  Level 2 Cafe: InCountCorrection set in registry to: 0
+09:30:00  Level 2 Cafe: OutCountCorrection set in registry to: 0
+09:30:01  New day, Reset counts and busiest times in registry
+09:30:01  Camera Level 1 Science Centre Entry 1 Counts 	= In:0, Out:0
+09:30:01  Camera Level 1 Science Centre Entry 2 Counts 	= In:0, Out:0
+09:30:01  Camera Level 1 Science Centre Lift Counts 	= In:0, Out:0
+09:30:01  Camera Level 2 Main Entry Counts 	= In:0, Out:0
+09:30:01  Camera Level 2 Lift Counts 	= In:0, Out:0
+09:30:01  Camera Shop A Counts 	= In:0, Out:0
+09:30:01  Camera Shop B Counts 	= In:0, Out:0
+09:30:01  Camera Shop Whale Mall Counts 	= In:0, Out:0
+09:30:01  Camera Level 2 Cafe Counts 	= In:0, Out:0
+09:30:02  Starting main data collection loop.
+09:30:05  Zone: Zone1                    	0	0	0
+09:30:05  Zone: Zone2                    	0	0	0
+09:30:05  Logging to daily summary: "09:30 0 0 0 0 0 0"
+09:30:05  Service running OK
+09:30:16  Shop Whale Mall: Connect Success (8) (serial num:2158593785)
+09:30:16  Level 1 Science Centre Entry 1: Connect Success (1) (serial num:2158593798)
+09:30:18  Level 1 Science Centre Entry 2: Connect Success (2) (serial num:2158593777)
+09:30:18  Level 2 Cafe: Connect Success (9) (serial num:2158593773)
+09:30:19  Shop A: Connect Success (6) (serial num:2158593779)
+09:30:20  Shop B: Connect Success (7) (serial num:2158593790)
+09:30:20  Level 1 Science Centre Lift: Connect Success (3) (serial num:2158593853)
+09:30:20  Level 2 Main Entry: Connect Success (4) (serial num:2158593780)
+09:30:20  Level 2 Lift: Connect Success (5) (serial num:2158593872)
+09:30:21  Shop Whale Mall: MAC:00-21-AC-00-30-1F IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:21  Level 1 Science Centre Entry 1: MAC:00-21-AC-00-30-39 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:21  Level 1 Science Centre Entry 2: MAC:00-21-AC-00-30-3B IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:21  Level 2 Cafe: MAC:00-21-AC-00-30-14 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:21  Level 1 Science Centre Lift: MAC:00-21-AC-00-30-1A IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:21  Shop A: MAC:00-21-AC-00-30-21 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:21  Level 2 Main Entry: MAC:00-21-AC-00-30-D9 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:21  Shop B: MAC:00-21-AC-00-30-38 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:21  Level 2 Lift: MAC:00-21-AC-00-2F-8C IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:22  Shop Whale Mall: Status msgs: 0,0
+09:30:22  Level 1 Science Centre Entry 1: Status msgs: 0,0
+09:30:22  Level 1 Science Centre Entry 2: Status msgs: 0,0
+09:30:22  Level 2 Cafe: Status msgs: 0,0
+09:30:23  Shop Whale Mall: Current DeviceID: DefaultID
+09:30:23  Level 1 Science Centre Entry 1: Current DeviceID: DefaultID
+09:30:23  Level 1 Science Centre Entry 2: Current DeviceID: DefaultID
+09:30:23  Level 2 Cafe: Current DeviceID: DefaultID
+09:30:23  Level 1 Science Centre Lift: Status msgs: 0,0
+09:30:23  Shop A: Status msgs: 0,0
+09:30:23  Level 2 Main Entry: Status msgs: 0,0
+09:30:23  Shop B: Status msgs: 0,0
+09:30:23  Level 2 Lift: Status msgs: 0,0
+09:30:23  Level 1 Science Centre Lift: Current DeviceID: DefaultID
+09:30:23  Shop A: Current DeviceID: DefaultID
+09:30:23  Shop B: Current DeviceID: DefaultID
+09:30:23  Level 2 Main Entry: Current DeviceID: DefaultID
+09:30:23  Level 2 Lift: Current DeviceID: DefaultID
+09:32:26  Initial Camera Shop Whale Mall Counts 	= In:9, Out:23
+09:32:27  Initial Camera Level 2 Lift Counts 	= In:1, Out:2
+09:32:27  Initial Camera Shop A Counts 	= In:20, Out:15
+09:32:28  Initial Camera Level 2 Cafe Counts 	= In:19, Out:21
+09:32:29  Initial Camera Shop B Counts 	= In:9, Out:18
+09:32:30  Shop Whale Mall: Date last reset in registry is not today (reset required): 28/08/11
+09:32:30  Attempting to reset counts for IrisysIP Camera Shop Whale Mall
+09:32:31  Level 2 Lift: Date last reset in registry is not today (reset required): 28/08/11
+09:32:31  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+09:32:31  Shop A: Date last reset in registry is not today (reset required): 28/08/11
+09:32:31  Attempting to reset counts for IrisysIP Camera Shop A
+09:32:32  Level 2 Cafe: Date last reset in registry is not today (reset required): 28/08/11
+09:32:32  Attempting to reset counts for IrisysIP Camera Level 2 Cafe
+09:32:33  Shop B: Date last reset in registry is not today (reset required): 28/08/11
+09:32:33  Attempting to reset counts for IrisysIP Camera Shop B
+09:33:26  Shop Whale Mall: InCountCorrection set in registry to: 0
+09:33:26  Shop Whale Mall: OutCountCorrection set in registry to: 0
+09:33:27  Initial Camera Level 1 Science Centre Lift Counts 	= In:2, Out:3
+09:33:27  Shop Whale Mall: has reset camera
+09:33:27  Camera: Shop Whale Mall - Counts are now valid.
+09:33:28  Level 2 Lift: InCountCorrection set in registry to: 0
+09:33:28  Level 2 Lift: OutCountCorrection set in registry to: 0
+09:33:29  Initial Camera Level 1 Science Centre Entry 1 Counts 	= In:13, Out:7
+09:33:29  Level 2 Lift: has reset camera
+09:33:29  Initial Camera Level 2 Main Entry Counts 	= In:93, Out:19
+09:33:29  Camera: Level 2 Lift - Counts are now valid.
+09:33:29  Shop A: InCountCorrection set in registry to: 0
+09:33:29  Shop A: OutCountCorrection set in registry to: 0
+09:33:31  Shop A: has reset camera
+09:33:31  Initial Camera Level 1 Science Centre Entry 2 Counts 	= In:8, Out:3
+09:33:31  Camera: Shop A - Counts are now valid.
+09:33:31  Level 1 Science Centre Lift: Date last reset in registry is not today (reset required): 28/08/11
+09:33:31  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Lift
+09:33:31  Level 2 Cafe: InCountCorrection set in registry to: 0
+09:33:31  Level 2 Cafe: OutCountCorrection set in registry to: 0
+09:33:32  Level 2 Cafe: has reset camera
+09:33:32  Camera: Level 2 Cafe - Counts are now valid.
+09:33:33  Level 1 Science Centre Entry 1: Date last reset in registry is not today (reset required): 28/08/11
+09:33:33  Level 2 Main Entry: Date last reset in registry is not today (reset required): 28/08/11
+09:33:33  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 1
+09:33:33  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:33:33  Shop B: InCountCorrection set in registry to: 0
+09:33:33  Shop B: OutCountCorrection set in registry to: 0
+09:33:34  Shop B: has reset camera
+09:33:34  Camera: Shop B - Counts are now valid.
+09:33:35  Level 1 Science Centre Entry 2: Date last reset in registry is not today (reset required): 28/08/11
+09:33:35  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 2
+09:33:35  Level 1 Science Centre Lift: InCountCorrection set in registry to: 0
+09:33:35  Level 1 Science Centre Lift: OutCountCorrection set in registry to: 0
+09:33:36  Level 1 Science Centre Lift: has reset camera
+09:33:36  Camera: Level 1 Science Centre Lift - Counts are now valid.
+09:33:37  Level 1 Science Centre Entry 1: InCountCorrection set in registry to: 0
+09:33:37  Level 1 Science Centre Entry 1: OutCountCorrection set in registry to: 0
+09:33:38  Level 1 Science Centre Entry 1: has reset camera
+09:33:38  Camera: Level 1 Science Centre Entry 1 - Counts are now valid.
+09:33:39  Level 2 Main Entry: InCountCorrection set in registry to: 0
+09:33:39  Level 2 Main Entry: OutCountCorrection set in registry to: 0
+09:33:40  Level 2 Main Entry: has reset camera
+09:33:40  Zone: Zone2 - Counts are now valid.
+09:33:40  Camera: Level 2 Main Entry - Counts are now valid.
+09:33:40  Level 1 Science Centre Entry 2: InCountCorrection set in registry to: 0
+09:33:40  Level 1 Science Centre Entry 2: OutCountCorrection set in registry to: 0
+09:33:41  Level 1 Science Centre Entry 2: has reset camera
+09:33:41  Camera: Level 1 Science Centre Entry 2 - Counts are now valid.
+09:33:58  Zone: Zone1 - Counts are now valid.
+09:34:28  Camera: Shop Whale Mall                         	0	0
+09:34:28  Shop Whale Mall IrisysIP camera has reset
+09:34:30  Camera: Level 2 Lift                            	0	0
+09:34:30  Level 2 Lift IrisysIP camera has reset
+09:34:32  Camera: Shop A                                  	0	1
+09:34:33  Camera: Level 2 Cafe                            	0	0
+09:34:33  Level 2 Cafe IrisysIP camera has reset
+09:34:35  Camera: Shop B                                  	0	0
+09:34:35  Shop B IrisysIP camera has reset
+09:34:37  Camera: Level 1 Science Centre Lift             	0	0
+09:34:37  Level 1 Science Centre Lift IrisysIP camera has reset
+09:34:39  Camera: Level 1 Science Centre Entry 1          	2	0
+09:34:41  Camera: Level 2 Main Entry                      	1	1
+09:34:43  Camera: Level 1 Science Centre Entry 2          	0	0
+09:34:43  Level 1 Science Centre Entry 2 IrisysIP camera has reset
+09:34:47  Zone: Zone1                    	4	1	3
+09:34:47  Zone: Zone2                    	0	0	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+09:35:33  Camera: Shop A                                  	0	2
+09:35:34  Zone: Zone1                    	5	1	4
+09:35:34  Zone: Zone2                    	0	0	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+09:35:42  Camera: Level 2 Main Entry                      	3	1
+09:35:50  Zone: Zone1                    	7	1	6
+09:36:41  Camera: Level 1 Science Centre Entry 1          	4	0
+09:36:43  Camera: Level 2 Main Entry                      	4	2
+09:36:53  Zone: Zone1                    	10	2	8
+09:37:44  Camera: Level 2 Main Entry                      	6	3
+09:37:58  Zone: Zone1                    	12	3	9
+09:38:36  Camera: Shop A                                  	0	4
+09:38:43  Camera: Level 1 Science Centre Entry 1          	19	0
+09:38:45  Camera: Level 2 Main Entry                      	8	3
+09:38:50  Zone: Zone1                    	31	3	28
+09:38:50  Zone: Zone2                    	0	0	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+09:39:46  Camera: Level 2 Main Entry                      	9	3
+09:39:55  Zone: Zone1                    	32	3	29
+09:40:47  Camera: Level 2 Main Entry                      	11	3
+09:40:47  Zone: Zone1                    	34	3	31
+09:41:46  Camera: Level 1 Science Centre Entry 1          	20	7
+09:41:48  Camera: Level 2 Main Entry                      	12	3
+09:41:57  Zone: Zone1                    	36	10	26
+09:42:37  Camera: Shop Whale Mall                         	2	0
+09:42:38  Camera: Level 2 Lift                            	4	1
+09:42:40  Camera: Shop A                                  	0	5
+09:42:47  Zone: Zone1                    	41	11	30
+09:42:47  Zone: Zone2                    	2	1	1
+09:42:48  Camera: Level 1 Science Centre Entry 1          	20	9
+09:43:03  Zone: Zone1                    	41	13	28
+09:43:50  Camera: Level 2 Main Entry                      	13	4
+09:43:51  Zone: Zone1                    	42	14	28
+09:44:51  Camera: Level 2 Main Entry                      	14	4
+09:45:00  Zone: Zone1                    	43	14	29
+09:45:00  Service running OK
+09:45:45  Camera: Level 2 Cafe                            	0	2
+09:45:52  Zone: Zone1                    	43	16	27
+09:45:53  Camera: Level 2 Main Entry                      	17	4
+09:45:54  Camera: Level 1 Science Centre Entry 2          	3	0
+09:46:08  Zone: Zone1                    	49	16	33
+09:46:43  Camera: Level 2 Lift                            	4	5
+09:46:50  Camera: Level 1 Science Centre Lift             	3	0
+09:46:54  Camera: Level 2 Main Entry                      	20	4
+09:46:57  Zone: Zone1                    	55	20	35
+09:47:44  Camera: Level 2 Lift                            	5	5
+09:47:44  Zone: Zone1                    	56	20	36
+09:47:55  Camera: Level 2 Main Entry                      	21	4
+09:48:00  Zone: Zone1                    	57	20	37
+09:48:49  Camera: Level 2 Cafe                            	0	4
+09:48:52  Zone: Zone1                    	57	22	35
+09:48:54  Camera: Level 1 Science Centre Entry 1          	21	9
+09:49:08  Zone: Zone1                    	58	22	36
+09:49:46  Camera: Level 2 Lift                            	6	5
+09:49:48  Camera: Shop A                                  	0	6
+09:49:50  Camera: Level 2 Cafe                            	2	14
+09:49:51  Camera: Shop B                                  	1	0
+09:49:55  Camera: Level 1 Science Centre Entry 1          	28	11
+09:49:57  Camera: Level 2 Main Entry                      	22	4
+09:49:59  Camera: Level 1 Science Centre Entry 2          	3	1
+09:50:00  Zone: Zone1                    	70	36	34
+09:50:00  Zone: Zone2                    	3	2	1
+09:50:47  Camera: Level 2 Lift                            	6	6
+09:50:47  Zone: Zone1                    	70	37	33
+09:50:52  Camera: Shop B                                  	2	0
+09:50:56  Camera: Level 1 Science Centre Entry 1          	28	12
+09:50:58  Camera: Level 2 Main Entry                      	23	5
+09:51:03  Zone: Zone1                    	71	40	31
+09:51:03  Zone: Zone2                    	4	2	2
+09:51:48  Camera: Level 2 Lift                            	9	6
+09:51:50  Camera: Shop A                                  	1	6
+09:51:50  Zone: Zone1                    	74	41	33
+09:51:50  Zone: Zone2                    	5	2	3
+09:51:52  Camera: Level 2 Cafe                            	4	14
+09:51:55  Camera: Level 1 Science Centre Lift             	4	0
+09:51:59  Camera: Level 2 Main Entry                      	24	5
+09:52:06  Zone: Zone1                    	78	41	37
+09:52:56  Camera: Level 1 Science Centre Lift             	9	3
+09:53:09  Zone: Zone1                    	83	44	39
+09:53:48  Camera: Shop Whale Mall                         	4	0
+09:53:50  Camera: Level 2 Lift                            	11	6
+09:53:52  Camera: Shop A                                  	1	7
+09:53:58  Zone: Zone1                    	86	44	42
+09:53:58  Zone: Zone2                    	7	3	4
+09:53:59  Camera: Level 1 Science Centre Entry 1          	29	12
+09:54:14  Zone: Zone1                    	87	44	43
+09:54:50  Camera: Shop Whale Mall                         	4	3
+09:54:51  Camera: Level 2 Lift                            	13	6
+09:55:00  Camera: Level 1 Science Centre Entry 1          	30	12
+09:55:01  Zone: Zone1                    	90	44	46
+09:55:01  Zone: Zone2                    	7	6	1
+09:55:52  Camera: Level 2 Lift                            	14	6
+09:56:02  Camera: Level 1 Science Centre Entry 1          	30	22
+09:56:05  Camera: Level 1 Science Centre Entry 2          	5	6
+09:56:06  Zone: Zone1                    	93	59	34
+09:56:55  Camera: Shop A                                  	1	9
+09:56:55  Zone: Zone1                    	95	59	36
+09:56:55  Zone: Zone2                    	7	7	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+09:56:55  Zone: Zone2                    	7	7	0
+09:57:03  Camera: Level 1 Science Centre Entry 1          	34	22
+09:57:04  Camera: Level 2 Main Entry                      	25	5
+09:57:06  Camera: Level 1 Science Centre Entry 2          	5	8
+09:57:11  Zone: Zone1                    	100	61	39
+09:58:04  Camera: Level 1 Science Centre Entry 1          	36	22
+09:58:16  Zone: Zone1                    	102	61	41
+09:58:57  Camera: Shop A                                  	2	9
+09:59:07  Camera: Level 2 Main Entry                      	25	6
+09:59:08  Zone: Zone1                    	102	63	39
+09:59:08  Zone: Zone2                    	8	7	1
+10:00:00  Camera: Level 2 Cafe                            	6	18
+10:00:00  Zone: Zone1                    	104	67	37
+10:00:01  Logging to daily summary: "10:00 104 67 26 8 7 0"
+10:00:01  Service running OK
+10:00:08  Camera: Level 2 Main Entry                      	27	6
+10:00:16  Zone: Zone1                    	106	67	39
+10:02:03  Camera: Level 2 Cafe                            	11	30
+10:02:03  Zone: Zone1                    	111	79	32
+10:02:08  Camera: Level 1 Science Centre Entry 1          	45	24
+10:02:10  Camera: Level 2 Main Entry                      	28	6
+10:02:12  Camera: Level 1 Science Centre Entry 2          	5	10
+10:02:18  Zone: Zone1                    	121	83	38
+10:03:04  Camera: Level 2 Cafe                            	11	34
+10:03:05  Zone: Zone1                    	121	87	34
+10:03:09  Camera: Level 1 Science Centre Entry 1          	68	26
+10:03:13  Camera: Level 1 Science Centre Entry 2          	18	10
+10:03:21  Zone: Zone1                    	157	89	68
+10:04:05  Camera: Level 2 Cafe                            	22	37
+10:04:08  Camera: Level 1 Science Centre Lift             	12	4
+10:04:10  Camera: Level 1 Science Centre Entry 1          	90	29
+10:04:11  Zone: Zone1                    	193	96	97
+10:04:12  Camera: Level 2 Main Entry                      	28	8
+10:04:14  Camera: Level 1 Science Centre Entry 2          	22	10
+10:04:27  Zone: Zone1                    	197	98	99
+10:05:09  Camera: Level 1 Science Centre Lift             	12	5
+10:05:11  Camera: Level 1 Science Centre Entry 1          	99	31
+10:05:14  Zone: Zone1                    	206	101	105
+10:05:15  Camera: Level 1 Science Centre Entry 2          	27	10
+10:05:30  Zone: Zone1                    	211	101	110
+10:06:07  Camera: Level 2 Cafe                            	22	50
+10:06:12  Camera: Level 1 Science Centre Entry 1          	104	31
+10:06:14  Camera: Level 2 Main Entry                      	30	8
+10:06:16  Camera: Level 1 Science Centre Entry 2          	29	49
+10:06:17  Zone: Zone1                    	220	153	67
+10:07:08  Camera: Level 2 Cafe                            	24	50
+10:07:15  Camera: Level 2 Main Entry                      	30	9
+10:07:21  Zone: Zone1                    	222	154	68
+10:08:09  Camera: Level 2 Cafe                            	25	50
+10:08:12  Zone: Zone1                    	223	154	69
+10:08:16  Camera: Level 2 Main Entry                      	30	10
+10:08:27  Zone: Zone1                    	223	155	68
+10:09:10  Camera: Level 2 Cafe                            	25	52
+10:09:17  Camera: Level 2 Main Entry                      	33	10
+10:09:19  Zone: Zone1                    	226	157	69
+10:10:11  Camera: Level 2 Cafe                            	26	52
+10:10:11  Zone: Zone1                    	227	157	70
+10:10:18  Camera: Level 2 Main Entry                      	35	10
+10:10:27  Zone: Zone1                    	229	157	72
+10:12:21  Camera: Level 2 Main Entry                      	36	10
+10:12:31  Zone: Zone1                    	230	157	73
+10:13:09  Camera: Shop Whale Mall                         	6	3
+10:13:13  Camera: Shop A                                  	3	9
+10:13:16  Camera: Shop B                                  	2	1
+10:13:22  Camera: Level 2 Main Entry                      	36	11
+10:13:23  Zone: Zone1                    	231	159	72
+10:13:23  Zone: Zone2                    	11	8	3
+10:13:24  Camera: Level 1 Science Centre Entry 2          	30	49
+10:13:39  Zone: Zone1                    	232	159	73
+10:14:10  Camera: Shop Whale Mall                         	10	3
+10:14:10  Zone: Zone2                    	15	8	7
+10:14:14  Camera: Shop A                                  	3	10
+10:14:23  Camera: Level 2 Main Entry                      	38	12
+10:14:26  Zone: Zone1                    	235	160	75
+10:14:26  Zone: Zone2                    	15	9	6
+10:15:15  Camera: Shop A                                  	3	12
+10:15:15  Zone: Zone1                    	237	160	77
+10:15:15  Zone: Zone2                    	15	11	4
+10:15:15  Service running OK
+10:15:17  Camera: Level 2 Cafe                            	26	53
+10:15:24  Camera: Level 2 Main Entry                      	40	12
+10:15:26  Camera: Level 1 Science Centre Entry 2          	37	51
+10:15:30  Zone: Zone1                    	246	163	83
+10:16:18  Camera: Level 2 Cafe                            	27	53
+10:16:18  Zone: Zone1                    	247	163	84
+10:16:25  Camera: Level 2 Main Entry                      	46	12
+10:16:27  Camera: Level 1 Science Centre Entry 2          	37	53
+10:16:33  Zone: Zone1                    	253	165	88
+10:17:17  Camera: Shop A                                  	7	12
+10:17:23  Zone: Zone1                    	253	169	84
+10:17:23  Zone: Zone2                    	19	11	8
+10:17:26  Camera: Level 2 Main Entry                      	54	13
+10:17:28  Camera: Level 1 Science Centre Entry 2          	39	57
+10:17:39  Zone: Zone1                    	263	174	89
+10:18:16  Camera: Level 2 Lift                            	15	6
+10:18:18  Camera: Shop A                                  	11	14
+10:18:20  Camera: Level 2 Cafe                            	28	53
+10:18:22  Camera: Shop B                                  	6	4
+10:18:23  Camera: Level 1 Science Centre Lift             	12	6
+10:18:25  Camera: Level 1 Science Centre Entry 1          	104	34
+10:18:28  Zone: Zone1                    	270	186	84
+10:18:28  Zone: Zone2                    	27	16	11
+10:18:29  Camera: Level 1 Science Centre Entry 2          	45	82
+10:18:44  Zone: Zone1                    	276	211	65
+10:19:15  Camera: Shop Whale Mall                         	10	5
+10:19:19  Camera: Shop A                                  	12	14
+10:19:21  Camera: Level 2 Cafe                            	28	56
+10:19:23  Camera: Shop B                                  	10	16
+10:19:28  Camera: Level 2 Main Entry                      	56	14
+10:19:30  Camera: Level 1 Science Centre Entry 2          	61	82
+10:19:31  Zone: Zone1                    	306	220	86
+10:19:31  Zone: Zone2                    	32	30	2
+10:20:17  Camera: Shop Whale Mall                         	11	5
+10:20:18  Zone: Zone2                    	33	30	3
+10:20:22  Camera: Level 2 Cafe                            	28	58
+10:20:24  Camera: Shop B                                  	12	16
+10:20:26  Camera: Level 1 Science Centre Lift             	12	7
+10:20:29  Camera: Level 2 Main Entry                      	57	16
+10:20:31  Camera: Level 1 Science Centre Entry 2          	90	85
+10:20:34  Zone: Zone1                    	336	230	106
+10:20:34  Zone: Zone2                    	35	30	5
+10:21:27  Camera: Level 1 Science Centre Lift             	12	8
+10:21:30  Camera: Level 2 Main Entry                      	60	16
+10:21:37  Zone: Zone1                    	339	231	108
+10:23:23  Camera: Shop A                                  	12	16
+10:23:29  Camera: Level 1 Science Centre Lift             	12	10
+10:23:31  Camera: Level 1 Science Centre Entry 1          	104	36
+10:23:34  Zone: Zone1                    	341	235	106
+10:23:34  Zone: Zone2                    	35	32	3
+10:24:26  Camera: Level 2 Cafe                            	29	58
+10:24:32  Camera: Level 1 Science Centre Entry 1          	104	54
+10:24:34  Camera: Level 2 Main Entry                      	61	16
+10:24:35  Camera: Level 1 Science Centre Entry 2          	92	89
+10:24:39  Zone: Zone1                    	345	257	88
+10:25:33  Camera: Level 1 Science Centre Entry 1          	104	55
+10:25:35  Camera: Level 2 Main Entry                      	64	16
+10:25:36  Camera: Level 1 Science Centre Entry 2          	100	102
+10:25:42  Zone: Zone1                    	356	271	85
+10:26:34  Camera: Level 1 Science Centre Entry 1          	107	57
+10:26:36  Camera: Level 2 Main Entry                      	65	17
+10:26:38  Camera: Level 1 Science Centre Entry 2          	109	119
+10:26:47  Zone: Zone1                    	369	291	78
+10:27:26  Camera: Level 2 Lift                            	16	6
+10:27:28  Camera: Shop A                                  	14	16
+10:27:30  Camera: Level 2 Cafe                            	29	61
+10:27:33  Camera: Level 1 Science Centre Lift             	13	10
+10:27:34  Zone: Zone1                    	371	296	75
+10:27:34  Zone: Zone2                    	37	32	5
+10:27:37  Camera: Level 2 Main Entry                      	67	21
+10:27:39  Camera: Level 1 Science Centre Entry 2          	116	122
+10:27:50  Zone: Zone1                    	380	303	77
+10:28:29  Camera: Shop A                                  	14	17
+10:28:32  Camera: Shop B                                  	12	19
+10:28:37  Zone: Zone1                    	384	303	81
+10:28:37  Zone: Zone2                    	37	36	1
+10:28:38  Camera: Level 2 Main Entry                      	68	25
+10:28:40  Camera: Level 1 Science Centre Entry 2          	116	123
+10:28:53  Zone: Zone1                    	385	308	77
+10:29:26  Camera: Shop Whale Mall                         	11	7
+10:29:30  Camera: Shop A                                  	15	17
+10:29:33  Camera: Shop B                                  	14	19
+10:29:37  Camera: Level 1 Science Centre Entry 1          	109	58
+10:29:39  Camera: Level 2 Main Entry                      	68	29
+10:29:40  Zone: Zone1                    	387	316	71
+10:29:40  Zone: Zone2                    	40	38	2
+10:30:11  Logging to daily summary: "10:30 283 249 79 32 31 2"
+10:30:11  Service running OK
+10:30:31  Camera: Shop A                                  	15	18
+10:30:35  Camera: Shop B                                  	14	20
+10:30:38  Camera: Level 1 Science Centre Entry 1          	127	58
+10:30:40  Camera: Level 2 Main Entry                      	68	31
+10:30:42  Camera: Level 1 Science Centre Entry 2          	153	124
+10:30:43  Zone: Zone1                    	444	319	125
+10:30:43  Zone: Zone2                    	40	40	0
+10:31:37  Camera: Level 1 Science Centre Lift             	13	11
+10:31:39  Camera: Level 1 Science Centre Entry 1          	129	62
+10:31:41  Camera: Level 2 Main Entry                      	68	32
+10:31:46  Zone: Zone1                    	446	325	121
+10:32:29  Camera: Shop Whale Mall                         	13	7
+10:32:31  Camera: Level 2 Lift                            	16	8
+10:32:33  Zone: Zone1                    	446	327	119
+10:32:33  Zone: Zone2                    	42	40	2
+10:32:35  Camera: Level 2 Cafe                            	29	65
+10:32:40  Camera: Level 1 Science Centre Entry 1          	130	68
+10:32:48  Zone: Zone1                    	447	337	110
+10:33:40  Camera: Level 1 Science Centre Lift             	14	12
+10:33:41  Camera: Level 1 Science Centre Entry 1          	142	70
+10:33:43  Camera: Level 2 Main Entry                      	71	32
+10:33:51  Zone: Zone1                    	463	340	123
+10:34:37  Camera: Level 2 Cafe                            	29	66
+10:34:39  Zone: Zone1                    	463	341	122
+10:34:43  Camera: Level 1 Science Centre Entry 1          	142	72
+10:34:54  Zone: Zone1                    	463	343	120
+10:35:35  Camera: Level 2 Lift                            	17	8
+10:35:36  Camera: Shop A                                  	15	19
+10:35:44  Camera: Level 1 Science Centre Entry 1          	142	73
+10:35:45  Camera: Level 2 Main Entry                      	72	36
+10:35:46  Zone: Zone1                    	466	348	118
+10:35:46  Zone: Zone2                    	42	41	1
+10:36:34  Camera: Shop Whale Mall                         	21	7
+10:36:45  Camera: Level 1 Science Centre Entry 1          	219	73
+10:36:48  Camera: Level 1 Science Centre Entry 2          	153	125
+10:36:49  Zone: Zone1                    	543	349	194
+10:36:49  Zone: Zone2                    	50	41	9
+10:37:37  Camera: Level 2 Lift                            	19	8
+10:37:37  Zone: Zone1                    	545	349	196
+10:37:38  Camera: Shop A                                  	16	19
+10:37:40  Camera: Level 2 Cafe                            	40	70
+10:37:42  Camera: Shop B                                  	14	22
+10:37:46  Camera: Level 1 Science Centre Entry 1          	242	73
+10:37:48  Camera: Level 2 Main Entry                      	73	38
+10:37:49  Camera: Level 1 Science Centre Entry 2          	153	127
+10:37:52  Zone: Zone1                    	582	358	224
+10:37:52  Zone: Zone2                    	51	43	8
+10:38:36  Camera: Shop Whale Mall                         	21	10
+10:38:40  Camera: Shop A                                  	17	19
+10:38:40  Zone: Zone2                    	52	46	6
+10:38:43  Camera: Shop B                                  	14	29
+10:38:45  Camera: Level 1 Science Centre Lift             	14	14
+10:38:47  Camera: Level 1 Science Centre Entry 1          	244	75
+10:38:49  Camera: Level 2 Main Entry                      	74	39
+10:38:55  Zone: Zone1                    	592	364	228
+10:38:55  Zone: Zone2                    	52	52	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+10:38:55  Zone: Zone2                    	52	52	0
+10:39:41  Camera: Shop A                                  	20	19
+10:39:42  Zone: Zone1                    	592	367	225
+10:39:42  Zone: Zone2                    	55	52	3
+10:39:42  Camera: Level 2 Cafe                            	43	70
+10:39:50  Camera: Level 2 Main Entry                      	80	40
+10:39:58  Zone: Zone1                    	601	368	233
+10:40:38  Camera: Shop Whale Mall                         	21	12
+10:40:42  Camera: Shop A                                  	20	20
+10:40:45  Zone: Zone1                    	602	368	234
+10:40:45  Zone: Zone2                    	55	55	0
+10:40:51  Camera: Level 2 Main Entry                      	86	40
+10:41:01  Zone: Zone1                    	608	368	240
+10:41:39  Camera: Shop Whale Mall                         	21	16
+10:41:41  Camera: Level 2 Lift                            	19	9
+10:41:43  Camera: Shop A                                  	22	21
+10:41:45  Camera: Level 2 Cafe                            	44	78
+10:41:48  Zone: Zone1                    	610	379	231
+10:41:48  Zone: Zone2                    	57	57	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+10:41:48  Zone: Zone2                    	57	57	0
+10:41:50  Camera: Level 1 Science Centre Entry 1          	256	75
+10:41:52  Camera: Level 2 Main Entry                      	89	40
+10:42:04  Zone: Zone1                    	625	379	246
+10:42:44  Camera: Shop A                                  	23	21
+10:42:48  Camera: Shop B                                  	14	30
+10:42:51  Camera: Level 1 Science Centre Entry 1          	257	75
+10:42:51  Zone: Zone1                    	627	380	247
+10:42:51  Zone: Zone2                    	58	58	0
+10:42:53  Camera: Level 2 Main Entry                      	90	40
+10:42:55  Camera: Level 1 Science Centre Entry 2          	154	127
+10:43:07  Zone: Zone1                    	629	380	249
+10:43:43  Camera: Level 2 Lift                            	20	9
+10:43:50  Camera: Level 1 Science Centre Lift             	14	17
+10:43:54  Zone: Zone1                    	630	383	247
+10:43:54  Camera: Level 2 Main Entry                      	90	43
+10:43:56  Camera: Level 1 Science Centre Entry 2          	155	128
+10:44:10  Zone: Zone1                    	631	387	244
+10:44:44  Camera: Level 2 Lift                            	22	9
+10:44:46  Camera: Shop A                                  	25	21
+10:44:51  Camera: Level 1 Science Centre Lift             	14	20
+10:44:53  Camera: Level 1 Science Centre Entry 1          	257	79
+10:44:55  Camera: Level 2 Main Entry                      	90	44
+10:44:57  Zone: Zone1                    	633	397	236
+10:44:57  Zone: Zone2                    	60	58	2
+10:44:57  Camera: Level 1 Science Centre Entry 2          	156	129
+10:45:12  Zone: Zone1                    	634	398	236
+10:45:12  Service running OK
+10:45:45  Camera: Level 2 Lift                            	24	9
+10:45:47  Camera: Shop A                                  	25	22
+10:45:53  Camera: Level 1 Science Centre Lift             	14	23
+10:45:56  Camera: Level 2 Main Entry                      	92	44
+10:45:58  Camera: Level 1 Science Centre Entry 2          	159	129
+10:46:00  Zone: Zone1                    	642	401	241
+10:46:00  Zone: Zone2                    	60	59	1
+10:46:45  Camera: Shop Whale Mall                         	24	18
+10:46:47  Zone: Zone2                    	63	61	2
+10:46:50  Camera: Level 2 Cafe                            	44	80
+10:46:55  Camera: Level 1 Science Centre Entry 1          	257	81
+10:46:57  Camera: Level 2 Main Entry                      	97	44
+10:47:02  Zone: Zone1                    	647	405	242
+10:47:46  Camera: Shop Whale Mall                         	26	18
+10:47:50  Zone: Zone2                    	65	61	4
+10:47:51  Camera: Level 2 Cafe                            	46	80
+10:47:53  Camera: Shop B                                  	16	31
+10:47:55  Camera: Level 1 Science Centre Lift             	14	26
+10:47:58  Camera: Level 2 Main Entry                      	100	45
+10:48:00  Camera: Level 1 Science Centre Entry 2          	162	129
+10:48:05  Zone: Zone1                    	656	411	245
+10:48:05  Zone: Zone2                    	67	62	5
+10:48:49  Camera: Level 2 Lift                            	27	9
+10:48:52  Camera: Level 2 Cafe                            	48	80
+10:48:52  Zone: Zone1                    	661	411	250
+10:48:56  Camera: Level 1 Science Centre Lift             	15	27
+10:48:58  Camera: Level 1 Science Centre Entry 1          	264	81
+10:48:59  Camera: Level 2 Main Entry                      	100	46
+10:49:01  Camera: Level 1 Science Centre Entry 2          	172	137
+10:49:08  Zone: Zone1                    	679	421	258
+10:49:53  Camera: Level 2 Cafe                            	48	82
+10:49:55  Zone: Zone1                    	679	423	256
+10:50:01  Camera: Level 2 Main Entry                      	100	47
+10:50:02  Camera: Level 1 Science Centre Entry 2          	173	137
+10:50:11  Zone: Zone1                    	680	424	256
+10:51:02  Camera: Level 2 Main Entry                      	101	47
+10:51:03  Camera: Level 1 Science Centre Entry 2          	173	141
+10:51:14  Zone: Zone1                    	681	428	253
+10:51:54  Camera: Shop A                                  	25	23
+10:52:01  Camera: Level 1 Science Centre Entry 1          	264	84
+10:52:01  Zone: Zone1                    	682	431	251
+10:52:01  Zone: Zone2                    	67	63	4
+10:52:03  Camera: Level 2 Main Entry                      	101	48
+10:52:17  Zone: Zone1                    	682	432	250
+10:52:56  Camera: Level 2 Cafe                            	48	86
+10:52:58  Camera: Shop B                                  	18	31
+10:53:04  Camera: Level 2 Main Entry                      	101	52
+10:53:06  Zone: Zone1                    	682	442	240
+10:53:06  Zone: Zone2                    	69	63	6
+10:53:52  Camera: Shop Whale Mall                         	28	19
+10:53:54  Zone: Zone2                    	71	64	7
+10:53:56  Camera: Shop A                                  	26	23
+10:54:05  Camera: Level 2 Main Entry                      	102	54
+10:54:09  Zone: Zone1                    	683	445	238
+10:54:09  Zone: Zone2                    	72	64	8
+10:54:55  Camera: Level 2 Lift                            	28	9
+10:54:59  Zone: Zone1                    	684	445	239
+10:55:00  Camera: Shop B                                  	18	33
+10:55:04  Camera: Level 1 Science Centre Entry 1          	266	84
+10:55:06  Camera: Level 2 Main Entry                      	103	62
+10:55:15  Zone: Zone1                    	689	453	236
+10:55:15  Zone: Zone2                    	72	66	6
+10:55:56  Camera: Level 2 Lift                            	29	10
+10:56:00  Camera: Level 2 Cafe                            	49	86
+10:56:02  Camera: Shop B                                  	20	33
+10:56:02  Zone: Zone1                    	691	456	235
+10:56:02  Zone: Zone2                    	74	66	8
+10:56:07  Camera: Level 2 Main Entry                      	105	62
+10:56:09  Camera: Level 1 Science Centre Entry 2          	173	143
+10:56:18  Zone: Zone1                    	693	458	235
+10:56:59  Camera: Shop A                                  	26	24
+10:57:01  Camera: Level 2 Cafe                            	51	87
+10:57:05  Zone: Zone1                    	696	459	237
+10:57:05  Zone: Zone2                    	74	67	7
+10:57:06  Camera: Level 1 Science Centre Entry 1          	267	84
+10:57:08  Camera: Level 2 Main Entry                      	105	64
+10:57:21  Zone: Zone1                    	697	461	236
+10:57:56  Camera: Shop Whale Mall                         	31	23
+10:58:00  Camera: Shop A                                  	27	25
+10:58:07  Camera: Level 1 Science Centre Entry 1          	267	85
+10:58:08  Zone: Zone1                    	698	463	235
+10:58:08  Zone: Zone2                    	78	72	6
+10:58:09  Camera: Level 2 Main Entry                      	106	65
+10:58:24  Zone: Zone1                    	699	464	235
+10:58:57  Camera: Shop Whale Mall                         	34	28
+10:58:59  Camera: Level 2 Lift                            	29	13
+10:59:01  Camera: Shop A                                  	29	25
+10:59:11  Zone: Zone1                    	699	469	230
+10:59:11  Zone: Zone2                    	83	77	6
+10:59:59  Camera: Shop Whale Mall                         	37	28
+10:59:59  Zone: Zone2                    	86	77	9
+11:00:02  Camera: Shop A                                  	31	25
+11:00:04  Camera: Level 2 Cafe                            	52	88
+11:00:06  Camera: Shop B                                  	20	36
+11:00:08  Camera: Level 1 Science Centre Lift             	17	27
+11:00:10  Camera: Level 1 Science Centre Entry 1          	269	85
+11:00:13  Camera: Level 1 Science Centre Entry 2          	175	144
+11:00:14  Zone: Zone1                    	709	473	236
+11:00:14  Zone: Zone2                    	88	80	8
+11:00:14  Logging to daily summary: "11:00 322 157 214 48 42 3"
+11:00:14  Service running OK
+11:01:01  Camera: Level 2 Lift                            	30	14
+11:01:03  Camera: Shop A                                  	31	27
+11:01:07  Camera: Shop B                                  	21	37
+11:01:09  Camera: Level 1 Science Centre Lift             	17	28
+11:01:17  Zone: Zone1                    	713	476	237
+11:01:17  Zone: Zone2                    	89	83	6
+11:02:06  Camera: Level 2 Cafe                            	52	90
+11:02:12  Camera: Level 1 Science Centre Entry 1          	269	87
+11:02:13  Camera: Level 2 Main Entry                      	106	72
+11:02:20  Zone: Zone1                    	713	487	226
+11:03:07  Camera: Level 2 Cafe                            	56	90
+11:03:07  Zone: Zone1                    	717	487	230
+11:03:09  Camera: Shop B                                  	25	37
+11:03:23  Zone: Zone1                    	717	491	226
+11:03:23  Zone: Zone2                    	93	83	10
+11:04:08  Camera: Level 2 Cafe                            	56	93
+11:04:10  Camera: Shop B                                  	29	37
+11:04:12  Camera: Level 1 Science Centre Lift             	20	28
+11:04:15  Zone: Zone1                    	720	498	222
+11:04:15  Zone: Zone2                    	97	83	14
+11:04:16  Camera: Level 2 Main Entry                      	107	72
+11:04:31  Zone: Zone1                    	721	498	223
+11:05:04  Camera: Shop Whale Mall                         	39	34
+11:05:06  Camera: Level 2 Lift                            	34	14
+11:05:08  Camera: Shop A                                  	31	31
+11:05:17  Camera: Level 2 Main Entry                      	108	72
+11:05:18  Zone: Zone1                    	730	498	232
+11:05:18  Zone: Zone2                    	99	93	6
+11:06:07  Camera: Level 2 Lift                            	35	14
+11:06:09  Camera: Shop A                                  	31	35
+11:06:21  Zone: Zone1                    	735	498	237
+11:06:21  Zone: Zone2                    	99	97	2
+11:07:06  Camera: Shop Whale Mall                         	41	34
+11:07:08  Camera: Level 2 Lift                            	37	14
+11:07:10  Camera: Shop A                                  	36	35
+11:07:11  Zone: Zone1                    	737	503	234
+11:07:11  Zone: Zone2                    	106	97	9
+11:07:12  Camera: Level 2 Cafe                            	59	93
+11:07:19  Camera: Level 2 Main Entry                      	108	73
+11:07:27  Zone: Zone1                    	740	504	236
+11:08:07  Camera: Shop Whale Mall                         	43	34
+11:08:09  Camera: Level 2 Lift                            	39	14
+11:08:11  Camera: Shop A                                  	39	37
+11:08:14  Zone: Zone1                    	744	507	237
+11:08:14  Zone: Zone2                    	111	99	12
+11:08:14  Camera: Shop B                                  	43	38
+11:08:20  Camera: Level 2 Main Entry                      	110	78
+11:08:30  Zone: Zone1                    	747	526	221
+11:08:30  Zone: Zone2                    	125	100	25
+11:09:08  Camera: Shop Whale Mall                         	51	43
+11:09:12  Camera: Shop A                                  	42	38
+11:09:14  Camera: Level 2 Cafe                            	59	95
+11:09:16  Camera: Shop B                                  	45	41
+11:09:17  Zone: Zone1                    	751	533	218
+11:09:17  Zone: Zone2                    	138	113	25
+11:09:21  Camera: Level 2 Main Entry                      	111	80
+11:09:33  Zone: Zone1                    	752	535	217
+11:10:09  Camera: Shop Whale Mall                         	60	64
+11:10:13  Camera: Shop A                                  	42	39
+11:10:15  Camera: Level 2 Cafe                            	67	95
+11:10:20  Zone: Zone1                    	761	535	226
+11:10:20  Zone: Zone2                    	147	135	12
+11:10:22  Camera: Level 2 Main Entry                      	114	83
+11:10:36  Zone: Zone1                    	764	538	226
+11:11:10  Camera: Shop Whale Mall                         	73	68
+11:11:14  Camera: Shop A                                  	43	43
+11:11:18  Camera: Shop B                                  	49	41
+11:11:21  Camera: Level 1 Science Centre Entry 1          	271	87
+11:11:23  Zone: Zone1                    	770	543	227
+11:11:23  Zone: Zone2                    	165	143	22
+11:11:23  Camera: Level 2 Main Entry                      	115	87
+11:11:39  Zone: Zone1                    	771	547	224
+11:12:11  Camera: Shop Whale Mall                         	77	78
+11:12:15  Camera: Shop A                                  	46	46
+11:12:17  Camera: Level 2 Cafe                            	67	104
+11:12:19  Camera: Shop B                                  	49	55
+11:12:24  Camera: Level 2 Main Entry                      	116	93
+11:12:26  Zone: Zone1                    	789	565	224
+11:12:26  Zone: Zone2                    	172	170	2
+11:13:13  Camera: Shop Whale Mall                         	84	83
+11:13:13  Zone: Zone2                    	179	175	4
+11:13:16  Camera: Shop A                                  	48	47
+11:13:20  Camera: Shop B                                  	49	56
+11:13:22  Camera: Level 1 Science Centre Lift             	24	28
+11:13:24  Camera: Level 1 Science Centre Entry 1          	272	91
+11:13:25  Camera: Level 2 Main Entry                      	118	93
+11:13:29  Zone: Zone1                    	798	571	227
+11:13:29  Zone: Zone2                    	181	177	4
+11:14:14  Camera: Shop Whale Mall                         	85	89
+11:14:16  Zone: Zone2                    	182	182	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+11:14:16  Zone: Zone2                    	182	182	0
+11:14:17  Camera: Shop A                                  	50	52
+11:14:25  Camera: Level 1 Science Centre Entry 1          	274	93
+11:14:28  Camera: Level 1 Science Centre Entry 2          	178	146
+11:14:32  Zone: Zone1                    	808	577	231
+11:14:32  Zone: Zone2                    	184	184	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+11:14:32  Zone: Zone2                    	184	184	0
+11:15:03  Service running OK
+11:15:15  Camera: Shop Whale Mall                         	87	89
+11:15:17  Camera: Level 2 Lift                            	40	14
+11:15:18  Camera: Shop A                                  	56	55
+11:15:19  Zone: Zone1                    	812	583	229
+11:15:19  Zone: Zone2                    	192	187	5
+11:15:22  Camera: Shop B                                  	49	58
+11:15:27  Camera: Level 2 Main Entry                      	118	95
+11:15:29  Camera: Level 1 Science Centre Entry 2          	183	146
+11:15:35  Zone: Zone1                    	819	585	234
+11:15:35  Zone: Zone2                    	192	189	3
+11:16:19  Camera: Shop A                                  	58	61
+11:16:22  Zone: Zone1                    	825	587	238
+11:16:22  Zone: Zone2                    	194	194	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+11:16:22  Zone: Zone2                    	194	194	0
+11:16:30  Camera: Level 1 Science Centre Entry 2          	184	146
+11:16:37  Zone: Zone1                    	826	587	239
+11:17:17  Camera: Shop Whale Mall                         	93	89
+11:17:19  Camera: Level 2 Lift                            	42	14
+11:17:21  Camera: Shop A                                  	58	66
+11:17:24  Camera: Shop B                                  	52	58
+11:17:25  Zone: Zone1                    	833	590	243
+11:17:25  Zone: Zone2                    	203	199	4
+11:17:28  Camera: Level 1 Science Centre Entry 1          	276	94
+11:17:30  Camera: Level 2 Main Entry                      	118	98
+11:17:40  Zone: Zone1                    	835	594	241
+11:18:18  Camera: Shop Whale Mall                         	94	92
+11:18:20  Camera: Level 2 Lift                            	42	15
+11:18:22  Camera: Shop A                                  	69	70
+11:18:23  Camera: Level 2 Cafe                            	67	106
+11:18:25  Camera: Shop B                                  	62	59
+11:18:28  Zone: Zone1                    	840	618	222
+11:18:28  Zone: Zone2                    	225	207	18
+11:18:31  Camera: Level 2 Main Entry                      	120	106
+11:18:33  Camera: Level 1 Science Centre Entry 2          	194	148
+11:18:43  Zone: Zone1                    	852	628	224
+11:19:19  Camera: Shop Whale Mall                         	97	93
+11:19:23  Camera: Shop A                                  	84	92
+11:19:28  Camera: Level 1 Science Centre Lift             	24	30
+11:19:30  Zone: Zone1                    	874	645	229
+11:19:30  Zone: Zone2                    	243	230	13
+11:19:32  Camera: Level 2 Main Entry                      	120	108
+11:19:46  Zone: Zone1                    	874	647	227
+11:20:20  Camera: Shop Whale Mall                         	100	99
+11:20:22  Camera: Level 2 Lift                            	43	15
+11:20:24  Camera: Shop A                                  	105	95
+11:20:26  Camera: Level 2 Cafe                            	67	110
+11:20:27  Camera: Shop B                                  	64	60
+11:20:31  Camera: Level 1 Science Centre Entry 1          	276	105
+11:20:33  Camera: Level 2 Main Entry                      	120	110
+11:20:33  Zone: Zone1                    	879	687	192
+11:20:33  Zone: Zone2                    	269	240	29
+11:21:21  Camera: Shop Whale Mall                         	103	107
+11:21:25  Camera: Shop A                                  	107	125
+11:21:27  Camera: Level 2 Cafe                            	69	112
+11:21:29  Camera: Shop B                                  	70	62
+11:21:32  Camera: Level 1 Science Centre Entry 1          	277	111
+11:21:36  Zone: Zone1                    	914	703	211
+11:21:36  Zone: Zone2                    	280	280	0
+11:22:22  Camera: Shop Whale Mall                         	111	111
+11:22:23  Zone: Zone2                    	288	284	4
+11:22:26  Camera: Shop A                                  	109	146
+11:22:30  Camera: Shop B                                  	70	64
+11:22:33  Camera: Level 1 Science Centre Entry 1          	278	119
+11:22:39  Zone: Zone1                    	938	713	225
+11:22:39  Zone: Zone2                    	290	290	0	Net-count has gone negative (-17).  Resetting to zero. (No Balancing Zone)
+11:22:39  Zone: Zone2                    	290	290	0
+11:23:23  Camera: Shop Whale Mall                         	113	115
+11:23:25  Camera: Level 2 Lift                            	43	21
+11:23:26  Zone: Zone1                    	938	719	219
+11:23:26  Zone: Zone2                    	292	292	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+11:23:26  Zone: Zone2                    	292	292	0
+11:23:27  Camera: Shop A                                  	110	158
+11:23:32  Camera: Level 1 Science Centre Lift             	28	30
+11:23:34  Camera: Level 1 Science Centre Entry 1          	279	143
+11:23:36  Camera: Level 2 Main Entry                      	122	110
+11:23:42  Zone: Zone1                    	957	744	213
+11:23:42  Zone: Zone2                    	293	293	0	Net-count has gone negative (-11).  Resetting to zero. (No Balancing Zone)
+11:23:42  Zone: Zone2                    	293	293	0
+11:24:26  Camera: Level 2 Lift                            	43	24
+11:24:28  Camera: Shop A                                  	110	159
+11:24:29  Zone: Zone1                    	958	747	211
+11:24:29  Zone: Zone2                    	293	293	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+11:24:34  Camera: Level 1 Science Centre Lift             	30	30
+11:24:35  Camera: Level 1 Science Centre Entry 1          	281	191
+11:24:37  Camera: Level 2 Main Entry                      	122	111
+11:24:45  Zone: Zone1                    	962	796	166
+11:25:29  Camera: Shop A                                  	110	160
+11:25:32  Zone: Zone1                    	963	796	167
+11:25:32  Zone: Zone2                    	293	293	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+11:25:36  Camera: Level 1 Science Centre Entry 1          	283	201
+11:25:38  Camera: Level 2 Main Entry                      	122	112
+11:25:48  Zone: Zone1                    	965	807	158
+11:26:34  Camera: Shop B                                  	72	64
+11:26:35  Zone: Zone1                    	965	809	156
+11:26:35  Zone: Zone2                    	295	293	2
+11:26:38  Camera: Level 1 Science Centre Entry 1          	287	207
+11:26:41  Camera: Level 1 Science Centre Entry 2          	194	150
+11:26:50  Zone: Zone1                    	969	817	152
+11:27:30  Camera: Level 2 Lift                            	45	24
+11:27:33  Camera: Level 2 Cafe                            	71	118
+11:27:38  Zone: Zone1                    	973	823	150
+11:27:39  Camera: Level 1 Science Centre Entry 1          	289	222
+11:27:40  Camera: Level 2 Main Entry                      	123	112
+11:27:53  Zone: Zone1                    	976	838	138
+11:28:34  Camera: Level 2 Cafe                            	72	120
+11:28:38  Camera: Level 1 Science Centre Lift             	32	30
+11:28:40  Camera: Level 1 Science Centre Entry 1          	292	226
+11:28:41  Zone: Zone1                    	982	844	138
+11:28:41  Camera: Level 2 Main Entry                      	125	112
+11:28:56  Zone: Zone1                    	984	844	140
+11:29:33  Camera: Shop A                                  	111	160
+11:29:35  Camera: Level 2 Cafe                            	72	121
+11:29:41  Camera: Level 1 Science Centre Entry 1          	293	226
+11:29:43  Camera: Level 2 Main Entry                      	126	114
+11:29:43  Zone: Zone1                    	986	848	138
+11:29:43  Zone: Zone2                    	296	293	3
+11:30:15  Logging to daily summary: "11:30 277 375 210 208 213 7"
+11:30:15  Service running OK
+11:30:31  Camera: Shop Whale Mall                         	114	115
+11:30:38  Camera: Shop B                                  	76	64
+11:30:42  Camera: Level 1 Science Centre Entry 1          	293	227
+11:30:44  Camera: Level 2 Main Entry                      	127	114
+11:30:46  Zone: Zone1                    	987	853	134
+11:30:46  Zone: Zone2                    	301	293	8
+11:31:32  Camera: Shop Whale Mall                         	124	115
+11:31:34  Zone: Zone2                    	311	293	18
+11:31:36  Camera: Shop A                                  	111	168
+11:31:37  Camera: Level 2 Cafe                            	72	126
+11:31:43  Camera: Level 1 Science Centre Entry 1          	299	228
+11:31:45  Camera: Level 2 Main Entry                      	131	114
+11:31:49  Zone: Zone1                    	1005	859	146
+11:31:49  Zone: Zone2                    	311	301	10
+11:32:37  Camera: Shop A                                  	112	169
+11:32:40  Camera: Shop B                                  	79	64
+11:32:44  Camera: Level 1 Science Centre Entry 1          	299	229
+11:32:46  Camera: Level 2 Main Entry                      	132	115
+11:32:52  Zone: Zone1                    	1007	865	142
+11:32:52  Zone: Zone2                    	315	302	13
+11:33:38  Camera: Shop A                                  	112	172
+11:33:39  Zone: Zone1                    	1010	865	145
+11:33:39  Zone: Zone2                    	315	305	10
+11:33:45  Camera: Level 1 Science Centre Entry 1          	299	230
+11:33:47  Camera: Level 2 Main Entry                      	132	117
+11:33:49  Camera: Level 1 Science Centre Entry 2          	194	153
+11:33:55  Zone: Zone1                    	1010	871	139
+11:34:46  Camera: Level 1 Science Centre Entry 1          	299	246
+11:34:48  Camera: Level 2 Main Entry                      	133	119
+11:34:50  Camera: Level 1 Science Centre Entry 2          	194	168
+11:34:58  Zone: Zone1                    	1011	904	107
+11:35:36  Camera: Shop Whale Mall                         	129	117
+11:35:40  Camera: Shop A                                  	112	173
+11:35:42  Camera: Level 2 Cafe                            	72	128
+11:35:45  Zone: Zone1                    	1012	906	106
+11:35:45  Zone: Zone2                    	320	308	12
+11:35:47  Camera: Level 1 Science Centre Entry 1          	301	251
+11:35:49  Camera: Level 2 Main Entry                      	133	121
+11:35:51  Camera: Level 1 Science Centre Entry 2          	195	175
+11:36:01  Zone: Zone1                    	1015	920	95
+11:36:37  Camera: Shop Whale Mall                         	140	122
+11:36:41  Camera: Shop A                                  	112	175
+11:36:48  Zone: Zone1                    	1017	920	97
+11:36:48  Zone: Zone2                    	331	315	16
+11:36:48  Camera: Level 1 Science Centre Entry 1          	302	255
+11:36:50  Camera: Level 2 Main Entry                      	135	121
+11:36:52  Camera: Level 1 Science Centre Entry 2          	196	192
+11:37:03  Zone: Zone1                    	1021	941	80
+11:37:38  Camera: Shop Whale Mall                         	141	123
+11:37:42  Camera: Shop A                                  	112	177
+11:37:51  Zone: Zone1                    	1023	941	82
+11:37:51  Zone: Zone2                    	332	318	14
+11:37:51  Camera: Level 2 Main Entry                      	136	122
+11:37:53  Camera: Level 1 Science Centre Entry 2          	198	197
+11:38:06  Zone: Zone1                    	1026	947	79
+11:38:41  Camera: Level 2 Lift                            	45	28
+11:38:45  Camera: Level 2 Cafe                            	80	131
+11:38:50  Camera: Level 1 Science Centre Entry 1          	304	255
+11:38:53  Zone: Zone1                    	1036	954	82
+11:38:54  Camera: Level 1 Science Centre Entry 2          	198	204
+11:39:09  Zone: Zone1                    	1036	961	75
+11:39:42  Camera: Level 2 Lift                            	45	29
+11:39:46  Camera: Level 2 Cafe                            	82	133
+11:39:55  Camera: Level 1 Science Centre Entry 2          	201	204
+11:39:56  Zone: Zone1                    	1041	964	77
+11:40:47  Camera: Level 2 Cafe                            	84	133
+11:40:49  Camera: Shop B                                  	81	64
+11:40:56  Camera: Level 1 Science Centre Entry 2          	204	209
+11:41:01  Zone: Zone1                    	1046	971	75
+11:41:01  Zone: Zone2                    	334	318	16
+11:41:50  Camera: Shop B                                  	83	64
+11:41:50  Zone: Zone1                    	1046	973	73
+11:41:50  Zone: Zone2                    	336	318	18
+11:41:54  Camera: Level 1 Science Centre Entry 1          	312	256
+11:41:57  Camera: Level 1 Science Centre Entry 2          	208	215
+11:42:06  Zone: Zone1                    	1058	980	78
+11:42:48  Camera: Shop A                                  	112	179
+11:42:49  Camera: Level 2 Cafe                            	84	135
+11:42:55  Camera: Level 1 Science Centre Entry 1          	314	256
+11:42:55  Zone: Zone1                    	1062	982	80
+11:42:55  Zone: Zone2                    	336	320	16
+11:42:57  Camera: Level 2 Main Entry                      	138	122
+11:43:11  Zone: Zone1                    	1064	982	82
+11:43:50  Camera: Level 2 Cafe                            	84	141
+11:43:56  Camera: Level 1 Science Centre Entry 1          	315	256
+11:43:58  Zone: Zone1                    	1065	988	77
+11:44:51  Camera: Level 2 Cafe                            	85	141
+11:44:57  Camera: Level 1 Science Centre Entry 1          	319	258
+11:45:06  Zone: Zone1                    	1070	990	80
+11:45:06  Service running OK
+11:45:53  Camera: Level 2 Cafe                            	90	141
+11:45:54  Camera: Shop B                                  	84	64
+11:45:56  Zone: Zone1                    	1075	991	84
+11:45:56  Zone: Zone2                    	337	320	17
+11:45:58  Camera: Level 1 Science Centre Entry 1          	325	260
+11:46:02  Camera: Level 1 Science Centre Entry 2          	214	216
+11:46:12  Zone: Zone1                    	1087	994	93
+11:46:52  Camera: Shop A                                  	112	180
+11:46:57  Camera: Level 1 Science Centre Lift             	32	31
+11:46:59  Zone: Zone1                    	1088	995	93
+11:46:59  Camera: Level 1 Science Centre Entry 1          	329	262
+11:46:59  Zone: Zone2                    	337	321	16
+11:47:01  Camera: Level 2 Main Entry                      	139	123
+11:47:03  Camera: Level 1 Science Centre Entry 2          	249	222
+11:47:15  Zone: Zone1                    	1128	1004	124
+11:47:49  Camera: Shop Whale Mall                         	141	124
+11:47:53  Camera: Shop A                                  	112	182
+11:47:55  Camera: Level 2 Cafe                            	90	144
+11:48:00  Camera: Level 1 Science Centre Entry 1          	331	262
+11:48:02  Zone: Zone1                    	1132	1007	125
+11:48:02  Zone: Zone2                    	337	324	13
+11:48:02  Camera: Level 2 Main Entry                      	139	126
+11:48:04  Camera: Level 1 Science Centre Entry 2          	249	226
+11:48:18  Zone: Zone1                    	1132	1014	118
+11:49:01  Camera: Level 1 Science Centre Entry 1          	333	265
+11:49:05  Zone: Zone1                    	1134	1017	117
+11:49:05  Camera: Level 1 Science Centre Entry 2          	249	230
+11:49:20  Zone: Zone1                    	1134	1021	113
+11:49:55  Camera: Shop A                                  	115	182
+11:49:59  Camera: Shop B                                  	87	64
+11:50:02  Camera: Level 1 Science Centre Entry 1          	334	269
+11:50:04  Camera: Level 2 Main Entry                      	141	126
+11:50:06  Camera: Level 1 Science Centre Entry 2          	256	230
+11:50:08  Zone: Zone1                    	1144	1031	113
+11:50:08  Zone: Zone2                    	343	324	19
+11:51:03  Camera: Level 1 Science Centre Entry 1          	335	271
+11:51:05  Camera: Level 2 Main Entry                      	144	126
+11:51:07  Camera: Level 1 Science Centre Entry 2          	257	233
+11:51:10  Zone: Zone1                    	1149	1036	113
+11:52:01  Camera: Shop B                                  	89	64
+11:52:03  Camera: Level 1 Science Centre Lift             	33	31
+11:52:05  Camera: Level 1 Science Centre Entry 1          	336	272
+11:52:08  Camera: Level 1 Science Centre Entry 2          	257	235
+11:52:13  Zone: Zone1                    	1151	1041	110
+11:52:13  Zone: Zone2                    	345	324	21
+11:52:55  Camera: Shop Whale Mall                         	141	125
+11:52:56  Camera: Level 2 Lift                            	45	30
+11:53:00  Zone: Zone1                    	1151	1042	109
+11:53:00  Zone: Zone2                    	345	325	20
+11:53:07  Camera: Level 2 Main Entry                      	144	127
+11:53:09  Camera: Level 1 Science Centre Entry 2          	259	239
+11:53:16  Zone: Zone1                    	1153	1047	106
+11:54:07  Camera: Level 1 Science Centre Entry 1          	336	273
+11:54:10  Camera: Level 1 Science Centre Entry 2          	263	241
+11:54:19  Zone: Zone1                    	1157	1050	107
+11:54:57  Camera: Shop Whale Mall                         	141	127
+11:55:08  Camera: Level 1 Science Centre Entry 1          	336	275
+11:55:08  Zone: Zone1                    	1157	1052	105
+11:55:08  Zone: Zone2                    	345	327	18
+11:55:10  Camera: Level 2 Main Entry                      	145	127
+11:55:11  Camera: Level 1 Science Centre Entry 2          	269	241
+11:55:24  Zone: Zone1                    	1164	1052	112
+11:55:58  Camera: Shop Whale Mall                         	141	129
+11:56:02  Camera: Shop A                                  	115	183
+11:56:03  Camera: Level 2 Cafe                            	90	147
+11:56:09  Camera: Level 1 Science Centre Entry 1          	342	276
+11:56:11  Camera: Level 2 Main Entry                      	145	129
+11:56:11  Zone: Zone1                    	1171	1058	113
+11:56:11  Zone: Zone2                    	345	330	15
+11:57:03  Camera: Shop A                                  	117	183
+11:57:04  Camera: Level 2 Cafe                            	90	148
+11:57:08  Camera: Level 1 Science Centre Lift             	34	31
+11:57:10  Camera: Level 1 Science Centre Entry 1          	342	279
+11:57:12  Camera: Level 2 Main Entry                      	146	129
+11:57:14  Camera: Level 1 Science Centre Entry 2          	270	241
+11:57:14  Zone: Zone1                    	1174	1064	110
+11:57:14  Zone: Zone2                    	347	330	17
+11:58:02  Camera: Level 2 Lift                            	48	33
+11:58:04  Camera: Shop A                                  	118	183
+11:58:06  Camera: Level 2 Cafe                            	90	153
+11:58:07  Camera: Shop B                                  	89	67
+11:58:11  Camera: Level 1 Science Centre Entry 1          	342	280
+11:58:13  Camera: Level 2 Main Entry                      	147	130
+11:58:15  Camera: Level 1 Science Centre Entry 2          	270	243
+11:58:17  Zone: Zone1                    	1181	1077	104
+11:58:17  Zone: Zone2                    	348	333	15
+11:59:05  Camera: Shop A                                  	118	184
+11:59:10  Camera: Level 1 Science Centre Lift             	37	31
+11:59:12  Camera: Level 1 Science Centre Entry 1          	343	281
+11:59:14  Camera: Level 2 Main Entry                      	147	131
+11:59:19  Zone: Zone1                    	1186	1079	107
+11:59:19  Zone: Zone2                    	348	334	14
+12:00:02  Camera: Shop Whale Mall                         	141	131
+12:00:07  Zone: Zone2                    	348	336	12
+12:00:07  Logging to daily summary: "12:00 200 231 104 52 43 15"
+12:00:07  Service running OK
+12:00:08  Camera: Level 2 Cafe                            	93	157
+12:00:09  Camera: Shop B                                  	90	67
+12:00:15  Camera: Level 2 Main Entry                      	148	131
+12:00:22  Zone: Zone1                    	1190	1084	106
+12:00:22  Zone: Zone2                    	349	336	13
+12:01:03  Camera: Shop Whale Mall                         	141	132
+12:01:09  Camera: Level 2 Cafe                            	93	163
+12:01:10  Zone: Zone1                    	1190	1090	100
+12:01:10  Zone: Zone2                    	349	337	12
+12:01:11  Camera: Shop B                                  	94	67
+12:01:14  Camera: Level 1 Science Centre Entry 1          	343	283
+12:01:16  Camera: Level 2 Main Entry                      	149	131
+12:01:18  Camera: Level 1 Science Centre Entry 2          	282	243
+12:01:25  Zone: Zone1                    	1203	1096	107
+12:01:25  Zone: Zone2                    	353	337	16
+12:02:06  Camera: Level 2 Lift                            	48	34
+12:02:08  Camera: Shop A                                  	119	184
+12:02:12  Zone: Zone1                    	1203	1098	105
+12:02:12  Zone: Zone2                    	354	337	17
+12:02:15  Camera: Level 1 Science Centre Entry 1          	349	285
+12:02:17  Camera: Level 2 Main Entry                      	152	131
+12:02:19  Camera: Level 1 Science Centre Entry 2          	335	243
+12:02:28  Zone: Zone1                    	1265	1100	165
+12:03:05  Camera: Shop Whale Mall                         	143	132
+12:03:15  Zone: Zone2                    	356	337	19
+12:03:16  Camera: Level 1 Science Centre Entry 1          	375	285
+12:03:18  Camera: Level 2 Main Entry                      	153	131
+12:03:20  Camera: Level 1 Science Centre Entry 2          	337	244
+12:03:31  Zone: Zone1                    	1294	1101	193
+12:04:07  Camera: Shop Whale Mall                         	143	141
+12:04:08  Camera: Level 2 Lift                            	48	36
+12:04:10  Camera: Shop A                                  	120	184
+12:04:12  Camera: Level 2 Cafe                            	97	164
+12:04:17  Camera: Level 1 Science Centre Entry 1          	401	285
+12:04:18  Zone: Zone1                    	1324	1105	219
+12:04:18  Zone: Zone2                    	357	346	11
+12:05:11  Camera: Shop A                                  	121	184
+12:05:13  Camera: Level 2 Cafe                            	98	168
+12:05:17  Camera: Level 1 Science Centre Lift             	37	32
+12:05:19  Camera: Level 1 Science Centre Entry 1          	437	286
+12:05:20  Camera: Level 2 Main Entry                      	153	133
+12:05:21  Zone: Zone1                    	1361	1114	247
+12:05:21  Zone: Zone2                    	358	346	12
+12:05:22  Camera: Level 1 Science Centre Entry 2          	337	248
+12:05:37  Zone: Zone1                    	1361	1118	243
+12:06:09  Camera: Shop Whale Mall                         	143	142
+12:06:12  Camera: Shop A                                  	123	184
+12:06:14  Camera: Level 2 Cafe                            	98	173
+12:06:21  Camera: Level 2 Main Entry                      	153	139
+12:06:24  Zone: Zone1                    	1361	1131	230
+12:06:24  Zone: Zone2                    	360	347	13
+12:07:10  Camera: Shop Whale Mall                         	145	146
+12:07:11  Zone: Zone2                    	362	351	11
+12:07:13  Camera: Shop A                                  	124	186
+12:07:15  Camera: Level 2 Cafe                            	100	177
+12:07:17  Camera: Shop B                                  	96	67
+12:07:22  Camera: Level 2 Main Entry                      	153	140
+12:07:24  Camera: Level 1 Science Centre Entry 2          	337	260
+12:07:27  Zone: Zone1                    	1365	1151	214
+12:07:27  Zone: Zone2                    	365	353	12
+12:08:14  Camera: Shop A                                  	127	188
+12:08:15  Error! Shop Whale Mall: GetCurrentCount call failed
+12:08:16  Camera: Level 2 Cafe                            	100	181
+12:08:18  Camera: Shop B                                  	97	67
+12:08:22  Camera: Level 1 Science Centre Entry 1          	438	287
+12:08:24  Email sent successfully.
+12:08:24  Shop Whale Mall: Closing socket to 192.168.197.11:4008 on IrisysIP Manager
+12:08:25  Camera: Level 1 Science Centre Entry 2          	337	293
+12:08:30  Zone: Zone1                    	1368	1193	175
+12:08:30  Zone: Zone2                    	369	355	14
+12:08:35  Shop Whale Mall: Connecting to IrisysIP at address 192.168.197.11:4008
+12:09:16  Camera: Shop A                                  	127	191
+12:09:17  Zone: Zone1                    	1371	1193	178
+12:09:17  Zone: Zone2                    	369	358	11
+12:09:17  Camera: Level 2 Cafe                            	100	188
+12:09:24  Shop Whale Mall: Connect Success (8)
+12:09:26  Camera: Shop Whale Mall                         	146	148
+12:09:26  Camera: Level 1 Science Centre Entry 2          	339	295
+12:09:32  Zone: Zone1                    	1373	1202	171
+12:09:32  Zone: Zone2                    	370	360	10
+12:10:17  Camera: Shop A                                  	127	192
+12:10:18  Camera: Level 2 Cafe                            	100	193
+12:10:20  Zone: Zone1                    	1374	1207	167
+12:10:20  Zone: Zone2                    	370	361	9
+12:10:26  Camera: Level 2 Main Entry                      	154	140
+12:10:27  Camera: Shop Whale Mall                         	148	148
+12:10:35  Zone: Zone1                    	1375	1207	168
+12:10:35  Zone: Zone2                    	372	361	11
+12:11:18  Camera: Shop A                                  	128	193
+12:11:20  Camera: Level 2 Cafe                            	115	199
+12:11:23  Zone: Zone1                    	1391	1214	177
+12:11:23  Zone: Zone2                    	373	362	11
+12:11:27  Camera: Level 2 Main Entry                      	156	140
+12:11:38  Zone: Zone1                    	1393	1214	179
+12:12:26  Camera: Level 1 Science Centre Entry 1          	438	288
+12:12:28  Camera: Level 2 Main Entry                      	156	142
+12:12:28  Zone: Zone1                    	1393	1217	176
+12:13:21  Camera: Shop A                                  	129	194
+12:13:22  Camera: Level 2 Cafe                            	115	200
+12:13:29  Camera: Level 2 Main Entry                      	157	142
+12:13:31  Camera: Shop Whale Mall                         	151	148
+12:13:36  Zone: Zone1                    	1395	1219	176
+12:13:36  Zone: Zone2                    	377	363	14
+12:14:22  Camera: Shop A                                  	129	197
+12:14:23  Camera: Level 2 Cafe                            	115	203
+12:14:23  Zone: Zone1                    	1398	1222	176
+12:14:23  Zone: Zone2                    	377	366	11
+12:14:25  Camera: Shop B                                  	97	70
+12:14:28  Camera: Level 1 Science Centre Entry 1          	440	288
+12:14:32  Camera: Shop Whale Mall                         	163	149
+12:14:33  Camera: Level 1 Science Centre Entry 2          	339	297
+12:14:39  Zone: Zone1                    	1403	1224	179
+12:14:39  Zone: Zone2                    	389	370	19
+12:15:11  Service running OK
+12:15:24  Camera: Shop A                                  	133	200
+12:15:24  Camera: Level 2 Cafe                            	119	203
+12:15:26  Zone: Zone1                    	1410	1228	182
+12:15:26  Zone: Zone2                    	393	373	20
+12:15:29  Camera: Level 1 Science Centre Entry 1          	440	291
+12:15:31  Camera: Level 2 Main Entry                      	159	142
+12:15:33  Camera: Shop Whale Mall                         	166	150
+12:15:34  Camera: Level 1 Science Centre Entry 2          	339	299
+12:15:42  Zone: Zone1                    	1412	1233	179
+12:15:42  Zone: Zone2                    	396	374	22
+12:16:26  Camera: Level 2 Lift                            	50	36
+12:16:29  Zone: Zone1                    	1414	1233	181
+12:17:29  Camera: Level 2 Cafe                            	119	206
+12:17:34  Zone: Zone1                    	1414	1236	178
+12:17:36  Camera: Level 1 Science Centre Entry 2          	342	300
+12:17:50  Zone: Zone1                    	1417	1237	180
+12:18:27  Camera: Shop A                                  	133	202
+12:18:34  Camera: Level 2 Main Entry                      	159	146
+12:18:38  Camera: Level 1 Science Centre Entry 2          	346	323
+12:18:42  Zone: Zone1                    	1423	1264	159
+12:18:42  Zone: Zone2                    	396	376	20
+12:19:28  Camera: Shop A                                  	136	203
+12:19:29  Zone: Zone1                    	1424	1267	157
+12:19:29  Zone: Zone2                    	399	377	22
+12:19:32  Camera: Level 2 Cafe                            	119	210
+12:19:33  Camera: Shop B                                  	97	72
+12:19:34  Camera: Level 1 Science Centre Entry 1          	441	291
+12:19:35  Camera: Level 2 Main Entry                      	160	149
+12:19:39  Camera: Level 1 Science Centre Entry 2          	355	331
+12:19:45  Zone: Zone1                    	1437	1282	155
+12:19:45  Zone: Zone2                    	399	379	20
+12:20:29  Camera: Shop A                                  	136	205
+12:20:32  Zone: Zone1                    	1439	1282	157
+12:20:32  Zone: Zone2                    	399	381	18
+12:20:33  Camera: Level 2 Cafe                            	123	212
+12:20:40  Camera: Level 1 Science Centre Entry 2          	357	344
+12:20:48  Zone: Zone1                    	1445	1297	148
+12:21:36  Camera: Level 1 Science Centre Entry 1          	441	293
+12:21:36  Zone: Zone1                    	1445	1299	146
+12:21:38  Camera: Level 2 Main Entry                      	160	151
+12:21:41  Camera: Level 1 Science Centre Entry 2          	362	345
+12:21:52  Zone: Zone1                    	1450	1302	148
+12:22:31  Camera: Shop A                                  	136	207
+12:22:35  Camera: Level 2 Cafe                            	123	214
+12:22:38  Camera: Level 1 Science Centre Lift             	37	35
+12:22:39  Camera: Level 2 Main Entry                      	161	155
+12:22:41  Zone: Zone1                    	1453	1311	142
+12:22:41  Zone: Zone2                    	399	383	16
+12:22:42  Camera: Level 1 Science Centre Entry 2          	362	349
+12:22:57  Zone: Zone1                    	1453	1315	138
+12:23:33  Camera: Shop A                                  	137	207
+12:23:36  Camera: Level 2 Cafe                            	124	222
+12:23:38  Camera: Shop B                                  	103	72
+12:23:40  Camera: Level 2 Main Entry                      	161	161
+12:23:44  Camera: Level 1 Science Centre Entry 2          	369	351
+12:23:44  Zone: Zone1                    	1461	1338	123
+12:23:44  Zone: Zone2                    	406	383	23
+12:24:34  Camera: Shop A                                  	137	208
+12:24:37  Camera: Level 2 Cafe                            	124	227
+12:24:45  Camera: Level 1 Science Centre Entry 2          	380	355
+12:24:47  Zone: Zone1                    	1473	1347	126
+12:24:47  Zone: Zone2                    	406	384	22
+12:25:35  Camera: Shop A                                  	140	208
+12:25:35  Zone: Zone1                    	1473	1350	123
+12:25:35  Zone: Zone2                    	409	384	25
+12:25:36  Camera: Level 2 Lift                            	51	36
+12:25:43  Camera: Level 2 Main Entry                      	162	162
+12:25:46  Camera: Shop Whale Mall                         	169	150
+12:25:46  Camera: Level 1 Science Centre Entry 2          	388	355
+12:25:50  Zone: Zone1                    	1483	1351	132
+12:25:50  Zone: Zone2                    	412	384	28
+12:26:36  Camera: Shop A                                  	141	215
+12:26:38  Zone: Zone1                    	1490	1352	138
+12:26:38  Zone: Zone2                    	413	391	22
+12:26:39  Camera: Level 2 Cafe                            	126	227
+12:26:41  Camera: Shop B                                  	103	74
+12:26:45  Camera: Level 1 Science Centre Entry 1          	442	295
+12:26:47  Camera: Level 1 Science Centre Entry 2          	394	355
+12:26:53  Zone: Zone1                    	1501	1354	147
+12:26:53  Zone: Zone2                    	413	393	20
+12:27:37  Camera: Shop A                                  	142	216
+12:27:40  Zone: Zone1                    	1502	1355	147
+12:27:40  Zone: Zone2                    	414	394	20
+12:27:40  Camera: Level 2 Cafe                            	130	229
+12:27:46  Camera: Level 1 Science Centre Entry 1          	444	295
+12:27:49  Camera: Level 1 Science Centre Entry 2          	400	355
+12:27:56  Zone: Zone1                    	1514	1357	157
+12:28:38  Camera: Shop A                                  	144	217
+12:28:42  Camera: Level 2 Cafe                            	130	240
+12:28:43  Zone: Zone1                    	1515	1370	145
+12:28:43  Zone: Zone2                    	416	395	21
+12:28:48  Camera: Level 1 Science Centre Lift             	37	36
+12:28:48  Camera: Level 1 Science Centre Entry 1          	444	304
+12:28:49  Camera: Shop Whale Mall                         	169	152
+12:28:50  Camera: Level 1 Science Centre Entry 2          	403	355
+12:28:59  Zone: Zone1                    	1518	1380	138
+12:28:59  Zone: Zone2                    	416	397	19
+12:29:41  Camera: Level 2 Lift                            	51	38
+12:29:43  Camera: Level 2 Cafe                            	135	245
+12:29:46  Zone: Zone1                    	1523	1387	136
+12:29:51  Camera: Level 1 Science Centre Entry 1          	444	305
+12:29:51  Camera: Level 1 Science Centre Entry 2          	417	357
+12:30:02  Zone: Zone1                    	1537	1390	147
+12:30:02  Logging to daily summary: "12:30 351 311 165 68 61 17"
+12:30:02  Service running OK
+12:30:44  Camera: Level 2 Cafe                            	135	247
+12:30:49  Zone: Zone1                    	1537	1392	145
+12:30:50  Camera: Level 1 Science Centre Lift             	37	37
+12:30:53  Camera: Level 1 Science Centre Entry 2          	468	365
+12:31:05  Zone: Zone1                    	1588	1401	187
+12:31:41  Camera: Shop A                                  	144	218
+12:31:43  Camera: Level 2 Lift                            	54	38
+12:31:45  Camera: Level 2 Cafe                            	138	247
+12:31:51  Camera: Level 1 Science Centre Lift             	37	40
+12:31:54  Zone: Zone1                    	1595	1404	191
+12:31:54  Zone: Zone2                    	416	398	18
+12:31:54  Camera: Level 2 Main Entry                      	162	163
+12:31:55  Camera: Level 1 Science Centre Entry 1          	446	307
+12:31:56  Camera: Level 1 Science Centre Entry 2          	487	372
+12:32:10  Zone: Zone1                    	1616	1414	202
+12:32:42  Camera: Shop A                                  	144	219
+12:32:46  Camera: Level 2 Cafe                            	138	249
+12:32:48  Camera: Shop B                                  	105	74
+12:32:52  Camera: Level 1 Science Centre Lift             	37	44
+12:32:56  Camera: Level 2 Main Entry                      	162	164
+12:32:57  Camera: Level 1 Science Centre Entry 2          	497	375
+12:32:57  Camera: Level 1 Science Centre Entry 1          	448	309
+12:32:57  Zone: Zone1                    	1629	1428	201
+12:32:57  Zone: Zone2                    	418	399	19
+12:33:43  Camera: Shop A                                  	145	219
+12:33:44  Zone: Zone1                    	1629	1429	200
+12:33:44  Zone: Zone2                    	419	399	20
+12:33:47  Camera: Level 2 Cafe                            	142	253
+12:33:57  Camera: Level 2 Main Entry                      	163	165
+12:33:59  Camera: Shop Whale Mall                         	169	155
+12:33:59  Camera: Level 1 Science Centre Entry 2          	497	383
+12:34:00  Zone: Zone1                    	1634	1442	192
+12:34:00  Zone: Zone2                    	419	402	17
+12:34:58  Camera: Level 2 Main Entry                      	165	166
+12:35:00  Camera: Shop Whale Mall                         	169	157
+12:35:00  Camera: Level 1 Science Centre Entry 1          	448	312
+12:35:01  Camera: Level 1 Science Centre Entry 2          	497	390
+12:35:03  Zone: Zone1                    	1636	1453	183
+12:35:03  Zone: Zone2                    	419	404	15
+12:35:49  Camera: Level 2 Cafe                            	143	255
+12:35:50  Zone: Zone1                    	1637	1455	182
+12:35:59  Camera: Level 2 Main Entry                      	165	167
+12:36:02  Camera: Level 1 Science Centre Entry 1          	448	317
+12:36:02  Camera: Level 1 Science Centre Entry 2          	500	395
+12:36:05  Zone: Zone1                    	1640	1466	174
+12:36:50  Camera: Level 2 Cafe                            	146	255
+12:36:53  Zone: Zone1                    	1643	1466	177
+12:37:00  Camera: Level 2 Main Entry                      	167	169
+12:37:04  Camera: Level 1 Science Centre Entry 2          	504	409
+12:37:08  Zone: Zone1                    	1649	1482	167
+12:38:01  Camera: Level 2 Main Entry                      	168	169
+12:38:04  Camera: Level 1 Science Centre Entry 1          	449	317
+12:38:05  Camera: Level 1 Science Centre Entry 2          	504	414
+12:38:13  Zone: Zone1                    	1651	1487	164
+12:38:49  Camera: Shop A                                  	146	219
+12:38:54  Camera: Shop B                                  	105	76
+12:39:00  Zone: Zone1                    	1653	1488	165
+12:39:00  Zone: Zone2                    	420	406	14
+12:39:02  Camera: Level 2 Main Entry                      	170	169
+12:39:06  Camera: Level 1 Science Centre Entry 1          	449	323
+12:39:16  Zone: Zone1                    	1655	1494	161
+12:39:50  Camera: Shop A                                  	147	219
+12:39:53  Camera: Level 2 Cafe                            	149	257
+12:39:55  Camera: Shop B                                  	105	80
+12:40:03  Zone: Zone1                    	1662	1497	165
+12:40:03  Zone: Zone2                    	421	410	11
+12:40:03  Camera: Level 2 Main Entry                      	171	170
+12:40:07  Camera: Level 1 Science Centre Entry 2          	510	416
+12:40:08  Camera: Shop Whale Mall                         	179	157
+12:40:08  Camera: Level 1 Science Centre Entry 1          	449	324
+12:40:19  Zone: Zone1                    	1669	1501	168
+12:40:19  Zone: Zone2                    	431	410	21
+12:40:55  Camera: Level 2 Cafe                            	151	260
+12:41:04  Camera: Level 2 Main Entry                      	173	172
+12:41:06  Zone: Zone1                    	1673	1506	167
+12:41:09  Camera: Shop Whale Mall                         	179	159
+12:41:09  Camera: Level 1 Science Centre Entry 2          	521	423
+12:41:10  Camera: Level 1 Science Centre Entry 1          	449	325
+12:41:22  Zone: Zone1                    	1684	1514	170
+12:41:22  Zone: Zone2                    	431	412	19
+12:41:56  Camera: Level 2 Cafe                            	153	260
+12:41:57  Camera: Shop B                                  	109	80
+12:42:05  Camera: Level 2 Main Entry                      	176	173
+12:42:09  Zone: Zone1                    	1689	1519	170
+12:42:09  Zone: Zone2                    	435	412	23
+12:42:11  Camera: Level 1 Science Centre Entry 1          	449	326
+12:42:12  Camera: Level 1 Science Centre Entry 2          	529	426
+12:42:24  Zone: Zone1                    	1697	1523	174
+12:42:53  Camera: Shop A                                  	147	220
+12:42:56  Zone: Zone1                    	1698	1523	175
+12:42:56  Zone: Zone2                    	435	413	22
+12:42:57  Camera: Level 2 Cafe                            	165	265
+12:42:58  Camera: Shop B                                  	109	82
+12:43:06  Camera: Level 2 Main Entry                      	180	176
+12:43:12  Zone: Zone1                    	1716	1531	185
+12:43:12  Zone: Zone2                    	435	415	20
+12:43:13  Camera: Level 1 Science Centre Entry 2          	533	429
+12:43:27  Zone: Zone1                    	1720	1534	186
+12:43:56  Camera: Level 2 Lift                            	54	40
+12:43:59  Zone: Zone1                    	1720	1536	184
+12:44:08  Camera: Level 2 Main Entry                      	182	176
+12:44:14  Camera: Level 1 Science Centre Entry 1          	449	328
+12:44:14  Camera: Level 1 Science Centre Entry 2          	533	434
+12:44:14  Zone: Zone1                    	1722	1543	179
+12:44:57  Camera: Level 2 Lift                            	55	40
+12:44:59  Camera: Level 2 Cafe                            	167	265
+12:45:02  Zone: Zone1                    	1725	1543	182
+12:45:02  Service running OK
+12:45:09  Camera: Level 2 Main Entry                      	182	177
+12:45:15  Camera: Level 1 Science Centre Entry 2          	542	434
+12:45:15  Camera: Level 1 Science Centre Entry 1          	450	328
+12:45:16  Camera: Shop Whale Mall                         	180	160
+12:45:17  Zone: Zone1                    	1735	1544	191
+12:45:17  Zone: Zone2                    	436	416	20
+12:46:00  Camera: Level 2 Cafe                            	167	269
+12:46:02  Camera: Shop B                                  	110	82
+12:46:04  Zone: Zone1                    	1735	1549	186
+12:46:04  Zone: Zone2                    	437	416	21
+12:46:06  Camera: Level 1 Science Centre Lift             	37	45
+12:46:10  Camera: Level 2 Main Entry                      	182	178
+12:46:17  Camera: Level 1 Science Centre Entry 2          	554	442
+12:46:18  Camera: Level 1 Science Centre Entry 1          	450	330
+12:46:20  Zone: Zone1                    	1747	1561	186
+12:47:11  Camera: Level 2 Main Entry                      	184	179
+12:47:19  Camera: Level 1 Science Centre Entry 2          	558	442
+12:47:19  Camera: Level 1 Science Centre Entry 1          	453	334
+12:47:23  Zone: Zone1                    	1756	1566	190
+12:47:58  Camera: Shop A                                  	148	220
+12:48:04  Camera: Shop B                                  	110	83
+12:48:10  Zone: Zone1                    	1757	1567	190
+12:48:10  Zone: Zone2                    	438	417	21
+12:48:20  Camera: Shop Whale Mall                         	182	160
+12:48:20  Camera: Level 1 Science Centre Entry 1          	453	337
+12:48:21  Camera: Level 1 Science Centre Entry 2          	559	448
+12:48:26  Zone: Zone1                    	1758	1576	182
+12:48:26  Zone: Zone2                    	440	417	23
+12:48:59  Camera: Shop A                                  	148	222
+12:49:03  Camera: Level 2 Cafe                            	170	270
+12:49:13  Zone: Zone1                    	1763	1577	186
+12:49:13  Zone: Zone2                    	440	419	21
+12:49:13  Camera: Level 2 Main Entry                      	184	180
+12:49:22  Camera: Level 1 Science Centre Entry 2          	559	451
+12:49:28  Zone: Zone1                    	1763	1581	182
+12:50:06  Camera: Shop B                                  	115	84
+12:50:14  Camera: Level 2 Main Entry                      	186	180
+12:50:16  Zone: Zone1                    	1766	1586	180
+12:50:16  Zone: Zone2                    	445	420	25
+12:50:23  Camera: Level 1 Science Centre Entry 1          	453	338
+12:50:31  Zone: Zone1                    	1766	1587	179
+12:51:07  Camera: Shop B                                  	115	86
+12:51:15  Camera: Level 2 Main Entry                      	188	180
+12:51:19  Zone: Zone1                    	1770	1587	183
+12:51:19  Zone: Zone2                    	445	422	23
+12:51:25  Camera: Level 1 Science Centre Entry 2          	559	453
+12:51:34  Zone: Zone1                    	1770	1589	181
+12:52:13  Camera: Level 1 Science Centre Lift             	38	45
+12:52:16  Camera: Level 2 Main Entry                      	190	181
+12:52:24  Zone: Zone1                    	1773	1590	183
+12:52:26  Camera: Level 1 Science Centre Entry 1          	454	338
+12:52:27  Camera: Shop Whale Mall                         	183	162
+12:52:27  Camera: Level 1 Science Centre Entry 2          	563	455
+12:52:40  Zone: Zone1                    	1778	1592	186
+12:52:40  Zone: Zone2                    	446	424	22
+12:53:04  Camera: Shop A                                  	149	222
+12:53:07  Camera: Level 2 Cafe                            	171	270
+12:53:11  Zone: Zone1                    	1779	1593	186
+12:53:11  Zone: Zone2                    	447	424	23
+12:53:28  Camera: Level 1 Science Centre Entry 1          	454	342
+12:53:28  Camera: Level 1 Science Centre Entry 2          	565	455
+12:53:43  Zone: Zone1                    	1781	1597	184
+12:54:05  Camera: Shop A                                  	149	223
+12:54:10  Camera: Shop B                                  	115	87
+12:54:14  Zone: Zone1                    	1783	1597	186
+12:54:14  Zone: Zone2                    	447	426	21
+12:54:18  Camera: Level 2 Main Entry                      	191	183
+12:54:29  Camera: Level 1 Science Centre Entry 1          	456	347
+12:54:30  Camera: Level 1 Science Centre Entry 2          	566	455
+12:54:30  Zone: Zone1                    	1787	1604	183
+12:55:06  Camera: Shop A                                  	151	223
+12:55:17  Zone: Zone1                    	1787	1606	181
+12:55:17  Zone: Zone2                    	449	426	23
+12:55:19  Camera: Level 2 Main Entry                      	193	184
+12:55:31  Camera: Level 1 Science Centre Entry 2          	566	457
+12:55:31  Camera: Level 1 Science Centre Entry 1          	458	347
+12:55:31  Camera: Shop Whale Mall                         	183	165
+12:55:33  Zone: Zone1                    	1791	1609	182
+12:55:33  Zone: Zone2                    	449	429	20
+12:56:07  Camera: Shop A                                  	153	227
+12:56:20  Zone: Zone1                    	1795	1611	184
+12:56:20  Zone: Zone2                    	451	433	18
+12:56:20  Camera: Level 2 Main Entry                      	193	186
+12:56:33  Camera: Shop Whale Mall                         	183	168
+12:56:35  Zone: Zone1                    	1795	1613	182
+12:56:35  Zone: Zone2                    	451	436	15
+12:57:08  Camera: Shop A                                  	154	230
+12:57:22  Camera: Level 2 Main Entry                      	194	186
+12:57:23  Zone: Zone1                    	1799	1614	185
+12:57:23  Zone: Zone2                    	452	439	13
+12:57:34  Camera: Shop Whale Mall                         	183	170
+12:57:34  Camera: Level 1 Science Centre Entry 2          	566	458
+12:57:34  Camera: Level 1 Science Centre Entry 1          	462	349
+12:57:38  Zone: Zone1                    	1803	1617	186
+12:57:38  Zone: Zone2                    	452	441	11
+12:58:09  Camera: Shop A                                  	155	230
+12:58:10  Zone: Zone1                    	1803	1618	185
+12:58:10  Zone: Zone2                    	453	441	12
+12:58:11  Camera: Level 2 Lift                            	55	41
+12:58:23  Camera: Level 2 Main Entry                      	195	186
+12:58:25  Zone: Zone1                    	1804	1619	185
+12:58:35  Camera: Shop Whale Mall                         	188	170
+12:58:36  Camera: Level 1 Science Centre Entry 1          	464	351
+12:58:36  Camera: Level 1 Science Centre Entry 2          	567	463
+12:58:41  Zone: Zone1                    	1807	1626	181
+12:58:41  Zone: Zone2                    	458	441	17
+12:59:12  Camera: Level 2 Lift                            	56	41
+12:59:13  Zone: Zone1                    	1808	1626	182
+12:59:16  Camera: Shop B                                  	117	87
+12:59:24  Camera: Level 2 Main Entry                      	195	189
+12:59:28  Zone: Zone1                    	1808	1631	177
+12:59:28  Zone: Zone2                    	460	441	19
+12:59:37  Camera: Shop Whale Mall                         	190	170
+12:59:38  Camera: Level 1 Science Centre Entry 2          	568	465
+12:59:44  Zone: Zone1                    	1809	1633	176
+12:59:44  Zone: Zone2                    	462	441	21
+13:00:00  Logging to daily summary: "13:00 272 243 181 46 44 18"
+13:00:00  Service running OK
+13:00:13  Camera: Level 2 Lift                            	56	42
+13:00:15  Zone: Zone1                    	1809	1634	175
+13:00:25  Camera: Level 2 Main Entry                      	199	189
+13:00:31  Zone: Zone1                    	1813	1634	179
+13:00:39  Camera: Level 1 Science Centre Entry 2          	568	469
+13:00:39  Camera: Shop Whale Mall                         	190	172
+13:00:47  Zone: Zone1                    	1813	1638	175
+13:00:47  Zone: Zone2                    	462	443	19
+13:01:12  Camera: Shop A                                  	155	231
+13:01:14  Camera: Level 2 Lift                            	56	43
+13:01:16  Camera: Level 2 Cafe                            	174	275
+13:01:18  Zone: Zone1                    	1817	1644	173
+13:01:18  Zone: Zone2                    	462	444	18
+13:01:40  Camera: Level 1 Science Centre Entry 2          	572	480
+13:01:40  Camera: Level 1 Science Centre Entry 1          	464	353
+13:01:50  Zone: Zone1                    	1821	1657	164
+13:02:27  Camera: Level 2 Main Entry                      	201	192
+13:02:37  Zone: Zone1                    	1823	1660	163
+13:02:41  Camera: Level 1 Science Centre Entry 2          	573	484
+13:02:43  Camera: Level 1 Science Centre Entry 1          	466	359
+13:02:53  Zone: Zone1                    	1826	1670	156
+13:03:20  Camera: Shop B                                  	121	87
+13:03:24  Zone: Zone1                    	1826	1674	152
+13:03:24  Zone: Zone2                    	466	444	22
+13:03:28  Camera: Level 2 Main Entry                      	202	194
+13:03:41  Zone: Zone1                    	1827	1676	151
+13:03:43  Camera: Shop Whale Mall                         	191	179
+13:03:43  Camera: Level 1 Science Centre Entry 2          	573	488
+13:03:44  Camera: Level 1 Science Centre Entry 1          	467	367
+13:03:57  Zone: Zone1                    	1828	1688	140
+13:03:57  Zone: Zone2                    	467	451	16
+13:04:16  Camera: Shop A                                  	155	235
+13:04:17  Camera: Level 2 Lift                            	56	44
+13:04:19  Camera: Level 2 Cafe                            	174	279
+13:04:28  Zone: Zone1                    	1832	1693	139
+13:04:28  Zone: Zone2                    	467	455	12
+13:04:29  Camera: Level 2 Main Entry                      	205	195
+13:04:44  Zone: Zone1                    	1835	1694	141
+13:04:45  Camera: Shop Whale Mall                         	192	180
+13:04:45  Camera: Level 1 Science Centre Entry 1          	471	385
+13:04:46  Camera: Level 1 Science Centre Entry 2          	577	489
+13:05:00  Zone: Zone1                    	1843	1713	130
+13:05:00  Zone: Zone2                    	468	456	12
+13:05:17  Camera: Shop A                                  	157	235
+13:05:30  Camera: Level 2 Main Entry                      	210	199
+13:05:31  Zone: Zone1                    	1848	1719	129
+13:05:31  Zone: Zone2                    	470	456	14
+13:05:46  Camera: Shop Whale Mall                         	192	184
+13:05:46  Camera: Level 1 Science Centre Entry 1          	471	388
+13:05:47  Zone: Zone1                    	1848	1722	126
+13:05:47  Zone: Zone2                    	470	460	10
+13:06:20  Camera: Level 2 Lift                            	58	44
+13:06:21  Camera: Level 2 Cafe                            	174	287
+13:06:31  Camera: Level 2 Main Entry                      	211	200
+13:06:34  Zone: Zone1                    	1851	1731	120
+13:06:48  Camera: Level 1 Science Centre Entry 2          	577	492
+13:06:48  Camera: Shop Whale Mall                         	193	185
+13:06:49  Camera: Level 1 Science Centre Entry 1          	473	390
+13:06:50  Zone: Zone1                    	1853	1736	117
+13:06:50  Zone: Zone2                    	471	461	10
+13:07:19  Camera: Shop A                                  	157	237
+13:07:21  Zone: Zone1                    	1855	1736	119
+13:07:21  Zone: Zone2                    	471	463	8
+13:07:23  Camera: Level 2 Cafe                            	176	287
+13:07:24  Camera: Shop B                                  	124	87
+13:07:32  Camera: Level 2 Main Entry                      	215	200
+13:07:37  Zone: Zone1                    	1861	1739	122
+13:07:37  Zone: Zone2                    	474	463	11
+13:07:50  Camera: Level 1 Science Centre Entry 1          	474	399
+13:07:52  Zone: Zone1                    	1862	1748	114
+13:08:22  Camera: Level 2 Lift                            	59	44
+13:08:24  Camera: Level 2 Cafe                            	177	287
+13:08:24  Zone: Zone1                    	1864	1748	116
+13:08:33  Camera: Level 2 Main Entry                      	217	203
+13:08:39  Zone: Zone1                    	1866	1751	115
+13:08:51  Camera: Level 1 Science Centre Entry 1          	474	402
+13:08:51  Camera: Level 1 Science Centre Entry 2          	577	494
+13:08:55  Zone: Zone1                    	1866	1756	110
+13:09:25  Camera: Level 2 Cafe                            	177	289
+13:09:27  Zone: Zone1                    	1866	1758	108
+13:09:34  Camera: Level 2 Main Entry                      	217	206
+13:09:42  Zone: Zone1                    	1866	1761	105
+13:09:53  Camera: Level 1 Science Centre Entry 1          	476	406
+13:09:58  Zone: Zone1                    	1868	1765	103
+13:10:36  Camera: Level 2 Main Entry                      	220	207
+13:10:45  Zone: Zone1                    	1871	1766	105
+13:10:54  Camera: Level 1 Science Centre Entry 1          	479	411
+13:11:01  Zone: Zone1                    	1874	1771	103
+13:11:23  Camera: Shop A                                  	157	239
+13:11:35  Zone: Zone1                    	1876	1771	105
+13:11:35  Zone: Zone2                    	474	465	9
+13:11:37  Camera: Level 2 Main Entry                      	221	210
+13:11:51  Zone: Zone1                    	1877	1774	103
+13:11:57  Camera: Level 1 Science Centre Entry 1          	485	430
+13:12:07  Zone: Zone1                    	1883	1793	90
+13:12:26  Camera: Level 2 Lift                            	61	44
+13:12:28  Camera: Level 2 Cafe                            	177	290
+13:12:38  Camera: Level 2 Main Entry                      	221	211
+13:12:40  Zone: Zone1                    	1885	1795	90
+13:12:58  Camera: Level 1 Science Centre Entry 1          	486	433
+13:13:12  Zone: Zone1                    	1886	1798	88
+13:13:31  Camera: Shop B                                  	124	88
+13:13:39  Camera: Level 2 Main Entry                      	224	211
+13:13:43  Zone: Zone1                    	1890	1798	92
+13:13:43  Zone: Zone2                    	474	466	8
+13:13:59  Camera: Level 1 Science Centre Entry 1          	486	434
+13:14:15  Zone: Zone1                    	1890	1799	91
+13:15:02  Camera: Level 1 Science Centre Entry 1          	490	434
+13:15:06  Zone: Zone1                    	1894	1799	95
+13:15:06  Service running OK
+13:15:28  Camera: Shop A                                  	161	239
+13:15:40  Zone: Zone1                    	1894	1803	91
+13:15:40  Zone: Zone2                    	478	466	12
+13:15:41  Camera: Level 2 Main Entry                      	225	212
+13:15:56  Zone: Zone1                    	1895	1804	91
+13:16:02  Camera: Shop Whale Mall                         	193	186
+13:16:03  Camera: Level 1 Science Centre Entry 1          	490	439
+13:16:12  Zone: Zone1                    	1895	1809	86
+13:16:12  Zone: Zone2                    	478	467	11
+13:16:29  Camera: Shop A                                  	161	240
+13:16:32  Camera: Level 2 Cafe                            	179	294
+13:16:34  Camera: Shop B                                  	124	90
+13:16:42  Camera: Level 2 Main Entry                      	226	216
+13:16:43  Zone: Zone1                    	1901	1817	84
+13:16:43  Zone: Zone2                    	478	470	8
+13:17:05  Camera: Level 1 Science Centre Entry 2          	577	496
+13:17:15  Zone: Zone1                    	1901	1819	82
+13:17:43  Camera: Level 2 Main Entry                      	227	216
+13:17:46  Zone: Zone1                    	1902	1819	83
+13:18:06  Camera: Level 1 Science Centre Entry 2          	578	496
+13:18:07  Camera: Level 1 Science Centre Entry 1          	491	439
+13:18:17  Zone: Zone1                    	1904	1819	85
+13:18:34  Camera: Level 2 Cafe                            	179	296
+13:18:44  Camera: Level 2 Main Entry                      	228	217
+13:18:49  Zone: Zone1                    	1905	1822	83
+13:19:07  Camera: Shop Whale Mall                         	195	186
+13:19:20  Zone: Zone2                    	480	470	10
+13:19:32  Camera: Shop A                                  	161	241
+13:19:36  Zone: Zone1                    	1906	1822	84
+13:19:36  Zone: Zone2                    	480	471	9
+13:20:38  Camera: Shop B                                  	124	94
+13:20:46  Zone: Zone1                    	1910	1822	88
+13:20:46  Zone: Zone2                    	480	475	5
+13:20:46  Camera: Level 2 Main Entry                      	236	218
+13:21:02  Zone: Zone1                    	1918	1823	95
+13:21:11  Camera: Shop Whale Mall                         	200	186
+13:21:18  Zone: Zone2                    	485	475	10
+13:21:38  Camera: Level 2 Cafe                            	179	304
+13:21:39  Camera: Shop B                                  	124	95
+13:21:47  Camera: Level 2 Main Entry                      	236	220
+13:21:51  Zone: Zone1                    	1919	1833	86
+13:21:51  Zone: Zone2                    	485	476	9
+13:22:12  Camera: Shop Whale Mall                         	204	189
+13:22:23  Zone: Zone2                    	489	479	10
+13:22:35  Camera: Shop A                                  	162	242
+13:22:39  Camera: Level 2 Cafe                            	181	308
+13:22:39  Zone: Zone1                    	1922	1838	84
+13:22:39  Zone: Zone2                    	490	480	10
+13:22:49  Camera: Level 2 Main Entry                      	238	221
+13:22:54  Zone: Zone1                    	1924	1839	85
+13:23:50  Camera: Level 2 Main Entry                      	240	221
+13:24:02  Zone: Zone1                    	1926	1839	87
+13:25:17  Camera: Level 1 Science Centre Entry 2          	584	499
+13:25:17  Camera: Shop Whale Mall                         	206	189
+13:25:30  Zone: Zone1                    	1932	1842	90
+13:25:30  Zone: Zone2                    	492	480	12
+13:25:38  Camera: Shop A                                  	163	243
+13:25:42  Camera: Level 2 Cafe                            	189	308
+13:25:46  Zone: Zone1                    	1941	1843	98
+13:25:46  Zone: Zone2                    	493	481	12
+13:26:19  Camera: Shop Whale Mall                         	209	189
+13:26:33  Zone: Zone2                    	496	481	15
+13:26:39  Camera: Shop A                                  	163	244
+13:26:49  Zone: Zone1                    	1942	1843	99
+13:26:49  Zone: Zone2                    	496	482	14
+13:26:53  Camera: Level 2 Main Entry                      	240	222
+13:27:05  Zone: Zone1                    	1942	1844	98
+13:27:21  Camera: Level 1 Science Centre Entry 1          	493	439
+13:27:21  Zone: Zone1                    	1944	1844	100
+13:27:40  Camera: Shop A                                  	163	245
+13:27:42  Camera: Level 2 Lift                            	63	44
+13:27:50  Camera: Level 1 Science Centre Lift             	38	47
+13:27:54  Camera: Level 2 Main Entry                      	240	223
+13:27:54  Zone: Zone1                    	1947	1847	100
+13:27:54  Zone: Zone2                    	496	483	13
+13:28:22  Camera: Level 1 Science Centre Entry 2          	585	499
+13:28:26  Zone: Zone1                    	1948	1847	101
+13:28:51  Camera: Level 1 Science Centre Lift             	38	51
+13:28:55  Camera: Level 2 Main Entry                      	240	224
+13:28:57  Zone: Zone1                    	1948	1852	96
+13:29:23  Camera: Shop Whale Mall                         	209	191
+13:29:24  Camera: Level 1 Science Centre Entry 2          	586	499
+13:29:28  Zone: Zone1                    	1949	1852	97
+13:29:28  Zone: Zone2                    	496	485	11
+13:29:43  Camera: Shop A                                  	164	248
+13:29:44  Zone: Zone1                    	1952	1853	99
+13:29:44  Zone: Zone2                    	497	488	9
+13:29:44  Camera: Level 2 Lift                            	66	48
+13:29:46  Camera: Level 2 Cafe                            	190	308
+13:30:00  Zone: Zone1                    	1956	1857	99
+13:30:00  Logging to daily summary: "13:30 147 224 105 35 47 11"
+13:30:00  Service running OK
+13:30:24  Camera: Level 1 Science Centre Entry 1          	494	441
+13:30:25  Camera: Level 1 Science Centre Entry 2          	591	502
+13:30:31  Zone: Zone1                    	1962	1862	100
+13:30:57  Camera: Level 2 Main Entry                      	242	224
+13:31:03  Zone: Zone1                    	1964	1862	102
+13:31:26  Camera: Level 1 Science Centre Entry 2          	591	521
+13:31:34  Zone: Zone1                    	1964	1881	83
+13:31:48  Camera: Level 2 Cafe                            	191	308
+13:31:50  Zone: Zone1                    	1965	1881	84
+13:31:58  Camera: Level 2 Main Entry                      	244	226
+13:32:06  Zone: Zone1                    	1967	1883	84
+13:32:27  Camera: Level 1 Science Centre Entry 2          	591	530
+13:32:39  Zone: Zone1                    	1967	1892	75
+13:32:51  Camera: Shop B                                  	125	95
+13:32:55  Zone: Zone1                    	1967	1893	74
+13:32:55  Zone: Zone2                    	498	488	10
+13:32:59  Camera: Level 2 Main Entry                      	245	226
+13:33:11  Zone: Zone1                    	1968	1893	75
+13:33:30  Camera: Level 1 Science Centre Entry 1          	494	444
+13:33:44  Zone: Zone1                    	1968	1896	72
+13:33:47  Camera: Shop A                                  	164	252
+13:34:00  Zone: Zone1                    	1972	1896	76
+13:34:00  Zone: Zone2                    	498	492	6
+13:34:00  Camera: Level 2 Main Entry                      	245	232
+13:34:16  Zone: Zone1                    	1972	1902	70
+13:34:31  Camera: Level 1 Science Centre Entry 1          	494	445
+13:34:31  Zone: Zone1                    	1972	1903	69
+13:34:48  Camera: Shop A                                  	165	256
+13:34:48  Zone: Zone1                    	1976	1904	72
+13:34:48  Zone: Zone2                    	499	496	3
+13:34:50  Camera: Level 2 Lift                            	67	48
+13:35:01  Camera: Level 2 Main Entry                      	245	234
+13:35:04  Zone: Zone1                    	1977	1906	71
+13:35:33  Camera: Level 1 Science Centre Entry 2          	597	530
+13:35:35  Zone: Zone1                    	1983	1906	77
+13:35:49  Camera: Shop A                                  	169	257
+13:35:51  Camera: Level 2 Lift                            	68	48
+13:35:51  Zone: Zone1                    	1985	1910	75
+13:35:51  Zone: Zone2                    	503	497	6
+13:36:34  Camera: Level 1 Science Centre Entry 1          	494	447
+13:36:34  Camera: Level 1 Science Centre Entry 2          	600	530
+13:36:40  Zone: Zone1                    	1988	1912	76
+13:36:50  Camera: Shop A                                  	170	261
+13:36:56  Zone: Zone1                    	1992	1913	79
+13:36:56  Zone: Zone2                    	504	501	3
+13:37:04  Camera: Level 2 Main Entry                      	248	236
+13:37:12  Zone: Zone1                    	1995	1915	80
+13:37:51  Camera: Shop A                                  	179	267
+13:37:53  Camera: Level 2 Lift                            	70	48
+13:38:01  Zone: Zone1                    	2003	1924	79
+13:38:01  Zone: Zone2                    	513	507	6
+13:38:37  Camera: Shop Whale Mall                         	216	194
+13:38:51  Zone: Zone2                    	520	510	10
+13:38:52  Camera: Shop A                                  	184	267
+13:39:07  Zone: Zone1                    	2003	1929	74
+13:39:07  Zone: Zone2                    	525	510	15
+13:39:39  Camera: Shop Whale Mall                         	216	199
+13:39:40  Camera: Level 1 Science Centre Entry 1          	496	450
+13:39:41  Zone: Zone1                    	2005	1932	73
+13:39:41  Zone: Zone2                    	525	515	10
+13:39:53  Camera: Shop A                                  	186	267
+13:39:57  Zone: Zone1                    	2005	1934	71
+13:39:57  Zone: Zone2                    	527	515	12
+13:39:59  Camera: Shop B                                  	127	95
+13:40:13  Zone: Zone1                    	2005	1936	69
+13:40:13  Zone: Zone2                    	529	515	14
+13:40:40  Camera: Level 1 Science Centre Entry 2          	603	534
+13:40:40  Camera: Shop Whale Mall                         	219	206
+13:40:44  Zone: Zone1                    	2008	1940	68
+13:40:44  Zone: Zone2                    	532	522	10
+13:40:55  Camera: Shop A                                  	189	267
+13:41:00  Zone: Zone1                    	2008	1943	65
+13:41:00  Zone: Zone2                    	535	522	13
+13:41:08  Camera: Level 2 Main Entry                      	249	237
+13:41:16  Zone: Zone1                    	2009	1944	65
+13:41:42  Camera: Level 1 Science Centre Entry 1          	498	450
+13:41:43  Camera: Shop Whale Mall                         	224	210
+13:41:47  Zone: Zone1                    	2011	1944	67
+13:41:47  Zone: Zone2                    	540	526	14
+13:41:59  Camera: Level 2 Cafe                            	194	308
+13:42:03  Zone: Zone1                    	2014	1944	70
+13:42:44  Camera: Level 1 Science Centre Entry 1          	501	452
+13:42:44  Camera: Shop Whale Mall                         	224	212
+13:42:52  Zone: Zone1                    	2017	1946	71
+13:42:52  Zone: Zone2                    	540	528	12
+13:43:02  Camera: Shop B                                  	129	95
+13:43:08  Zone: Zone1                    	2017	1948	69
+13:43:08  Zone: Zone2                    	542	528	14
+13:43:10  Camera: Level 2 Main Entry                      	249	238
+13:43:24  Zone: Zone1                    	2017	1949	68
+13:43:45  Camera: Shop Whale Mall                         	224	214
+13:43:55  Zone: Zone2                    	542	530	12
+13:44:11  Camera: Level 2 Main Entry                      	250	238
+13:44:11  Zone: Zone1                    	2018	1949	69
+13:44:47  Camera: Shop Whale Mall                         	226	216
+13:44:47  Zone: Zone2                    	544	532	12
+13:44:47  Camera: Level 1 Science Centre Entry 2          	604	534
+13:44:59  Camera: Shop A                                  	189	269
+13:45:02  Zone: Zone1                    	2021	1949	72
+13:45:02  Zone: Zone2                    	544	534	10
+13:45:02  Service running OK
+13:45:12  Camera: Level 2 Main Entry                      	251	238
+13:45:18  Zone: Zone1                    	2022	1949	73
+13:46:13  Camera: Level 2 Main Entry                      	253	238
+13:46:25  Zone: Zone1                    	2024	1949	75
+13:46:50  Camera: Shop Whale Mall                         	228	216
+13:46:59  Zone: Zone2                    	546	534	12
+13:47:03  Camera: Level 2 Lift                            	72	48
+13:47:06  Camera: Shop B                                  	129	97
+13:47:14  Camera: Level 2 Main Entry                      	253	239
+13:47:15  Zone: Zone1                    	2028	1950	78
+13:47:15  Zone: Zone2                    	546	536	10
+13:47:51  Camera: Level 1 Science Centre Entry 2          	604	537
+13:47:52  Camera: Shop Whale Mall                         	235	222
+13:48:02  Camera: Shop A                                  	191	269
+13:48:02  Zone: Zone1                    	2028	1955	73
+13:48:02  Zone: Zone2                    	555	542	13
+13:48:04  Camera: Level 2 Lift                            	73	48
+13:48:06  Camera: Level 2 Cafe                            	200	310
+13:48:08  Camera: Shop B                                  	129	101
+13:48:18  Zone: Zone1                    	2039	1957	82
+13:48:18  Zone: Zone2                    	555	546	9
+13:48:53  Camera: Shop Whale Mall                         	239	222
+13:49:05  Zone: Zone2                    	559	546	13
+13:49:09  Camera: Shop B                                  	129	102
+13:49:17  Camera: Level 2 Main Entry                      	254	240
+13:49:21  Zone: Zone1                    	2041	1958	83
+13:49:21  Zone: Zone2                    	559	547	12
+13:50:04  Camera: Shop A                                  	191	270
+13:50:06  Camera: Level 2 Lift                            	73	51
+13:50:08  Camera: Level 2 Cafe                            	201	310
+13:50:08  Zone: Zone1                    	2043	1961	82
+13:50:08  Zone: Zone2                    	559	548	11
+13:50:18  Camera: Level 2 Main Entry                      	254	242
+13:50:24  Zone: Zone1                    	2043	1963	80
+13:50:56  Camera: Shop Whale Mall                         	245	222
+13:51:09  Camera: Level 2 Cafe                            	201	312
+13:51:11  Camera: Shop B                                  	132	102
+13:51:11  Zone: Zone1                    	2043	1968	75
+13:51:11  Zone: Zone2                    	568	548	20
+13:51:58  Camera: Shop Whale Mall                         	245	223
+13:51:58  Camera: Level 1 Science Centre Entry 1          	502	452
+13:51:58  Zone: Zone1                    	2044	1968	76
+13:51:58  Zone: Zone2                    	568	549	19
+13:52:59  Camera: Level 1 Science Centre Entry 2          	605	539
+13:53:06  Zone: Zone1                    	2045	1970	75
+13:53:13  Camera: Shop B                                  	136	102
+13:53:21  Camera: Level 2 Main Entry                      	254	243
+13:53:22  Zone: Zone1                    	2045	1975	70
+13:53:22  Zone: Zone2                    	572	549	23
+13:54:01  Camera: Level 1 Science Centre Entry 1          	504	454
+13:54:01  Camera: Level 1 Science Centre Entry 2          	610	539
+13:54:09  Camera: Shop A                                  	193	275
+13:54:10  Camera: Level 2 Lift                            	73	52
+13:54:11  Zone: Zone1                    	2057	1980	77
+13:54:11  Zone: Zone2                    	574	554	20
+13:54:18  Camera: Level 1 Science Centre Lift             	38	54
+13:54:22  Camera: Level 2 Main Entry                      	255	243
+13:54:27  Zone: Zone1                    	2058	1983	75
+13:55:02  Camera: Level 1 Science Centre Entry 1          	504	455
+13:55:03  Camera: Level 1 Science Centre Entry 2          	616	541
+13:55:10  Camera: Shop A                                  	193	276
+13:55:11  Camera: Level 2 Lift                            	75	52
+13:55:13  Camera: Level 2 Cafe                            	201	314
+13:55:14  Zone: Zone1                    	2067	1988	79
+13:55:14  Zone: Zone2                    	574	555	19
+13:55:23  Camera: Level 2 Main Entry                      	255	244
+13:55:30  Zone: Zone1                    	2067	1989	78
+13:56:04  Camera: Shop Whale Mall                         	255	223
+13:56:04  Camera: Level 1 Science Centre Entry 2          	616	544
+13:56:11  Camera: Shop A                                  	193	279
+13:56:14  Camera: Level 2 Cafe                            	201	319
+13:56:17  Zone: Zone1                    	2070	1997	73
+13:56:17  Zone: Zone2                    	584	558	26
+13:56:24  Camera: Level 2 Main Entry                      	257	246
+13:56:32  Zone: Zone1                    	2072	1999	73
+13:57:06  Camera: Level 1 Science Centre Entry 2          	620	544
+13:57:12  Camera: Shop A                                  	194	282
+13:57:20  Zone: Zone1                    	2079	2000	79
+13:57:20  Zone: Zone2                    	585	561	24
+13:58:07  Camera: Level 1 Science Centre Entry 2          	620	548
+13:58:07  Camera: Shop Whale Mall                         	255	225
+13:58:07  Zone: Zone1                    	2079	2004	75
+13:58:07  Zone: Zone2                    	585	563	22
+13:58:13  Camera: Shop A                                  	195	283
+13:58:18  Camera: Shop B                                  	138	102
+13:58:23  Camera: Level 1 Science Centre Lift             	38	55
+13:58:23  Zone: Zone1                    	2080	2008	72
+13:58:23  Zone: Zone2                    	588	564	24
+13:58:26  Camera: Level 2 Main Entry                      	259	247
+13:58:38  Zone: Zone1                    	2082	2009	73
+13:59:08  Camera: Level 1 Science Centre Entry 2          	620	550
+13:59:09  Camera: Shop Whale Mall                         	260	228
+13:59:10  Zone: Zone1                    	2082	2011	71
+13:59:10  Zone: Zone2                    	593	567	26
+14:00:10  Camera: Level 1 Science Centre Entry 2          	622	558
+14:00:13  Zone: Zone1                    	2084	2019	65
+14:00:13  Logging to daily summary: "14:00 128 162 75 96 79 13"
+14:00:13  Service running OK
+14:00:17  Camera: Level 2 Lift                            	76	52
+14:00:28  Camera: Level 2 Main Entry                      	261	247
+14:00:29  Zone: Zone1                    	2087	2019	68
+14:01:12  Camera: Shop Whale Mall                         	263	228
+14:01:12  Camera: Level 1 Science Centre Entry 2          	624	560
+14:01:18  Zone: Zone1                    	2089	2021	68
+14:01:18  Zone: Zone2                    	596	567	29
+14:01:30  Camera: Level 2 Main Entry                      	261	249
+14:01:34  Zone: Zone1                    	2089	2023	66
+14:02:13  Camera: Shop Whale Mall                         	268	230
+14:02:19  Camera: Level 2 Lift                            	78	52
+14:02:23  Camera: Shop B                                  	138	106
+14:02:23  Zone: Zone1                    	2095	2023	72
+14:02:23  Zone: Zone2                    	601	573	28
+14:02:31  Camera: Level 2 Main Entry                      	262	250
+14:02:39  Zone: Zone1                    	2096	2024	72
+14:03:18  Camera: Shop A                                  	195	284
+14:03:20  Camera: Level 2 Lift                            	78	53
+14:03:24  Camera: Shop B                                  	140	106
+14:03:26  Zone: Zone1                    	2097	2027	70
+14:03:26  Zone: Zone2                    	603	574	29
+14:03:32  Camera: Level 2 Main Entry                      	262	251
+14:03:42  Zone: Zone1                    	2097	2028	69
+14:04:16  Camera: Shop Whale Mall                         	268	234
+14:04:17  Camera: Level 1 Science Centre Entry 1          	504	456
+14:04:19  Camera: Shop A                                  	197	285
+14:04:23  Camera: Level 2 Cafe                            	201	321
+14:04:29  Zone: Zone1                    	2098	2033	65
+14:04:29  Zone: Zone2                    	605	579	26
+14:04:33  Camera: Level 2 Main Entry                      	262	253
+14:04:45  Zone: Zone1                    	2098	2035	63
+14:05:18  Camera: Level 1 Science Centre Entry 2          	624	562
+14:05:19  Camera: Shop Whale Mall                         	268	239
+14:05:26  Camera: Shop B                                  	143	108
+14:05:32  Zone: Zone1                    	2100	2040	60
+14:05:32  Zone: Zone2                    	608	586	22
+14:05:34  Camera: Level 2 Main Entry                      	263	253
+14:05:48  Zone: Zone1                    	2101	2040	61
+14:06:19  Camera: Level 1 Science Centre Entry 1          	504	457
+14:06:20  Zone: Zone1                    	2101	2041	60
+14:06:20  Camera: Shop Whale Mall                         	273	239
+14:06:27  Camera: Shop B                                  	143	113
+14:06:35  Camera: Level 2 Main Entry                      	264	253
+14:06:35  Zone: Zone1                    	2107	2041	66
+14:06:35  Zone: Zone2                    	613	591	22
+14:07:23  Camera: Shop A                                  	199	290
+14:07:36  Camera: Level 2 Main Entry                      	270	254
+14:07:38  Zone: Zone1                    	2118	2044	74
+14:07:38  Zone: Zone2                    	615	596	19
+14:08:23  Camera: Level 1 Science Centre Entry 1          	504	459
+14:08:23  Camera: Shop Whale Mall                         	274	249
+14:08:24  Camera: Shop A                                  	201	290
+14:08:24  Camera: Level 1 Science Centre Entry 2          	626	562
+14:08:25  Zone: Zone1                    	2120	2048	72
+14:08:25  Zone: Zone2                    	618	606	12
+14:08:25  Camera: Level 2 Lift                            	78	56
+14:08:29  Camera: Shop B                                  	148	113
+14:08:41  Zone: Zone1                    	2120	2056	64
+14:08:41  Zone: Zone2                    	623	606	17
+14:09:27  Camera: Level 2 Lift                            	79	56
+14:09:28  Zone: Zone1                    	2121	2056	65
+14:09:38  Camera: Level 2 Main Entry                      	274	258
+14:09:44  Zone: Zone1                    	2125	2060	65
+14:10:26  Camera: Shop Whale Mall                         	274	253
+14:10:27  Camera: Level 1 Science Centre Entry 2          	626	563
+14:10:28  Camera: Level 2 Lift                            	83	56
+14:10:29  Camera: Level 2 Cafe                            	201	323
+14:10:31  Zone: Zone1                    	2129	2063	66
+14:10:31  Zone: Zone2                    	623	610	13
+14:10:39  Camera: Level 2 Main Entry                      	274	261
+14:10:47  Zone: Zone1                    	2129	2066	63
+14:11:27  Camera: Shop Whale Mall                         	279	253
+14:11:30  Camera: Level 2 Lift                            	83	57
+14:11:31  Camera: Level 2 Cafe                            	203	325
+14:11:34  Zone: Zone1                    	2131	2069	62
+14:11:34  Zone: Zone2                    	628	610	18
+14:11:40  Camera: Level 2 Main Entry                      	275	263
+14:11:50  Zone: Zone1                    	2132	2071	61
+14:12:28  Camera: Shop Whale Mall                         	281	253
+14:12:32  Camera: Level 2 Cafe                            	205	325
+14:12:33  Camera: Shop B                                  	148	115
+14:12:37  Zone: Zone1                    	2136	2071	65
+14:12:37  Zone: Zone2                    	630	612	18
+14:12:38  Camera: Level 1 Science Centre Lift             	38	56
+14:12:41  Camera: Level 2 Main Entry                      	275	264
+14:12:53  Zone: Zone1                    	2136	2073	63
+14:13:33  Camera: Level 2 Lift                            	84	57
+14:13:40  Zone: Zone1                    	2137	2073	64
+14:13:42  Camera: Level 2 Main Entry                      	278	264
+14:13:56  Zone: Zone1                    	2140	2073	67
+14:14:36  Camera: Level 2 Cafe                            	205	327
+14:14:36  Camera: Shop A                                  	206	290
+14:14:44  Camera: Level 2 Main Entry                      	278	265
+14:14:45  Zone: Zone1                    	2140	2081	59
+14:14:45  Zone: Zone2                    	635	612	23
+14:15:01  Service running OK
+14:15:32  Camera: Shop Whale Mall                         	282	255
+14:15:33  Zone: Zone2                    	636	614	22
+14:15:34  Camera: Level 1 Science Centre Entry 2          	626	575
+14:15:37  Camera: Level 2 Cafe                            	205	330
+14:15:37  Camera: Shop B                                  	151	115
+14:15:38  Camera: Shop A                                  	208	291
+14:15:45  Camera: Level 2 Main Entry                      	282	266
+14:15:48  Zone: Zone1                    	2145	2102	43
+14:15:48  Zone: Zone2                    	641	615	26
+14:16:33  Camera: Shop Whale Mall                         	284	265
+14:16:35  Camera: Level 1 Science Centre Entry 2          	626	579
+14:16:35  Zone: Zone1                    	2145	2106	39
+14:16:35  Zone: Zone2                    	643	625	18
+14:16:35  Camera: Level 1 Science Centre Entry 1          	504	471
+14:16:39  Camera: Shop A                                  	208	292
+14:16:46  Camera: Level 2 Main Entry                      	282	270
+14:16:51  Zone: Zone1                    	2146	2122	24
+14:16:51  Zone: Zone2                    	643	626	17
+14:17:34  Camera: Shop Whale Mall                         	286	273
+14:17:36  Camera: Level 1 Science Centre Entry 2          	627	579
+14:17:37  Camera: Level 1 Science Centre Entry 1          	504	490
+14:17:38  Zone: Zone1                    	2147	2141	6
+14:17:38  Zone: Zone2                    	645	634	11
+14:17:40  Camera: Shop B                                  	151	116
+14:17:40  Camera: Shop A                                  	208	293
+14:17:47  Camera: Level 2 Main Entry                      	284	273
+14:17:54  Zone: Zone1                    	2151	2144	7
+14:17:54  Zone: Zone2                    	645	636	9
+14:18:38  Camera: Level 1 Science Centre Entry 1          	507	517
+14:18:41  Zone: Zone1                    	2154	2154	0	Net-count has gone negative (-17).  Resetting to zero. (No Balancing Zone)
+14:18:41  Zone: Zone1                    	2154	2154	0
+14:18:42  Camera: Shop A                                  	209	293
+14:18:42  Camera: Shop B                                  	152	116
+14:18:48  Camera: Level 2 Main Entry                      	287	273
+14:18:57  Zone: Zone1                    	2157	2156	1
+14:18:57  Zone: Zone2                    	647	636	11
+14:19:40  Camera: Level 1 Science Centre Entry 1          	507	519
+14:19:43  Camera: Shop A                                  	211	293
+14:19:44  Zone: Zone1                    	2157	2157	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+14:19:44  Zone: Zone1                    	2157	2157	0
+14:19:44  Zone: Zone2                    	649	636	13
+14:20:42  Camera: Level 1 Science Centre Entry 2          	629	579
+14:20:45  Camera: Shop A                                  	212	295
+14:20:47  Zone: Zone1                    	2161	2158	3
+14:20:47  Zone: Zone2                    	650	638	12
+14:20:50  Camera: Level 2 Main Entry                      	288	273
+14:21:02  Zone: Zone1                    	2162	2158	4
+14:21:43  Camera: Level 1 Science Centre Entry 2          	629	580
+14:21:44  Camera: Level 1 Science Centre Entry 1          	508	519
+14:21:47  Camera: Shop A                                  	212	296
+14:21:48  Camera: Level 1 Science Centre Lift             	38	57
+14:21:51  Camera: Level 2 Main Entry                      	289	274
+14:21:52  Zone: Zone1                    	2165	2161	4
+14:21:52  Zone: Zone2                    	650	639	11
+14:22:45  Camera: Level 2 Lift                            	84	58
+14:22:45  Camera: Level 1 Science Centre Entry 1          	508	552
+14:22:47  Camera: Level 2 Cafe                            	210	330
+14:22:49  Camera: Shop A                                  	215	299
+14:22:52  Camera: Level 2 Main Entry                      	290	277
+14:22:55  Zone: Zone1                    	2174	2174	0	Net-count has gone negative (-27).  Resetting to zero. (No Balancing Zone)
+14:22:55  Zone: Zone1                    	2174	2174	0
+14:22:55  Zone: Zone2                    	653	642	11
+14:23:40  Camera: Shop Whale Mall                         	286	280
+14:23:42  Zone: Zone2                    	653	649	4
+14:23:46  Camera: Level 1 Science Centre Entry 1          	510	557
+14:23:50  Camera: Shop A                                  	215	300
+14:23:51  Camera: Shop B                                  	154	116
+14:23:58  Zone: Zone1                    	2177	2177	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+14:23:58  Zone: Zone1                    	2177	2177	0
+14:23:58  Zone: Zone2                    	655	650	5
+14:24:48  Camera: Level 1 Science Centre Entry 1          	510	559
+14:24:53  Camera: Shop A                                  	215	301
+14:24:54  Camera: Level 2 Main Entry                      	291	278
+14:25:01  Zone: Zone1                    	2179	2179	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+14:25:01  Zone: Zone1                    	2179	2179	0
+14:25:01  Zone: Zone2                    	655	651	4
+14:25:42  Camera: Shop Whale Mall                         	286	282
+14:25:48  Zone: Zone2                    	655	653	2
+14:25:49  Camera: Level 1 Science Centre Entry 1          	512	563
+14:25:50  Camera: Level 1 Science Centre Entry 2          	630	580
+14:25:55  Camera: Level 2 Main Entry                      	292	281
+14:26:04  Zone: Zone1                    	2183	2183	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+14:26:04  Zone: Zone1                    	2183	2183	0
+14:26:50  Camera: Level 1 Science Centre Entry 1          	515	569
+14:26:51  Zone: Zone1                    	2186	2186	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+14:26:51  Zone: Zone1                    	2186	2186	0
+14:26:52  Camera: Level 2 Lift                            	85	58
+14:27:06  Zone: Zone1                    	2187	2186	1
+14:27:51  Camera: Level 1 Science Centre Entry 1          	515	570
+14:27:53  Camera: Level 2 Cafe                            	212	332
+14:27:56  Camera: Shop B                                  	154	118
+14:27:56  Zone: Zone1                    	2191	2189	2
+14:27:56  Zone: Zone2                    	655	655	0
+14:27:57  Camera: Shop A                                  	216	301
+14:28:12  Zone: Zone1                    	2191	2190	1
+14:28:12  Zone: Zone2                    	656	655	1
+14:28:52  Camera: Level 1 Science Centre Entry 1          	515	571
+14:28:55  Camera: Level 2 Lift                            	85	59
+14:28:55  Camera: Level 1 Science Centre Entry 2          	633	580
+14:28:57  Camera: Shop B                                  	156	118
+14:28:59  Camera: Level 2 Main Entry                      	294	282
+14:28:59  Camera: Level 1 Science Centre Lift             	38	59
+14:28:59  Zone: Zone1                    	2196	2196	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+14:28:59  Zone: Zone1                    	2196	2196	0
+14:28:59  Zone: Zone2                    	658	655	3
+14:30:02  Logging to daily summary: "14:30 112 177 35 65 88 15"
+14:30:02  Service running OK
+14:30:54  Camera: Level 1 Science Centre Entry 1          	515	572
+14:31:02  Camera: Shop A                                  	217	302
+14:31:02  Camera: Level 2 Main Entry                      	295	282
+14:31:09  Zone: Zone1                    	2198	2198	0
+14:31:09  Zone: Zone2                    	659	656	3
+14:31:55  Camera: Level 1 Science Centre Entry 1          	517	574
+14:31:56  Zone: Zone1                    	2200	2200	0
+14:32:00  Camera: Shop B                                  	158	118
+14:32:04  Camera: Level 2 Main Entry                      	295	285
+14:32:12  Zone: Zone1                    	2200	2200	0	Net-count has gone negative (-5).  Resetting to zero. (No Balancing Zone)
+14:32:12  Zone: Zone2                    	661	656	5
+14:33:02  Camera: Shop B                                  	161	118
+14:33:02  Zone: Zone1                    	2200	2200	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+14:33:02  Zone: Zone2                    	664	656	8
+14:33:06  Camera: Level 2 Main Entry                      	297	285
+14:33:18  Zone: Zone1                    	2202	2200	2
+14:33:51  Camera: Shop Whale Mall                         	287	284
+14:33:51  Zone: Zone2                    	665	658	7
+14:34:01  Camera: Level 2 Cafe                            	214	334
+14:34:03  Camera: Shop B                                  	162	121
+14:34:07  Zone: Zone1                    	2207	2203	4
+14:34:07  Zone: Zone2                    	666	661	5
+14:34:08  Camera: Shop A                                  	217	303
+14:34:23  Zone: Zone1                    	2208	2203	5
+14:34:23  Zone: Zone2                    	666	662	4
+14:35:04  Camera: Shop B                                  	162	122
+14:35:05  Camera: Level 1 Science Centre Entry 2          	633	584
+14:35:05  Camera: Level 2 Lift                            	85	60
+14:35:09  Camera: Shop A                                  	217	306
+14:35:09  Camera: Level 2 Main Entry                      	303	287
+14:35:12  Zone: Zone1                    	2218	2210	8
+14:35:12  Zone: Zone2                    	666	666	0
+14:36:06  Camera: Level 1 Science Centre Entry 2          	633	585
+14:36:06  Camera: Shop B                                  	162	125
+14:36:07  Camera: Level 2 Lift                            	85	63
+14:36:15  Zone: Zone1                    	2221	2214	7
+14:36:15  Zone: Zone2                    	666	666	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+14:37:04  Camera: Level 2 Cafe                            	214	341
+14:37:04  Zone: Zone1                    	2221	2221	0
+14:37:08  Camera: Level 2 Lift                            	86	63
+14:37:12  Camera: Shop A                                  	218	306
+14:37:13  Camera: Level 2 Main Entry                      	303	291
+14:37:20  Zone: Zone1                    	2222	2222	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+14:37:20  Zone: Zone1                    	2222	2222	0
+14:37:20  Zone: Zone2                    	667	666	1
+14:37:55  Camera: Shop Whale Mall                         	287	286
+14:38:05  Camera: Level 2 Cafe                            	217	343
+14:38:07  Zone: Zone1                    	2225	2224	1
+14:38:07  Zone: Zone2                    	667	667	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+14:38:07  Zone: Zone2                    	667	667	0
+14:38:09  Camera: Level 1 Science Centre Entry 2          	633	590
+14:38:10  Camera: Shop B                                  	164	125
+14:38:23  Zone: Zone1                    	2225	2225	0	Net-count has gone negative (-6).  Resetting to zero. (No Balancing Zone)
+14:38:23  Zone: Zone1                    	2225	2225	0
+14:38:23  Zone: Zone2                    	669	667	2
+14:39:06  Camera: Level 2 Cafe                            	219	343
+14:39:10  Zone: Zone1                    	2227	2225	2
+14:39:58  Camera: Shop Whale Mall                         	289	286
+14:40:02  Zone: Zone2                    	671	667	4
+14:40:04  Camera: Level 1 Science Centre Entry 1          	517	575
+14:40:13  Camera: Level 1 Science Centre Entry 2          	639	590
+14:40:13  Camera: Level 2 Lift                            	86	64
+14:40:16  Camera: Level 2 Main Entry                      	304	292
+14:40:18  Zone: Zone1                    	2234	2228	6
+14:41:08  Camera: Level 2 Cafe                            	219	347
+14:41:18  Camera: Level 2 Main Entry                      	304	296
+14:41:21  Zone: Zone1                    	2234	2234	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+14:41:21  Zone: Zone1                    	2234	2234	0
+14:43:01  Camera: Shop Whale Mall                         	291	286
+14:43:04  Zone: Zone2                    	673	667	6
+14:43:18  Camera: Shop B                                  	164	127
+14:43:20  Zone: Zone1                    	2236	2234	2
+14:43:20  Zone: Zone2                    	673	669	4
+14:43:21  Camera: Shop A                                  	218	307
+14:43:36  Zone: Zone1                    	2237	2234	3
+14:43:36  Zone: Zone2                    	673	670	3
+14:44:02  Camera: Shop Whale Mall                         	293	286
+14:44:08  Camera: Level 1 Science Centre Entry 1          	517	577
+14:44:09  Zone: Zone1                    	2237	2236	1
+14:44:09  Zone: Zone2                    	675	670	5
+14:44:12  Camera: Level 2 Cafe                            	221	347
+14:44:23  Camera: Level 2 Main Entry                      	309	298
+14:44:25  Zone: Zone1                    	2244	2238	6
+14:45:15  Service running OK
+14:45:20  Camera: Level 2 Lift                            	86	65
+14:45:20  Camera: Shop B                                  	165	127
+14:45:21  Camera: Level 1 Science Centre Entry 2          	639	593
+14:45:24  Camera: Level 1 Science Centre Lift             	40	59
+14:45:30  Zone: Zone1                    	2246	2243	3
+14:45:30  Zone: Zone2                    	676	670	6
+14:46:04  Camera: Shop Whale Mall                         	293	288
+14:46:10  Camera: Level 1 Science Centre Entry 1          	517	579
+14:46:17  Zone: Zone1                    	2246	2245	1
+14:46:17  Zone: Zone2                    	676	672	4
+14:46:22  Camera: Level 2 Lift                            	88	67
+14:46:26  Camera: Level 1 Science Centre Lift             	42	59
+14:46:26  Camera: Shop A                                  	220	307
+14:46:33  Zone: Zone1                    	2250	2249	1
+14:46:33  Zone: Zone2                    	678	672	6
+14:47:28  Camera: Level 2 Main Entry                      	309	300
+14:47:36  Zone: Zone1                    	2250	2250	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+14:47:36  Zone: Zone1                    	2250	2250	0
+14:48:13  Camera: Level 1 Science Centre Entry 1          	521	579
+14:48:25  Camera: Level 1 Science Centre Entry 2          	641	593
+14:48:25  Zone: Zone1                    	2256	2250	6
+14:48:29  Camera: Level 2 Main Entry                      	311	301
+14:48:30  Camera: Level 1 Science Centre Lift             	42	63
+14:48:41  Zone: Zone1                    	2258	2255	3
+14:49:07  Camera: Shop Whale Mall                         	293	292
+14:49:12  Zone: Zone2                    	678	676	2
+14:49:27  Camera: Level 1 Science Centre Entry 2          	641	594
+14:49:28  Zone: Zone1                    	2258	2256	2
+14:49:31  Camera: Level 2 Main Entry                      	312	301
+14:49:31  Camera: Level 1 Science Centre Lift             	43	63
+14:49:44  Zone: Zone1                    	2260	2256	4
+14:50:15  Camera: Level 1 Science Centre Entry 1          	521	580
+14:50:15  Zone: Zone1                    	2260	2257	3
+14:50:28  Camera: Level 2 Lift                            	91	67
+14:50:31  Zone: Zone1                    	2263	2257	6
+14:50:32  Camera: Level 2 Main Entry                      	314	301
+14:50:46  Zone: Zone1                    	2265	2257	8
+14:51:19  Camera: Level 2 Cafe                            	221	349
+14:51:19  Zone: Zone1                    	2265	2259	6
+14:51:34  Camera: Level 2 Main Entry                      	317	304
+14:51:34  Camera: Shop A                                  	223	308
+14:51:35  Zone: Zone1                    	2269	2265	4
+14:51:35  Zone: Zone2                    	681	677	4
+14:52:10  Camera: Shop Whale Mall                         	293	294
+14:52:24  Zone: Zone2                    	681	679	2
+14:52:36  Camera: Level 2 Main Entry                      	317	305
+14:52:40  Zone: Zone1                    	2269	2266	3
+14:53:12  Camera: Shop Whale Mall                         	297	298
+14:53:14  Zone: Zone2                    	685	683	2
+14:54:13  Camera: Shop Whale Mall                         	297	299
+14:54:19  Camera: Level 1 Science Centre Entry 1          	522	584
+14:54:24  Zone: Zone1                    	2270	2270	0
+14:54:24  Zone: Zone2                    	685	684	1
+14:55:20  Camera: Level 1 Science Centre Entry 1          	523	601
+14:55:24  Camera: Level 2 Cafe                            	221	351
+14:55:32  Zone: Zone1                    	2271	2271	0	Net-count has gone negative (-18).  Resetting to zero. (No Balancing Zone)
+14:55:32  Zone: Zone1                    	2271	2271	0
+14:55:40  Camera: Level 2 Main Entry                      	318	305
+14:55:48  Zone: Zone1                    	2272	2271	1
+14:56:21  Camera: Level 1 Science Centre Entry 1          	524	615
+14:56:21  Zone: Zone1                    	2273	2273	0	Net-count has gone negative (-12).  Resetting to zero. (No Balancing Zone)
+14:56:21  Zone: Zone1                    	2273	2273	0
+14:56:25  Camera: Level 2 Cafe                            	223	351
+14:56:37  Zone: Zone1                    	2275	2273	2
+14:56:41  Camera: Level 2 Main Entry                      	319	305
+14:56:53  Zone: Zone1                    	2276	2273	3
+14:57:22  Camera: Level 1 Science Centre Entry 1          	524	619
+14:57:26  Zone: Zone1                    	2276	2276	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+14:57:26  Zone: Zone1                    	2276	2276	0
+14:57:39  Camera: Shop B                                  	165	132
+14:57:40  Camera: Level 1 Science Centre Entry 2          	644	594
+14:57:42  Zone: Zone1                    	2284	2276	8
+14:57:42  Zone: Zone2                    	685	685	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+14:57:42  Zone: Zone2                    	685	685	0
+14:58:45  Camera: Shop A                                  	224	308
+14:58:45  Camera: Level 2 Main Entry                      	320	306
+14:58:49  Zone: Zone1                    	2285	2278	7
+14:58:49  Zone: Zone2                    	686	685	1
+14:59:18  Camera: Shop Whale Mall                         	297	301
+14:59:21  Zone: Zone2                    	686	686	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+14:59:21  Zone: Zone2                    	686	686	0
+14:59:24  Camera: Level 1 Science Centre Entry 1          	524	621
+14:59:36  Zone: Zone1                    	2285	2280	5
+14:59:42  Camera: Level 1 Science Centre Entry 2          	644	599
+14:59:43  Camera: Level 2 Lift                            	91	68
+14:59:43  Camera: Shop B                                  	166	134
+14:59:46  Camera: Level 1 Science Centre Lift             	43	64
+14:59:47  Camera: Level 2 Main Entry                      	327	306
+14:59:52  Zone: Zone1                    	2294	2288	6
+14:59:52  Zone: Zone2                    	687	687	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+14:59:52  Zone: Zone2                    	687	687	0
+15:00:08  Logging to daily summary: "15:00 98 92 3 29 32 2"
+15:00:08  Service running OK
+15:00:48  Camera: Level 2 Main Entry                      	327	307
+15:00:55  Zone: Zone1                    	2294	2289	5
+15:01:27  Camera: Level 1 Science Centre Entry 1          	524	624
+15:01:27  Zone: Zone1                    	2294	2292	2
+15:01:46  Camera: Level 1 Science Centre Entry 2          	650	599
+15:01:49  Camera: Level 2 Main Entry                      	327	309
+15:02:00  Zone: Zone1                    	2300	2294	6
+15:02:21  Camera: Shop Whale Mall                         	299	303
+15:02:32  Zone: Zone2                    	689	689	0
+15:02:52  Camera: Shop A                                  	226	311
+15:03:05  Zone: Zone1                    	2303	2296	7
+15:03:05  Zone: Zone2                    	691	691	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+15:03:05  Zone: Zone2                    	691	691	0
+15:03:52  Camera: Level 2 Main Entry                      	330	310
+15:03:57  Zone: Zone1                    	2306	2297	9
+15:04:33  Camera: Level 2 Cafe                            	225	351
+15:04:33  Zone: Zone1                    	2308	2297	11
+15:04:50  Camera: Shop B                                  	166	137
+15:04:50  Zone: Zone1                    	2311	2297	14
+15:04:50  Zone: Zone2                    	691	691	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+15:04:55  Camera: Level 2 Main Entry                      	331	311
+15:05:06  Zone: Zone1                    	2312	2298	14
+15:05:56  Camera: Level 2 Main Entry                      	332	313
+15:05:58  Zone: Zone1                    	2313	2300	13
+15:06:57  Camera: Level 2 Main Entry                      	332	314
+15:07:08  Zone: Zone1                    	2313	2301	12
+15:07:58  Camera: Level 2 Main Entry                      	333	315
+15:08:00  Zone: Zone1                    	2314	2302	12
+15:08:38  Camera: Level 2 Cafe                            	226	353
+15:08:52  Zone: Zone1                    	2315	2304	11
+15:08:56  Camera: Shop B                                  	168	137
+15:09:00  Camera: Level 2 Main Entry                      	334	316
+15:09:08  Zone: Zone1                    	2316	2307	9
+15:09:08  Zone: Zone2                    	693	691	2
+15:09:58  Camera: Shop B                                  	170	139
+15:09:58  Zone: Zone1                    	2318	2309	9
+15:09:58  Zone: Zone2                    	695	693	2
+15:09:58  Camera: Level 1 Science Centre Entry 2          	650	601
+15:09:59  Camera: Level 2 Lift                            	91	71
+15:10:02  Camera: Level 2 Main Entry                      	335	316
+15:10:13  Zone: Zone1                    	2319	2314	5
+15:10:40  Camera: Level 2 Cafe                            	226	355
+15:10:45  Zone: Zone1                    	2319	2316	3
+15:10:59  Camera: Shop B                                  	172	139
+15:11:01  Zone: Zone1                    	2319	2318	1
+15:11:01  Zone: Zone2                    	697	693	4
+15:11:04  Camera: Level 2 Main Entry                      	336	317
+15:11:16  Zone: Zone1                    	2320	2319	1
+15:11:31  Camera: Shop Whale Mall                         	302	303
+15:11:32  Zone: Zone2                    	700	693	7
+15:12:02  Camera: Shop B                                  	173	139
+15:12:04  Zone: Zone1                    	2320	2320	0
+15:12:04  Zone: Zone2                    	701	693	8
+15:12:05  Camera: Level 2 Main Entry                      	340	318
+15:12:19  Zone: Zone1                    	2324	2321	3
+15:12:32  Camera: Shop Whale Mall                         	302	305
+15:12:35  Zone: Zone2                    	701	695	6
+15:13:07  Camera: Level 2 Main Entry                      	344	318
+15:13:09  Zone: Zone1                    	2328	2321	7
+15:14:04  Camera: Level 2 Lift                            	91	73
+15:14:08  Camera: Level 2 Main Entry                      	344	319
+15:14:19  Zone: Zone1                    	2328	2324	4
+15:15:12  Service running OK
+15:15:35  Camera: Shop Whale Mall                         	304	305
+15:15:45  Zone: Zone2                    	703	695	8
+15:16:09  Camera: Shop B                                  	173	141
+15:16:11  Camera: Level 2 Main Entry                      	345	319
+15:16:19  Zone: Zone1                    	2331	2324	7
+15:16:19  Zone: Zone2                    	703	697	6
+15:16:46  Camera: Level 2 Cafe                            	226	359
+15:16:51  Zone: Zone1                    	2331	2328	3
+15:17:13  Camera: Shop A                                  	228	311
+15:17:13  Camera: Level 2 Main Entry                      	347	319
+15:17:24  Zone: Zone1                    	2333	2330	3
+15:17:24  Zone: Zone2                    	705	697	8
+15:17:37  Camera: Shop Whale Mall                         	307	307
+15:17:40  Zone: Zone2                    	708	699	9
+15:17:44  Camera: Level 1 Science Centre Entry 1          	524	627
+15:17:47  Camera: Level 2 Cafe                            	227	360
+15:17:56  Zone: Zone1                    	2334	2334	0
+15:18:11  Camera: Level 2 Lift                            	92	73
+15:18:11  Zone: Zone1                    	2335	2334	1
+15:18:12  Camera: Level 1 Science Centre Entry 2          	650	608
+15:18:14  Camera: Shop A                                  	229	312
+15:18:15  Camera: Level 2 Main Entry                      	347	322
+15:18:27  Zone: Zone1                    	2336	2336	0	Net-count has gone negative (-9).  Resetting to zero. (No Balancing Zone)
+15:18:27  Zone: Zone1                    	2336	2336	0
+15:18:27  Zone: Zone2                    	709	700	9
+15:18:39  Camera: Shop Whale Mall                         	308	313
+15:18:43  Zone: Zone2                    	710	706	4
+15:19:16  Camera: Level 2 Main Entry                      	347	323
+15:19:16  Camera: Shop A                                  	230	312
+15:19:30  Zone: Zone1                    	2336	2336	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+15:19:30  Zone: Zone2                    	711	706	5
+15:19:40  Camera: Shop Whale Mall                         	310	321
+15:19:46  Zone: Zone2                    	713	713	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+15:19:46  Zone: Zone2                    	713	713	0
+15:19:49  Camera: Level 2 Cafe                            	227	362
+15:20:01  Zone: Zone1                    	2336	2336	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+15:20:14  Camera: Shop B                                  	174	142
+15:20:17  Camera: Level 2 Main Entry                      	349	323
+15:20:17  Zone: Zone1                    	2339	2337	2
+15:20:17  Zone: Zone2                    	714	714	0
+15:20:41  Camera: Shop Whale Mall                         	315	328
+15:20:47  Camera: Level 1 Science Centre Entry 1          	524	633
+15:20:49  Zone: Zone1                    	2339	2339	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+15:20:49  Zone: Zone1                    	2339	2339	0
+15:20:49  Zone: Zone2                    	719	719	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+15:20:49  Zone: Zone2                    	719	719	0
+15:20:51  Camera: Level 2 Cafe                            	228	367
+15:21:04  Zone: Zone1                    	2340	2340	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+15:21:04  Zone: Zone1                    	2340	2340	0
+15:21:19  Camera: Level 2 Main Entry                      	350	324
+15:21:19  Camera: Shop A                                  	232	312
+15:21:20  Zone: Zone1                    	2341	2341	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+15:21:20  Zone: Zone1                    	2341	2341	0
+15:21:20  Zone: Zone2                    	721	719	2
+15:22:17  Camera: Level 1 Science Centre Entry 2          	657	608
+15:22:18  Camera: Shop B                                  	176	143
+15:22:21  Camera: Shop A                                  	232	315
+15:22:25  Zone: Zone1                    	2352	2343	9
+15:22:25  Zone: Zone2                    	723	723	0
+15:23:19  Camera: Shop B                                  	177	143
+15:23:22  Camera: Level 1 Science Centre Lift             	44	68
+15:23:30  Zone: Zone1                    	2353	2348	5
+15:23:30  Zone: Zone2                    	724	723	1
+15:23:54  Camera: Level 2 Cafe                            	228	370
+15:24:02  Zone: Zone1                    	2353	2351	2
+15:24:23  Camera: Shop A                                  	232	317
+15:24:24  Camera: Level 2 Main Entry                      	350	325
+15:24:35  Zone: Zone1                    	2355	2352	3
+15:24:35  Zone: Zone2                    	724	724	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+15:24:35  Zone: Zone2                    	724	724	0
+15:24:51  Camera: Level 1 Science Centre Entry 1          	525	633
+15:24:55  Camera: Level 2 Cafe                            	229	370
+15:25:07  Zone: Zone1                    	2357	2352	5
+15:25:22  Camera: Shop B                                  	178	143
+15:25:22  Zone: Zone1                    	2357	2353	4
+15:25:22  Zone: Zone2                    	725	724	1
+15:25:25  Camera: Level 2 Main Entry                      	351	327
+15:25:38  Zone: Zone1                    	2358	2355	3
+15:25:46  Camera: Shop Whale Mall                         	319	328
+15:25:54  Zone: Zone2                    	729	724	5
+15:26:23  Camera: Level 2 Lift                            	92	75
+15:26:24  Camera: Shop B                                  	178	147
+15:26:25  Zone: Zone1                    	2362	2357	5
+15:26:25  Zone: Zone2                    	729	728	1
+15:26:26  Camera: Level 2 Main Entry                      	351	328
+15:26:27  Camera: Shop A                                  	232	319
+15:26:41  Zone: Zone1                    	2364	2358	6
+15:26:41  Zone: Zone2                    	729	729	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+15:26:41  Zone: Zone2                    	729	729	0
+15:27:25  Camera: Level 1 Science Centre Entry 2          	661	608
+15:27:25  Camera: Shop B                                  	178	149
+15:27:28  Camera: Level 2 Main Entry                      	352	328
+15:27:28  Zone: Zone1                    	2371	2358	13
+15:27:28  Zone: Zone2                    	729	729	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+15:27:58  Camera: Level 2 Cafe                            	229	371
+15:28:00  Zone: Zone1                    	2371	2359	12
+15:28:26  Camera: Level 1 Science Centre Entry 2          	661	610
+15:28:27  Camera: Level 2 Lift                            	92	76
+15:28:30  Camera: Level 2 Main Entry                      	352	330
+15:28:31  Zone: Zone1                    	2371	2364	7
+15:28:56  Camera: Level 1 Science Centre Entry 1          	525	635
+15:28:59  Camera: Level 2 Cafe                            	230	371
+15:29:03  Zone: Zone1                    	2372	2366	6
+15:29:32  Camera: Level 2 Main Entry                      	352	333
+15:29:34  Zone: Zone1                    	2372	2369	3
+15:29:50  Camera: Shop Whale Mall                         	322	329
+15:30:06  Zone: Zone2                    	732	730	2
+15:30:06  Logging to daily summary: "15:30 78 81 5 45 43 2"
+15:30:06  Service running OK
+15:30:29  Camera: Shop B                                  	182	149
+15:30:39  Zone: Zone1                    	2372	2372	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+15:30:39  Zone: Zone1                    	2372	2372	0
+15:30:39  Zone: Zone2                    	736	730	6
+15:30:51  Camera: Shop Whale Mall                         	322	333
+15:30:55  Zone: Zone2                    	736	734	2
+15:31:34  Camera: Level 2 Main Entry                      	352	335
+15:31:47  Zone: Zone1                    	2372	2372	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+15:31:59  Camera: Level 1 Science Centre Entry 1          	525	637
+15:32:03  Zone: Zone1                    	2372	2372	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+15:33:34  Camera: Level 1 Science Centre Entry 2          	662	610
+15:33:37  Camera: Level 2 Main Entry                      	353	336
+15:33:49  Zone: Zone1                    	2374	2373	1
+15:35:06  Camera: Level 2 Cafe                            	230	372
+15:35:15  Zone: Zone1                    	2374	2374	0
+15:36:03  Camera: Level 1 Science Centre Entry 1          	527	637
+15:36:07  Zone: Zone1                    	2376	2374	2
+15:36:39  Camera: Level 1 Science Centre Entry 2          	664	610
+15:36:41  Zone: Zone1                    	2378	2374	4
+15:36:42  Camera: Level 2 Main Entry                      	354	336
+15:36:57  Zone: Zone1                    	2379	2374	5
+15:37:44  Camera: Level 2 Main Entry                      	354	337
+15:37:49  Zone: Zone1                    	2379	2375	4
+15:39:43  Camera: Level 1 Science Centre Entry 2          	665	610
+15:39:47  Camera: Shop A                                  	232	320
+15:39:53  Zone: Zone1                    	2381	2375	6
+15:39:53  Zone: Zone2                    	736	735	1
+15:40:01  Camera: Shop Whale Mall                         	324	334
+15:40:08  Camera: Level 1 Science Centre Entry 1          	528	641
+15:40:09  Zone: Zone1                    	2382	2379	3
+15:40:09  Zone: Zone2                    	738	736	2
+15:41:50  Camera: Level 2 Main Entry                      	354	338
+15:41:50  Zone: Zone1                    	2382	2380	2
+15:42:10  Camera: Level 1 Science Centre Entry 1          	529	642
+15:42:24  Zone: Zone1                    	2383	2381	2
+15:42:49  Camera: Level 1 Science Centre Entry 2          	665	612
+15:42:52  Camera: Level 2 Main Entry                      	354	339
+15:42:58  Zone: Zone1                    	2383	2383	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+15:42:58  Zone: Zone1                    	2383	2383	0
+15:43:11  Camera: Level 1 Science Centre Entry 1          	529	645
+15:43:14  Zone: Zone1                    	2383	2383	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+15:43:54  Camera: Level 2 Main Entry                      	354	340
+15:44:03  Zone: Zone1                    	2383	2383	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+15:44:51  Camera: Level 1 Science Centre Entry 2          	665	615
+15:44:55  Zone: Zone1                    	2383	2383	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+15:44:55  Camera: Level 2 Main Entry                      	355	340
+15:45:11  Zone: Zone1                    	2384	2383	1
+15:45:11  Service running OK
+15:45:54  Camera: Level 2 Lift                            	94	77
+15:46:03  Zone: Zone1                    	2386	2384	2
+15:46:14  Camera: Level 1 Science Centre Entry 1          	530	647
+15:46:19  Zone: Zone1                    	2387	2386	1
+15:46:58  Camera: Level 2 Main Entry                      	355	341
+15:47:11  Zone: Zone1                    	2387	2387	0
+15:48:00  Camera: Level 2 Main Entry                      	355	342
+15:48:03  Zone: Zone1                    	2387	2387	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+15:48:58  Camera: Level 2 Lift                            	94	78
+15:48:58  Camera: Level 1 Science Centre Entry 2          	665	616
+15:49:01  Camera: Shop A                                  	233	320
+15:49:02  Camera: Level 2 Main Entry                      	355	343
+15:49:13  Zone: Zone1                    	2387	2387	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+15:49:13  Zone: Zone2                    	739	736	3
+15:49:59  Camera: Level 2 Lift                            	95	78
+15:50:00  Zone: Zone1                    	2388	2387	1
+15:50:03  Camera: Shop A                                  	233	321
+15:50:16  Zone: Zone1                    	2389	2387	2
+15:50:16  Zone: Zone2                    	739	737	2
+15:51:05  Camera: Level 2 Main Entry                      	357	344
+15:51:08  Zone: Zone1                    	2391	2388	3
+15:52:06  Camera: Level 2 Main Entry                      	358	344
+15:52:18  Zone: Zone1                    	2392	2388	4
+15:53:05  Camera: Level 1 Science Centre Entry 2          	670	616
+15:53:10  Zone: Zone1                    	2397	2388	9
+15:53:15  Camera: Shop Whale Mall                         	332	335
+15:53:26  Zone: Zone2                    	747	738	9
+15:54:10  Camera: Level 2 Main Entry                      	358	345
+15:54:18  Zone: Zone1                    	2397	2389	8
+15:55:07  Camera: Level 1 Science Centre Entry 2          	670	618
+15:55:08  Camera: Shop B                                  	182	151
+15:55:10  Zone: Zone1                    	2399	2391	8
+15:55:10  Zone: Zone2                    	747	740	7
+15:55:11  Camera: Level 2 Main Entry                      	362	346
+15:55:11  Camera: Shop A                                  	234	321
+15:55:26  Zone: Zone1                    	2403	2393	10
+15:55:26  Zone: Zone2                    	748	740	8
+15:56:09  Camera: Shop B                                  	182	155
+15:56:13  Camera: Shop A                                  	235	322
+15:56:13  Zone: Zone1                    	2408	2394	14
+15:56:13  Zone: Zone2                    	749	745	4
+15:56:18  Camera: Shop Whale Mall                         	338	335
+15:56:29  Zone: Zone2                    	755	745	10
+15:57:11  Camera: Shop B                                  	182	159
+15:57:14  Camera: Level 2 Main Entry                      	363	346
+15:57:18  Zone: Zone1                    	2413	2394	19
+15:57:18  Zone: Zone2                    	755	749	6
+15:58:16  Camera: Shop A                                  	240	322
+15:58:16  Camera: Level 2 Main Entry                      	363	348
+15:58:26  Zone: Zone1                    	2413	2401	12
+15:58:26  Zone: Zone2                    	760	749	11
+15:58:27  Camera: Level 1 Science Centre Entry 1          	530	648
+15:58:42  Zone: Zone1                    	2413	2402	11
+15:59:14  Camera: Level 2 Lift                            	95	79
+15:59:14  Camera: Shop B                                  	182	161
+15:59:14  Zone: Zone1                    	2415	2403	12
+15:59:14  Zone: Zone2                    	760	751	9
+15:59:17  Camera: Shop A                                  	240	323
+15:59:29  Zone: Zone1                    	2416	2403	13
+15:59:29  Zone: Zone2                    	760	752	8
+15:59:32  Camera: Level 2 Cafe                            	230	373
+15:59:45  Zone: Zone1                    	2416	2404	12
+16:00:01  Logging to daily summary: "16:00 44 35 4 28 22 3"
+16:00:01  Service running OK
+16:00:15  Camera: Level 1 Science Centre Entry 2          	670	621
+16:00:16  Camera: Shop B                                  	182	170
+16:00:17  Zone: Zone1                    	2425	2407	18
+16:00:17  Zone: Zone2                    	760	760	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:00:17  Zone: Zone2                    	760	760	0
+16:00:18  Camera: Shop A                                  	242	323
+16:00:19  Camera: Level 2 Main Entry                      	363	350
+16:00:29  Camera: Level 1 Science Centre Entry 1          	530	650
+16:00:32  Zone: Zone1                    	2425	2413	12
+16:00:32  Zone: Zone2                    	762	760	2
+16:01:17  Camera: Shop B                                  	182	172
+16:01:20  Zone: Zone1                    	2427	2413	14
+16:01:20  Zone: Zone2                    	762	762	0
+16:01:20  Camera: Shop A                                  	244	323
+16:01:35  Zone: Zone1                    	2427	2415	12
+16:01:35  Zone: Zone2                    	764	762	2
+16:02:22  Camera: Level 2 Main Entry                      	364	351
+16:02:22  Camera: Shop A                                  	244	324
+16:02:27  Zone: Zone1                    	2429	2416	13
+16:02:27  Zone: Zone2                    	764	763	1
+16:02:31  Camera: Level 1 Science Centre Entry 1          	530	652
+16:02:43  Zone: Zone1                    	2429	2418	11
+16:03:20  Camera: Level 1 Science Centre Entry 2          	670	623
+16:03:21  Camera: Shop B                                  	183	176
+16:03:24  Camera: Shop A                                  	245	324
+16:03:24  Camera: Level 2 Main Entry                      	364	353
+16:03:32  Zone: Zone1                    	2433	2424	9
+16:03:32  Zone: Zone2                    	766	766	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:03:32  Zone: Zone2                    	766	766	0
+16:04:22  Camera: Level 2 Lift                            	95	80
+16:04:26  Camera: Level 2 Main Entry                      	365	361
+16:04:33  Camera: Level 1 Science Centre Entry 1          	530	655
+16:04:35  Zone: Zone1                    	2434	2434	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:04:35  Zone: Zone1                    	2434	2434	0
+16:05:24  Camera: Level 1 Science Centre Entry 2          	670	626
+16:05:24  Zone: Zone1                    	2434	2434	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+16:05:27  Camera: Level 2 Main Entry                      	366	362
+16:05:28  Camera: Shop A                                  	245	325
+16:05:35  Camera: Level 1 Science Centre Entry 1          	530	659
+16:05:40  Zone: Zone1                    	2436	2436	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+16:05:40  Zone: Zone1                    	2436	2436	0
+16:05:40  Zone: Zone2                    	766	766	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:06:25  Camera: Shop B                                  	187	176
+16:06:25  Camera: Level 1 Science Centre Entry 2          	670	627
+16:06:27  Zone: Zone1                    	2436	2436	0	Net-count has gone negative (-5).  Resetting to zero. (No Balancing Zone)
+16:06:27  Zone: Zone2                    	770	766	4
+16:06:29  Camera: Level 2 Main Entry                      	366	364
+16:06:29  Camera: Shop Whale Mall                         	338	339
+16:06:43  Zone: Zone1                    	2436	2436	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:06:43  Zone: Zone2                    	770	770	0
+16:07:31  Camera: Level 2 Main Entry                      	368	364
+16:07:31  Zone: Zone1                    	2438	2436	2
+16:07:37  Camera: Level 1 Science Centre Entry 1          	531	659
+16:07:46  Zone: Zone1                    	2439	2436	3
+16:08:28  Camera: Shop B                                  	188	176
+16:08:28  Camera: Level 2 Lift                            	95	81
+16:08:38  Camera: Level 1 Science Centre Entry 1          	531	660
+16:08:38  Zone: Zone1                    	2439	2439	0
+16:08:38  Zone: Zone2                    	771	770	1
+16:09:34  Camera: Shop A                                  	247	325
+16:09:34  Camera: Level 2 Main Entry                      	369	364
+16:09:39  Camera: Level 1 Science Centre Entry 1          	531	661
+16:09:43  Zone: Zone1                    	2440	2440	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:09:43  Zone: Zone1                    	2440	2440	0
+16:09:43  Zone: Zone2                    	773	770	3
+16:10:31  Camera: Level 2 Lift                            	98	84
+16:10:31  Zone: Zone1                    	2443	2443	0
+16:11:33  Camera: Level 2 Lift                            	99	84
+16:11:37  Camera: Level 2 Main Entry                      	370	364
+16:11:37  Camera: Shop A                                  	247	326
+16:11:41  Camera: Level 1 Science Centre Entry 1          	531	663
+16:11:41  Zone: Zone1                    	2446	2445	1
+16:11:41  Zone: Zone2                    	773	771	2
+16:12:38  Camera: Level 2 Main Entry                      	370	365
+16:12:39  Camera: Shop Whale Mall                         	340	339
+16:12:39  Camera: Shop A                                  	247	328
+16:12:44  Zone: Zone1                    	2448	2446	2
+16:12:44  Zone: Zone2                    	775	773	2
+16:13:40  Camera: Shop A                                  	248	330
+16:13:49  Zone: Zone1                    	2450	2447	3
+16:13:49  Zone: Zone2                    	776	775	1
+16:14:39  Camera: Level 1 Science Centre Entry 2          	670	632
+16:14:41  Zone: Zone1                    	2450	2450	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:14:41  Zone: Zone1                    	2450	2450	0
+16:14:42  Camera: Shop A                                  	249	330
+16:14:42  Camera: Level 2 Main Entry                      	371	365
+16:14:44  Camera: Level 1 Science Centre Entry 1          	531	664
+16:14:57  Zone: Zone1                    	2451	2451	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:14:57  Zone: Zone1                    	2451	2451	0
+16:14:57  Zone: Zone2                    	777	775	2
+16:15:13  Service running OK
+16:15:43  Camera: Level 2 Main Entry                      	372	366
+16:15:44  Zone: Zone1                    	2452	2452	0
+16:15:45  Camera: Level 1 Science Centre Entry 1          	533	664
+16:16:00  Zone: Zone1                    	2454	2452	2
+16:16:50  Camera: Level 2 Cafe                            	231	374
+16:16:51  Zone: Zone1                    	2455	2453	2
+16:18:48  Camera: Shop A                                  	249	332
+16:18:52  Camera: Level 2 Cafe                            	231	375
+16:18:55  Zone: Zone1                    	2457	2454	3
+16:18:55  Zone: Zone2                    	777	777	0
+16:19:51  Camera: Level 2 Main Entry                      	373	367
+16:20:03  Zone: Zone1                    	2458	2455	3
+16:21:55  Camera: Level 1 Science Centre Entry 1          	533	666
+16:21:55  Camera: Shop Whale Mall                         	342	339
+16:22:07  Zone: Zone1                    	2458	2457	1
+16:22:07  Zone: Zone2                    	779	777	2
+16:22:46  Camera: Level 2 Lift                            	99	86
+16:22:51  Camera: Shop B                                  	190	176
+16:22:54  Camera: Level 2 Main Entry                      	373	368
+16:22:57  Zone: Zone1                    	2458	2458	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+16:22:57  Zone: Zone1                    	2458	2458	0
+16:22:57  Camera: Shop Whale Mall                         	345	346
+16:22:57  Zone: Zone2                    	784	784	0
+16:23:56  Camera: Level 2 Main Entry                      	374	368
+16:24:00  Zone: Zone1                    	2459	2458	1
+16:24:56  Camera: Shop A                                  	252	332
+16:24:57  Camera: Level 2 Main Entry                      	374	369
+16:25:00  Camera: Shop Whale Mall                         	345	348
+16:25:10  Zone: Zone1                    	2459	2459	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+16:25:10  Zone: Zone1                    	2459	2459	0
+16:25:10  Zone: Zone2                    	787	786	1
+16:25:58  Camera: Level 2 Main Entry                      	374	373
+16:25:58  Zone: Zone1                    	2459	2459	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+16:26:02  Camera: Level 1 Science Centre Entry 1          	535	666
+16:26:13  Zone: Zone1                    	2461	2459	2
+16:26:50  Camera: Level 2 Lift                            	99	88
+16:26:58  Camera: Level 1 Science Centre Entry 2          	670	634
+16:26:59  Camera: Level 2 Main Entry                      	375	376
+16:27:05  Zone: Zone1                    	2462	2462	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+16:27:05  Zone: Zone1                    	2462	2462	0
+16:27:57  Camera: Level 1 Science Centre Lift             	46	68
+16:27:59  Camera: Level 1 Science Centre Entry 2          	670	636
+16:28:10  Zone: Zone1                    	2464	2464	0
+16:29:02  Camera: Level 2 Main Entry                      	375	377
+16:29:02  Zone: Zone1                    	2464	2464	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:29:02  Camera: Shop A                                  	253	332
+16:29:02  Zone: Zone2                    	788	786	2
+16:29:18  Zone: Zone1                    	2464	2464	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:29:53  Camera: Level 2 Lift                            	99	89
+16:29:53  Zone: Zone1                    	2464	2464	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:30:03  Camera: Level 2 Main Entry                      	375	378
+16:30:09  Zone: Zone1                    	2464	2464	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:30:09  Logging to daily summary: "16:30 48 60 2 28 34 1"
+16:30:09  Service running OK
+16:31:05  Camera: Level 2 Main Entry                      	376	378
+16:31:19  Zone: Zone1                    	2465	2464	1
+16:32:07  Camera: Level 2 Main Entry                      	376	380
+16:32:10  Camera: Level 1 Science Centre Entry 1          	535	667
+16:32:11  Camera: Shop Whale Mall                         	350	350
+16:32:11  Zone: Zone1                    	2465	2465	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:32:11  Zone: Zone1                    	2465	2465	0
+16:32:11  Zone: Zone2                    	793	788	5
+16:32:56  Camera: Level 2 Lift                            	101	89
+16:32:58  Zone: Zone1                    	2467	2465	2
+16:33:08  Camera: Shop A                                  	255	332
+16:33:09  Camera: Level 2 Main Entry                      	380	380
+16:33:14  Zone: Zone1                    	2471	2467	4
+16:33:14  Zone: Zone2                    	795	788	7
+16:34:09  Camera: Shop A                                  	255	335
+16:34:10  Camera: Level 2 Main Entry                      	380	384
+16:34:10  Camera: Shop B                                  	192	176
+16:34:22  Zone: Zone1                    	2474	2473	1
+16:34:22  Zone: Zone2                    	797	791	6
+16:35:15  Camera: Shop Whale Mall                         	352	353
+16:35:16  Camera: Level 1 Science Centre Entry 1          	535	670
+16:35:27  Zone: Zone1                    	2474	2474	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:35:27  Zone: Zone1                    	2474	2474	0
+16:35:27  Zone: Zone2                    	799	794	5
+16:36:13  Camera: Shop A                                  	256	339
+16:36:17  Camera: Shop Whale Mall                         	356	353
+16:36:17  Zone: Zone1                    	2478	2475	3
+16:36:17  Zone: Zone2                    	804	798	6
+16:37:14  Camera: Shop B                                  	192	178
+16:37:14  Camera: Level 2 Main Entry                      	380	387
+16:37:18  Camera: Level 1 Science Centre Entry 1          	535	672
+16:37:25  Zone: Zone1                    	2480	2480	0
+16:37:25  Zone: Zone2                    	804	800	4
+16:38:16  Camera: Shop A                                  	258	341
+16:38:21  Camera: Shop Whale Mall                         	356	356
+16:38:30  Zone: Zone1                    	2482	2482	0
+16:38:30  Zone: Zone2                    	806	805	1
+16:39:17  Camera: Shop A                                  	259	342
+16:39:18  Camera: Level 2 Main Entry                      	381	387
+16:39:20  Zone: Zone1                    	2484	2483	1
+16:39:20  Zone: Zone2                    	807	806	1
+16:40:04  Camera: Level 2 Lift                            	101	90
+16:40:10  Zone: Zone1                    	2484	2484	0
+16:40:19  Camera: Shop B                                  	193	178
+16:40:24  Camera: Level 1 Science Centre Entry 1          	535	673
+16:40:26  Zone: Zone1                    	2484	2484	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:40:26  Zone: Zone2                    	808	806	2
+16:41:20  Camera: Shop B                                  	194	178
+16:41:25  Camera: Shop Whale Mall                         	356	357
+16:41:33  Zone: Zone1                    	2484	2484	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:41:33  Zone: Zone2                    	809	807	2
+16:42:22  Camera: Level 2 Main Entry                      	381	389
+16:42:22  Camera: Shop A                                  	259	343
+16:42:23  Camera: Shop B                                  	195	178
+16:42:23  Zone: Zone1                    	2485	2485	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:42:23  Zone: Zone1                    	2485	2485	0
+16:42:23  Zone: Zone2                    	810	808	2
+16:42:27  Camera: Level 2 Cafe                            	231	377
+16:42:39  Zone: Zone1                    	2485	2485	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:43:07  Camera: Level 2 Lift                            	101	91
+16:43:10  Zone: Zone1                    	2485	2485	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:43:24  Camera: Level 2 Main Entry                      	381	390
+16:43:26  Zone: Zone1                    	2485	2485	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:44:25  Camera: Level 2 Main Entry                      	381	392
+16:44:34  Zone: Zone1                    	2485	2485	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:45:11  Service running OK
+16:45:31  Camera: Shop Whale Mall                         	358	357
+16:45:44  Zone: Zone2                    	812	808	4
+16:46:10  Camera: Level 2 Lift                            	101	97
+16:46:18  Zone: Zone1                    	2485	2485	0	Net-count has gone negative (-6).  Resetting to zero. (No Balancing Zone)
+16:46:29  Camera: Shop A                                  	260	348
+16:46:33  Camera: Shop Whale Mall                         	360	357
+16:46:33  Camera: Level 1 Science Centre Entry 1          	535	676
+16:46:34  Zone: Zone1                    	2490	2489	1
+16:46:34  Zone: Zone2                    	815	813	2
+16:47:11  Camera: Level 2 Lift                            	102	101
+16:47:21  Zone: Zone1                    	2491	2491	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:47:21  Zone: Zone1                    	2491	2491	0
+16:47:30  Camera: Level 2 Main Entry                      	381	393
+16:47:34  Camera: Level 1 Science Centre Entry 1          	535	678
+16:47:35  Camera: Shop Whale Mall                         	364	361
+16:47:35  Camera: Level 2 Cafe                            	233	377
+16:47:37  Zone: Zone1                    	2493	2493	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:47:37  Zone: Zone1                    	2493	2493	0
+16:47:37  Zone: Zone2                    	819	817	2
+16:48:20  Camera: Level 1 Science Centre Entry 2          	670	639
+16:48:24  Zone: Zone1                    	2493	2493	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+16:48:37  Camera: Shop Whale Mall                         	369	363
+16:48:40  Zone: Zone2                    	824	819	5
+16:49:38  Camera: Level 1 Science Centre Entry 1          	537	678
+16:49:47  Zone: Zone1                    	2495	2493	2
+16:50:34  Camera: Level 2 Main Entry                      	381	396
+16:50:35  Camera: Shop A                                  	261	349
+16:50:39  Zone: Zone1                    	2496	2496	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:50:39  Zone: Zone1                    	2496	2496	0
+16:50:39  Zone: Zone2                    	825	820	5
+16:50:39  Camera: Shop Whale Mall                         	373	366
+16:50:55  Zone: Zone2                    	829	823	6
+16:51:24  Camera: Level 1 Science Centre Entry 2          	670	640
+16:51:26  Zone: Zone1                    	2496	2496	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:51:36  Camera: Shop A                                  	262	349
+16:51:36  Camera: Level 2 Main Entry                      	381	397
+16:51:42  Zone: Zone1                    	2496	2496	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:51:42  Zone: Zone2                    	830	823	7
+16:52:43  Camera: Level 1 Science Centre Entry 1          	537	679
+16:52:50  Zone: Zone1                    	2496	2496	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:54:19  Camera: Level 2 Lift                            	102	102
+16:54:19  Zone: Zone1                    	2496	2496	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:54:41  Camera: Level 2 Main Entry                      	381	398
+16:54:53  Zone: Zone1                    	2496	2496	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:55:43  Camera: Shop A                                  	264	349
+16:55:45  Zone: Zone1                    	2496	2496	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:55:45  Zone: Zone2                    	832	823	9
+16:56:44  Camera: Shop A                                  	265	352
+16:56:44  Camera: Level 2 Main Entry                      	381	404
+16:56:44  Camera: Shop B                                  	195	180
+16:56:55  Zone: Zone1                    	2501	2501	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:56:55  Zone: Zone1                    	2501	2501	0
+16:56:55  Zone: Zone2                    	833	828	5
+16:57:46  Camera: Shop A                                  	265	353
+16:57:46  Camera: Level 2 Main Entry                      	381	407
+16:58:00  Zone: Zone1                    	2502	2502	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:58:00  Zone: Zone1                    	2502	2502	0
+16:58:00  Zone: Zone2                    	833	829	4
+16:58:48  Camera: Level 2 Main Entry                      	381	408
+16:58:50  Zone: Zone1                    	2502	2502	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:59:49  Camera: Level 2 Main Entry                      	383	411
+17:00:00  Zone: Zone1                    	2504	2504	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:00:00  Zone: Zone1                    	2504	2504	0
+17:00:00  Logging to daily summary: "17:00 40 40 0 45 43 4"
+17:00:00  Service running OK
+17:00:50  Camera: Level 2 Main Entry                      	383	415
+17:00:52  Zone: Zone1                    	2504	2504	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+17:01:33  Camera: Level 1 Science Centre Lift             	46	71
+17:01:44  Zone: Zone1                    	2504	2504	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+17:01:52  Camera: Level 2 Main Entry                      	383	417
+17:01:57  Camera: Level 1 Science Centre Entry 1          	538	679
+17:02:00  Zone: Zone1                    	2505	2505	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:02:00  Zone: Zone1                    	2505	2505	0
+17:02:34  Camera: Level 1 Science Centre Lift             	46	73
+17:02:49  Zone: Zone1                    	2505	2505	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:02:54  Camera: Level 2 Main Entry                      	383	419
+17:03:05  Zone: Zone1                    	2505	2505	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:04:57  Camera: Level 2 Main Entry                      	383	420
+17:05:10  Zone: Zone1                    	2505	2505	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:05:58  Camera: Level 2 Main Entry                      	383	422
+17:06:02  Zone: Zone1                    	2505	2505	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:08:01  Camera: Shop A                                  	265	354
+17:08:01  Camera: Level 2 Main Entry                      	383	423
+17:08:06  Zone: Zone1                    	2506	2506	0
+17:08:06  Zone: Zone2                    	833	830	3
+17:09:04  Camera: Level 2 Main Entry                      	383	426
+17:09:14  Zone: Zone1                    	2506	2506	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+17:11:06  Camera: Level 2 Main Entry                      	383	428
+17:11:06  Zone: Zone1                    	2506	2506	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:12:08  Camera: Level 2 Main Entry                      	383	431
+17:12:08  Camera: Shop A                                  	265	355
+17:12:16  Zone: Zone1                    	2507	2507	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:12:16  Zone: Zone1                    	2507	2507	0
+17:12:16  Zone: Zone2                    	833	831	2
+17:13:09  Camera: Level 2 Main Entry                      	383	432
+17:13:24  Zone: Zone1                    	2507	2507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:14:10  Camera: Level 2 Main Entry                      	383	433
+17:14:16  Zone: Zone1                    	2507	2507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:15:11  Service running OK
+17:16:14  Camera: Level 2 Main Entry                      	383	434
+17:16:20  Zone: Zone1                    	2507	2507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:18:17  Camera: Level 2 Main Entry                      	383	435
+17:18:24  Zone: Zone1                    	2507	2507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:20:19  Camera: Level 2 Main Entry                      	383	436
+17:20:20  Camera: Shop A                                  	266	355
+17:20:28  Zone: Zone1                    	2507	2507	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:20:28  Zone: Zone2                    	834	831	3
+17:21:21  Camera: Shop A                                  	266	356
+17:21:36  Zone: Zone1                    	2508	2507	1
+17:21:36  Zone: Zone2                    	834	832	2
+17:22:24  Camera: Level 2 Main Entry                      	383	437
+17:22:28  Zone: Zone1                    	2508	2508	0
+17:23:25  Camera: Level 2 Main Entry                      	383	438
+17:23:38  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:27:30  Camera: Level 2 Main Entry                      	383	439
+17:27:31  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:30:13  Logging to daily summary: "17:30 4 4 0 1 3 2"
+17:30:13  Service running OK
+17:31:37  Camera: Level 2 Main Entry                      	383	440
+17:31:40  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:32:38  Camera: Level 2 Main Entry                      	383	442
+17:32:50  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:39:50  Camera: Level 2 Main Entry                      	383	443
+17:40:00  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:43:56  Camera: Level 2 Main Entry                      	383	445
+17:44:10  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:45:05  Service running OK
+17:45:59  Camera: Level 2 Main Entry                      	383	447
+17:46:14  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:53:10  Camera: Level 2 Main Entry                      	383	448
+17:53:24  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:54:12  Camera: Level 2 Main Entry                      	383	449
+17:54:16  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:58:17  Camera: Level 2 Main Entry                      	383	450
+17:58:26  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+18:00:15  Logging to daily summary: "18:00 0 0 0 0 0 2"
+18:00:15  Service running OK
+18:00:22  Camera: Level 2 Main Entry                      	383	452
+18:00:30  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+18:02:24  Camera: Level 2 Main Entry                      	383	453
+18:02:34  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+18:15:11  Service running OK
+18:30:11  Logging to daily summary: "18:30 0 0 0 0 0 2"
+18:30:11  Service running OK
+18:45:11  Service running OK
+18:51:45  Camera: Level 2 Main Entry                      	383	454
+18:51:45  Zone: Zone1                    	2508	2508	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+19:00:09  Logging to daily summary: "19:00 0 0 0 0 0 2"
+19:00:09  Service running OK
+19:15:09  Service running OK
+19:30:09  Logging to daily summary: "19:30 0 0 0 0 0 2"
+19:30:09  Service running OK
+19:45:09  Service running OK
+20:00:09  Logging to daily summary: "20:00 0 0 0 0 0 2"
+20:00:09  Service running OK
+20:15:09  Service running OK
+20:30:09  Logging to daily summary: "20:30 0 0 0 0 0 2"
+20:30:09  Service running OK
+20:45:09  Service running OK
+21:00:09  Logging to daily summary: "21:00 0 0 0 0 0 2"
+21:00:09  Service running OK
+21:15:09  Service running OK
+21:30:09  Logging to daily summary: "21:30 0 0 0 0 0 2"
+21:30:09  Service running OK
+21:45:09  Service running OK
+22:00:09  Logging to daily summary: "22:00 0 0 0 0 0 2"
+22:00:09  Service running OK
+22:00:42  Stop time reached.
+22:00:42  Camera 'Level 1 Science Centre Entry 1' - final counts 538 679
+22:00:42  Camera 'Level 1 Science Centre Entry 2' - final counts 670 640
+22:00:42  Camera 'Level 1 Science Centre Lift' - final counts 46 73
+22:00:42  Camera 'Level 2 Main Entry' - final counts 383 454
+22:00:42  Camera 'Level 2 Lift' - final counts 102 102
+22:00:42  Camera 'Shop A' - final counts 266 356
+22:00:42  Camera 'Shop B' - final counts 195 180
+22:00:42  Camera 'Shop Whale Mall' - final counts 373 366
+22:00:42  Camera 'Level 2 Cafe' - final counts 233 377
+22:00:42  Zone: Zone1                    	2508	2508	0
+22:00:42  Zone: Zone2                    	834	832	2
+22:00:42  Level 1 Science Centre Entry 1: IrisysIP counts reset requested.
+22:00:42  Level 1 Science Centre Entry 2: IrisysIP counts reset requested.
+22:00:42  Level 1 Science Centre Lift: IrisysIP counts reset requested.
+22:00:42  Level 2 Main Entry: IrisysIP counts reset requested.
+22:00:42  Level 2 Lift: IrisysIP counts reset requested.
+22:00:42  Shop A: IrisysIP counts reset requested.
+22:00:42  Shop B: IrisysIP counts reset requested.
+22:00:42  Shop Whale Mall: IrisysIP counts reset requested.
+22:00:42  Level 2 Cafe: IrisysIP counts reset requested.
+22:00:45  Failed to send email.
+22:00:45  Displaying shutdown on 0 display(s)
+22:00:45  End the manager threads.
+22:00:45  Close all CAN threads.
+22:00:45  All CAN threads, now flagged to be closed.
+22:00:45  Close all IrisysIP threads.
+22:01:01  Attempting to reset counts for IrisysIP Camera Shop A
+22:01:01  Attempting to reset counts for IrisysIP Camera Shop Whale Mall
+22:01:01  Attempting to reset counts for IrisysIP Camera Shop B
+22:01:02  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 1
+22:01:32  Error! Level 1 Science Centre Entry 1: The IrisysIP thread needs to be terminated but has not reset.
+22:01:32  Level 1 Science Centre Entry 1: The Irisys IP thread has been flagged to end.
+22:01:53  Shop A: InCountCorrection set in registry to: 0
+22:01:53  Shop A: OutCountCorrection set in registry to: 0
+22:01:54  Shop A: has reset camera
+22:01:54  Shop Whale Mall: InCountCorrection set in registry to: 0
+22:01:54  Shop Whale Mall: OutCountCorrection set in registry to: 0
+22:01:56  Shop Whale Mall: has reset camera
+22:01:56  Shop B: InCountCorrection set in registry to: 0
+22:01:56  Shop B: OutCountCorrection set in registry to: 0
+22:01:57  Shop B: has reset camera
+22:01:57  Level 1 Science Centre Entry 1: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:01:57  Level 1 Science Centre Entry 1: The Irisys IP thread has ended.
+22:02:05  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Lift
+22:02:05  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+22:02:05  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+22:02:05  Attempting to reset counts for IrisysIP Camera Level 2 Cafe
+22:02:05  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 2
+22:02:06  Level 1 Science Centre Lift: InCountCorrection set in registry to: 0
+22:02:06  Level 1 Science Centre Lift: OutCountCorrection set in registry to: 0
+22:02:07  Level 1 Science Centre Lift: has reset camera
+22:02:13  Level 2 Main Entry: InCountCorrection set in registry to: 0
+22:02:13  Level 2 Main Entry: OutCountCorrection set in registry to: 0
+22:02:14  Level 2 Main Entry: has reset camera
+22:02:15  Level 2 Lift: InCountCorrection set in registry to: 0
+22:02:15  Level 2 Lift: OutCountCorrection set in registry to: 0
+22:02:16  Level 2 Lift: has reset camera
+22:02:16  Level 2 Cafe: InCountCorrection set in registry to: 0
+22:02:16  Level 2 Cafe: OutCountCorrection set in registry to: 0
+22:02:17  Level 2 Cafe: has reset camera
+22:02:18  Level 1 Science Centre Entry 2: InCountCorrection set in registry to: 0
+22:02:18  Level 1 Science Centre Entry 2: OutCountCorrection set in registry to: 0
+22:02:19  Level 1 Science Centre Entry 2: has reset camera
+22:02:19  Level 1 Science Centre Entry 2: The Irisys IP thread has been flagged to end.
+22:02:55  Camera: Shop A                                  	0	0
+22:02:55  Shop A IrisysIP camera has reset
+22:02:57  Camera: Shop Whale Mall                         	0	0
+22:02:57  Shop Whale Mall IrisysIP camera has reset
+22:02:58  Camera: Shop B                                  	0	0
+22:02:58  Shop B IrisysIP camera has reset
+22:03:08  Camera: Level 1 Science Centre Lift             	0	0
+22:03:08  Level 1 Science Centre Lift IrisysIP camera has reset
+22:03:15  Camera: Level 2 Main Entry                      	0	0
+22:03:15  Level 2 Main Entry IrisysIP camera has reset
+22:03:17  Camera: Level 2 Lift                            	0	0
+22:03:17  Level 2 Lift IrisysIP camera has reset
+22:03:18  Level 1 Science Centre Entry 2: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:03:18  Level 1 Science Centre Entry 2: The Irisys IP thread has ended.
+22:03:18  Level 1 Science Centre Lift: The Irisys IP thread has been flagged to end.
+22:03:18  Camera: Level 2 Cafe                            	0	0
+22:03:18  Level 2 Cafe IrisysIP camera has reset
+22:04:07  Level 1 Science Centre Lift: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:04:07  Level 1 Science Centre Lift: The Irisys IP thread has ended.
+22:04:07  Level 2 Main Entry: The Irisys IP thread has been flagged to end.
+22:04:14  Level 2 Main Entry: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:04:14  Level 2 Main Entry: The Irisys IP thread has ended.
+22:04:14  Level 2 Lift: The Irisys IP thread has been flagged to end.
+22:04:16  Level 2 Lift: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:04:16  Level 2 Lift: The Irisys IP thread has ended.
+22:04:16  Shop A: The Irisys IP thread has been flagged to end.
+22:04:55  Shop A: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:04:55  Shop A: The Irisys IP thread has ended.
+22:04:55  Shop B: The Irisys IP thread has been flagged to end.
+22:04:59  Shop B: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:04:59  Shop B: The Irisys IP thread has ended.
+22:04:59  Shop Whale Mall: The Irisys IP thread has been flagged to end.
+22:04:59  Shop Whale Mall: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:04:59  Shop Whale Mall: The Irisys IP thread has ended.
+22:04:59  Level 2 Cafe: The Irisys IP thread has been flagged to end.
+22:05:19  Level 2 Cafe: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:05:19  Level 2 Cafe: The Irisys IP thread has ended.
+22:05:19  All IrisysIP threads, now flagged to be closed.
+22:05:19  Close all iCount threads.
+22:05:19  All iCount threads, now flagged to be closed.
+22:05:19  Close all eDAM threads.
+22:05:19  All eDAM threads, now flagged to be closed.
+22:05:19  Zone1 Zone: OutCountAdjust (-278).
+22:05:19  Zone2 Zone: OutCountAdjust (-70).
+22:05:19  Camera 'Level 1 Science Centre Entry 1' - maximum flow 77 at 10:37:05
+22:05:19  Camera 'Level 1 Science Centre Entry 2' - maximum flow 59 at 12:31:05
+22:05:19  Camera 'Level 1 Science Centre Lift' - maximum flow 8 at 09:53:09
+22:05:19  Camera 'Level 2 Main Entry' - maximum flow 10 at 11:19:15
+22:05:19  Camera 'Level 2 Lift' - maximum flow 7 at 13:30:00
+22:05:19  Camera 'Shop A' - maximum flow 37 at 11:20:02
+22:05:19  Camera 'Shop B' - maximum flow 16 at 10:20:02
+22:05:19  Camera 'Shop Whale Mall' - maximum flow 30 at 11:11:07
+22:05:19  Camera 'Level 2 Cafe' - maximum flow 21 at 12:12:13
+22:05:19  Camera 'Level 1 Science Centre Entry 1' refreshing registry counts
+22:05:19  Camera 'Level 1 Science Centre Entry 2' refreshing registry counts
+22:05:19  Camera 'Level 1 Science Centre Lift' refreshing registry counts
+22:05:19  Camera 'Level 2 Main Entry' refreshing registry counts
+22:05:19  Camera 'Level 2 Lift' refreshing registry counts
+22:05:19  Camera 'Shop A' refreshing registry counts
+22:05:19  Camera 'Shop B' refreshing registry counts
+22:05:19  Camera 'Shop Whale Mall' refreshing registry counts
+22:05:19  Camera 'Level 2 Cafe' refreshing registry counts
+22:05:19  Zone 'Zone1' refreshing file counts
+22:05:19  Zone 'Zone2' refreshing file counts
+22:05:19  Processing application not specified
+22:05:19  Logging Counting Stopped
+

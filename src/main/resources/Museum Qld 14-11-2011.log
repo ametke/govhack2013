@@ -1,0 +1,718 @@
+
+07:28:01  RECAP $Revision: 3.13.2.13 $ ($State: Exp $) built 09:15:45, Aug  3 2010
+07:28:01  Logging Counting Started
+07:28:01  Start time: 09:30 (570 minutes past midnight)
+07:28:01  Stop time: 22:00 (1320 minutes past midnight)
+07:28:01  Log period: 30 minutes
+07:28:01  Initialising 0 display(s)
+07:28:01  Initialising 9 camera(s)
+07:28:01  IrisysIP counter(s) in use, Starting BlackFin API
+07:28:01  If RECAP crashes, check .NET framework and VCRedist are installed.
+07:28:01  BlackFin API Started.
+07:28:01  BlackFin API Started up OK. Version: 1.10.0.5
+07:28:01  Initialising 2 zone(s)
+07:28:01  Outputting 'Zone1' zone data to 'Zones\Zone1.txt'
+07:28:01  Outputting 'Zone2' zone data to 'Zones\Zone2.txt'
+07:28:01  Displaying shutdown on 0 display(s)
+07:28:01  Waiting till start time
+09:30:00  Start time reached
+09:30:00  Adding Level 1 Science Centre Entry 1 thread to Watchdog
+09:30:00  Level 1 Science Centre Entry 1: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Science Centre Entry 1: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 1 Science Centre Entry 2 thread to Watchdog
+09:30:00  Level 1 Science Centre Entry 2: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Science Centre Entry 2: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 1 Science Centre Lift thread to Watchdog
+09:30:00  Level 1 Science Centre Lift: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Science Centre Lift: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 2 Main Entry thread to Watchdog
+09:30:00  Level 2 Main Entry: InCountCorrection set in registry to: 0
+09:30:00  Level 2 Main Entry: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 2 Lift thread to Watchdog
+09:30:00  Level 2 Lift: InCountCorrection set in registry to: 0
+09:30:00  Level 2 Lift: OutCountCorrection set in registry to: 0
+09:30:00  Adding Shop A thread to Watchdog
+09:30:00  Shop A: InCountCorrection set in registry to: 0
+09:30:00  Shop A: OutCountCorrection set in registry to: 0
+09:30:00  Adding Shop B thread to Watchdog
+09:30:00  Shop B: InCountCorrection set in registry to: 0
+09:30:00  Shop B: OutCountCorrection set in registry to: 0
+09:30:00  Adding Shop Whale Mall thread to Watchdog
+09:30:00  Shop Whale Mall: InCountCorrection set in registry to: 0
+09:30:00  Shop Whale Mall: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 2 Cafe thread to Watchdog
+09:30:00  Level 2 Cafe: InCountCorrection set in registry to: 0
+09:30:00  Level 2 Cafe: OutCountCorrection set in registry to: 0
+09:30:01  New day, Reset counts and busiest times in registry
+09:30:01  Camera Level 1 Science Centre Entry 1 Counts 	= In:0, Out:0
+09:30:01  Camera Level 1 Science Centre Entry 2 Counts 	= In:0, Out:0
+09:30:01  Camera Level 1 Science Centre Lift Counts 	= In:0, Out:0
+09:30:01  Camera Level 2 Main Entry Counts 	= In:0, Out:0
+09:30:01  Camera Level 2 Lift Counts 	= In:0, Out:0
+09:30:01  Camera Shop A Counts 	= In:0, Out:0
+09:30:01  Camera Shop B Counts 	= In:0, Out:0
+09:30:01  Camera Shop Whale Mall Counts 	= In:0, Out:0
+09:30:01  Camera Level 2 Cafe Counts 	= In:0, Out:0
+09:30:01  Starting main data collection loop.
+09:30:05  Zone: Zone1                    	0	0	0
+09:30:05  Zone: Zone2                    	0	0	0
+09:30:05  Logging to daily summary: "09:30 0 0 0 0 0 0"
+09:30:05  Service running OK
+09:30:50  Level 1 Science Centre Entry 1: Connect Success (1) (serial num:2158593798)
+09:30:52  Level 2 Lift: Connect Success (5) (serial num:2158593872)
+09:30:53  Level 1 Science Centre Entry 1: MAC:00-21-AC-00-30-39 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:54  Level 2 Lift: MAC:00-21-AC-00-2F-8C IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:31:14  Level 1 Science Centre Entry 1: Status msgs: 0,0
+09:31:15  Level 1 Science Centre Entry 1: Current DeviceID: DefaultID
+09:31:40  Level 2 Lift: Status msgs: 0,0
+09:31:41  Level 2 Lift: Current DeviceID: DefaultID
+09:31:43  Level 2 Main Entry: Connect Success (4) (serial num:2158593780)
+09:31:43  Level 1 Science Centre Entry 2: Connect Success (2) (serial num:2158593777)
+09:31:44  Level 2 Main Entry: MAC:00-21-AC-00-30-D9 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:31:45  Level 1 Science Centre Entry 2: MAC:00-21-AC-00-30-3B IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:31:47  Level 1 Science Centre Lift: Connect Success (3) (serial num:2158593853)
+09:31:48  Level 1 Science Centre Lift: MAC:00-21-AC-00-30-1A IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:33:41  Initial Camera Level 2 Main Entry Counts 	= In:0, Out:0
+09:33:42  Initial Camera Level 1 Science Centre Entry 2 Counts 	= In:0, Out:0
+09:33:44  Initial Camera Level 1 Science Centre Lift Counts 	= In:0, Out:0
+09:33:45  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:33:45  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:33:46  Level 1 Science Centre Entry 2: Date last reset in registry is not today (reset required): 13/11/11
+09:33:46  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 2
+09:33:48  Level 1 Science Centre Lift: Date last reset in registry is not today (reset required): 13/11/11
+09:33:48  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Lift
+09:35:33  Camera: Level 2 Main Entry                      	0	0
+09:35:33  Level 2 Main Entry IrisysIP camera has reset
+09:35:37  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:35:37  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:37:31  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:37:31  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:39:25  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:39:25  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:41:17  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:41:17  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:43:10  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:43:10  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:20:52  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:20:52  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:22:43  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:22:43  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:24:37  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:24:37  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:26:34  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:26:34  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:28:23  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:28:23  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:30:13  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:30:13  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:32:02  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:32:02  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:33:49  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:33:49  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:35:38  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:35:38  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:37:26  Level 2 Main Entry: Date last reset in registry is not today (reset required): 13/11/11
+09:37:26  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:37:27  Level 2 Main Entry: InCountCorrection set in registry to: 0
+09:37:27  Level 2 Main Entry: OutCountCorrection set in registry to: 0
+09:37:28  Level 2 Main Entry: has reset camera
+09:37:28  Camera: Level 2 Main Entry - Counts are now valid.
+
+20:28:00  RECAP $Revision: 3.13.2.13 $ ($State: Exp $) built 09:15:45, Aug  3 2010
+20:28:00  Logging Counting Started
+20:28:00  Start time: 09:30 (570 minutes past midnight)
+20:28:00  Stop time: 22:00 (1320 minutes past midnight)
+20:28:00  Log period: 30 minutes
+20:28:00  Initialising 0 display(s)
+20:28:01  Initialising 9 camera(s)
+20:28:01  IrisysIP counter(s) in use, Starting BlackFin API
+20:28:01  If RECAP crashes, check .NET framework and VCRedist are installed.
+20:28:01  BlackFin API Started.
+20:28:01  BlackFin API Started up OK. Version: 1.10.0.5
+20:28:01  Initialising 2 zone(s)
+20:28:01  Outputting 'Zone1' zone data to 'Zones\Zone1.txt'
+20:28:01  Outputting 'Zone2' zone data to 'Zones\Zone2.txt'
+20:28:01  Displaying shutdown on 0 display(s)
+20:28:01  Waiting till start time
+20:28:01  Start time reached
+20:28:01  Adding Level 1 Science Centre Entry 1 thread to Watchdog
+20:28:01  Level 1 Science Centre Entry 1: InCountCorrection read from registry: 0
+20:28:01  Level 1 Science Centre Entry 1: OutCountCorrection read from registry: 0
+20:28:01  Adding Level 1 Science Centre Entry 2 thread to Watchdog
+20:28:01  Level 1 Science Centre Entry 2: InCountCorrection read from registry: 0
+20:28:01  Level 1 Science Centre Entry 2: OutCountCorrection read from registry: 0
+20:28:01  Adding Level 1 Science Centre Lift thread to Watchdog
+20:28:01  Level 1 Science Centre Lift: InCountCorrection read from registry: 0
+20:28:01  Level 1 Science Centre Lift: OutCountCorrection read from registry: 0
+20:28:01  Adding Level 2 Main Entry thread to Watchdog
+20:28:01  Level 2 Main Entry: InCountCorrection read from registry: 0
+20:28:01  Level 2 Main Entry: OutCountCorrection read from registry: 0
+20:28:01  Adding Level 2 Lift thread to Watchdog
+20:28:01  Level 2 Lift: InCountCorrection read from registry: 0
+20:28:01  Level 2 Lift: OutCountCorrection read from registry: 0
+20:28:01  Adding Shop A thread to Watchdog
+20:28:01  Shop A: InCountCorrection read from registry: 0
+20:28:01  Shop A: OutCountCorrection read from registry: 0
+20:28:01  Adding Shop B thread to Watchdog
+20:28:01  Shop B: InCountCorrection read from registry: 0
+20:28:01  Shop B: OutCountCorrection read from registry: 0
+20:28:02  Adding Shop Whale Mall thread to Watchdog
+20:28:02  Shop Whale Mall: InCountCorrection read from registry: 0
+20:28:02  Shop Whale Mall: OutCountCorrection read from registry: 0
+20:28:02  Adding Level 2 Cafe thread to Watchdog
+20:28:02  Level 2 Cafe: InCountCorrection read from registry: 0
+20:28:02  Level 2 Cafe: OutCountCorrection read from registry: 0
+20:28:03  Already started today, update counts and busiest times from registry
+20:28:03  Starting main data collection loop.
+20:28:06  Zone: Zone1                    	0	0	0
+20:28:06  Zone: Zone2                    	0	0	0
+20:28:13  Level 1 Science Centre Lift: Connect Success (3) (serial num:2158593853)
+20:28:14  Level 1 Science Centre Entry 2: Connect Success (2) (serial num:2158593777)
+20:28:14  Level 1 Science Centre Entry 1: Connect Success (1) (serial num:2158593798)
+20:28:15  Level 1 Science Centre Lift: MAC:00-21-AC-00-30-1A IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+20:28:15  Level 1 Science Centre Entry 2: MAC:00-21-AC-00-30-3B IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+20:28:15  Level 1 Science Centre Entry 1: MAC:00-21-AC-00-30-39 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+20:28:36  Level 1 Science Centre Entry 1: Status msgs: 0,0
+20:28:36  Level 1 Science Centre Entry 2: Status msgs: 0,0
+20:28:36  Level 1 Science Centre Lift: Status msgs: 0,0
+20:28:36  Level 1 Science Centre Entry 1: Current DeviceID: DefaultID
+20:28:36  Level 1 Science Centre Entry 2: Current DeviceID: DefaultID
+20:28:36  Level 1 Science Centre Lift: Current DeviceID: DefaultID
+20:29:16  Level 2 Main Entry: Connect Success (4) (serial num:2158593780)
+20:29:18  Level 2 Main Entry: MAC:00-21-AC-00-30-D9 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+20:29:30  Level 2 Lift: Connect Success (5) (serial num:2158593872)
+20:29:32  Level 2 Lift: MAC:00-21-AC-00-2F-8C IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+20:30:07  Logging to daily summary: "20:30 0 0 0 0 0 0"
+20:30:18  Email sent successfully.
+20:30:18  Service running OK
+20:31:09  Initial Camera Level 2 Main Entry Counts 	= In:11, Out:9
+20:31:13  Level 2 Main Entry: Date last reset in registry is today: 14/11/11
+20:31:13  Camera: Level 2 Main Entry - Counts are now valid.
+20:31:23  Initial Camera Level 2 Lift Counts 	= In:1, Out:2
+20:31:27  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:31:27  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:33:12  Camera: Level 2 Lift                            	1	2
+20:33:16  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:33:16  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:35:06  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:35:06  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:36:55  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:36:55  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:38:45  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:38:45  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:40:34  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:40:34  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:42:22  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:42:22  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:44:10  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:44:10  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:45:57  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:45:57  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:47:44  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:47:44  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:49:32  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:49:32  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:51:21  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:51:21  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:53:11  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:53:11  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:55:00  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:55:00  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:56:51  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:56:51  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+20:58:42  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+20:58:42  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:00:33  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:00:33  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:02:23  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:02:23  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+
+21:58:00  RECAP $Revision: 3.13.2.13 $ ($State: Exp $) built 09:15:45, Aug  3 2010
+21:58:00  Logging Counting Started
+21:58:00  Start time: 09:30 (570 minutes past midnight)
+21:58:00  Stop time: 22:00 (1320 minutes past midnight)
+21:58:00  Log period: 30 minutes
+21:58:00  Initialising 0 display(s)
+21:58:00  Initialising 9 camera(s)
+21:58:00  IrisysIP counter(s) in use, Starting BlackFin API
+21:58:00  If RECAP crashes, check .NET framework and VCRedist are installed.
+21:58:00  BlackFin API Started.
+21:58:00  BlackFin API Started up OK. Version: 1.10.0.5
+21:58:00  Initialising 2 zone(s)
+21:58:00  Outputting 'Zone1' zone data to 'Zones\Zone1.txt'
+21:58:00  Outputting 'Zone2' zone data to 'Zones\Zone2.txt'
+21:58:00  Displaying shutdown on 0 display(s)
+21:58:00  Waiting till start time
+21:58:00  Start time reached
+21:58:00  Adding Level 1 Science Centre Entry 1 thread to Watchdog
+21:58:00  Level 1 Science Centre Entry 1: InCountCorrection read from registry: 0
+21:58:00  Level 1 Science Centre Entry 1: OutCountCorrection read from registry: 0
+21:58:00  Adding Level 1 Science Centre Entry 2 thread to Watchdog
+21:58:00  Level 1 Science Centre Entry 2: InCountCorrection read from registry: 0
+21:58:00  Level 1 Science Centre Entry 2: OutCountCorrection read from registry: 0
+21:58:00  Adding Level 1 Science Centre Lift thread to Watchdog
+21:58:00  Level 1 Science Centre Lift: InCountCorrection read from registry: 0
+21:58:00  Level 1 Science Centre Lift: OutCountCorrection read from registry: 0
+21:58:00  Adding Level 2 Main Entry thread to Watchdog
+21:58:00  Level 2 Main Entry: InCountCorrection read from registry: 0
+21:58:00  Level 2 Main Entry: OutCountCorrection read from registry: 0
+21:58:00  Adding Level 2 Lift thread to Watchdog
+21:58:00  Level 2 Lift: InCountCorrection read from registry: 0
+21:58:00  Level 2 Lift: OutCountCorrection read from registry: 0
+21:58:00  Adding Shop A thread to Watchdog
+21:58:00  Shop A: InCountCorrection read from registry: 0
+21:58:00  Shop A: OutCountCorrection read from registry: 0
+21:58:01  Adding Shop B thread to Watchdog
+21:58:01  Shop B: InCountCorrection read from registry: 0
+21:58:01  Shop B: OutCountCorrection read from registry: 0
+21:58:01  Adding Shop Whale Mall thread to Watchdog
+21:58:01  Shop Whale Mall: InCountCorrection read from registry: 0
+21:58:01  Shop Whale Mall: OutCountCorrection read from registry: 0
+21:58:01  Adding Level 2 Cafe thread to Watchdog
+21:58:01  Level 2 Cafe: InCountCorrection read from registry: 0
+21:58:01  Level 2 Cafe: OutCountCorrection read from registry: 0
+21:58:02  Already started today, update counts and busiest times from registry
+21:58:02  Starting main data collection loop.
+21:58:04  Level 2 Main Entry: Connect Success (4) (serial num:2158593780)
+21:58:05  Zone: Zone1                    	0	0	0
+21:58:05  Zone: Zone2                    	0	0	0
+21:58:06  Level 2 Main Entry: MAC:00-21-AC-00-30-D9 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:58:52  Level 2 Main Entry: Status msgs: 0,0
+21:58:52  Level 2 Main Entry: Current DeviceID: DefaultID
+21:33:15  Level 1 Science Centre Entry 1: Connect Success (1) (serial num:2158593798)
+21:33:16  Level 1 Science Centre Entry 1: MAC:00-21-AC-00-30-39 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:34:00  Level 1 Science Centre Entry 2: Connect Success (2) (serial num:2158593777)
+21:34:01  Level 1 Science Centre Lift: Connect Success (3) (serial num:2158593853)
+21:34:01  Level 2 Lift: Connect Success (5) (serial num:2158593872)
+21:34:02  Level 1 Science Centre Lift: MAC:00-21-AC-00-30-1A IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:34:02  Level 1 Science Centre Entry 2: MAC:00-21-AC-00-30-3B IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:34:03  Level 2 Lift: MAC:00-21-AC-00-2F-8C IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:35:06  Initial Camera Level 1 Science Centre Entry 1 Counts 	= In:0, Out:0
+21:35:10  Level 1 Science Centre Entry 1: Date last reset in registry is not today (reset required): 13/11/11
+21:35:10  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 1
+21:36:52  Camera: Level 1 Science Centre Entry 1          	0	0
+21:36:52  Level 1 Science Centre Entry 1 IrisysIP camera has reset
+21:36:56  Level 1 Science Centre Entry 1: Date last reset in registry is not today (reset required): 13/11/11
+21:36:56  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 1
+21:38:42  Level 1 Science Centre Entry 1: Date last reset in registry is not today (reset required): 13/11/11
+21:38:42  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 1
+21:40:27  Level 1 Science Centre Entry 1: Date last reset in registry is not today (reset required): 13/11/11
+21:40:27  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 1
+21:42:16  Level 1 Science Centre Entry 1: Date last reset in registry is not today (reset required): 13/11/11
+21:42:16  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 1
+
+21:58:01  RECAP $Revision: 3.13.2.13 $ ($State: Exp $) built 09:15:45, Aug  3 2010
+21:58:01  Logging Counting Started
+21:58:01  Start time: 09:30 (570 minutes past midnight)
+21:58:01  Stop time: 22:00 (1320 minutes past midnight)
+21:58:01  Log period: 30 minutes
+21:58:01  Initialising 0 display(s)
+21:58:01  Initialising 9 camera(s)
+21:58:01  IrisysIP counter(s) in use, Starting BlackFin API
+21:58:01  If RECAP crashes, check .NET framework and VCRedist are installed.
+21:58:02  BlackFin API Started.
+21:58:02  BlackFin API Started up OK. Version: 1.10.0.5
+21:58:02  Initialising 2 zone(s)
+21:58:02  Outputting 'Zone1' zone data to 'Zones\Zone1.txt'
+21:58:02  Outputting 'Zone2' zone data to 'Zones\Zone2.txt'
+21:58:02  Displaying shutdown on 0 display(s)
+21:58:02  Waiting till start time
+21:58:02  Start time reached
+21:58:02  Adding Level 1 Science Centre Entry 1 thread to Watchdog
+21:58:02  Level 1 Science Centre Entry 1: InCountCorrection read from registry: 0
+21:58:02  Level 1 Science Centre Entry 1: OutCountCorrection read from registry: 0
+21:58:02  Adding Level 1 Science Centre Entry 2 thread to Watchdog
+21:58:02  Level 1 Science Centre Entry 2: InCountCorrection read from registry: 0
+21:58:02  Level 1 Science Centre Entry 2: OutCountCorrection read from registry: 0
+21:58:02  Adding Level 1 Science Centre Lift thread to Watchdog
+21:58:02  Level 1 Science Centre Lift: InCountCorrection read from registry: 0
+21:58:02  Level 1 Science Centre Lift: OutCountCorrection read from registry: 0
+21:58:02  Adding Level 2 Main Entry thread to Watchdog
+21:58:02  Level 2 Main Entry: InCountCorrection read from registry: 0
+21:58:02  Level 2 Main Entry: OutCountCorrection read from registry: 0
+21:58:02  Adding Level 2 Lift thread to Watchdog
+21:58:02  Level 2 Lift: InCountCorrection read from registry: 0
+21:58:02  Level 2 Lift: OutCountCorrection read from registry: 0
+21:58:02  Adding Shop A thread to Watchdog
+21:58:02  Shop A: InCountCorrection read from registry: 0
+21:58:02  Shop A: OutCountCorrection read from registry: 0
+21:58:03  Adding Shop B thread to Watchdog
+21:58:03  Shop B: InCountCorrection read from registry: 0
+21:58:03  Shop B: OutCountCorrection read from registry: 0
+21:58:03  Adding Shop Whale Mall thread to Watchdog
+21:58:03  Shop Whale Mall: InCountCorrection read from registry: 0
+21:58:03  Shop Whale Mall: OutCountCorrection read from registry: 0
+21:58:03  Adding Level 2 Cafe thread to Watchdog
+21:58:03  Level 2 Cafe: InCountCorrection read from registry: 0
+21:58:03  Level 2 Cafe: OutCountCorrection read from registry: 0
+21:58:04  Already started today, update counts and busiest times from registry
+21:58:04  Starting main data collection loop.
+21:58:05  Level 2 Lift: Connect Success (5) (serial num:2158593872)
+21:58:06  Level 1 Science Centre Lift: Connect Success (3) (serial num:2158593853)
+21:58:07  Zone: Zone1                    	0	0	0
+21:58:07  Zone: Zone2                    	0	0	0
+21:58:07  Level 1 Science Centre Entry 2: Connect Success (2) (serial num:2158593777)
+21:58:07  Level 2 Main Entry: Connect Success (4) (serial num:2158593780)
+21:58:08  Level 1 Science Centre Lift: MAC:00-21-AC-00-30-1A IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:58:08  Level 1 Science Centre Entry 2: MAC:00-21-AC-00-30-3B IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:58:08  Level 2 Lift: MAC:00-21-AC-00-2F-8C IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:58:09  Level 2 Main Entry: MAC:00-21-AC-00-30-D9 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:58:28  Level 1 Science Centre Lift: Status msgs: 0,0
+21:58:29  Level 1 Science Centre Entry 1: Connect Success (1) (serial num:2158593798)
+21:58:29  Level 1 Science Centre Lift: Current DeviceID: DefaultID
+21:58:29  Level 1 Science Centre Entry 2: Status msgs: 0,0
+21:58:29  Level 1 Science Centre Entry 2: Current DeviceID: DefaultID
+21:58:30  Level 1 Science Centre Entry 1: MAC:00-21-AC-00-30-39 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:58:51  Level 1 Science Centre Entry 1: Status msgs: 0,0
+21:58:51  Level 1 Science Centre Entry 1: Current DeviceID: DefaultID
+21:58:52  Level 2 Lift: Status msgs: 0,0
+21:58:52  Level 2 Lift: Current DeviceID: DefaultID
+21:58:53  Level 2 Main Entry: Status msgs: 0,0
+21:58:53  Level 2 Main Entry: Current DeviceID: DefaultID
+22:00:07  Logging to daily summary: "22:00 0 0 0 0 0 0"
+22:00:16  Failed to send email.
+22:00:16  Service running OK
+22:00:33  Stop time reached.
+22:00:33  Camera 'Level 1 Science Centre Entry 1' - final counts 0 0
+22:00:33  Camera 'Level 1 Science Centre Entry 2' - final counts 0 0
+22:00:33  Camera 'Level 1 Science Centre Lift' - final counts 0 0
+22:00:33  Camera 'Level 2 Main Entry' - final counts 0 0
+22:00:33  Camera 'Level 2 Lift' - final counts 1 2
+22:00:33  Camera 'Shop A' - final counts 0 0
+22:00:33  Camera 'Shop B' - final counts 0 0
+22:00:33  Camera 'Shop Whale Mall' - final counts 0 0
+22:00:33  Camera 'Level 2 Cafe' - final counts 0 0
+22:00:33  Zone: Zone1                    	0	0	0
+22:00:33  Zone: Zone2                    	0	0	0
+22:00:34  Level 1 Science Centre Entry 1: IrisysIP counts reset requested.
+22:00:34  Level 1 Science Centre Entry 2: IrisysIP counts reset requested.
+22:00:34  Level 1 Science Centre Lift: IrisysIP counts reset requested.
+22:00:34  Level 2 Main Entry: IrisysIP counts reset requested.
+22:00:34  Level 2 Lift: IrisysIP counts reset requested.
+22:00:34  Shop A: IrisysIP counts reset requested.
+22:00:34  Shop B: IrisysIP counts reset requested.
+22:00:34  Shop Whale Mall: IrisysIP counts reset requested.
+22:00:34  Level 2 Cafe: IrisysIP counts reset requested.
+22:00:43  Email sent successfully.
+22:00:43  Displaying shutdown on 0 display(s)
+22:00:43  End the manager threads.
+22:00:43  Close all CAN threads.
+22:00:43  All CAN threads, now flagged to be closed.
+22:00:43  Close all IrisysIP threads.
+22:00:43  Level 1 Science Centre Entry 1: The Irisys IP thread has been flagged to end.
+22:00:43  Level 1 Science Centre Entry 1: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:00:43  Level 1 Science Centre Entry 1: The Irisys IP thread has ended.
+22:00:43  Level 1 Science Centre Entry 2: The Irisys IP thread has been flagged to end.
+22:01:27  Level 1 Science Centre Entry 2: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:01:27  Level 1 Science Centre Entry 2: The Irisys IP thread has ended.
+22:01:27  Level 1 Science Centre Lift: The Irisys IP thread has been flagged to end.
+22:01:27  Level 1 Science Centre Lift: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:01:27  Level 1 Science Centre Lift: The Irisys IP thread has ended.
+22:01:27  Level 2 Main Entry: The Irisys IP thread has been flagged to end.
+22:01:50  Level 2 Main Entry: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:01:50  Level 2 Main Entry: The Irisys IP thread has ended.
+22:01:50  Level 2 Lift: The Irisys IP thread has been flagged to end.
+22:01:50  Level 2 Lift: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:01:50  Level 2 Lift: The Irisys IP thread has ended.
+22:01:50  Shop A: The Irisys IP thread has been flagged to end.
+22:02:44  Shop A: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:44  Shop A: The Irisys IP thread has ended.
+22:02:44  Shop B: The Irisys IP thread has been flagged to end.
+22:02:45  Shop B: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:45  Shop B: The Irisys IP thread has ended.
+22:02:45  Shop Whale Mall: The Irisys IP thread has been flagged to end.
+22:02:45  Shop Whale Mall: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:45  Shop Whale Mall: The Irisys IP thread has ended.
+22:02:45  Level 2 Cafe: The Irisys IP thread has been flagged to end.
+22:02:45  Level 2 Cafe: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:45  Level 2 Cafe: The Irisys IP thread has ended.
+22:02:45  All IrisysIP threads, now flagged to be closed.
+22:02:45  Close all iCount threads.
+22:02:45  All iCount threads, now flagged to be closed.
+22:02:45  Close all eDAM threads.
+22:02:45  All eDAM threads, now flagged to be closed.
+22:02:45  Camera 'Level 1 Science Centre Entry 1' - maximum flow 0 at 21:58:02
+22:02:45  Camera 'Level 1 Science Centre Entry 2' - maximum flow 0 at 21:58:02
+22:02:45  Camera 'Level 1 Science Centre Lift' - maximum flow 0 at 21:58:02
+22:02:45  Camera 'Level 2 Main Entry' - maximum flow 0 at 21:58:02
+22:02:45  Camera 'Level 2 Lift' - maximum flow 0 at 21:58:02
+22:02:45  Camera 'Shop A' - maximum flow 0 at 21:58:02
+22:02:45  Camera 'Shop B' - maximum flow 0 at 21:58:02
+22:02:45  Camera 'Shop Whale Mall' - maximum flow 0 at 21:58:02
+22:02:45  Camera 'Level 2 Cafe' - maximum flow 0 at 21:58:02
+22:02:45  Camera 'Level 1 Science Centre Entry 1' refreshing registry counts
+22:02:45  Camera 'Level 1 Science Centre Entry 2' refreshing registry counts
+22:02:45  Camera 'Level 1 Science Centre Lift' refreshing registry counts
+22:02:45  Camera 'Level 2 Main Entry' refreshing registry counts
+22:02:45  Camera 'Level 2 Lift' refreshing registry counts
+22:02:45  Camera 'Shop A' refreshing registry counts
+22:02:45  Camera 'Shop B' refreshing registry counts
+22:02:45  Camera 'Shop Whale Mall' refreshing registry counts
+22:02:45  Camera 'Level 2 Cafe' refreshing registry counts
+22:02:45  Zone 'Zone1' refreshing file counts
+22:02:45  Zone 'Zone2' refreshing file counts
+22:02:45  Processing application not specified
+22:02:45  Logging Counting Stopped
+
+
+21:28:01  RECAP $Revision: 3.13.2.13 $ ($State: Exp $) built 09:15:45, Aug  3 2010
+21:28:01  Logging Counting Started
+21:28:01  Start time: 09:30 (570 minutes past midnight)
+21:28:01  Stop time: 22:00 (1320 minutes past midnight)
+21:28:01  Log period: 30 minutes
+21:28:01  Initialising 0 display(s)
+21:28:01  Initialising 9 camera(s)
+21:28:01  IrisysIP counter(s) in use, Starting BlackFin API
+21:28:01  If RECAP crashes, check .NET framework and VCRedist are installed.
+21:28:01  BlackFin API Started.
+21:28:01  BlackFin API Started up OK. Version: 1.10.0.5
+21:28:01  Initialising 2 zone(s)
+21:28:01  Outputting 'Zone1' zone data to 'Zones\Zone1.txt'
+21:28:01  Outputting 'Zone2' zone data to 'Zones\Zone2.txt'
+21:28:01  Displaying shutdown on 0 display(s)
+21:28:01  Waiting till start time
+21:28:01  Start time reached
+21:28:01  Adding Level 1 Science Centre Entry 1 thread to Watchdog
+21:28:01  Level 1 Science Centre Entry 1: InCountCorrection read from registry: 0
+21:28:01  Level 1 Science Centre Entry 1: OutCountCorrection read from registry: 0
+21:28:01  Adding Level 1 Science Centre Entry 2 thread to Watchdog
+21:28:01  Level 1 Science Centre Entry 2: InCountCorrection read from registry: 0
+21:28:01  Level 1 Science Centre Entry 2: OutCountCorrection read from registry: 0
+21:28:01  Adding Level 1 Science Centre Lift thread to Watchdog
+21:28:01  Level 1 Science Centre Lift: InCountCorrection read from registry: 0
+21:28:01  Level 1 Science Centre Lift: OutCountCorrection read from registry: 0
+21:28:01  Adding Level 2 Main Entry thread to Watchdog
+21:28:01  Level 2 Main Entry: InCountCorrection read from registry: 0
+21:28:01  Level 2 Main Entry: OutCountCorrection read from registry: 0
+21:28:02  Adding Level 2 Lift thread to Watchdog
+21:28:02  Level 2 Lift: InCountCorrection read from registry: 0
+21:28:02  Level 2 Lift: OutCountCorrection read from registry: 0
+21:28:02  Adding Shop A thread to Watchdog
+21:28:02  Shop A: InCountCorrection read from registry: 0
+21:28:02  Shop A: OutCountCorrection read from registry: 0
+21:28:02  Adding Shop B thread to Watchdog
+21:28:02  Shop B: InCountCorrection read from registry: 0
+21:28:02  Shop B: OutCountCorrection read from registry: 0
+21:28:02  Adding Shop Whale Mall thread to Watchdog
+21:28:02  Shop Whale Mall: InCountCorrection read from registry: 0
+21:28:02  Shop Whale Mall: OutCountCorrection read from registry: 0
+21:28:02  Adding Level 2 Cafe thread to Watchdog
+21:28:02  Level 2 Cafe: InCountCorrection read from registry: 0
+21:28:02  Level 2 Cafe: OutCountCorrection read from registry: 0
+21:28:03  Already started today, update counts and busiest times from registry
+21:28:03  Error!  Zone:RefreshTrendFromRegistry: Unable to read TrendChange16 from registry for zone 'Zone1'.
+21:28:03  Error!  Zone:RefreshTrendFromRegistry: Unable to read TrendChange16 from registry for zone 'Zone2'.
+21:28:03  Starting main data collection loop.
+21:28:06  Zone: Zone1 - Counts are now valid.
+21:28:06  Zone: Zone1                    	0	0	0
+21:28:06  Zone: Zone2 - Counts are now valid.
+21:28:06  Zone: Zone2                    	0	0	0
+21:28:50  Level 1 Science Centre Lift: Connect Success (3) (serial num:2158593853)
+21:28:50  Level 1 Science Centre Entry 2: Connect Success (2) (serial num:2158593777)
+21:28:51  Level 1 Science Centre Lift: MAC:00-21-AC-00-30-1A IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:28:52  Level 1 Science Centre Entry 2: MAC:00-21-AC-00-30-3B IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:29:12  Level 1 Science Centre Lift: Status msgs: 0,0
+21:29:12  Level 1 Science Centre Lift: Current DeviceID: DefaultID
+21:29:13  Level 1 Science Centre Entry 2: Status msgs: 0,0
+21:29:13  Level 1 Science Centre Entry 2: Current DeviceID: DefaultID
+21:29:17  Level 1 Science Centre Entry 1: Connect Success (1) (serial num:2158593798)
+21:29:18  Level 2 Main Entry: Connect Success (4) (serial num:2158593780)
+21:29:18  Level 2 Lift: Connect Success (5) (serial num:2158593872)
+21:29:19  Level 1 Science Centre Entry 1: MAC:00-21-AC-00-30-39 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:29:19  Level 2 Main Entry: MAC:00-21-AC-00-30-D9 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:29:20  Level 2 Lift: MAC:00-21-AC-00-2F-8C IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:30:08  Logging to daily summary: "21:30 0 0 0 0 0 0"
+21:30:18  Failed to send email.
+21:30:18  Service running OK
+21:31:18  Initial Camera Level 2 Main Entry Counts 	= In:17, Out:13
+21:31:19  Initial Camera Level 2 Lift Counts 	= In:1, Out:2
+21:31:20  Initial Camera Level 1 Science Centre Entry 1 Counts 	= In:0, Out:0
+21:31:22  Level 2 Main Entry: Date last reset in registry is today: 14/11/11
+21:31:22  Camera: Level 2 Main Entry - Counts are now valid.
+21:31:23  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:31:23  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:31:24  Level 1 Science Centre Entry 1: Date last reset in registry is not today (reset required): 13/11/11
+21:31:24  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 1
+21:33:15  Camera: Level 2 Lift                            	1	2
+21:33:19  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:33:19  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:27:17  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:27:17  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:29:09  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:29:09  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:31:02  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:31:02  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:32:57  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:32:57  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:34:51  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:34:51  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:36:44  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:36:44  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:38:39  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:38:39  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:40:33  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:40:33  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:42:29  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:42:29  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:36:21  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:36:21  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:38:17  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:38:17  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:40:13  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:40:13  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:42:11  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:42:11  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:44:07  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:44:07  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:46:04  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:46:04  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+21:48:01  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+21:48:01  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+
+21:58:00  RECAP $Revision: 3.13.2.13 $ ($State: Exp $) built 09:15:45, Aug  3 2010
+21:58:00  Logging Counting Started
+21:58:00  Start time: 09:30 (570 minutes past midnight)
+21:58:00  Stop time: 22:00 (1320 minutes past midnight)
+21:58:00  Log period: 30 minutes
+21:58:00  Initialising 0 display(s)
+21:58:00  Initialising 9 camera(s)
+21:58:00  IrisysIP counter(s) in use, Starting BlackFin API
+21:58:00  If RECAP crashes, check .NET framework and VCRedist are installed.
+21:58:00  BlackFin API Started.
+21:58:00  BlackFin API Started up OK. Version: 1.10.0.5
+21:58:00  Initialising 2 zone(s)
+21:58:00  Outputting 'Zone1' zone data to 'Zones\Zone1.txt'
+21:58:00  Outputting 'Zone2' zone data to 'Zones\Zone2.txt'
+21:58:00  Displaying shutdown on 0 display(s)
+21:58:00  Waiting till start time
+21:58:00  Start time reached
+21:58:00  Adding Level 1 Science Centre Entry 1 thread to Watchdog
+21:58:00  Level 1 Science Centre Entry 1: InCountCorrection read from registry: 0
+21:58:00  Level 1 Science Centre Entry 1: OutCountCorrection read from registry: 0
+21:58:00  Adding Level 1 Science Centre Entry 2 thread to Watchdog
+21:58:00  Level 1 Science Centre Entry 2: InCountCorrection read from registry: 0
+21:58:00  Level 1 Science Centre Entry 2: OutCountCorrection read from registry: 0
+21:58:00  Adding Level 1 Science Centre Lift thread to Watchdog
+21:58:00  Level 1 Science Centre Lift: InCountCorrection read from registry: 0
+21:58:00  Level 1 Science Centre Lift: OutCountCorrection read from registry: 0
+21:58:00  Adding Level 2 Main Entry thread to Watchdog
+21:58:00  Level 2 Main Entry: InCountCorrection read from registry: 0
+21:58:00  Level 2 Main Entry: OutCountCorrection read from registry: 0
+21:58:00  Adding Level 2 Lift thread to Watchdog
+21:58:00  Level 2 Lift: InCountCorrection read from registry: 0
+21:58:00  Level 2 Lift: OutCountCorrection read from registry: 0
+21:58:00  Adding Shop A thread to Watchdog
+21:58:00  Shop A: InCountCorrection read from registry: 0
+21:58:00  Shop A: OutCountCorrection read from registry: 0
+21:58:00  Adding Shop B thread to Watchdog
+21:58:00  Shop B: InCountCorrection read from registry: 0
+21:58:00  Shop B: OutCountCorrection read from registry: 0
+21:58:01  Adding Shop Whale Mall thread to Watchdog
+21:58:01  Shop Whale Mall: InCountCorrection read from registry: 0
+21:58:01  Shop Whale Mall: OutCountCorrection read from registry: 0
+21:58:01  Adding Level 2 Cafe thread to Watchdog
+21:58:01  Level 2 Cafe: InCountCorrection read from registry: 0
+21:58:01  Level 2 Cafe: OutCountCorrection read from registry: 0
+21:58:02  Already started today, update counts and busiest times from registry
+21:58:02  Starting main data collection loop.
+21:58:05  Zone: Zone1                    	0	0	0
+21:58:05  Zone: Zone2                    	0	0	0
+21:58:31  Level 2 Main Entry: Connect Success (4) (serial num:2158593780)
+21:58:33  Level 2 Main Entry: MAC:00-21-AC-00-30-D9 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:59:18  Level 2 Main Entry: Status msgs: 0,0
+21:59:18  Level 2 Main Entry: Current DeviceID: DefaultID
+21:59:20  Level 1 Science Centre Entry 1: Connect Success (1) (serial num:2158593798)
+21:59:21  Level 1 Science Centre Entry 1: MAC:00-21-AC-00-30-39 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:59:41  Level 2 Lift: Connect Success (5) (serial num:2158593872)
+21:59:42  Level 2 Lift: MAC:00-21-AC-00-2F-8C IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+21:59:47  Level 1 Science Centre Lift: Connect Success (3) (serial num:2158593853)
+21:59:49  Level 1 Science Centre Lift: MAC:00-21-AC-00-30-1A IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+22:00:07  Logging to daily summary: "22:00 0 0 0 0 0 0"
+22:00:12  Failed to send email.
+22:00:12  Service running OK
+22:00:30  Closing time reached
+22:00:47  Stop time reached.
+22:00:47  Camera 'Level 1 Science Centre Entry 1' - final counts 0 0
+22:00:47  Camera 'Level 1 Science Centre Entry 2' - final counts 0 0
+22:00:47  Camera 'Level 1 Science Centre Lift' - final counts 0 0
+22:00:47  Camera 'Level 2 Main Entry' - final counts 0 0
+22:00:47  Camera 'Level 2 Lift' - final counts 1 2
+22:00:47  Camera 'Shop A' - final counts 0 0
+22:00:47  Camera 'Shop B' - final counts 0 0
+22:00:47  Camera 'Shop Whale Mall' - final counts 0 0
+22:00:47  Camera 'Level 2 Cafe' - final counts 0 0
+22:00:47  Zone: Zone1                    	0	0	0
+22:00:47  Zone: Zone2                    	0	0	0
+22:00:48  Level 1 Science Centre Entry 1: IrisysIP counts reset requested.
+22:00:48  Level 1 Science Centre Entry 2: IrisysIP counts reset requested.
+22:00:48  Level 1 Science Centre Lift: IrisysIP counts reset requested.
+22:00:48  Level 2 Main Entry: IrisysIP counts reset requested.
+22:00:48  Level 2 Lift: IrisysIP counts reset requested.
+22:00:48  Shop A: IrisysIP counts reset requested.
+22:00:48  Shop B: IrisysIP counts reset requested.
+22:00:48  Shop Whale Mall: IrisysIP counts reset requested.
+22:00:48  Level 2 Cafe: IrisysIP counts reset requested.
+22:00:57  Failed to send email.
+22:00:57  Displaying shutdown on 0 display(s)
+22:00:57  End the manager threads.
+22:00:57  Close all CAN threads.
+22:00:57  All CAN threads, now flagged to be closed.
+22:00:57  Close all IrisysIP threads.
+22:00:57  Level 1 Science Centre Entry 1: The Irisys IP thread has been flagged to end.
+22:01:14  Level 1 Science Centre Entry 1: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:01:14  Level 1 Science Centre Entry 1: The Irisys IP thread has ended.
+22:01:14  Level 1 Science Centre Entry 2: The Irisys IP thread has been flagged to end.
+22:01:27  Level 1 Science Centre Entry 2: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:01:27  Level 1 Science Centre Entry 2: The Irisys IP thread has ended.
+22:01:27  Level 1 Science Centre Lift: The Irisys IP thread has been flagged to end.
+22:01:39  Initial Camera Level 2 Lift Counts 	= In:1, Out:2
+22:01:43  Level 2 Lift: Date last reset in registry is not today (reset required): 13/11/11
+22:01:43  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+22:01:43  Level 1 Science Centre Lift: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:01:43  Level 1 Science Centre Lift: The Irisys IP thread has ended.
+22:01:43  Level 2 Main Entry: The Irisys IP thread has been flagged to end.
+22:02:19  Level 2 Main Entry: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:19  Level 2 Main Entry: The Irisys IP thread has ended.
+22:02:19  Level 2 Lift: The Irisys IP thread has been flagged to end.
+22:02:43  Level 2 Lift: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:43  Level 2 Lift: The Irisys IP thread has ended.
+22:02:43  Shop A: The Irisys IP thread has been flagged to end.
+22:02:43  Shop A: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:43  Shop A: The Irisys IP thread has ended.
+22:02:43  Shop B: The Irisys IP thread has been flagged to end.
+22:02:43  Shop B: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:43  Shop B: The Irisys IP thread has ended.
+22:02:43  Shop Whale Mall: The Irisys IP thread has been flagged to end.
+22:02:43  Shop Whale Mall: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:43  Shop Whale Mall: The Irisys IP thread has ended.
+22:02:43  Level 2 Cafe: The Irisys IP thread has been flagged to end.
+22:02:43  Level 2 Cafe: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:43  Level 2 Cafe: The Irisys IP thread has ended.
+22:02:43  All IrisysIP threads, now flagged to be closed.
+22:02:43  Close all iCount threads.
+22:02:43  All iCount threads, now flagged to be closed.
+22:02:43  Close all eDAM threads.
+22:02:43  All eDAM threads, now flagged to be closed.
+22:02:43  Camera 'Level 1 Science Centre Entry 1' - maximum flow 0 at 21:58:00
+22:02:43  Camera 'Level 1 Science Centre Entry 2' - maximum flow 0 at 21:58:00
+22:02:43  Camera 'Level 1 Science Centre Lift' - maximum flow 0 at 21:58:00
+22:02:43  Camera 'Level 2 Main Entry' - maximum flow 0 at 21:58:00
+22:02:43  Camera 'Level 2 Lift' - maximum flow 0 at 21:58:00
+22:02:43  Camera 'Shop A' - maximum flow 0 at 21:58:00
+22:02:43  Camera 'Shop B' - maximum flow 0 at 21:58:00
+22:02:43  Camera 'Shop Whale Mall' - maximum flow 0 at 21:58:00
+22:02:43  Camera 'Level 2 Cafe' - maximum flow 0 at 21:58:00
+22:02:43  Camera 'Level 1 Science Centre Entry 1' refreshing registry counts
+22:02:43  Camera 'Level 1 Science Centre Entry 2' refreshing registry counts
+22:02:43  Camera 'Level 1 Science Centre Lift' refreshing registry counts
+22:02:43  Camera 'Level 2 Main Entry' refreshing registry counts
+22:02:43  Camera 'Level 2 Lift' refreshing registry counts
+22:02:43  Camera 'Shop A' refreshing registry counts
+22:02:43  Camera 'Shop B' refreshing registry counts
+22:02:43  Camera 'Shop Whale Mall' refreshing registry counts
+22:02:43  Camera 'Level 2 Cafe' refreshing registry counts
+22:02:43  Zone 'Zone1' refreshing file counts
+22:02:43  Zone 'Zone2' refreshing file counts
+22:02:43  Processing application not specified
+22:02:43  Logging Counting Stopped
+

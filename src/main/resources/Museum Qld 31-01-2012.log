@@ -1,0 +1,2738 @@
+
+07:28:01  RECAP $Revision: 3.13.2.13 $ ($State: Exp $) built 09:15:45, Aug  3 2010
+07:28:01  Logging Counting Started
+07:28:01  Start time: 09:30 (570 minutes past midnight)
+07:28:01  Stop time: 22:00 (1320 minutes past midnight)
+07:28:01  Log period: 30 minutes
+07:28:01  Initialising 0 display(s)
+07:28:01  Initialising 9 camera(s)
+07:28:01  IrisysIP counter(s) in use, Starting BlackFin API
+07:28:01  If RECAP crashes, check .NET framework and VCRedist are installed.
+07:28:01  BlackFin API Started.
+07:28:01  BlackFin API Started up OK. Version: 1.10.0.5
+07:28:01  Initialising 2 zone(s)
+07:28:01  Outputting 'Zone1' zone data to 'Zones\Zone1.txt'
+07:28:01  Outputting 'Zone2' zone data to 'Zones\Zone2.txt'
+07:28:01  Displaying shutdown on 0 display(s)
+07:28:01  Waiting till start time
+09:30:00  Start time reached
+09:30:00  Adding Level 1 Entry 1 thread to Watchdog
+09:30:00  Level 1 Entry 1: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Entry 1: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 1 Entry 2 thread to Watchdog
+09:30:00  Level 1 Entry 2: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Entry 2: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 1 Lift thread to Watchdog
+09:30:00  Level 1 Lift: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Lift: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 2 Main Entry thread to Watchdog
+09:30:00  Level 2 Main Entry: InCountCorrection set in registry to: 0
+09:30:00  Level 2 Main Entry: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 2 Lift thread to Watchdog
+09:30:00  Level 2 Lift: InCountCorrection set in registry to: 0
+09:30:00  Level 2 Lift: OutCountCorrection set in registry to: 0
+09:30:00  Adding Shop A thread to Watchdog
+09:30:00  Shop A: InCountCorrection set in registry to: 0
+09:30:00  Shop A: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 0 Entry thread to Watchdog
+09:30:00  Level 0 Entry: InCountCorrection set in registry to: 0
+09:30:00  Level 0 Entry: OutCountCorrection set in registry to: 0
+09:30:00  Adding Science Centre Entry thread to Watchdog
+09:30:00  Science Centre Entry: InCountCorrection set in registry to: 0
+09:30:00  Science Centre Entry: OutCountCorrection set in registry to: 0
+09:30:00  Adding Spare thread to Watchdog
+09:30:00  Spare: InCountCorrection set in registry to: 0
+09:30:00  Spare: OutCountCorrection set in registry to: 0
+09:30:01  New day, Reset counts and busiest times in registry
+09:30:01  Camera Level 1 Entry 1 Counts 	= In:0, Out:0
+09:30:01  Camera Level 1 Entry 2 Counts 	= In:0, Out:0
+09:30:01  Camera Level 1 Lift Counts 	= In:0, Out:0
+09:30:01  Camera Level 2 Main Entry Counts 	= In:0, Out:0
+09:30:01  Camera Level 2 Lift Counts 	= In:0, Out:0
+09:30:01  Camera Shop A Counts 	= In:0, Out:0
+09:30:01  Camera Level 0 Entry Counts 	= In:0, Out:0
+09:30:01  Camera Science Centre Entry Counts 	= In:0, Out:0
+09:30:01  Camera Spare Counts 	= In:0, Out:0
+09:30:02  Starting main data collection loop.
+09:30:05  Zone: Zone1                    	0	0	0
+09:30:05  Zone: Zone2                    	0	0	0
+09:30:05  Logging to daily summary: "09:30 0 0 0 0 0 0"
+09:30:05  Service running OK
+09:30:09  Level 1 Entry 2: Connect Success (2) (serial num:2158593777)
+09:30:10  Level 1 Entry 2: MAC:00-21-AC-00-30-3B IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:12  Shop A: Connect Success (6) (serial num:2158593779)
+09:30:13  Level 1 Lift: Connect Success (3) (serial num:2158593853)
+09:30:13  Shop A: MAC:00-21-AC-00-30-21 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:14  Level 1 Lift: MAC:00-21-AC-00-30-1A IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:15  Level 1 Entry 2: Status msgs: 0,0
+09:30:15  Level 1 Entry 2: Current DeviceID: DefaultID
+09:30:18  Level 2 Lift: Connect Success (5) (serial num:2158593872)
+09:30:18  Level 2 Lift: MAC:00-21-AC-00-2F-8C IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:18  Shop A: Status msgs: 0,0
+09:30:19  Shop A: Current DeviceID: DefaultID
+09:30:19  Level 1 Lift: Status msgs: 0,0
+09:30:20  Level 1 Lift: Current DeviceID: DefaultID
+09:30:20  Level 0 Entry: Connect Success (7) (serial num:2158593790)
+09:30:20  Level 2 Main Entry: Connect Success (4) (serial num:2158593780)
+09:30:21  Level 0 Entry: MAC:00-21-AC-00-30-38 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:21  Level 2 Main Entry: MAC:00-21-AC-00-30-D9 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:23  Science Centre Entry: Connect Success (9) (serial num:2158593773)
+09:30:24  Science Centre Entry: MAC:00-21-AC-00-30-1F IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:24  Level 2 Lift: Status msgs: 0,0
+09:30:24  Level 2 Lift: Current DeviceID: DefaultID
+09:30:26  Level 2 Main Entry: Status msgs: 0,0
+09:30:27  Level 2 Main Entry: Current DeviceID: DefaultID
+09:30:32  Level 0 Entry: Status msgs: 0,0
+09:30:32  Level 0 Entry: Current DeviceID: DefaultID
+09:30:34  Science Centre Entry: Status msgs: 0,0
+09:30:34  Science Centre Entry: Current DeviceID: DefaultID
+09:30:44  Level 1 Entry 1: Connect Success (1) (serial num:2158593798)
+09:30:45  Level 1 Entry 1: MAC:00-21-AC-00-30-39 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:50  Level 1 Entry 1: Status msgs: 0,0
+09:30:50  Level 1 Entry 1: Current DeviceID: DefaultID
+09:32:19  Initial Camera Level 1 Entry 2 Counts 	= In:11, Out:1
+09:32:22  Initial Camera Shop A Counts 	= In:11, Out:18
+09:32:23  Level 1 Entry 2: Date last reset in registry is not today (reset required): 30/01/12
+09:32:23  Attempting to reset counts for IrisysIP Camera Level 1 Entry 2
+09:32:26  Shop A: Date last reset in registry is not today (reset required): 30/01/12
+09:32:26  Attempting to reset counts for IrisysIP Camera Shop A
+09:33:18  Level 1 Entry 2: InCountCorrection set in registry to: 0
+09:33:18  Level 1 Entry 2: OutCountCorrection set in registry to: 0
+09:33:19  Initial Camera Level 1 Lift Counts 	= In:3, Out:4
+09:33:19  Level 1 Entry 2: has reset camera
+09:33:19  Camera: Level 1 Entry 2 - Counts are now valid.
+09:33:22  Shop A: InCountCorrection set in registry to: 0
+09:33:22  Shop A: OutCountCorrection set in registry to: 0
+09:33:23  Shop A: has reset camera
+09:33:23  Initial Camera Level 2 Lift Counts 	= In:2, Out:2
+09:33:23  Camera: Shop A - Counts are now valid.
+09:33:23  Initial Camera Level 2 Main Entry Counts 	= In:114, Out:21
+09:33:23  Initial Camera Level 0 Entry Counts 	= In:6, Out:7
+09:33:23  Initial Camera Science Centre Entry Counts 	= In:40, Out:34
+09:33:23  Initial Camera Level 1 Entry 1 Counts 	= In:209, Out:252
+09:33:23  Level 1 Lift: Date last reset in registry is not today (reset required): 30/01/12
+09:33:23  Attempting to reset counts for IrisysIP Camera Level 1 Lift
+09:33:24  Level 1 Lift: InCountCorrection set in registry to: 0
+09:33:24  Level 1 Lift: OutCountCorrection set in registry to: 0
+09:33:25  Level 1 Lift: has reset camera
+09:33:25  Camera: Level 1 Lift - Counts are now valid.
+09:33:27  Level 2 Lift: Date last reset in registry is not today (reset required): 30/01/12
+09:33:27  Level 2 Main Entry: Date last reset in registry is not today (reset required): 30/01/12
+09:33:27  Level 0 Entry: Date last reset in registry is not today (reset required): 30/01/12
+09:33:27  Science Centre Entry: Date last reset in registry is not today (reset required): 30/01/12
+09:33:27  Level 1 Entry 1: Date last reset in registry is not today (reset required): 30/01/12
+09:33:27  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+09:33:27  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:33:27  Attempting to reset counts for IrisysIP Camera Level 0 Entry
+09:33:27  Attempting to reset counts for IrisysIP Camera Science Centre Entry
+09:33:27  Attempting to reset counts for IrisysIP Camera Level 1 Entry 1
+09:33:28  Level 2 Lift: InCountCorrection set in registry to: 0
+09:33:28  Level 2 Lift: OutCountCorrection set in registry to: 0
+09:33:29  Level 2 Lift: has reset camera
+09:33:29  Camera: Level 2 Lift - Counts are now valid.
+09:33:30  Level 2 Main Entry: InCountCorrection set in registry to: 0
+09:33:30  Level 2 Main Entry: OutCountCorrection set in registry to: 0
+09:33:31  Level 2 Main Entry: has reset camera
+09:33:31  Camera: Level 2 Main Entry - Counts are now valid.
+09:33:35  Level 0 Entry: InCountCorrection set in registry to: 0
+09:33:35  Level 0 Entry: OutCountCorrection set in registry to: 0
+09:33:36  Level 0 Entry: has reset camera
+09:33:36  Camera: Level 0 Entry - Counts are now valid.
+09:33:37  Science Centre Entry: InCountCorrection set in registry to: 0
+09:33:37  Science Centre Entry: OutCountCorrection set in registry to: 0
+09:33:38  Science Centre Entry: has reset camera
+09:33:38  Camera: Science Centre Entry - Counts are now valid.
+09:33:53  Level 1 Entry 1: InCountCorrection set in registry to: 0
+09:33:53  Level 1 Entry 1: OutCountCorrection set in registry to: 0
+09:33:54  Level 1 Entry 1: has reset camera
+09:33:54  Camera: Level 1 Entry 1 - Counts are now valid.
+09:33:54  Zone: Zone2 - Counts are now valid.
+09:34:13  Zone: Zone1 - Counts are now valid.
+09:34:20  Camera: Level 1 Entry 2                         	2	0
+09:34:24  Camera: Shop A                                  	0	0
+09:34:24  Shop A IrisysIP camera has reset
+09:34:26  Camera: Level 1 Lift                            	0	6
+09:34:28  Zone: Zone1                    	2	2	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+09:34:28  Zone: Zone1                    	2	2	0
+09:34:30  Camera: Level 2 Lift                            	0	0
+09:34:30  Level 2 Lift IrisysIP camera has reset
+09:34:32  Camera: Level 2 Main Entry                      	0	0
+09:34:32  Level 2 Main Entry IrisysIP camera has reset
+09:34:37  Camera: Level 0 Entry                           	0	1
+09:34:40  Camera: Science Centre Entry                    	0	0
+09:34:40  Science Centre Entry IrisysIP camera has reset
+09:34:44  Zone: Zone1                    	2	2	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+09:34:55  Camera: Level 1 Entry 1                         	0	0
+09:34:55  Level 1 Entry 1 IrisysIP camera has reset
+09:35:31  Camera: Level 2 Lift                            	2	0
+09:35:31  Zone: Zone1                    	4	2	2
+09:35:41  Camera: Science Centre Entry                    	2	0
+09:35:47  Zone: Zone2                    	2	0	2
+09:35:57  Camera: Level 1 Entry 1                         	1	0
+09:36:02  Zone: Zone1                    	5	2	3
+09:36:32  Camera: Level 2 Lift                            	3	0
+09:36:34  Zone: Zone1                    	6	2	4
+09:36:34  Camera: Level 2 Main Entry                      	1	1
+09:36:50  Zone: Zone1                    	7	3	4
+09:36:58  Camera: Level 1 Entry 1                         	2	0
+09:37:05  Zone: Zone1                    	8	3	5
+09:37:24  Camera: Level 1 Entry 2                         	4	0
+09:37:35  Camera: Level 2 Main Entry                      	2	2
+09:37:37  Zone: Zone1                    	11	4	7
+09:37:40  Camera: Level 0 Entry                           	0	4
+09:37:52  Zone: Zone1                    	11	7	4
+09:38:25  Camera: Level 1 Entry 2                         	4	1
+09:38:25  Zone: Zone1                    	11	8	3
+09:38:41  Camera: Level 0 Entry                           	0	5
+09:38:41  Zone: Zone1                    	11	9	2
+09:39:00  Camera: Level 1 Entry 1                         	3	0
+09:39:15  Zone: Zone1                    	12	9	3
+09:39:26  Camera: Level 1 Entry 2                         	5	1
+09:39:31  Zone: Zone1                    	13	9	4
+09:40:33  Camera: Level 1 Lift                            	5	6
+09:40:36  Camera: Level 2 Lift                            	5	0
+09:40:41  Zone: Zone1                    	20	9	11
+09:40:46  Camera: Science Centre Entry                    	2	4
+09:40:57  Zone: Zone2                    	2	2	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+09:40:57  Zone: Zone2                    	2	2	0
+09:41:02  Camera: Level 1 Entry 1                         	3	6
+09:41:12  Zone: Zone1                    	20	15	5
+09:41:28  Camera: Level 1 Entry 2                         	6	1
+09:41:28  Zone: Zone1                    	21	15	6
+09:41:37  Camera: Level 2 Lift                            	7	0
+09:41:39  Camera: Level 2 Main Entry                      	4	2
+09:41:44  Zone: Zone1                    	25	15	10
+09:42:29  Camera: Level 1 Entry 2                         	8	1
+09:42:31  Zone: Zone1                    	27	15	12
+09:42:35  Camera: Level 1 Lift                            	6	6
+09:42:40  Camera: Level 2 Main Entry                      	5	3
+09:42:47  Zone: Zone1                    	29	16	13
+09:42:48  Camera: Science Centre Entry                    	3	4
+09:43:02  Zone: Zone2                    	3	2	1
+09:43:39  Camera: Level 2 Lift                            	8	0
+09:43:42  Camera: Level 2 Main Entry                      	7	3
+09:43:49  Camera: Science Centre Entry                    	3	7
+09:43:52  Zone: Zone1                    	32	16	16
+09:43:52  Zone: Zone2                    	3	3	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+09:43:52  Zone: Zone2                    	3	3	0
+09:44:05  Camera: Level 1 Entry 1                         	5	8
+09:44:08  Zone: Zone1                    	34	18	16
+09:44:43  Camera: Level 2 Main Entry                      	8	3
+09:44:48  Camera: Level 0 Entry                           	2	6
+09:44:55  Zone: Zone1                    	37	19	18
+09:45:11  Service running OK
+09:45:44  Camera: Level 2 Main Entry                      	13	3
+09:45:45  Zone: Zone1                    	42	19	23
+09:45:49  Camera: Level 0 Entry                           	2	7
+09:46:01  Zone: Zone1                    	42	20	22
+09:46:37  Camera: Shop A                                  	2	0
+09:46:37  Zone: Zone1                    	44	20	24
+09:46:39  Camera: Level 1 Lift                            	8	7
+09:46:45  Camera: Level 2 Main Entry                      	13	4
+09:46:53  Zone: Zone1                    	46	22	24
+09:47:38  Camera: Shop A                                  	2	3
+09:47:40  Camera: Level 1 Lift                            	11	9
+09:47:42  Zone: Zone1                    	49	27	22
+09:47:44  Camera: Level 2 Lift                            	10	0
+09:47:46  Camera: Level 2 Main Entry                      	15	4
+09:47:51  Camera: Level 0 Entry                           	5	10
+09:47:58  Zone: Zone1                    	56	30	26
+09:48:09  Camera: Level 1 Entry 1                         	7	8
+09:48:14  Zone: Zone1                    	58	30	28
+09:48:41  Camera: Level 1 Lift                            	15	13
+09:48:45  Camera: Level 2 Lift                            	12	0
+09:48:45  Zone: Zone1                    	64	34	30
+09:48:52  Camera: Level 0 Entry                           	6	11
+09:49:01  Zone: Zone1                    	65	35	30
+09:49:42  Camera: Level 1 Lift                            	15	15
+09:49:48  Zone: Zone1                    	65	37	28
+09:49:48  Camera: Level 2 Main Entry                      	16	4
+09:49:56  Camera: Science Centre Entry                    	4	8
+09:50:04  Zone: Zone1                    	66	37	29
+09:50:04  Zone: Zone2                    	4	4	0
+09:50:49  Camera: Level 2 Main Entry                      	19	4
+09:50:53  Zone: Zone1                    	69	37	32
+09:50:54  Camera: Level 0 Entry                           	7	11
+09:51:09  Zone: Zone1                    	70	37	33
+09:51:58  Camera: Science Centre Entry                    	4	10
+09:52:01  Zone: Zone2                    	4	4	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+09:52:46  Camera: Level 1 Lift                            	18	15
+09:52:51  Camera: Level 2 Main Entry                      	19	5
+09:52:53  Zone: Zone1                    	73	38	35
+09:53:15  Camera: Level 1 Entry 1                         	7	11
+09:53:25  Zone: Zone1                    	73	41	32
+09:53:41  Camera: Level 1 Entry 2                         	8	5
+09:53:41  Zone: Zone1                    	73	45	28
+09:53:50  Camera: Level 2 Lift                            	13	0
+09:53:57  Zone: Zone1                    	74	45	29
+09:53:57  Camera: Level 0 Entry                           	7	12
+09:54:12  Zone: Zone1                    	74	46	28
+09:54:16  Camera: Level 1 Entry 1                         	10	11
+09:54:28  Zone: Zone1                    	77	46	31
+09:54:51  Camera: Level 2 Lift                            	16	2
+09:54:53  Camera: Level 2 Main Entry                      	20	6
+09:54:59  Camera: Level 0 Entry                           	7	14
+09:55:02  Zone: Zone1                    	81	51	30
+09:55:43  Camera: Level 1 Entry 2                         	15	5
+09:55:49  Zone: Zone1                    	88	51	37
+09:55:54  Camera: Level 2 Main Entry                      	22	6
+09:56:05  Zone: Zone1                    	90	51	39
+09:56:44  Camera: Level 1 Entry 2                         	15	7
+09:56:53  Camera: Level 2 Lift                            	18	3
+09:56:56  Camera: Level 2 Main Entry                      	24	8
+09:56:57  Zone: Zone1                    	94	56	38
+09:57:45  Camera: Level 1 Entry 2                         	17	11
+09:57:45  Zone: Zone1                    	96	60	36
+09:58:58  Camera: Level 2 Main Entry                      	26	8
+09:59:05  Camera: Science Centre Entry                    	4	11
+09:59:13  Zone: Zone1                    	98	60	38
+09:59:13  Zone: Zone2                    	4	4	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+09:59:21  Camera: Level 1 Entry 1                         	12	11
+09:59:29  Zone: Zone1                    	100	60	40
+09:59:47  Camera: Level 1 Entry 2                         	19	11
+10:00:00  Zone: Zone1                    	102	60	42
+10:00:00  Logging to daily summary: "10:00 102 60 18 4 4 0"
+10:00:00  Service running OK
+10:00:48  Camera: Level 1 Entry 2                         	19	13
+10:00:52  Zone: Zone1                    	102	62	40
+10:01:00  Camera: Level 2 Main Entry                      	28	8
+10:01:05  Camera: Level 0 Entry                           	7	15
+10:01:08  Zone: Zone1                    	104	63	41
+10:01:59  Camera: Level 2 Lift                            	18	5
+10:01:59  Zone: Zone1                    	104	65	39
+10:02:01  Camera: Level 2 Main Entry                      	30	10
+10:02:15  Zone: Zone1                    	106	67	39
+10:03:00  Camera: Level 2 Lift                            	18	6
+10:03:07  Zone: Zone1                    	106	68	38
+10:03:10  Camera: Science Centre Entry                    	5	11
+10:03:23  Zone: Zone2                    	5	4	1
+10:03:26  Camera: Level 1 Entry 1                         	13	11
+10:03:39  Zone: Zone1                    	107	68	39
+10:03:52  Camera: Level 1 Entry 2                         	21	13
+10:03:54  Zone: Zone1                    	109	68	41
+10:04:01  Camera: Level 2 Lift                            	22	6
+10:04:03  Camera: Level 2 Main Entry                      	30	11
+10:04:10  Zone: Zone1                    	113	69	44
+10:04:27  Camera: Level 1 Entry 1                         	13	12
+10:04:41  Zone: Zone1                    	113	70	43
+10:04:53  Camera: Level 1 Entry 2                         	21	14
+10:04:57  Zone: Zone1                    	113	71	42
+10:05:04  Camera: Level 2 Main Entry                      	31	12
+10:05:13  Zone: Zone1                    	114	72	42
+10:05:28  Camera: Level 1 Entry 1                         	16	12
+10:05:29  Zone: Zone1                    	117	72	45
+10:05:54  Camera: Level 1 Entry 2                         	22	14
+10:06:02  Zone: Zone1                    	118	72	46
+10:06:13  Camera: Science Centre Entry                    	5	13
+10:06:18  Zone: Zone2                    	5	5	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+10:06:18  Zone: Zone2                    	5	5	0
+10:07:12  Camera: Level 0 Entry                           	8	15
+10:07:12  Zone: Zone1                    	119	72	47
+10:07:14  Camera: Science Centre Entry                    	6	14
+10:07:27  Zone: Zone2                    	6	6	0
+10:08:15  Camera: Science Centre Entry                    	7	15
+10:08:17  Zone: Zone2                    	7	7	0
+10:08:57  Camera: Level 1 Entry 2                         	25	14
+10:09:09  Zone: Zone1                    	122	72	50
+10:09:16  Camera: Science Centre Entry                    	8	15
+10:09:25  Zone: Zone2                    	8	7	1
+10:09:32  Camera: Level 1 Entry 1                         	16	14
+10:09:41  Zone: Zone1                    	122	74	48
+10:10:17  Camera: Science Centre Entry                    	9	15
+10:10:32  Zone: Zone2                    	9	7	2
+10:10:33  Camera: Level 1 Entry 1                         	16	15
+10:10:48  Zone: Zone1                    	122	75	47
+10:11:03  Camera: Shop A                                  	3	3
+10:11:04  Zone: Zone1                    	123	75	48
+10:11:09  Camera: Level 2 Lift                            	24	6
+10:11:11  Camera: Level 2 Main Entry                      	31	13
+10:11:16  Camera: Level 0 Entry                           	11	15
+10:11:19  Zone: Zone1                    	128	76	52
+10:11:34  Camera: Level 1 Entry 1                         	18	15
+10:11:35  Zone: Zone1                    	130	76	54
+10:12:04  Camera: Shop A                                  	5	3
+10:12:07  Zone: Zone1                    	132	76	56
+10:12:12  Camera: Level 2 Main Entry                      	33	13
+10:12:22  Zone: Zone1                    	134	76	58
+10:13:11  Camera: Level 2 Lift                            	27	7
+10:13:12  Zone: Zone1                    	137	77	60
+10:13:13  Camera: Level 2 Main Entry                      	35	13
+10:13:21  Camera: Science Centre Entry                    	9	18
+10:13:28  Zone: Zone1                    	139	77	62
+10:13:28  Zone: Zone2                    	9	9	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+10:13:28  Zone: Zone2                    	9	9	0
+10:14:06  Camera: Shop A                                  	5	5
+10:14:12  Camera: Level 2 Lift                            	29	7
+10:14:14  Camera: Level 2 Main Entry                      	35	14
+10:14:17  Zone: Zone1                    	141	80	61
+10:14:22  Camera: Science Centre Entry                    	9	19
+10:14:33  Zone: Zone2                    	9	9	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+10:14:38  Camera: Level 1 Entry 1                         	20	15
+10:14:49  Zone: Zone1                    	143	80	63
+10:15:04  Service running OK
+10:15:15  Camera: Level 2 Main Entry                      	36	14
+10:15:20  Zone: Zone1                    	144	80	64
+10:16:05  Camera: Level 1 Entry 2                         	27	14
+10:16:10  Zone: Zone1                    	146	80	66
+10:16:16  Camera: Level 2 Main Entry                      	38	14
+10:16:21  Camera: Level 0 Entry                           	11	18
+10:16:24  Camera: Science Centre Entry                    	9	20
+10:16:26  Zone: Zone1                    	148	83	65
+10:16:26  Zone: Zone2                    	9	9	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+10:17:06  Camera: Level 1 Entry 2                         	27	19
+10:17:09  Camera: Shop A                                  	5	6
+10:17:13  Zone: Zone1                    	148	89	59
+10:17:15  Camera: Level 2 Lift                            	32	7
+10:17:17  Camera: Level 2 Main Entry                      	40	17
+10:17:25  Camera: Science Centre Entry                    	10	22
+10:17:29  Zone: Zone1                    	153	92	61
+10:17:29  Zone: Zone2                    	10	10	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+10:17:29  Zone: Zone2                    	10	10	0
+10:18:07  Camera: Level 1 Entry 2                         	30	19
+10:18:10  Camera: Shop A                                  	6	6
+10:18:16  Zone: Zone1                    	157	92	65
+10:18:16  Camera: Level 2 Lift                            	34	7
+10:18:18  Camera: Level 2 Main Entry                      	41	19
+10:18:23  Camera: Level 0 Entry                           	11	22
+10:18:32  Zone: Zone1                    	160	98	62
+10:19:08  Camera: Level 1 Entry 2                         	34	19
+10:19:11  Camera: Shop A                                  	6	10
+10:19:19  Zone: Zone1                    	164	102	62
+10:19:19  Camera: Level 2 Main Entry                      	42	19
+10:19:24  Camera: Level 0 Entry                           	15	22
+10:19:27  Camera: Science Centre Entry                    	12	22
+10:19:35  Zone: Zone1                    	169	102	67
+10:19:35  Zone: Zone2                    	12	10	2
+10:20:09  Camera: Level 1 Entry 2                         	36	19
+10:20:12  Camera: Shop A                                  	12	10
+10:20:15  Camera: Level 1 Lift                            	19	19
+10:20:20  Camera: Level 2 Main Entry                      	45	19
+10:20:22  Zone: Zone1                    	181	106	75
+10:20:26  Camera: Level 0 Entry                           	17	22
+10:20:37  Zone: Zone1                    	183	106	77
+10:21:13  Camera: Shop A                                  	14	10
+10:21:21  Camera: Level 2 Main Entry                      	48	19
+10:21:25  Zone: Zone1                    	188	106	82
+10:21:29  Camera: Science Centre Entry                    	13	22
+10:21:40  Zone: Zone2                    	13	10	3
+10:21:45  Camera: Level 1 Entry 1                         	20	16
+10:21:56  Zone: Zone1                    	188	107	81
+10:22:11  Camera: Level 1 Entry 2                         	39	19
+10:22:12  Zone: Zone1                    	191	107	84
+10:22:17  Camera: Level 1 Lift                            	19	22
+10:22:23  Camera: Level 2 Main Entry                      	49	19
+10:22:27  Zone: Zone1                    	192	110	82
+10:22:28  Camera: Level 0 Entry                           	19	22
+10:22:43  Zone: Zone1                    	194	110	84
+10:23:16  Camera: Shop A                                  	14	11
+10:23:18  Camera: Level 1 Lift                            	20	22
+10:23:30  Zone: Zone1                    	195	111	84
+10:23:47  Camera: Level 1 Entry 1                         	21	17
+10:24:02  Zone: Zone1                    	196	112	84
+10:24:17  Camera: Shop A                                  	14	12
+10:24:17  Zone: Zone1                    	196	113	83
+10:24:23  Camera: Level 2 Lift                            	39	7
+10:24:25  Camera: Level 2 Main Entry                      	49	20
+10:24:30  Camera: Level 0 Entry                           	20	23
+10:24:32  Camera: Science Centre Entry                    	13	23
+10:24:33  Zone: Zone1                    	202	115	87
+10:24:33  Zone: Zone2                    	13	11	2
+10:25:14  Camera: Level 1 Entry 2                         	41	19
+10:25:20  Zone: Zone1                    	204	115	89
+10:25:24  Camera: Level 2 Lift                            	42	7
+10:25:26  Camera: Level 2 Main Entry                      	50	21
+10:25:34  Camera: Science Centre Entry                    	17	26
+10:25:36  Zone: Zone1                    	208	116	92
+10:25:36  Zone: Zone2                    	17	14	3
+10:26:19  Camera: Shop A                                  	23	12
+10:26:23  Zone: Zone1                    	217	116	101
+10:26:27  Camera: Level 2 Main Entry                      	51	21
+10:26:35  Camera: Science Centre Entry                    	17	29
+10:26:39  Zone: Zone1                    	218	116	102
+10:26:39  Zone: Zone2                    	17	17	0
+10:27:17  Camera: Level 1 Entry 2                         	42	19
+10:27:28  Camera: Level 2 Main Entry                      	53	21
+10:27:28  Zone: Zone1                    	221	116	105
+10:27:33  Camera: Level 0 Entry                           	21	23
+10:27:36  Camera: Science Centre Entry                    	18	30
+10:27:44  Zone: Zone1                    	222	116	106
+10:27:44  Zone: Zone2                    	18	18	0
+10:28:18  Camera: Level 1 Entry 2                         	44	19
+10:28:29  Camera: Level 2 Main Entry                      	55	21
+10:28:31  Zone: Zone1                    	226	116	110
+10:28:37  Camera: Science Centre Entry                    	18	31
+10:28:47  Zone: Zone2                    	18	18	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+10:28:53  Camera: Level 1 Entry 1                         	21	19
+10:29:02  Zone: Zone1                    	226	118	108
+10:29:22  Camera: Shop A                                  	24	12
+10:29:30  Camera: Level 2 Main Entry                      	55	23
+10:29:34  Zone: Zone1                    	227	120	107
+10:29:54  Camera: Level 1 Entry 1                         	23	19
+10:30:05  Zone: Zone1                    	229	120	109
+10:30:05  Logging to daily summary: "10:30 127 60 65 14 14 0"
+10:30:05  Service running OK
+10:30:29  Camera: Level 2 Lift                            	45	7
+10:30:31  Camera: Level 2 Main Entry                      	55	24
+10:30:39  Zone: Zone1                    	232	121	111
+10:31:21  Camera: Level 1 Entry 2                         	49	19
+10:31:29  Zone: Zone1                    	237	121	116
+10:31:56  Camera: Level 1 Entry 1                         	24	21
+10:32:03  Zone: Zone1                    	238	123	115
+10:32:22  Camera: Level 1 Entry 2                         	50	20
+10:32:28  Camera: Level 1 Lift                            	25	22
+10:32:37  Zone: Zone1                    	244	124	120
+10:32:41  Camera: Science Centre Entry                    	19	31
+10:32:53  Zone: Zone2                    	19	18	1
+10:33:29  Camera: Level 1 Lift                            	25	27
+10:33:34  Camera: Level 2 Main Entry                      	56	26
+10:33:40  Camera: Level 0 Entry                           	22	24
+10:33:42  Zone: Zone1                    	246	132	114
+10:34:24  Camera: Level 1 Entry 2                         	50	23
+10:34:29  Zone: Zone1                    	246	135	111
+10:34:33  Camera: Level 2 Lift                            	48	7
+10:34:35  Camera: Level 2 Main Entry                      	60	26
+10:34:41  Camera: Level 0 Entry                           	22	28
+10:34:43  Camera: Science Centre Entry                    	19	32
+10:34:45  Zone: Zone1                    	253	139	114
+10:34:45  Zone: Zone2                    	19	19	0
+10:35:25  Camera: Level 1 Entry 2                         	52	23
+10:35:29  Camera: Shop A                                  	24	20
+10:35:31  Camera: Level 1 Lift                            	27	27
+10:35:32  Zone: Zone1                    	257	147	110
+10:35:44  Camera: Science Centre Entry                    	20	38
+10:35:48  Zone: Zone2                    	20	20	0	Net-count has gone negative (-5).  Resetting to zero. (No Balancing Zone)
+10:35:48  Zone: Zone2                    	20	20	0
+10:36:00  Camera: Level 1 Entry 1                         	26	21
+10:36:04  Zone: Zone1                    	259	147	112
+10:36:26  Camera: Level 1 Entry 2                         	52	25
+10:36:30  Camera: Shop A                                  	28	20
+10:36:35  Zone: Zone1                    	263	149	114
+10:36:35  Camera: Level 2 Lift                            	51	7
+10:36:38  Camera: Level 2 Main Entry                      	63	26
+10:36:45  Camera: Science Centre Entry                    	21	38
+10:36:51  Zone: Zone1                    	269	149	120
+10:36:51  Zone: Zone2                    	21	20	1
+10:37:27  Camera: Level 1 Entry 2                         	52	26
+10:37:31  Camera: Shop A                                  	30	26
+10:37:37  Camera: Level 2 Lift                            	53	7
+10:37:38  Zone: Zone1                    	273	156	117
+10:37:39  Camera: Level 2 Main Entry                      	63	27
+10:37:44  Camera: Level 0 Entry                           	22	30
+10:37:54  Zone: Zone1                    	273	159	114
+10:38:28  Camera: Level 1 Entry 2                         	55	29
+10:38:38  Camera: Level 2 Lift                            	55	7
+10:38:40  Camera: Level 2 Main Entry                      	69	29
+10:38:41  Zone: Zone1                    	284	164	120
+10:39:41  Camera: Level 2 Main Entry                      	73	31
+10:39:44  Zone: Zone1                    	288	166	122
+10:39:49  Camera: Science Centre Entry                    	22	40
+10:39:59  Zone: Zone2                    	22	22	0
+10:40:34  Camera: Shop A                                  	31	28
+10:40:34  Zone: Zone1                    	289	168	121
+10:40:47  Camera: Level 0 Entry                           	22	31
+10:40:50  Zone: Zone1                    	289	169	120
+10:41:35  Camera: Shop A                                  	33	28
+10:41:37  Camera: Level 1 Lift                            	31	27
+10:41:42  Zone: Zone1                    	295	169	126
+10:41:43  Camera: Level 2 Main Entry                      	76	31
+10:41:48  Camera: Level 0 Entry                           	22	32
+10:41:58  Zone: Zone1                    	298	170	128
+10:42:07  Camera: Level 1 Entry 1                         	26	23
+10:42:14  Zone: Zone1                    	298	172	126
+10:42:36  Camera: Shop A                                  	33	29
+10:42:44  Camera: Level 2 Main Entry                      	80	31
+10:42:45  Zone: Zone1                    	302	173	129
+10:43:43  Camera: Level 2 Lift                            	58	7
+10:43:45  Camera: Level 2 Main Entry                      	81	32
+10:43:50  Zone: Zone1                    	306	174	132
+10:44:09  Camera: Level 1 Entry 1                         	29	23
+10:44:22  Zone: Zone1                    	309	174	135
+10:44:46  Camera: Level 2 Main Entry                      	85	32
+10:44:55  Zone: Zone1                    	313	174	139
+10:45:14  Service running OK
+10:45:36  Camera: Level 1 Entry 2                         	55	31
+10:45:42  Camera: Level 1 Lift                            	36	27
+10:45:47  Zone: Zone1                    	318	176	142
+10:45:47  Camera: Level 2 Main Entry                      	85	34
+10:46:03  Zone: Zone1                    	318	178	140
+10:46:37  Camera: Level 1 Entry 2                         	55	34
+10:46:43  Camera: Level 1 Lift                            	38	30
+10:46:48  Camera: Level 2 Main Entry                      	86	35
+10:46:52  Zone: Zone1                    	321	185	136
+10:47:12  Camera: Level 1 Entry 1                         	30	23
+10:47:24  Zone: Zone1                    	322	185	137
+10:47:38  Camera: Level 1 Entry 2                         	57	34
+10:47:39  Zone: Zone1                    	324	185	139
+10:47:42  Camera: Shop A                                  	34	31
+10:47:47  Camera: Level 2 Lift                            	61	7
+10:47:50  Camera: Level 2 Main Entry                      	88	36
+10:47:55  Zone: Zone1                    	330	188	142
+10:47:57  Camera: Science Centre Entry                    	25	42
+10:48:11  Zone: Zone2                    	25	24	1
+10:48:39  Camera: Level 1 Entry 2                         	63	34
+10:48:42  Zone: Zone1                    	336	188	148
+10:48:45  Camera: Level 1 Lift                            	38	36
+10:48:51  Camera: Level 2 Main Entry                      	90	36
+10:48:58  Zone: Zone1                    	338	194	144
+10:48:58  Camera: Science Centre Entry                    	26	49
+10:49:13  Zone: Zone2                    	26	26	0	Net-count has gone negative (-5).  Resetting to zero. (No Balancing Zone)
+10:49:13  Zone: Zone2                    	26	26	0
+10:49:50  Camera: Level 2 Lift                            	63	7
+10:49:52  Camera: Level 2 Main Entry                      	91	38
+10:49:57  Camera: Level 0 Entry                           	23	32
+10:49:59  Camera: Science Centre Entry                    	26	52
+10:50:03  Zone: Zone1                    	342	196	146
+10:50:03  Zone: Zone2                    	26	26	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+10:50:45  Camera: Shop A                                  	36	34
+10:50:50  Zone: Zone1                    	344	199	145
+10:50:53  Camera: Level 2 Main Entry                      	92	38
+10:51:06  Zone: Zone1                    	345	199	146
+10:51:16  Camera: Level 1 Entry 1                         	30	25
+10:51:22  Zone: Zone1                    	345	201	144
+10:51:54  Camera: Level 2 Main Entry                      	93	39
+10:51:54  Zone: Zone1                    	346	202	144
+10:52:17  Camera: Level 1 Entry 1                         	30	27
+10:52:28  Zone: Zone1                    	346	204	142
+10:52:44  Camera: Level 1 Entry 2                         	65	36
+10:52:44  Zone: Zone1                    	348	206	142
+10:52:47  Camera: Shop A                                  	37	34
+10:52:55  Camera: Level 2 Main Entry                      	93	40
+10:53:00  Zone: Zone1                    	349	207	142
+10:53:19  Camera: Level 1 Entry 1                         	36	27
+10:53:31  Zone: Zone1                    	355	207	148
+10:53:54  Camera: Level 2 Lift                            	69	7
+10:53:56  Camera: Level 2 Main Entry                      	96	40
+10:54:05  Zone: Zone1                    	364	207	157
+10:54:55  Camera: Level 2 Lift                            	71	10
+10:54:55  Zone: Zone1                    	366	210	156
+10:54:57  Camera: Level 2 Main Entry                      	97	44
+10:55:05  Camera: Science Centre Entry                    	26	53
+10:55:11  Zone: Zone1                    	367	214	153
+10:55:11  Zone: Zone2                    	26	26	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+10:55:50  Camera: Shop A                                  	37	35
+10:55:58  Camera: Level 2 Main Entry                      	97	46
+10:56:00  Zone: Zone1                    	367	217	150
+10:56:06  Camera: Science Centre Entry                    	27	55
+10:56:16  Zone: Zone2                    	27	27	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+10:56:16  Zone: Zone2                    	27	27	0
+10:56:48  Camera: Level 1 Entry 2                         	65	39
+10:56:48  Zone: Zone1                    	367	220	147
+10:56:51  Camera: Shop A                                  	40	35
+10:56:59  Camera: Level 2 Main Entry                      	101	46
+10:57:04  Zone: Zone1                    	374	220	154
+10:57:04  Camera: Level 0 Entry                           	24	32
+10:57:07  Camera: Science Centre Entry                    	29	56
+10:57:19  Zone: Zone1                    	375	220	155
+10:57:19  Zone: Zone2                    	29	28	1
+10:57:49  Camera: Level 1 Entry 2                         	65	41
+10:57:51  Zone: Zone1                    	375	222	153
+10:57:52  Camera: Shop A                                  	43	35
+10:58:05  Camera: Level 0 Entry                           	24	33
+10:58:07  Zone: Zone1                    	378	223	155
+10:58:50  Camera: Level 1 Entry 2                         	68	41
+10:58:54  Zone: Zone1                    	381	223	158
+10:58:59  Camera: Level 2 Lift                            	73	11
+10:59:01  Camera: Level 2 Main Entry                      	103	46
+10:59:07  Camera: Level 0 Entry                           	26	37
+10:59:10  Zone: Zone1                    	387	228	159
+10:59:25  Camera: Level 1 Entry 1                         	36	28
+10:59:25  Zone: Zone1                    	387	229	158
+10:59:51  Camera: Level 1 Entry 2                         	70	44
+10:59:54  Camera: Shop A                                  	48	38
+10:59:57  Zone: Zone1                    	394	235	159
+11:00:00  Camera: Level 2 Lift                            	77	11
+11:00:02  Camera: Level 2 Main Entry                      	105	46
+11:00:12  Zone: Zone1                    	400	235	165
+11:00:12  Logging to daily summary: "11:00 171 115 134 11 10 0"
+11:00:12  Service running OK
+11:00:52  Camera: Level 1 Entry 2                         	70	45
+11:00:56  Camera: Shop A                                  	48	39
+11:01:00  Zone: Zone1                    	400	237	163
+11:01:04  Camera: Level 2 Main Entry                      	106	47
+11:01:15  Zone: Zone1                    	401	238	163
+11:01:57  Camera: Shop A                                  	48	40
+11:02:02  Zone: Zone1                    	401	239	162
+11:02:05  Camera: Level 2 Main Entry                      	108	48
+11:02:10  Camera: Level 0 Entry                           	26	39
+11:02:18  Zone: Zone1                    	403	242	161
+11:03:11  Camera: Level 0 Entry                           	26	42
+11:03:26  Zone: Zone1                    	403	245	158
+11:03:55  Camera: Level 1 Entry 2                         	74	45
+11:04:00  Zone: Zone1                    	407	245	162
+11:04:05  Camera: Level 2 Lift                            	77	15
+11:04:07  Camera: Level 2 Main Entry                      	108	49
+11:04:16  Zone: Zone1                    	407	250	157
+11:05:31  Camera: Level 1 Entry 1                         	39	28
+11:05:41  Zone: Zone1                    	410	250	160
+11:06:59  Camera: Level 1 Entry 2                         	76	45
+11:07:02  Camera: Shop A                                  	50	40
+11:07:09  Zone: Zone1                    	414	250	164
+11:07:10  Camera: Level 2 Main Entry                      	110	49
+11:07:25  Zone: Zone1                    	416	250	166
+11:08:00  Camera: Level 1 Entry 2                         	78	45
+11:08:09  Camera: Level 2 Lift                            	77	16
+11:08:11  Camera: Level 2 Main Entry                      	111	51
+11:08:14  Zone: Zone1                    	419	253	166
+11:08:35  Camera: Level 1 Entry 1                         	39	34
+11:08:46  Zone: Zone1                    	419	259	160
+11:09:10  Camera: Level 2 Lift                            	79	16
+11:09:12  Camera: Level 2 Main Entry                      	112	52
+11:09:17  Zone: Zone1                    	422	260	162
+11:10:05  Camera: Shop A                                  	52	40
+11:10:06  Zone: Zone1                    	424	260	164
+11:10:13  Camera: Level 2 Main Entry                      	114	52
+11:10:21  Camera: Science Centre Entry                    	30	57
+11:10:22  Zone: Zone1                    	426	260	166
+11:10:22  Zone: Zone2                    	30	29	1
+11:11:06  Camera: Shop A                                  	55	40
+11:11:11  Zone: Zone1                    	429	260	169
+11:11:12  Camera: Level 2 Lift                            	81	16
+11:11:14  Camera: Level 2 Main Entry                      	114	53
+11:11:19  Camera: Level 0 Entry                           	27	42
+11:11:22  Camera: Science Centre Entry                    	30	60
+11:11:27  Zone: Zone1                    	432	261	171
+11:11:27  Zone: Zone2                    	30	30	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+11:11:27  Zone: Zone2                    	30	30	0
+11:12:04  Camera: Level 1 Entry 2                         	81	45
+11:12:07  Camera: Shop A                                  	55	41
+11:12:14  Zone: Zone1                    	435	262	173
+11:12:21  Camera: Level 0 Entry                           	29	44
+11:12:23  Camera: Science Centre Entry                    	30	61
+11:12:30  Zone: Zone1                    	437	264	173
+11:12:30  Zone: Zone2                    	30	30	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+11:13:14  Camera: Level 2 Lift                            	81	18
+11:13:16  Camera: Level 2 Main Entry                      	121	57
+11:13:17  Zone: Zone1                    	444	270	174
+11:13:24  Camera: Science Centre Entry                    	31	64
+11:13:33  Zone: Zone2                    	31	31	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+11:13:33  Zone: Zone2                    	31	31	0
+11:14:18  Camera: Level 2 Main Entry                      	123	59
+11:14:22  Zone: Zone1                    	446	272	174
+11:14:23  Camera: Level 0 Entry                           	29	45
+11:14:25  Camera: Science Centre Entry                    	32	66
+11:14:38  Zone: Zone1                    	446	273	173
+11:14:38  Zone: Zone2                    	32	32	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+11:14:38  Zone: Zone2                    	32	32	0
+11:15:07  Camera: Level 1 Entry 2                         	81	48
+11:15:09  Zone: Zone1                    	446	276	170
+11:15:09  Service running OK
+11:15:11  Camera: Shop A                                  	55	42
+11:15:16  Camera: Level 2 Lift                            	81	22
+11:15:19  Camera: Level 2 Main Entry                      	124	59
+11:15:25  Zone: Zone1                    	447	281	166
+11:15:42  Camera: Level 1 Entry 1                         	41	34
+11:15:57  Zone: Zone1                    	449	281	168
+11:16:08  Camera: Level 1 Entry 2                         	83	48
+11:16:12  Camera: Shop A                                  	55	45
+11:16:12  Zone: Zone1                    	451	284	167
+11:16:20  Camera: Level 2 Main Entry                      	126	59
+11:16:25  Camera: Level 0 Entry                           	33	47
+11:16:27  Camera: Science Centre Entry                    	32	68
+11:16:28  Zone: Zone1                    	457	286	171
+11:16:28  Zone: Zone2                    	32	32	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+11:17:13  Camera: Shop A                                  	55	47
+11:17:15  Zone: Zone1                    	457	288	169
+11:17:26  Camera: Level 0 Entry                           	33	53
+11:17:31  Zone: Zone1                    	457	294	163
+11:18:11  Camera: Level 1 Entry 2                         	85	48
+11:18:20  Zone: Zone1                    	459	294	165
+11:18:22  Camera: Level 2 Main Entry                      	126	62
+11:18:36  Zone: Zone1                    	459	297	162
+11:18:45  Camera: Level 1 Entry 1                         	41	35
+11:18:52  Zone: Zone1                    	459	298	161
+11:19:12  Camera: Level 1 Entry 2                         	86	48
+11:19:15  Camera: Shop A                                  	57	49
+11:19:23  Camera: Level 2 Main Entry                      	128	66
+11:19:25  Zone: Zone1                    	464	304	160
+11:19:28  Camera: Level 0 Entry                           	40	53
+11:19:31  Camera: Science Centre Entry                    	33	68
+11:19:41  Zone: Zone1                    	471	304	167
+11:19:41  Zone: Zone2                    	33	32	1
+11:19:47  Camera: Level 1 Entry 1                         	43	37
+11:19:57  Zone: Zone1                    	473	306	167
+11:20:22  Camera: Level 2 Lift                            	85	22
+11:20:24  Camera: Level 2 Main Entry                      	128	70
+11:20:28  Zone: Zone1                    	477	310	167
+11:20:29  Camera: Level 0 Entry                           	43	53
+11:20:32  Camera: Science Centre Entry                    	34	68
+11:20:44  Zone: Zone1                    	480	310	170
+11:20:44  Zone: Zone2                    	34	32	2
+11:21:14  Camera: Level 1 Entry 2                         	86	50
+11:21:15  Zone: Zone1                    	480	312	168
+11:21:17  Camera: Shop A                                  	58	50
+11:21:25  Camera: Level 2 Main Entry                      	130	72
+11:21:31  Zone: Zone1                    	483	315	168
+11:21:49  Camera: Level 1 Entry 1                         	44	37
+11:22:02  Zone: Zone1                    	484	315	169
+11:22:26  Camera: Level 2 Main Entry                      	130	76
+11:22:31  Camera: Level 0 Entry                           	45	54
+11:22:34  Zone: Zone1                    	486	320	166
+11:22:50  Camera: Level 1 Entry 1                         	47	37
+11:23:05  Zone: Zone1                    	489	320	169
+11:23:19  Camera: Shop A                                  	59	50
+11:23:21  Zone: Zone1                    	490	320	170
+11:23:22  Camera: Level 1 Lift                            	39	36
+11:23:27  Camera: Level 2 Main Entry                      	130	78
+11:23:32  Camera: Level 0 Entry                           	45	58
+11:23:35  Camera: Science Centre Entry                    	34	70
+11:23:37  Zone: Zone1                    	491	326	165
+11:23:37  Zone: Zone2                    	34	34	0
+11:24:17  Camera: Level 1 Entry 2                         	87	50
+11:24:20  Camera: Shop A                                  	60	52
+11:24:23  Camera: Level 1 Lift                            	40	36
+11:24:24  Zone: Zone1                    	494	328	166
+11:24:28  Camera: Level 2 Main Entry                      	131	83
+11:24:36  Camera: Science Centre Entry                    	34	74
+11:24:40  Zone: Zone1                    	495	333	162
+11:24:40  Zone: Zone2                    	34	34	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+11:25:18  Camera: Level 1 Entry 2                         	89	50
+11:25:24  Camera: Level 1 Lift                            	42	36
+11:25:27  Zone: Zone1                    	499	333	166
+11:25:29  Camera: Level 2 Main Entry                      	131	85
+11:25:37  Camera: Science Centre Entry                    	35	74
+11:25:42  Zone: Zone1                    	499	335	164
+11:25:42  Zone: Zone2                    	35	34	1
+11:26:28  Camera: Level 2 Lift                            	87	22
+11:26:30  Zone: Zone1                    	501	335	166
+11:26:30  Camera: Level 2 Main Entry                      	132	87
+11:26:38  Camera: Science Centre Entry                    	37	76
+11:26:45  Zone: Zone1                    	502	337	165
+11:26:45  Zone: Zone2                    	37	36	1
+11:27:32  Camera: Level 2 Main Entry                      	132	88
+11:27:35  Zone: Zone1                    	502	338	164
+11:27:39  Camera: Science Centre Entry                    	37	77
+11:27:51  Zone: Zone2                    	37	37	0
+11:27:55  Camera: Level 1 Entry 1                         	49	37
+11:28:07  Zone: Zone1                    	504	338	166
+11:28:25  Camera: Shop A                                  	60	53
+11:28:27  Camera: Level 1 Lift                            	44	38
+11:28:30  Camera: Level 2 Lift                            	87	26
+11:28:33  Camera: Level 2 Main Entry                      	134	93
+11:28:40  Zone: Zone1                    	508	350	158
+11:28:40  Camera: Science Centre Entry                    	38	77
+11:28:56  Zone: Zone2                    	38	37	1
+11:28:56  Camera: Level 1 Entry 1                         	57	38
+11:29:12  Zone: Zone1                    	516	351	165
+11:29:22  Camera: Level 1 Entry 2                         	89	53
+11:29:26  Camera: Shop A                                  	60	54
+11:29:27  Zone: Zone1                    	516	355	161
+11:29:28  Camera: Level 1 Lift                            	45	38
+11:29:41  Camera: Science Centre Entry                    	38	80
+11:29:43  Zone: Zone1                    	517	355	162
+11:29:43  Zone: Zone2                    	38	38	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+11:29:43  Zone: Zone2                    	38	38	0
+11:30:14  Logging to daily summary: "11:30 117 120 165 9 10 0"
+11:30:14  Service running OK
+11:30:23  Camera: Level 1 Entry 2                         	89	55
+11:30:30  Zone: Zone1                    	517	357	160
+11:30:35  Camera: Level 2 Main Entry                      	136	93
+11:30:43  Camera: Science Centre Entry                    	38	84
+11:30:46  Zone: Zone1                    	519	357	162
+11:30:46  Zone: Zone2                    	38	38	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+11:31:28  Camera: Shop A                                  	62	60
+11:31:35  Zone: Zone1                    	521	363	158
+11:31:36  Camera: Level 2 Main Entry                      	139	95
+11:31:44  Camera: Science Centre Entry                    	39	93
+11:31:51  Zone: Zone1                    	524	365	159
+11:31:51  Zone: Zone2                    	39	39	0	Net-count has gone negative (-8).  Resetting to zero. (No Balancing Zone)
+11:31:51  Zone: Zone2                    	39	39	0
+11:32:26  Camera: Level 1 Entry 2                         	89	57
+11:32:40  Zone: Zone1                    	524	367	157
+11:32:45  Camera: Science Centre Entry                    	39	94
+11:32:56  Zone: Zone2                    	39	39	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+11:33:30  Camera: Shop A                                  	63	60
+11:33:30  Zone: Zone1                    	525	367	158
+11:33:36  Camera: Level 2 Lift                            	88	29
+11:33:38  Camera: Level 2 Main Entry                      	140	95
+11:33:46  Zone: Zone1                    	527	370	157
+11:34:31  Camera: Shop A                                  	64	60
+11:34:35  Zone: Zone1                    	528	370	158
+11:34:39  Camera: Level 2 Main Entry                      	142	95
+11:34:47  Camera: Science Centre Entry                    	39	100
+11:34:51  Zone: Zone1                    	530	370	160
+11:34:51  Zone: Zone2                    	39	39	0	Net-count has gone negative (-6).  Resetting to zero. (No Balancing Zone)
+11:35:40  Camera: Level 2 Main Entry                      	142	101
+11:35:40  Zone: Zone1                    	530	376	154
+11:35:45  Camera: Level 0 Entry                           	45	61
+11:35:48  Camera: Science Centre Entry                    	42	102
+11:35:56  Zone: Zone1                    	530	379	151
+11:35:56  Zone: Zone2                    	42	41	1
+11:36:30  Camera: Level 1 Entry 2                         	92	57
+11:36:33  Camera: Shop A                                  	65	60
+11:36:41  Camera: Level 2 Main Entry                      	148	101
+11:36:45  Zone: Zone1                    	540	379	161
+11:36:46  Camera: Level 0 Entry                           	47	61
+11:36:49  Camera: Science Centre Entry                    	44	103
+11:37:01  Zone: Zone1                    	542	379	163
+11:37:01  Zone: Zone2                    	44	42	2
+11:37:05  Camera: Level 1 Entry 1                         	57	40
+11:37:17  Zone: Zone1                    	542	381	161
+11:37:34  Camera: Shop A                                  	67	60
+11:37:37  Camera: Level 1 Lift                            	45	39
+11:37:40  Camera: Level 2 Lift                            	91	29
+11:37:42  Camera: Level 2 Main Entry                      	148	105
+11:37:48  Camera: Level 0 Entry                           	47	62
+11:37:48  Zone: Zone1                    	547	387	160
+11:37:50  Camera: Science Centre Entry                    	45	103
+11:38:04  Zone: Zone2                    	45	42	3
+11:38:32  Camera: Level 1 Entry 2                         	94	57
+11:38:35  Zone: Zone1                    	549	387	162
+11:38:35  Camera: Shop A                                  	69	60
+11:38:38  Camera: Level 1 Lift                            	45	41
+11:38:43  Camera: Level 2 Main Entry                      	150	106
+11:38:51  Zone: Zone1                    	553	390	163
+11:38:51  Camera: Science Centre Entry                    	46	104
+11:39:07  Zone: Zone2                    	46	43	3
+11:39:33  Camera: Level 1 Entry 2                         	96	58
+11:39:37  Camera: Shop A                                  	69	61
+11:39:38  Zone: Zone1                    	555	392	163
+11:39:39  Camera: Level 1 Lift                            	47	41
+11:39:45  Camera: Level 2 Main Entry                      	151	107
+11:39:50  Camera: Level 0 Entry                           	47	64
+11:39:52  Camera: Science Centre Entry                    	47	104
+11:39:54  Zone: Zone1                    	558	395	163
+11:39:54  Zone: Zone2                    	47	43	4
+11:40:34  Camera: Level 1 Entry 2                         	98	58
+11:40:40  Camera: Level 1 Lift                            	48	41
+11:40:42  Zone: Zone1                    	561	395	166
+11:40:43  Camera: Level 2 Lift                            	92	29
+11:40:51  Camera: Level 0 Entry                           	48	64
+11:40:53  Camera: Science Centre Entry                    	47	106
+11:40:57  Zone: Zone1                    	563	395	168
+11:40:57  Zone: Zone2                    	47	45	2
+11:41:35  Camera: Level 1 Entry 2                         	101	60
+11:41:45  Camera: Level 2 Lift                            	94	29
+11:41:45  Zone: Zone1                    	568	397	171
+11:41:47  Camera: Level 2 Main Entry                      	153	107
+11:41:52  Camera: Level 0 Entry                           	50	65
+11:41:54  Camera: Science Centre Entry                    	49	106
+11:42:00  Zone: Zone1                    	572	398	174
+11:42:00  Zone: Zone2                    	49	45	4
+11:42:10  Camera: Level 1 Entry 1                         	59	40
+11:42:16  Zone: Zone1                    	574	398	176
+11:42:36  Camera: Level 1 Entry 2                         	102	62
+11:42:40  Camera: Shop A                                  	69	64
+11:42:47  Zone: Zone1                    	575	403	172
+11:42:48  Camera: Level 2 Main Entry                      	153	110
+11:43:03  Zone: Zone1                    	575	406	169
+11:43:11  Camera: Level 1 Entry 1                         	59	41
+11:43:19  Zone: Zone1                    	575	407	168
+11:43:37  Camera: Level 1 Entry 2                         	102	67
+11:43:41  Camera: Shop A                                  	69	66
+11:43:50  Zone: Zone1                    	575	414	161
+11:43:54  Camera: Level 0 Entry                           	50	66
+11:43:57  Camera: Science Centre Entry                    	52	107
+11:44:06  Zone: Zone1                    	575	415	160
+11:44:06  Zone: Zone2                    	52	46	6
+11:44:12  Camera: Level 1 Entry 1                         	61	41
+11:44:22  Zone: Zone1                    	577	415	162
+11:44:39  Camera: Level 1 Entry 2                         	103	67
+11:44:42  Camera: Shop A                                  	70	72
+11:44:48  Camera: Level 2 Lift                            	95	29
+11:44:50  Camera: Level 2 Main Entry                      	153	111
+11:44:53  Zone: Zone1                    	580	422	158
+11:44:58  Camera: Science Centre Entry                    	52	109
+11:45:09  Zone: Zone2                    	52	48	4
+11:45:09  Service running OK
+11:45:43  Camera: Shop A                                  	70	73
+11:45:51  Camera: Level 2 Main Entry                      	155	111
+11:45:56  Zone: Zone1                    	582	423	159
+11:46:52  Camera: Level 2 Main Entry                      	158	111
+11:47:00  Camera: Science Centre Entry                    	52	111
+11:47:01  Zone: Zone1                    	585	423	162
+11:47:01  Zone: Zone2                    	52	50	2
+11:47:53  Camera: Level 2 Main Entry                      	158	115
+11:47:53  Zone: Zone1                    	585	427	158
+11:48:01  Camera: Science Centre Entry                    	53	111
+11:48:09  Zone: Zone2                    	53	50	3
+11:48:17  Camera: Level 1 Entry 1                         	61	42
+11:48:25  Zone: Zone1                    	585	428	157
+11:48:46  Camera: Shop A                                  	70	78
+11:48:52  Camera: Level 2 Lift                            	97	29
+11:48:54  Camera: Level 2 Main Entry                      	158	117
+11:48:58  Zone: Zone1                    	587	435	152
+11:49:47  Camera: Shop A                                  	71	78
+11:49:47  Zone: Zone1                    	588	435	153
+11:49:55  Camera: Level 2 Main Entry                      	160	117
+11:50:03  Zone: Zone1                    	590	435	155
+11:50:48  Camera: Shop A                                  	71	81
+11:50:55  Zone: Zone1                    	590	438	152
+11:50:56  Camera: Level 2 Main Entry                      	164	117
+11:51:11  Zone: Zone1                    	594	438	156
+11:51:49  Camera: Shop A                                  	74	81
+11:52:03  Zone: Zone1                    	597	438	159
+11:52:05  Camera: Science Centre Entry                    	53	112
+11:52:19  Zone: Zone2                    	53	51	2
+11:52:51  Camera: Shop A                                  	74	85
+11:52:53  Zone: Zone1                    	597	442	155
+11:53:48  Camera: Level 1 Entry 2                         	107	67
+11:53:52  Camera: Shop A                                  	78	85
+11:53:57  Camera: Level 2 Lift                            	99	29
+11:54:03  Zone: Zone1                    	607	442	165
+11:54:07  Camera: Science Centre Entry                    	54	112
+11:54:19  Zone: Zone2                    	54	51	3
+11:54:49  Camera: Level 1 Entry 2                         	107	70
+11:54:50  Zone: Zone1                    	607	445	162
+11:54:53  Camera: Shop A                                  	78	89
+11:54:59  Camera: Level 2 Lift                            	99	30
+11:55:01  Camera: Level 2 Main Entry                      	165	121
+11:55:06  Zone: Zone1                    	608	454	154
+11:55:08  Camera: Science Centre Entry                    	57	114
+11:55:22  Zone: Zone2                    	57	53	4
+11:55:50  Camera: Level 1 Entry 2                         	111	70
+11:55:53  Zone: Zone1                    	612	454	158
+11:56:02  Camera: Level 2 Main Entry                      	166	121
+11:56:07  Camera: Level 0 Entry                           	53	66
+11:56:09  Zone: Zone1                    	616	454	162
+11:56:55  Camera: Shop A                                  	78	91
+11:56:56  Zone: Zone1                    	616	456	160
+11:57:03  Camera: Level 2 Main Entry                      	167	122
+11:57:11  Camera: Science Centre Entry                    	61	115
+11:57:12  Zone: Zone1                    	617	457	160
+11:57:12  Zone: Zone2                    	61	54	7
+11:57:26  Camera: Level 1 Entry 1                         	61	48
+11:57:28  Zone: Zone1                    	617	463	154
+11:57:56  Camera: Shop A                                  	78	92
+11:57:59  Zone: Zone1                    	617	464	153
+11:58:04  Camera: Level 2 Main Entry                      	168	125
+11:58:09  Camera: Level 0 Entry                           	53	68
+11:58:12  Camera: Science Centre Entry                    	62	116
+11:58:15  Zone: Zone1                    	618	469	149
+11:58:15  Zone: Zone2                    	62	55	7
+11:58:28  Camera: Level 1 Entry 1                         	63	48
+11:58:31  Zone: Zone1                    	620	469	151
+11:58:57  Camera: Shop A                                  	78	96
+11:59:02  Zone: Zone1                    	620	473	147
+11:59:05  Camera: Level 2 Main Entry                      	169	125
+11:59:13  Camera: Science Centre Entry                    	63	117
+11:59:18  Zone: Zone1                    	621	473	148
+11:59:18  Zone: Zone2                    	63	56	7
+11:59:58  Camera: Shop A                                  	79	96
+12:00:04  Camera: Level 2 Lift                            	99	34
+12:00:06  Camera: Level 2 Main Entry                      	171	126
+12:00:07  Zone: Zone1                    	624	478	146
+12:00:07  Logging to daily summary: "12:00 107 123 158 25 18 3"
+12:00:07  Service running OK
+12:00:14  Camera: Science Centre Entry                    	63	118
+12:00:23  Zone: Zone2                    	63	57	6
+12:00:56  Camera: Level 1 Entry 2                         	113	70
+12:00:59  Camera: Shop A                                  	79	99
+12:01:07  Camera: Level 2 Main Entry                      	172	126
+12:01:10  Zone: Zone1                    	627	481	146
+12:01:15  Camera: Science Centre Entry                    	64	118
+12:01:26  Zone: Zone2                    	64	57	7
+12:01:57  Camera: Level 1 Entry 2                         	114	70
+12:01:57  Zone: Zone1                    	628	481	147
+12:02:00  Camera: Shop A                                  	82	99
+12:02:08  Camera: Level 2 Main Entry                      	174	126
+12:02:13  Zone: Zone1                    	633	481	152
+12:02:13  Camera: Level 0 Entry                           	55	68
+12:02:29  Zone: Zone1                    	635	481	154
+12:02:58  Camera: Level 1 Entry 2                         	117	70
+12:03:00  Zone: Zone1                    	638	481	157
+12:03:01  Camera: Shop A                                  	84	99
+12:03:09  Camera: Level 2 Main Entry                      	174	127
+12:03:16  Zone: Zone1                    	640	482	158
+12:03:17  Camera: Science Centre Entry                    	65	120
+12:03:32  Zone: Zone2                    	65	59	6
+12:03:33  Camera: Level 1 Entry 1                         	63	49
+12:03:47  Zone: Zone1                    	640	483	157
+12:04:02  Camera: Shop A                                  	84	102
+12:04:03  Zone: Zone1                    	640	486	154
+12:04:18  Camera: Science Centre Entry                    	66	120
+12:04:19  Zone: Zone2                    	66	59	7
+12:04:34  Camera: Level 1 Entry 1                         	63	51
+12:04:35  Zone: Zone1                    	640	488	152
+12:05:03  Camera: Shop A                                  	89	102
+12:05:08  Zone: Zone1                    	645	488	157
+12:05:35  Camera: Level 1 Entry 1                         	64	55
+12:05:42  Zone: Zone1                    	646	492	154
+12:06:01  Camera: Level 1 Entry 2                         	117	72
+12:06:13  Camera: Level 2 Main Entry                      	176	131
+12:06:16  Zone: Zone1                    	648	498	150
+12:06:18  Camera: Level 0 Entry                           	55	70
+12:06:20  Camera: Science Centre Entry                    	66	122
+12:06:32  Zone: Zone1                    	648	500	148
+12:06:32  Zone: Zone2                    	66	61	5
+12:06:36  Camera: Level 1 Entry 1                         	66	55
+12:06:48  Zone: Zone1                    	650	500	150
+12:07:14  Camera: Level 2 Main Entry                      	176	133
+12:07:19  Zone: Zone1                    	650	502	148
+12:07:21  Camera: Science Centre Entry                    	66	125
+12:07:35  Zone: Zone2                    	66	64	2
+12:08:03  Camera: Level 1 Entry 2                         	119	74
+12:08:08  Zone: Zone1                    	652	504	148
+12:08:15  Camera: Level 2 Main Entry                      	177	133
+12:08:22  Camera: Science Centre Entry                    	68	126
+12:08:24  Zone: Zone1                    	653	504	149
+12:08:24  Zone: Zone2                    	68	65	3
+12:09:04  Camera: Level 1 Entry 2                         	119	76
+12:09:08  Camera: Shop A                                  	89	104
+12:09:13  Zone: Zone1                    	653	508	145
+12:09:16  Camera: Level 2 Main Entry                      	177	135
+12:09:29  Zone: Zone1                    	653	510	143
+12:09:39  Camera: Level 1 Entry 1                         	66	56
+12:09:45  Zone: Zone1                    	653	511	142
+12:10:09  Camera: Shop A                                  	98	104
+12:10:11  Camera: Level 1 Lift                            	51	41
+12:10:15  Camera: Level 2 Lift                            	101	34
+12:10:16  Zone: Zone1                    	667	511	156
+12:10:17  Camera: Level 2 Main Entry                      	178	138
+12:10:32  Zone: Zone1                    	668	514	154
+12:10:40  Camera: Level 1 Entry 1                         	66	61
+12:10:47  Zone: Zone1                    	668	519	149
+12:11:10  Camera: Shop A                                  	98	106
+12:11:18  Camera: Level 2 Main Entry                      	178	139
+12:11:19  Zone: Zone1                    	668	522	146
+12:11:26  Camera: Science Centre Entry                    	70	126
+12:11:35  Zone: Zone2                    	70	65	5
+12:11:42  Camera: Level 1 Entry 1                         	69	65
+12:11:50  Zone: Zone1                    	671	526	145
+12:12:08  Camera: Level 1 Entry 2                         	119	78
+12:12:11  Camera: Shop A                                  	99	106
+12:12:17  Camera: Level 2 Lift                            	105	34
+12:12:19  Camera: Level 2 Main Entry                      	178	142
+12:12:22  Zone: Zone1                    	676	531	145
+12:12:27  Camera: Science Centre Entry                    	71	128
+12:12:37  Zone: Zone2                    	71	67	4
+12:12:43  Camera: Level 1 Entry 1                         	73	66
+12:12:53  Zone: Zone1                    	680	532	148
+12:13:09  Camera: Level 1 Entry 2                         	119	80
+12:13:09  Zone: Zone1                    	680	534	146
+12:13:18  Camera: Level 2 Lift                            	106	34
+12:13:20  Camera: Level 2 Main Entry                      	178	143
+12:13:24  Zone: Zone1                    	681	535	146
+12:13:28  Camera: Science Centre Entry                    	72	129
+12:13:40  Zone: Zone2                    	72	68	4
+12:14:13  Camera: Shop A                                  	99	107
+12:14:21  Camera: Level 2 Main Entry                      	181	143
+12:14:27  Zone: Zone1                    	684	536	148
+12:15:18  Service running OK
+12:15:22  Camera: Level 2 Main Entry                      	183	151
+12:15:30  Camera: Science Centre Entry                    	72	130
+12:15:33  Zone: Zone1                    	686	544	142
+12:15:33  Zone: Zone2                    	72	69	3
+12:15:46  Camera: Level 1 Entry 1                         	73	69
+12:15:49  Zone: Zone1                    	686	547	139
+12:16:12  Camera: Level 1 Entry 2                         	119	84
+12:16:20  Zone: Zone1                    	686	551	135
+12:16:21  Camera: Level 2 Lift                            	107	34
+12:16:23  Camera: Level 2 Main Entry                      	183	153
+12:16:29  Camera: Level 0 Entry                           	55	72
+12:16:36  Zone: Zone1                    	687	555	132
+12:17:13  Camera: Level 1 Entry 2                         	121	91
+12:17:19  Camera: Level 1 Lift                            	51	42
+12:17:22  Camera: Level 2 Lift                            	107	35
+12:17:23  Zone: Zone1                    	689	564	125
+12:17:24  Camera: Level 2 Main Entry                      	183	160
+12:17:39  Zone: Zone1                    	689	571	118
+12:18:14  Camera: Level 1 Entry 2                         	126	91
+12:18:18  Camera: Shop A                                  	99	111
+12:18:23  Camera: Level 2 Lift                            	110	35
+12:18:25  Camera: Level 2 Main Entry                      	183	161
+12:18:26  Zone: Zone1                    	697	576	121
+12:18:31  Camera: Level 0 Entry                           	59	72
+12:18:33  Camera: Science Centre Entry                    	75	130
+12:18:42  Zone: Zone1                    	701	576	125
+12:18:42  Zone: Zone2                    	75	69	6
+12:19:15  Camera: Level 1 Entry 2                         	136	91
+12:19:24  Camera: Level 2 Lift                            	110	39
+12:19:29  Zone: Zone1                    	711	580	131
+12:19:34  Camera: Science Centre Entry                    	75	132
+12:19:45  Zone: Zone2                    	75	71	4
+12:19:50  Camera: Level 1 Entry 1                         	73	70
+12:20:00  Zone: Zone1                    	711	581	130
+12:20:26  Camera: Level 2 Lift                            	112	39
+12:20:28  Camera: Level 2 Main Entry                      	188	164
+12:20:32  Zone: Zone1                    	718	584	134
+12:20:33  Camera: Level 0 Entry                           	60	72
+12:20:48  Zone: Zone1                    	719	584	135
+12:21:17  Camera: Level 1 Entry 2                         	138	95
+12:21:19  Zone: Zone1                    	721	588	133
+12:21:21  Camera: Shop A                                  	99	112
+12:21:29  Camera: Level 2 Main Entry                      	188	166
+12:21:35  Zone: Zone1                    	721	591	130
+12:22:18  Camera: Level 1 Entry 2                         	142	95
+12:22:22  Zone: Zone1                    	725	591	134
+12:22:30  Camera: Level 2 Main Entry                      	188	169
+12:22:35  Camera: Level 0 Entry                           	62	72
+12:22:38  Camera: Science Centre Entry                    	76	132
+12:22:38  Zone: Zone1                    	727	594	133
+12:22:38  Zone: Zone2                    	76	71	5
+12:22:53  Camera: Level 1 Entry 1                         	73	73
+12:22:53  Zone: Zone1                    	727	597	130
+12:23:20  Camera: Level 1 Entry 2                         	142	96
+12:23:23  Camera: Shop A                                  	100	116
+12:23:25  Zone: Zone1                    	728	602	126
+12:23:29  Camera: Level 2 Lift                            	113	43
+12:23:31  Camera: Level 2 Main Entry                      	192	170
+12:23:36  Camera: Level 0 Entry                           	63	72
+12:23:39  Camera: Science Centre Entry                    	76	133
+12:23:40  Zone: Zone1                    	734	607	127
+12:23:40  Zone: Zone2                    	76	72	4
+12:24:32  Camera: Level 2 Main Entry                      	193	171
+12:24:37  Camera: Level 0 Entry                           	63	73
+12:24:43  Zone: Zone1                    	735	609	126
+12:25:33  Camera: Level 2 Main Entry                      	194	171
+12:25:33  Zone: Zone1                    	736	609	127
+12:25:38  Camera: Level 0 Entry                           	63	77
+12:25:49  Zone: Zone1                    	736	613	123
+12:26:39  Camera: Level 0 Entry                           	65	77
+12:26:41  Zone: Zone1                    	738	613	125
+12:27:33  Camera: Level 2 Lift                            	114	44
+12:27:33  Zone: Zone1                    	739	614	125
+12:27:35  Camera: Level 2 Main Entry                      	195	173
+12:27:49  Zone: Zone1                    	740	616	124
+12:28:36  Camera: Level 2 Main Entry                      	195	177
+12:28:41  Zone: Zone1                    	740	620	120
+12:28:44  Camera: Science Centre Entry                    	78	137
+12:28:57  Zone: Zone2                    	78	76	2
+12:29:00  Camera: Level 1 Entry 1                         	75	73
+12:29:13  Zone: Zone1                    	742	620	122
+12:29:29  Camera: Shop A                                  	100	118
+12:29:30  Zone: Zone1                    	742	622	120
+12:29:37  Camera: Level 2 Main Entry                      	196	179
+12:29:45  Camera: Science Centre Entry                    	78	138
+12:29:45  Zone: Zone1                    	743	624	119
+12:29:45  Zone: Zone2                    	78	77	1
+12:30:01  Logging to daily summary: "12:30 119 146 138 15 21 4"
+12:30:01  Service running OK
+12:30:27  Camera: Level 1 Entry 2                         	144	96
+12:30:35  Zone: Zone1                    	745	624	121
+12:30:38  Camera: Level 2 Main Entry                      	196	181
+12:30:46  Camera: Science Centre Entry                    	78	139
+12:30:51  Zone: Zone1                    	745	626	119
+12:30:51  Zone: Zone2                    	78	78	0
+12:31:02  Camera: Level 1 Entry 1                         	76	73
+12:31:07  Zone: Zone1                    	746	626	120
+12:31:28  Camera: Level 1 Entry 2                         	144	98
+12:31:32  Camera: Shop A                                  	103	118
+12:31:37  Camera: Level 2 Lift                            	114	46
+12:31:38  Zone: Zone1                    	749	630	119
+12:31:40  Camera: Level 2 Main Entry                      	202	185
+12:31:45  Camera: Level 0 Entry                           	65	80
+12:31:47  Camera: Science Centre Entry                    	78	141
+12:31:54  Zone: Zone1                    	755	637	118
+12:31:54  Zone: Zone2                    	78	78	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+12:32:03  Camera: Level 1 Entry 1                         	76	76
+12:32:09  Zone: Zone1                    	755	640	115
+12:32:29  Camera: Level 1 Entry 2                         	147	100
+12:32:33  Camera: Shop A                                  	103	120
+12:32:38  Camera: Level 2 Lift                            	115	46
+12:32:41  Camera: Level 2 Main Entry                      	202	194
+12:32:41  Zone: Zone1                    	759	653	106
+12:32:46  Camera: Level 0 Entry                           	65	81
+12:32:56  Zone: Zone1                    	759	654	105
+12:33:30  Camera: Level 1 Entry 2                         	148	100
+12:33:42  Camera: Level 2 Main Entry                      	202	197
+12:33:44  Zone: Zone1                    	760	657	103
+12:34:05  Camera: Level 1 Entry 1                         	76	77
+12:34:15  Zone: Zone1                    	760	658	102
+12:34:43  Camera: Level 2 Main Entry                      	203	199
+12:34:46  Zone: Zone1                    	761	660	101
+12:35:06  Camera: Level 1 Entry 1                         	76	79
+12:35:18  Zone: Zone1                    	761	662	99
+12:35:36  Camera: Shop A                                  	103	123
+12:35:36  Zone: Zone1                    	761	665	96
+12:35:42  Camera: Level 2 Lift                            	115	48
+12:35:44  Camera: Level 2 Main Entry                      	203	200
+12:35:52  Camera: Science Centre Entry                    	79	141
+12:35:52  Zone: Zone1                    	761	668	93
+12:35:52  Zone: Zone2                    	79	78	1
+12:36:07  Camera: Level 1 Entry 1                         	76	80
+12:36:23  Zone: Zone1                    	761	669	92
+12:36:34  Camera: Level 1 Entry 2                         	151	104
+12:36:37  Camera: Shop A                                  	104	123
+12:36:39  Zone: Zone1                    	765	673	92
+12:36:45  Camera: Level 2 Main Entry                      	205	200
+12:36:54  Zone: Zone1                    	767	673	94
+12:37:09  Camera: Level 1 Entry 1                         	76	81
+12:37:10  Zone: Zone1                    	767	674	93
+12:37:35  Camera: Level 1 Entry 2                         	153	104
+12:37:38  Camera: Shop A                                  	104	124
+12:37:42  Zone: Zone1                    	769	675	94
+12:37:44  Camera: Level 2 Lift                            	117	48
+12:37:46  Camera: Level 2 Main Entry                      	206	204
+12:37:51  Camera: Level 0 Entry                           	67	81
+12:37:54  Camera: Science Centre Entry                    	80	143
+12:37:57  Zone: Zone1                    	774	679	95
+12:37:57  Zone: Zone2                    	80	80	0
+12:38:36  Camera: Level 1 Entry 2                         	154	109
+12:38:44  Zone: Zone1                    	775	684	91
+12:38:55  Camera: Science Centre Entry                    	81	144
+12:39:00  Zone: Zone2                    	81	81	0
+12:39:11  Camera: Level 1 Entry 1                         	78	81
+12:39:16  Zone: Zone1                    	777	684	93
+12:39:37  Camera: Level 1 Entry 2                         	155	109
+12:39:46  Camera: Level 2 Lift                            	117	49
+12:39:47  Zone: Zone1                    	778	685	93
+12:40:49  Camera: Level 2 Main Entry                      	207	206
+12:40:54  Zone: Zone1                    	779	687	92
+12:40:54  Camera: Level 0 Entry                           	67	85
+12:41:10  Zone: Zone1                    	779	691	88
+12:41:13  Camera: Level 1 Entry 1                         	80	82
+12:41:26  Zone: Zone1                    	781	692	89
+12:41:39  Camera: Level 1 Entry 2                         	155	110
+12:41:41  Zone: Zone1                    	781	693	88
+12:41:50  Camera: Level 2 Main Entry                      	207	207
+12:41:57  Zone: Zone1                    	781	694	87
+12:42:40  Camera: Level 1 Entry 2                         	155	111
+12:42:49  Zone: Zone1                    	781	695	86
+12:42:51  Camera: Level 2 Main Entry                      	207	208
+12:42:59  Camera: Science Centre Entry                    	84	144
+12:43:05  Zone: Zone1                    	781	696	85
+12:43:05  Zone: Zone2                    	84	81	3
+12:44:00  Camera: Science Centre Entry                    	86	144
+12:44:12  Zone: Zone2                    	86	81	5
+12:44:16  Camera: Level 1 Entry 1                         	80	86
+12:44:28  Zone: Zone1                    	781	700	81
+12:44:48  Camera: Level 1 Lift                            	52	42
+12:44:54  Camera: Level 2 Main Entry                      	207	209
+12:44:59  Camera: Level 0 Entry                           	67	87
+12:45:01  Camera: Science Centre Entry                    	86	146
+12:45:02  Zone: Zone1                    	782	703	79
+12:45:02  Zone: Zone2                    	86	83	3
+12:45:02  Service running OK
+12:45:17  Camera: Level 1 Entry 1                         	82	87
+12:45:18  Zone: Zone1                    	784	704	80
+12:45:47  Camera: Shop A                                  	104	130
+12:45:49  Zone: Zone1                    	784	710	74
+12:45:55  Camera: Level 2 Main Entry                      	207	212
+12:46:05  Zone: Zone1                    	784	713	71
+12:46:56  Camera: Level 2 Main Entry                      	208	214
+12:47:11  Zone: Zone1                    	785	715	70
+12:47:19  Camera: Level 1 Entry 1                         	82	88
+12:47:27  Zone: Zone1                    	785	716	69
+12:47:57  Camera: Level 2 Main Entry                      	209	215
+12:48:01  Zone: Zone1                    	786	717	69
+12:48:05  Camera: Science Centre Entry                    	86	147
+12:48:17  Zone: Zone2                    	86	84	2
+12:48:47  Camera: Level 1 Entry 2                         	157	111
+12:48:51  Zone: Zone1                    	788	717	71
+12:48:58  Camera: Level 2 Main Entry                      	211	217
+12:49:06  Camera: Science Centre Entry                    	88	147
+12:49:07  Zone: Zone1                    	790	719	71
+12:49:07  Zone: Zone2                    	88	84	4
+12:49:22  Camera: Level 1 Entry 1                         	85	88
+12:49:23  Zone: Zone1                    	793	719	74
+12:50:04  Camera: Level 0 Entry                           	68	87
+12:50:12  Zone: Zone1                    	794	719	75
+12:50:49  Camera: Level 1 Entry 2                         	157	114
+12:50:52  Camera: Shop A                                  	104	133
+12:50:58  Camera: Level 2 Lift                            	118	49
+12:51:00  Camera: Level 2 Main Entry                      	213	220
+12:51:04  Zone: Zone1                    	797	728	69
+12:51:24  Camera: Level 1 Entry 1                         	87	88
+12:51:36  Zone: Zone1                    	799	728	71
+12:51:53  Camera: Shop A                                  	104	134
+12:51:59  Camera: Level 2 Lift                            	122	49
+12:52:01  Camera: Level 2 Main Entry                      	216	220
+12:52:06  Camera: Level 0 Entry                           	68	90
+12:52:07  Zone: Zone1                    	806	732	74
+12:52:09  Camera: Science Centre Entry                    	88	148
+12:52:23  Zone: Zone2                    	88	85	3
+12:52:54  Camera: Shop A                                  	110	135
+12:53:10  Zone: Zone1                    	812	733	79
+12:53:26  Camera: Level 1 Entry 1                         	88	88
+12:53:41  Zone: Zone1                    	813	733	80
+12:53:52  Camera: Level 1 Entry 2                         	157	117
+12:53:55  Camera: Shop A                                  	111	136
+12:53:57  Zone: Zone1                    	814	737	77
+12:54:03  Camera: Level 2 Main Entry                      	219	222
+12:54:13  Zone: Zone1                    	817	739	78
+12:55:58  Camera: Shop A                                  	111	137
+12:55:58  Zone: Zone1                    	817	740	77
+12:56:03  Camera: Level 2 Lift                            	124	49
+12:56:06  Camera: Level 2 Main Entry                      	219	226
+12:56:13  Zone: Zone1                    	819	744	75
+12:56:29  Camera: Level 1 Entry 1                         	88	90
+12:56:45  Zone: Zone1                    	819	746	73
+12:57:07  Camera: Level 2 Main Entry                      	221	226
+12:57:18  Zone: Zone1                    	821	746	75
+12:57:30  Camera: Level 1 Entry 1                         	89	90
+12:57:34  Zone: Zone1                    	822	746	76
+12:57:56  Camera: Level 1 Entry 2                         	157	119
+12:58:00  Camera: Shop A                                  	112	137
+12:58:08  Camera: Level 2 Main Entry                      	223	226
+12:58:08  Zone: Zone1                    	825	748	77
+12:58:57  Camera: Level 1 Entry 2                         	159	119
+12:58:58  Zone: Zone1                    	827	748	79
+12:59:09  Camera: Level 2 Main Entry                      	223	228
+12:59:13  Zone: Zone1                    	827	750	77
+13:00:02  Camera: Shop A                                  	112	139
+13:00:03  Zone: Zone1                    	827	752	75
+13:00:03  Logging to daily summary: "13:00 84 128 84 10 8 2"
+13:00:03  Service running OK
+13:00:18  Camera: Science Centre Entry                    	89	148
+13:00:19  Zone: Zone2                    	89	85	4
+13:00:33  Camera: Level 1 Entry 1                         	90	90
+13:00:35  Zone: Zone1                    	828	752	76
+13:01:05  Camera: Level 1 Lift                            	55	42
+13:01:08  Zone: Zone1                    	831	752	79
+13:01:19  Camera: Science Centre Entry                    	89	149
+13:01:24  Zone: Zone2                    	89	86	3
+13:01:35  Camera: Level 1 Entry 1                         	91	92
+13:01:40  Zone: Zone1                    	832	754	78
+13:02:01  Camera: Level 1 Entry 2                         	160	119
+13:02:04  Camera: Shop A                                  	115	139
+13:02:10  Camera: Level 2 Lift                            	125	52
+13:02:12  Camera: Level 2 Main Entry                      	223	230
+13:02:13  Zone: Zone1                    	837	759	78
+13:02:17  Camera: Level 0 Entry                           	70	90
+13:02:20  Camera: Science Centre Entry                    	91	150
+13:02:29  Zone: Zone1                    	839	759	80
+13:02:29  Zone: Zone2                    	91	87	4
+13:03:02  Camera: Level 1 Entry 2                         	161	119
+13:03:05  Camera: Shop A                                  	116	140
+13:03:11  Camera: Level 2 Lift                            	126	57
+13:03:16  Zone: Zone1                    	842	765	77
+13:03:18  Camera: Level 0 Entry                           	71	90
+13:03:32  Zone: Zone1                    	843	765	78
+13:03:37  Camera: Level 1 Entry 1                         	92	94
+13:03:47  Zone: Zone1                    	844	767	77
+13:04:03  Camera: Level 1 Entry 2                         	165	121
+13:04:03  Zone: Zone1                    	848	769	79
+13:04:09  Camera: Level 1 Lift                            	55	45
+13:04:14  Camera: Level 2 Main Entry                      	224	230
+13:04:19  Zone: Zone1                    	849	772	77
+13:04:19  Camera: Level 0 Entry                           	71	92
+13:04:35  Zone: Zone1                    	849	774	75
+13:04:38  Camera: Level 1 Entry 1                         	92	96
+13:04:50  Zone: Zone1                    	849	776	73
+13:05:04  Camera: Level 1 Entry 2                         	167	121
+13:05:06  Zone: Zone1                    	851	776	75
+13:05:10  Camera: Level 1 Lift                            	57	45
+13:05:13  Camera: Level 2 Lift                            	128	59
+13:05:20  Camera: Level 0 Entry                           	73	92
+13:05:22  Zone: Zone1                    	857	778	79
+13:05:39  Camera: Level 1 Entry 1                         	94	96
+13:05:53  Zone: Zone1                    	859	778	81
+13:06:05  Camera: Level 1 Entry 2                         	169	122
+13:06:09  Zone: Zone1                    	861	779	82
+13:06:16  Camera: Level 2 Main Entry                      	224	231
+13:06:24  Zone: Zone1                    	861	780	81
+13:07:15  Camera: Level 2 Lift                            	128	61
+13:07:27  Zone: Zone1                    	861	782	79
+13:08:07  Camera: Level 1 Entry 2                         	170	122
+13:08:10  Camera: Shop A                                  	116	141
+13:08:18  Camera: Level 2 Main Entry                      	224	233
+13:08:19  Zone: Zone1                    	862	785	77
+13:09:08  Camera: Level 1 Entry 2                         	172	122
+13:09:08  Zone: Zone1                    	864	785	79
+13:09:12  Camera: Shop A                                  	118	141
+13:09:20  Camera: Level 2 Main Entry                      	227	234
+13:09:24  Zone: Zone1                    	869	786	83
+13:09:25  Camera: Level 0 Entry                           	77	92
+13:09:40  Zone: Zone1                    	873	786	87
+13:09:43  Camera: Level 1 Entry 1                         	94	98
+13:09:55  Zone: Zone1                    	873	788	85
+13:10:09  Camera: Level 1 Entry 2                         	178	122
+13:10:11  Zone: Zone1                    	879	788	91
+13:10:15  Camera: Level 1 Lift                            	57	48
+13:10:18  Camera: Level 2 Lift                            	132	64
+13:10:26  Camera: Level 0 Entry                           	77	93
+13:10:27  Zone: Zone1                    	883	795	88
+13:11:10  Camera: Level 1 Entry 2                         	180	122
+13:11:14  Camera: Shop A                                  	118	148
+13:11:14  Zone: Zone1                    	885	802	83
+13:11:16  Camera: Level 1 Lift                            	57	51
+13:11:22  Camera: Level 2 Main Entry                      	228	235
+13:11:29  Camera: Science Centre Entry                    	91	151
+13:11:30  Zone: Zone1                    	886	806	80
+13:11:30  Zone: Zone2                    	91	88	3
+13:11:45  Camera: Level 1 Entry 1                         	94	100
+13:11:45  Zone: Zone1                    	886	808	78
+13:12:11  Camera: Level 1 Entry 2                         	184	122
+13:12:17  Zone: Zone1                    	890	808	82
+13:12:17  Camera: Level 1 Lift                            	57	55
+13:12:21  Camera: Level 2 Lift                            	132	66
+13:12:23  Camera: Level 2 Main Entry                      	230	235
+13:12:28  Camera: Level 0 Entry                           	79	95
+13:12:31  Camera: Science Centre Entry                    	92	151
+13:12:32  Zone: Zone1                    	894	816	78
+13:12:32  Zone: Zone2                    	92	88	4
+13:12:46  Camera: Level 1 Entry 1                         	94	101
+13:12:48  Zone: Zone1                    	894	817	77
+13:13:24  Camera: Level 2 Main Entry                      	231	237
+13:13:35  Zone: Zone1                    	895	819	76
+13:14:23  Camera: Level 2 Lift                            	134	66
+13:14:25  Camera: Level 2 Main Entry                      	232	237
+13:14:30  Camera: Level 0 Entry                           	79	98
+13:14:38  Zone: Zone1                    	898	822	76
+13:15:10  Service running OK
+13:15:50  Camera: Level 1 Entry 1                         	96	101
+13:16:01  Zone: Zone1                    	900	822	78
+13:16:19  Camera: Shop A                                  	119	148
+13:16:19  Zone: Zone1                    	901	822	79
+13:16:27  Camera: Level 2 Main Entry                      	232	239
+13:16:35  Zone: Zone1                    	901	824	77
+13:16:51  Camera: Level 1 Entry 1                         	96	103
+13:16:51  Zone: Zone1                    	901	826	75
+13:17:17  Camera: Level 1 Entry 2                         	189	122
+13:17:24  Zone: Zone1                    	906	826	80
+13:17:28  Camera: Level 2 Main Entry                      	237	240
+13:17:40  Zone: Zone1                    	911	827	84
+13:17:52  Camera: Level 1 Entry 1                         	98	103
+13:17:56  Zone: Zone1                    	913	827	86
+13:18:21  Camera: Shop A                                  	120	150
+13:18:27  Camera: Level 2 Lift                            	134	67
+13:18:29  Camera: Level 2 Main Entry                      	237	244
+13:18:29  Zone: Zone1                    	914	834	80
+13:19:22  Camera: Shop A                                  	121	150
+13:19:30  Camera: Level 2 Main Entry                      	242	244
+13:19:34  Zone: Zone1                    	920	834	86
+13:19:38  Camera: Science Centre Entry                    	93	151
+13:19:50  Zone: Zone2                    	93	88	5
+13:20:20  Camera: Level 1 Entry 2                         	189	129
+13:20:21  Zone: Zone1                    	920	841	79
+13:20:23  Camera: Shop A                                  	127	150
+13:20:31  Camera: Level 2 Main Entry                      	243	246
+13:20:37  Camera: Level 0 Entry                           	80	99
+13:20:37  Zone: Zone1                    	928	844	84
+13:20:39  Camera: Science Centre Entry                    	95	156
+13:20:53  Zone: Zone2                    	95	93	2
+13:21:21  Camera: Level 1 Entry 2                         	189	133
+13:21:24  Zone: Zone1                    	928	848	80
+13:21:32  Camera: Level 2 Main Entry                      	246	247
+13:21:40  Zone: Zone1                    	931	849	82
+13:21:40  Camera: Science Centre Entry                    	95	157
+13:21:56  Zone: Zone2                    	95	94	1
+13:22:22  Camera: Level 1 Entry 2                         	189	134
+13:22:26  Camera: Shop A                                  	127	151
+13:22:29  Zone: Zone1                    	931	851	80
+13:22:34  Camera: Level 2 Main Entry                      	248	247
+13:22:39  Camera: Level 0 Entry                           	80	101
+13:22:41  Camera: Science Centre Entry                    	96	157
+13:22:45  Zone: Zone1                    	933	853	80
+13:22:45  Zone: Zone2                    	96	94	2
+13:22:57  Camera: Level 1 Entry 1                         	103	103
+13:23:01  Zone: Zone1                    	938	853	85
+13:23:27  Camera: Shop A                                  	129	151
+13:23:29  Camera: Level 1 Lift                            	61	55
+13:23:32  Zone: Zone1                    	944	853	91
+13:23:40  Camera: Level 0 Entry                           	82	104
+13:23:42  Camera: Science Centre Entry                    	100	158
+13:23:48  Zone: Zone1                    	946	856	90
+13:23:48  Zone: Zone2                    	100	95	5
+13:23:58  Camera: Level 1 Entry 1                         	104	104
+13:24:03  Zone: Zone1                    	947	857	90
+13:24:34  Camera: Level 2 Lift                            	137	71
+13:24:35  Zone: Zone1                    	950	861	89
+13:24:43  Camera: Science Centre Entry                    	101	158
+13:24:51  Zone: Zone2                    	101	95	6
+13:25:25  Camera: Level 1 Entry 2                         	189	138
+13:25:26  Zone: Zone1                    	950	865	85
+13:25:29  Camera: Shop A                                  	129	152
+13:25:41  Zone: Zone1                    	950	866	84
+13:25:42  Camera: Level 0 Entry                           	82	105
+13:25:45  Camera: Science Centre Entry                    	102	158
+13:25:57  Zone: Zone1                    	950	867	83
+13:25:57  Zone: Zone2                    	102	95	7
+13:26:32  Camera: Level 1 Lift                            	64	60
+13:26:36  Camera: Level 2 Lift                            	137	73
+13:26:38  Camera: Level 2 Main Entry                      	248	248
+13:26:43  Camera: Level 0 Entry                           	83	105
+13:26:46  Camera: Science Centre Entry                    	102	160
+13:26:47  Zone: Zone1                    	954	875	79
+13:26:47  Zone: Zone2                    	102	97	5
+13:27:31  Camera: Shop A                                  	130	152
+13:27:33  Camera: Level 1 Lift                            	66	61
+13:27:34  Zone: Zone1                    	957	876	81
+13:27:37  Camera: Level 2 Lift                            	139	73
+13:27:39  Camera: Level 2 Main Entry                      	248	250
+13:27:44  Camera: Level 0 Entry                           	86	107
+13:27:50  Zone: Zone1                    	962	880	82
+13:28:03  Camera: Level 1 Entry 1                         	107	104
+13:28:06  Zone: Zone1                    	965	880	85
+13:28:32  Camera: Shop A                                  	133	152
+13:28:37  Zone: Zone1                    	968	880	88
+13:28:40  Camera: Level 2 Main Entry                      	250	252
+13:28:48  Camera: Science Centre Entry                    	103	161
+13:28:53  Zone: Zone1                    	970	882	88
+13:28:53  Zone: Zone2                    	103	98	5
+13:29:41  Camera: Level 2 Main Entry                      	254	252
+13:29:41  Zone: Zone1                    	974	882	92
+13:29:49  Camera: Science Centre Entry                    	103	162
+13:29:57  Zone: Zone2                    	103	99	4
+13:30:16  Logging to daily summary: "13:30 147 130 81 15 14 4"
+13:30:16  Service running OK
+13:30:31  Camera: Level 1 Entry 2                         	195	138
+13:30:31  Zone: Zone1                    	980	882	98
+13:30:40  Camera: Level 2 Lift                            	143	74
+13:30:42  Camera: Level 2 Main Entry                      	256	252
+13:30:47  Zone: Zone1                    	986	883	103
+13:30:47  Camera: Level 0 Entry                           	86	108
+13:30:50  Camera: Science Centre Entry                    	104	162
+13:31:03  Zone: Zone1                    	986	884	102
+13:31:03  Zone: Zone2                    	104	99	5
+13:31:06  Camera: Level 1 Entry 1                         	107	105
+13:31:18  Zone: Zone1                    	986	885	101
+13:31:35  Camera: Shop A                                  	135	153
+13:31:38  Camera: Level 1 Lift                            	66	64
+13:31:41  Camera: Level 2 Lift                            	144	76
+13:31:43  Camera: Level 2 Main Entry                      	259	252
+13:31:50  Zone: Zone1                    	992	891	101
+13:33:37  Camera: Shop A                                  	135	156
+13:33:43  Camera: Level 2 Lift                            	146	76
+13:33:44  Zone: Zone1                    	994	894	100
+13:33:45  Camera: Level 2 Main Entry                      	259	253
+13:34:00  Zone: Zone1                    	994	895	99
+13:34:09  Camera: Level 1 Entry 1                         	109	106
+13:34:16  Zone: Zone1                    	996	896	100
+13:34:35  Camera: Level 1 Entry 2                         	198	144
+13:34:47  Zone: Zone1                    	999	902	97
+13:35:10  Camera: Level 1 Entry 1                         	109	110
+13:35:21  Zone: Zone1                    	999	906	93
+13:35:36  Camera: Level 1 Entry 2                         	198	145
+13:35:37  Zone: Zone1                    	999	907	92
+13:35:40  Camera: Shop A                                  	136	156
+13:35:45  Camera: Level 2 Lift                            	148	79
+13:35:48  Camera: Level 2 Main Entry                      	260	253
+13:35:53  Zone: Zone1                    	1003	910	93
+13:35:53  Camera: Level 0 Entry                           	89	108
+13:35:55  Camera: Science Centre Entry                    	104	164
+13:36:08  Zone: Zone1                    	1006	910	96
+13:36:08  Zone: Zone2                    	104	101	3
+13:36:11  Camera: Level 1 Entry 1                         	112	110
+13:36:24  Zone: Zone1                    	1009	910	99
+13:36:49  Camera: Level 2 Main Entry                      	261	254
+13:36:55  Zone: Zone1                    	1010	911	99
+13:36:56  Camera: Science Centre Entry                    	104	165
+13:37:11  Zone: Zone2                    	104	102	2
+13:37:38  Camera: Level 1 Entry 2                         	200	145
+13:37:43  Zone: Zone1                    	1012	911	101
+13:37:48  Camera: Level 2 Lift                            	150	83
+13:37:50  Camera: Level 2 Main Entry                      	263	254
+13:37:58  Zone: Zone1                    	1016	915	101
+13:38:13  Camera: Level 1 Entry 1                         	113	110
+13:38:14  Zone: Zone1                    	1017	915	102
+13:38:40  Camera: Level 1 Entry 2                         	202	145
+13:38:45  Zone: Zone1                    	1019	915	104
+13:38:49  Camera: Level 2 Lift                            	153	84
+13:38:51  Camera: Level 2 Main Entry                      	266	254
+13:39:01  Zone: Zone1                    	1025	916	109
+13:39:41  Camera: Level 1 Entry 2                         	202	146
+13:39:44  Camera: Shop A                                  	136	157
+13:39:51  Zone: Zone1                    	1025	918	107
+13:39:52  Camera: Level 2 Main Entry                      	266	259
+13:40:07  Zone: Zone1                    	1025	923	102
+13:40:42  Camera: Level 1 Entry 2                         	203	146
+13:40:45  Camera: Shop A                                  	138	157
+13:40:53  Camera: Level 2 Main Entry                      	266	265
+13:40:56  Zone: Zone1                    	1028	929	99
+13:41:46  Camera: Shop A                                  	139	159
+13:42:01  Zone: Zone1                    	1029	931	98
+13:42:02  Camera: Science Centre Entry                    	104	168
+13:42:17  Zone: Zone2                    	104	104	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+13:42:17  Zone: Zone2                    	104	104	0
+13:42:18  Camera: Level 1 Entry 1                         	113	114
+13:42:33  Zone: Zone1                    	1029	935	94
+13:42:44  Camera: Level 1 Entry 2                         	203	151
+13:42:48  Zone: Zone1                    	1029	940	89
+13:42:53  Camera: Level 2 Lift                            	156	84
+13:43:00  Camera: Level 0 Entry                           	90	108
+13:43:03  Camera: Science Centre Entry                    	105	168
+13:43:04  Zone: Zone1                    	1033	940	93
+13:43:04  Zone: Zone2                    	105	104	1
+13:43:54  Camera: Level 2 Lift                            	157	85
+13:43:56  Camera: Level 2 Main Entry                      	267	266
+13:44:09  Zone: Zone1                    	1035	942	93
+13:44:46  Camera: Level 1 Entry 2                         	206	151
+13:44:57  Camera: Level 2 Main Entry                      	268	266
+13:44:59  Zone: Zone1                    	1039	942	97
+13:45:15  Service running OK
+13:45:58  Camera: Level 2 Main Entry                      	274	267
+13:46:04  Camera: Level 0 Entry                           	90	109
+13:46:06  Camera: Science Centre Entry                    	107	170
+13:46:07  Zone: Zone1                    	1045	944	101
+13:46:07  Zone: Zone2                    	107	106	1
+13:46:22  Camera: Level 1 Entry 1                         	113	116
+13:46:23  Zone: Zone1                    	1045	946	99
+13:46:48  Camera: Level 1 Entry 2                         	208	151
+13:46:54  Zone: Zone1                    	1047	946	101
+13:46:57  Camera: Level 2 Lift                            	158	86
+13:47:05  Camera: Level 0 Entry                           	104	109
+13:47:10  Zone: Zone1                    	1062	947	115
+13:47:23  Camera: Level 1 Entry 1                         	113	117
+13:47:26  Zone: Zone1                    	1062	948	114
+13:47:58  Camera: Level 2 Lift                            	158	90
+13:48:01  Camera: Level 2 Main Entry                      	277	268
+13:48:06  Camera: Level 0 Entry                           	121	109
+13:48:13  Zone: Zone1                    	1082	953	129
+13:48:24  Camera: Level 1 Entry 1                         	113	120
+13:48:29  Zone: Zone1                    	1082	956	126
+13:48:59  Camera: Level 2 Lift                            	158	91
+13:49:00  Zone: Zone1                    	1082	957	125
+13:49:02  Camera: Level 2 Main Entry                      	277	272
+13:49:07  Camera: Level 0 Entry                           	121	112
+13:49:16  Zone: Zone1                    	1082	964	118
+13:49:51  Camera: Level 1 Entry 2                         	215	153
+13:49:55  Camera: Shop A                                  	142	159
+13:50:05  Zone: Zone1                    	1092	966	126
+13:50:08  Camera: Level 0 Entry                           	123	112
+13:50:21  Zone: Zone1                    	1094	966	128
+13:50:26  Camera: Level 1 Entry 1                         	113	121
+13:50:37  Zone: Zone1                    	1094	967	127
+13:51:02  Camera: Level 2 Lift                            	158	96
+13:51:04  Camera: Level 2 Main Entry                      	277	275
+13:51:08  Zone: Zone1                    	1094	975	119
+13:51:12  Camera: Science Centre Entry                    	107	171
+13:51:24  Zone: Zone2                    	107	107	0
+13:51:27  Camera: Level 1 Entry 1                         	115	121
+13:51:39  Zone: Zone1                    	1096	975	121
+13:51:57  Camera: Shop A                                  	142	161
+13:52:05  Camera: Level 2 Main Entry                      	279	275
+13:52:10  Camera: Level 0 Entry                           	124	112
+13:52:11  Zone: Zone1                    	1099	977	122
+13:52:58  Camera: Shop A                                  	143	161
+13:52:58  Zone: Zone1                    	1100	977	123
+13:53:06  Camera: Level 2 Main Entry                      	279	277
+13:53:14  Zone: Zone1                    	1100	979	121
+13:55:08  Camera: Level 2 Main Entry                      	280	277
+13:55:16  Camera: Science Centre Entry                    	107	173
+13:55:18  Zone: Zone1                    	1101	979	122
+13:55:18  Zone: Zone2                    	107	107	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+13:55:32  Camera: Level 1 Entry 1                         	115	123
+13:55:34  Zone: Zone1                    	1101	981	120
+13:56:01  Camera: Shop A                                  	146	161
+13:56:05  Zone: Zone1                    	1104	981	123
+13:56:09  Camera: Level 2 Main Entry                      	280	279
+13:56:14  Camera: Level 0 Entry                           	127	112
+13:56:17  Camera: Science Centre Entry                    	107	174
+13:56:21  Zone: Zone1                    	1107	983	124
+13:56:21  Zone: Zone2                    	107	107	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+13:56:59  Camera: Level 1 Entry 2                         	216	153
+13:57:02  Camera: Shop A                                  	146	163
+13:57:08  Zone: Zone1                    	1108	985	123
+13:57:10  Camera: Level 2 Main Entry                      	281	281
+13:57:15  Camera: Level 0 Entry                           	128	112
+13:57:18  Camera: Science Centre Entry                    	109	176
+13:57:24  Zone: Zone1                    	1110	987	123
+13:57:24  Zone: Zone2                    	109	109	0
+13:58:00  Camera: Level 1 Entry 2                         	216	154
+13:58:11  Zone: Zone1                    	1110	988	122
+13:58:11  Camera: Level 2 Main Entry                      	286	281
+13:58:19  Camera: Science Centre Entry                    	111	181
+13:58:27  Zone: Zone1                    	1115	988	127
+13:58:27  Zone: Zone2                    	111	111	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+13:58:27  Zone: Zone2                    	111	111	0
+13:59:01  Camera: Level 1 Entry 2                         	220	156
+13:59:12  Camera: Level 2 Main Entry                      	287	283
+13:59:16  Zone: Zone1                    	1120	992	128
+13:59:20  Camera: Science Centre Entry                    	117	184
+13:59:32  Zone: Zone2                    	117	114	3
+13:59:36  Camera: Level 1 Entry 1                         	117	123
+13:59:48  Zone: Zone1                    	1122	992	130
+14:00:02  Camera: Level 1 Entry 2                         	221	157
+14:00:03  Zone: Zone1                    	1123	993	130
+14:00:03  Logging to daily summary: "14:00 149 111 110 14 15 1"
+14:00:03  Service running OK
+14:00:06  Camera: Shop A                                  	146	164
+14:00:13  Camera: Level 2 Main Entry                      	288	285
+14:00:19  Zone: Zone1                    	1124	996	128
+14:00:21  Camera: Science Centre Entry                    	117	185
+14:00:35  Zone: Zone2                    	117	115	2
+14:01:15  Camera: Level 2 Main Entry                      	292	290
+14:01:24  Zone: Zone1                    	1128	1001	127
+14:02:16  Camera: Level 2 Main Entry                      	292	291
+14:02:16  Zone: Zone1                    	1128	1002	126
+14:02:23  Camera: Science Centre Entry                    	118	186
+14:02:32  Zone: Zone2                    	118	116	2
+14:02:39  Camera: Level 1 Entry 1                         	118	123
+14:02:48  Zone: Zone1                    	1129	1002	127
+14:03:17  Camera: Level 2 Main Entry                      	296	291
+14:03:21  Zone: Zone1                    	1133	1002	131
+14:04:10  Camera: Shop A                                  	148	165
+14:04:13  Zone: Zone1                    	1135	1003	132
+14:04:16  Camera: Level 2 Lift                            	158	97
+14:04:18  Camera: Level 2 Main Entry                      	297	291
+14:04:23  Camera: Level 0 Entry                           	128	114
+14:04:29  Zone: Zone1                    	1136	1006	130
+14:05:08  Camera: Level 1 Entry 2                         	222	157
+14:05:11  Camera: Shop A                                  	148	166
+14:05:16  Zone: Zone1                    	1137	1007	130
+14:05:19  Camera: Level 2 Main Entry                      	299	294
+14:05:32  Zone: Zone1                    	1139	1010	129
+14:05:42  Camera: Level 1 Entry 1                         	118	124
+14:05:48  Zone: Zone1                    	1139	1011	128
+14:06:20  Camera: Level 2 Main Entry                      	301	294
+14:06:20  Zone: Zone1                    	1141	1011	130
+14:06:25  Camera: Level 0 Entry                           	128	117
+14:06:36  Zone: Zone1                    	1141	1014	127
+14:07:21  Camera: Level 2 Main Entry                      	304	297
+14:07:26  Camera: Level 0 Entry                           	129	117
+14:07:27  Zone: Zone1                    	1145	1017	128
+14:07:45  Camera: Level 1 Entry 1                         	119	124
+14:07:59  Zone: Zone1                    	1146	1017	129
+14:08:14  Camera: Shop A                                  	150	170
+14:08:14  Zone: Zone1                    	1148	1021	127
+14:08:22  Camera: Level 2 Main Entry                      	304	298
+14:08:30  Zone: Zone1                    	1148	1022	126
+14:09:15  Camera: Shop A                                  	150	172
+14:09:22  Zone: Zone1                    	1148	1024	124
+14:09:23  Camera: Level 2 Main Entry                      	306	300
+14:09:28  Camera: Level 0 Entry                           	130	118
+14:09:38  Zone: Zone1                    	1151	1027	124
+14:09:47  Camera: Level 1 Entry 1                         	120	124
+14:09:54  Zone: Zone1                    	1152	1027	125
+14:10:16  Camera: Shop A                                  	150	175
+14:10:24  Camera: Level 2 Main Entry                      	310	300
+14:10:25  Zone: Zone1                    	1156	1030	126
+14:10:29  Camera: Level 0 Entry                           	132	118
+14:10:32  Camera: Science Centre Entry                    	118	187
+14:10:41  Zone: Zone1                    	1158	1030	128
+14:10:41  Zone: Zone2                    	118	117	1
+14:11:17  Camera: Shop A                                  	152	175
+14:11:23  Camera: Level 2 Lift                            	159	98
+14:11:25  Camera: Level 2 Main Entry                      	311	300
+14:11:28  Zone: Zone1                    	1162	1031	131
+14:11:31  Camera: Level 0 Entry                           	132	121
+14:11:33  Camera: Science Centre Entry                    	118	189
+14:11:44  Zone: Zone1                    	1162	1034	128
+14:11:44  Zone: Zone2                    	118	118	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+14:11:44  Zone: Zone2                    	118	118	0
+14:12:15  Camera: Level 1 Entry 2                         	224	157
+14:12:15  Zone: Zone1                    	1164	1034	130
+14:12:21  Camera: Level 1 Lift                            	68	64
+14:12:26  Camera: Level 2 Main Entry                      	312	300
+14:12:31  Zone: Zone1                    	1167	1034	133
+14:12:32  Camera: Level 0 Entry                           	132	122
+14:12:47  Zone: Zone1                    	1167	1035	132
+14:12:50  Camera: Level 1 Entry 1                         	120	126
+14:13:02  Zone: Zone1                    	1167	1037	130
+14:13:28  Camera: Level 2 Main Entry                      	313	300
+14:13:34  Zone: Zone1                    	1168	1037	131
+14:13:35  Camera: Science Centre Entry                    	119	191
+14:13:50  Zone: Zone2                    	119	119	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+14:13:50  Zone: Zone2                    	119	119	0
+14:13:51  Camera: Level 1 Entry 1                         	124	129
+14:14:06  Zone: Zone1                    	1172	1040	132
+14:14:29  Camera: Level 2 Main Entry                      	313	305
+14:14:34  Camera: Level 0 Entry                           	132	123
+14:14:36  Camera: Science Centre Entry                    	121	191
+14:14:39  Zone: Zone1                    	1172	1046	126
+14:14:39  Zone: Zone2                    	121	119	2
+14:14:52  Camera: Level 1 Entry 1                         	126	130
+14:14:55  Zone: Zone1                    	1174	1047	127
+14:15:11  Service running OK
+14:15:18  Camera: Level 1 Entry 2                         	224	163
+14:15:26  Zone: Zone1                    	1174	1053	121
+14:15:30  Camera: Level 2 Main Entry                      	313	307
+14:15:35  Camera: Level 0 Entry                           	132	125
+14:15:42  Zone: Zone1                    	1174	1057	117
+14:16:31  Camera: Level 2 Main Entry                      	314	307
+14:16:31  Zone: Zone1                    	1175	1057	118
+14:16:39  Camera: Science Centre Entry                    	121	192
+14:16:47  Zone: Zone2                    	121	120	1
+14:17:21  Camera: Level 1 Entry 2                         	228	163
+14:17:21  Zone: Zone1                    	1179	1057	122
+14:18:33  Camera: Level 2 Main Entry                      	315	310
+14:18:41  Camera: Science Centre Entry                    	121	194
+14:18:48  Zone: Zone1                    	1180	1060	120
+14:18:48  Zone: Zone2                    	121	121	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+14:18:48  Zone: Zone2                    	121	121	0
+14:19:32  Camera: Level 2 Lift                            	159	102
+14:19:34  Camera: Level 2 Main Entry                      	316	313
+14:19:38  Zone: Zone1                    	1181	1067	114
+14:19:58  Camera: Level 1 Entry 1                         	128	130
+14:20:10  Zone: Zone1                    	1183	1067	116
+14:20:27  Camera: Shop A                                  	154	175
+14:20:27  Zone: Zone1                    	1185	1067	118
+14:21:28  Camera: Shop A                                  	154	179
+14:21:36  Camera: Level 2 Main Entry                      	317	313
+14:21:37  Zone: Zone1                    	1186	1071	115
+14:21:41  Camera: Level 0 Entry                           	132	126
+14:21:53  Zone: Zone1                    	1186	1072	114
+14:22:26  Camera: Level 1 Entry 2                         	228	166
+14:22:26  Zone: Zone1                    	1186	1075	111
+14:22:29  Camera: Shop A                                  	156	179
+14:22:37  Camera: Level 2 Main Entry                      	320	313
+14:22:42  Zone: Zone1                    	1191	1075	116
+14:22:42  Camera: Level 0 Entry                           	132	129
+14:22:57  Zone: Zone1                    	1191	1078	113
+14:23:27  Camera: Level 1 Entry 2                         	228	169
+14:23:29  Zone: Zone1                    	1191	1081	110
+14:23:38  Camera: Level 2 Main Entry                      	322	313
+14:23:45  Zone: Zone1                    	1193	1081	112
+14:24:39  Camera: Level 2 Main Entry                      	324	314
+14:24:47  Camera: Science Centre Entry                    	124	197
+14:24:54  Zone: Zone1                    	1195	1082	113
+14:24:54  Zone: Zone2                    	124	124	0
+14:25:40  Camera: Level 2 Main Entry                      	328	318
+14:25:44  Zone: Zone1                    	1199	1086	113
+14:25:48  Camera: Science Centre Entry                    	125	198
+14:26:00  Zone: Zone2                    	125	125	0
+14:26:04  Camera: Level 1 Entry 1                         	128	132
+14:26:16  Zone: Zone1                    	1199	1088	111
+14:26:42  Camera: Level 2 Main Entry                      	330	318
+14:26:49  Zone: Zone1                    	1201	1088	113
+14:27:05  Camera: Level 1 Entry 1                         	128	134
+14:27:05  Zone: Zone1                    	1201	1090	111
+14:27:43  Camera: Level 2 Main Entry                      	332	320
+14:27:57  Zone: Zone1                    	1203	1092	111
+14:28:06  Camera: Level 1 Entry 1                         	130	134
+14:28:13  Zone: Zone1                    	1205	1092	113
+14:28:44  Camera: Level 2 Main Entry                      	333	320
+14:28:47  Zone: Zone1                    	1206	1092	114
+14:29:07  Camera: Level 1 Entry 1                         	132	134
+14:29:21  Zone: Zone1                    	1208	1092	116
+14:29:45  Camera: Level 2 Main Entry                      	334	321
+14:29:55  Zone: Zone1                    	1209	1093	116
+14:30:08  Camera: Level 1 Entry 1                         	134	136
+14:30:11  Zone: Zone1                    	1211	1095	116
+14:30:11  Logging to daily summary: "14:30 88 102 121 8 11 0"
+14:30:11  Service running OK
+14:30:35  Camera: Level 1 Entry 2                         	228	172
+14:30:44  Camera: Level 2 Lift                            	160	102
+14:30:45  Zone: Zone1                    	1212	1098	114
+14:30:54  Camera: Science Centre Entry                    	126	198
+14:31:01  Zone: Zone2                    	126	125	1
+14:31:09  Camera: Level 1 Entry 1                         	135	136
+14:31:17  Zone: Zone1                    	1213	1098	115
+14:31:36  Camera: Level 1 Entry 2                         	228	174
+14:31:39  Camera: Shop A                                  	157	181
+14:31:47  Camera: Level 2 Main Entry                      	336	322
+14:31:48  Zone: Zone1                    	1216	1103	113
+14:31:52  Camera: Level 0 Entry                           	132	131
+14:32:04  Zone: Zone1                    	1216	1105	111
+14:32:11  Camera: Level 1 Entry 1                         	135	138
+14:32:19  Zone: Zone1                    	1216	1107	109
+14:32:37  Camera: Level 1 Entry 2                         	228	176
+14:32:48  Camera: Level 2 Main Entry                      	336	323
+14:32:51  Zone: Zone1                    	1216	1110	106
+14:33:41  Camera: Shop A                                  	158	181
+14:33:49  Camera: Level 2 Main Entry                      	336	327
+14:33:56  Zone: Zone1                    	1217	1114	103
+14:34:42  Camera: Shop A                                  	160	183
+14:34:46  Zone: Zone1                    	1219	1116	103
+14:34:50  Camera: Level 2 Main Entry                      	336	329
+14:34:55  Camera: Level 0 Entry                           	132	133
+14:35:02  Zone: Zone1                    	1219	1120	99
+14:35:40  Camera: Level 1 Entry 2                         	228	178
+14:35:43  Camera: Shop A                                  	162	186
+14:35:51  Zone: Zone1                    	1221	1125	96
+14:36:15  Camera: Level 1 Entry 1                         	135	139
+14:36:23  Zone: Zone1                    	1221	1126	95
+14:36:41  Camera: Level 1 Entry 2                         	230	180
+14:36:44  Camera: Shop A                                  	162	187
+14:36:52  Camera: Level 2 Main Entry                      	336	331
+14:36:56  Zone: Zone1                    	1223	1131	92
+14:36:57  Camera: Level 0 Entry                           	133	133
+14:37:12  Zone: Zone1                    	1224	1131	93
+14:37:16  Camera: Level 1 Entry 1                         	135	143
+14:37:28  Zone: Zone1                    	1224	1135	89
+14:37:53  Camera: Level 2 Main Entry                      	336	332
+14:37:59  Camera: Level 0 Entry                           	135	136
+14:37:59  Zone: Zone1                    	1226	1139	87
+14:39:00  Camera: Level 0 Entry                           	135	138
+14:39:06  Zone: Zone1                    	1226	1141	85
+14:39:18  Camera: Level 1 Entry 1                         	137	143
+14:39:22  Zone: Zone1                    	1228	1141	87
+14:39:44  Camera: Level 1 Entry 2                         	232	180
+14:39:56  Camera: Level 2 Main Entry                      	337	332
+14:39:56  Zone: Zone1                    	1231	1141	90
+14:40:03  Camera: Science Centre Entry                    	128	198
+14:40:12  Zone: Zone2                    	128	125	3
+14:40:45  Camera: Level 1 Entry 2                         	233	183
+14:40:45  Zone: Zone1                    	1232	1144	88
+14:41:04  Camera: Science Centre Entry                    	129	198
+14:41:19  Zone: Zone2                    	129	125	4
+14:41:20  Camera: Level 1 Entry 1                         	139	143
+14:41:35  Zone: Zone1                    	1234	1144	90
+14:41:56  Camera: Level 2 Lift                            	160	104
+14:41:58  Camera: Level 2 Main Entry                      	340	334
+14:42:03  Camera: Level 0 Entry                           	135	139
+14:42:09  Zone: Zone1                    	1237	1149	88
+14:42:47  Camera: Level 1 Entry 2                         	233	184
+14:42:51  Camera: Shop A                                  	165	187
+14:42:56  Zone: Zone1                    	1240	1150	90
+14:42:57  Camera: Level 2 Lift                            	160	107
+14:42:59  Camera: Level 2 Main Entry                      	347	334
+14:43:04  Camera: Level 0 Entry                           	138	158
+14:43:12  Zone: Zone1                    	1250	1172	78
+14:43:22  Camera: Level 1 Entry 1                         	140	143
+14:43:28  Zone: Zone1                    	1251	1172	79
+14:43:49  Camera: Level 1 Entry 2                         	235	187
+14:43:59  Zone: Zone1                    	1253	1175	78
+14:44:05  Camera: Level 0 Entry                           	138	163
+14:44:08  Camera: Science Centre Entry                    	130	199
+14:44:15  Zone: Zone1                    	1253	1180	73
+14:44:15  Zone: Zone2                    	130	126	4
+14:44:50  Camera: Level 1 Entry 2                         	235	189
+14:45:01  Camera: Level 2 Main Entry                      	349	336
+14:45:02  Zone: Zone1                    	1255	1184	71
+14:45:02  Service running OK
+14:45:54  Camera: Shop A                                  	166	189
+14:45:54  Zone: Zone1                    	1256	1186	70
+14:46:00  Camera: Level 2 Lift                            	160	108
+14:46:02  Camera: Level 2 Main Entry                      	349	338
+14:46:07  Camera: Level 0 Entry                           	139	163
+14:46:10  Zone: Zone1                    	1257	1189	68
+14:46:26  Camera: Level 1 Entry 1                         	140	145
+14:46:41  Zone: Zone1                    	1257	1191	66
+14:47:01  Camera: Level 2 Lift                            	162	112
+14:47:03  Camera: Level 2 Main Entry                      	350	339
+14:47:08  Camera: Level 0 Entry                           	145	164
+14:47:13  Zone: Zone1                    	1266	1197	69
+14:47:56  Camera: Shop A                                  	166	190
+14:48:00  Zone: Zone1                    	1266	1198	68
+14:48:09  Camera: Level 0 Entry                           	145	169
+14:48:16  Zone: Zone1                    	1266	1203	63
+14:48:54  Camera: Level 1 Entry 2                         	235	191
+14:49:07  Zone: Zone1                    	1266	1205	61
+14:49:55  Camera: Level 1 Entry 2                         	237	191
+14:49:58  Camera: Shop A                                  	172	190
+14:49:59  Zone: Zone1                    	1274	1205	69
+14:50:14  Camera: Science Centre Entry                    	131	203
+14:50:15  Zone: Zone2                    	131	130	1
+14:50:59  Camera: Shop A                                  	174	190
+14:51:04  Zone: Zone1                    	1276	1205	71
+14:51:05  Camera: Level 2 Lift                            	164	113
+14:51:07  Camera: Level 2 Main Entry                      	352	339
+14:51:15  Camera: Science Centre Entry                    	131	206
+14:51:20  Zone: Zone1                    	1280	1206	74
+14:51:20  Zone: Zone2                    	131	131	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+14:51:20  Zone: Zone2                    	131	131	0
+14:52:08  Camera: Level 2 Main Entry                      	354	339
+14:52:09  Zone: Zone1                    	1282	1206	76
+14:52:16  Camera: Science Centre Entry                    	132	206
+14:52:24  Zone: Zone2                    	132	131	1
+14:52:58  Camera: Level 1 Entry 2                         	237	192
+14:52:58  Zone: Zone1                    	1282	1207	75
+14:53:02  Camera: Shop A                                  	177	190
+14:53:10  Camera: Level 2 Main Entry                      	354	341
+14:53:14  Zone: Zone1                    	1285	1209	76
+14:54:09  Camera: Level 2 Lift                            	165	113
+14:54:18  Camera: Science Centre Entry                    	135	210
+14:54:21  Zone: Zone1                    	1286	1209	77
+14:54:21  Zone: Zone2                    	135	135	0
+14:55:10  Camera: Level 2 Lift                            	166	113
+14:55:11  Zone: Zone1                    	1287	1209	78
+14:55:12  Camera: Level 2 Main Entry                      	354	342
+14:55:17  Camera: Level 0 Entry                           	145	171
+14:55:20  Camera: Science Centre Entry                    	136	210
+14:55:27  Zone: Zone1                    	1287	1212	75
+14:55:27  Zone: Zone2                    	136	135	1
+14:56:01  Camera: Level 1 Entry 2                         	237	194
+14:56:13  Camera: Level 2 Main Entry                      	355	342
+14:56:14  Zone: Zone1                    	1288	1214	74
+14:58:04  Camera: Level 1 Entry 2                         	237	196
+14:58:16  Zone: Zone1                    	1288	1216	72
+14:58:20  Camera: Level 0 Entry                           	145	173
+14:58:32  Zone: Zone1                    	1288	1218	70
+14:59:08  Camera: Shop A                                  	179	190
+14:59:08  Zone: Zone1                    	1290	1218	72
+15:00:03  Logging to daily summary: "15:00 79 123 82 11 10 1"
+15:00:03  Service running OK
+15:00:06  Camera: Level 1 Entry 2                         	241	196
+15:00:09  Camera: Shop A                                  	179	192
+15:00:17  Camera: Level 2 Main Entry                      	356	342
+15:00:18  Zone: Zone1                    	1295	1220	75
+15:00:25  Camera: Science Centre Entry                    	138	210
+15:00:34  Zone: Zone2                    	138	135	3
+15:01:07  Camera: Level 1 Entry 2                         	244	196
+15:01:10  Camera: Shop A                                  	180	192
+15:01:21  Zone: Zone1                    	1299	1220	79
+15:02:11  Camera: Shop A                                  	180	195
+15:02:11  Zone: Zone1                    	1299	1223	76
+15:02:19  Camera: Level 2 Main Entry                      	361	343
+15:02:24  Camera: Level 0 Entry                           	145	175
+15:02:27  Zone: Zone1                    	1304	1226	78
+15:03:20  Camera: Level 2 Main Entry                      	362	343
+15:03:28  Camera: Science Centre Entry                    	139	214
+15:03:35  Zone: Zone1                    	1305	1226	79
+15:03:35  Zone: Zone2                    	139	139	0
+15:04:10  Camera: Level 1 Entry 2                         	246	196
+15:04:13  Camera: Shop A                                  	183	195
+15:04:25  Zone: Zone1                    	1310	1226	84
+15:04:29  Camera: Science Centre Entry                    	139	215
+15:04:41  Zone: Zone2                    	139	139	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+15:05:30  Camera: Science Centre Entry                    	140	215
+15:05:30  Zone: Zone2                    	140	139	1
+15:05:46  Camera: Level 1 Entry 1                         	142	147
+15:05:46  Zone: Zone1                    	1312	1228	84
+15:06:24  Camera: Level 2 Main Entry                      	362	344
+15:06:38  Zone: Zone1                    	1312	1229	83
+15:06:47  Camera: Level 1 Entry 1                         	142	148
+15:06:54  Zone: Zone1                    	1312	1230	82
+15:07:25  Camera: Level 2 Main Entry                      	363	345
+15:07:28  Zone: Zone1                    	1313	1231	82
+15:08:20  Camera: Level 1 Lift                            	69	64
+15:08:20  Zone: Zone1                    	1314	1231	83
+15:08:26  Camera: Level 2 Main Entry                      	363	346
+15:08:34  Camera: Science Centre Entry                    	140	216
+15:08:36  Zone: Zone1                    	1314	1232	82
+15:08:36  Zone: Zone2                    	140	140	0
+15:08:49  Camera: Level 1 Entry 1                         	145	149
+15:08:52  Zone: Zone1                    	1317	1233	84
+15:09:27  Camera: Level 2 Main Entry                      	364	346
+15:09:35  Camera: Science Centre Entry                    	142	216
+15:09:41  Zone: Zone1                    	1318	1233	85
+15:09:41  Zone: Zone2                    	142	140	2
+15:10:26  Camera: Level 2 Lift                            	166	116
+15:10:28  Camera: Level 2 Main Entry                      	369	346
+15:10:31  Zone: Zone1                    	1323	1236	87
+15:10:36  Camera: Science Centre Entry                    	143	217
+15:10:47  Zone: Zone2                    	143	141	2
+15:11:18  Camera: Level 1 Entry 2                         	246	199
+15:11:18  Zone: Zone1                    	1323	1239	84
+15:11:21  Camera: Shop A                                  	183	198
+15:11:34  Zone: Zone1                    	1323	1242	81
+15:11:37  Camera: Science Centre Entry                    	143	219
+15:11:50  Zone: Zone2                    	143	143	0
+15:12:25  Camera: Level 1 Lift                            	71	64
+15:12:25  Zone: Zone1                    	1325	1242	83
+15:12:30  Camera: Level 2 Main Entry                      	369	348
+15:12:35  Camera: Level 0 Entry                           	145	176
+15:12:38  Camera: Science Centre Entry                    	143	220
+15:12:40  Zone: Zone1                    	1325	1245	80
+15:12:40  Zone: Zone2                    	143	143	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+15:13:31  Camera: Level 2 Main Entry                      	371	349
+15:13:39  Camera: Science Centre Entry                    	146	220
+15:13:46  Zone: Zone1                    	1327	1246	81
+15:13:46  Zone: Zone2                    	146	143	3
+15:14:30  Camera: Level 2 Lift                            	166	117
+15:14:32  Camera: Level 2 Main Entry                      	380	352
+15:14:36  Zone: Zone1                    	1336	1250	86
+15:15:11  Service running OK
+15:15:33  Camera: Level 2 Main Entry                      	383	352
+15:15:44  Zone: Zone1                    	1339	1250	89
+15:15:57  Camera: Level 1 Entry 1                         	145	150
+15:16:00  Zone: Zone1                    	1339	1251	88
+15:16:34  Camera: Level 2 Main Entry                      	385	352
+15:16:34  Zone: Zone1                    	1341	1251	90
+15:17:35  Camera: Level 2 Main Entry                      	387	354
+15:17:41  Camera: Level 0 Entry                           	145	177
+15:17:43  Camera: Science Centre Entry                    	146	221
+15:17:44  Zone: Zone1                    	1343	1254	89
+15:17:44  Zone: Zone2                    	146	144	2
+15:18:25  Camera: Level 1 Entry 2                         	246	201
+15:18:31  Zone: Zone1                    	1343	1256	87
+15:18:37  Camera: Level 2 Main Entry                      	387	357
+15:18:44  Camera: Science Centre Entry                    	147	221
+15:18:47  Zone: Zone1                    	1343	1259	84
+15:18:47  Zone: Zone2                    	147	144	3
+15:19:35  Camera: Level 2 Lift                            	166	118
+15:19:37  Zone: Zone1                    	1343	1260	83
+15:19:38  Camera: Level 2 Main Entry                      	387	360
+15:19:45  Camera: Science Centre Entry                    	150	221
+15:19:53  Zone: Zone1                    	1343	1263	80
+15:19:53  Zone: Zone2                    	150	144	6
+15:20:37  Camera: Level 2 Lift                            	169	118
+15:20:39  Camera: Level 2 Main Entry                      	387	361
+15:20:42  Zone: Zone1                    	1346	1264	82
+15:20:44  Camera: Level 0 Entry                           	146	177
+15:20:58  Zone: Zone1                    	1347	1264	83
+15:21:28  Camera: Level 1 Entry 2                         	249	201
+15:21:29  Zone: Zone1                    	1350	1264	86
+15:21:40  Camera: Level 2 Main Entry                      	388	362
+15:21:45  Camera: Level 0 Entry                           	146	178
+15:21:45  Zone: Zone1                    	1351	1266	85
+15:23:40  Camera: Level 2 Lift                            	169	121
+15:23:47  Zone: Zone1                    	1351	1269	82
+15:24:43  Camera: Level 2 Main Entry                      	392	364
+15:24:57  Zone: Zone1                    	1355	1271	84
+15:25:44  Camera: Level 2 Main Entry                      	393	365
+15:25:49  Zone: Zone1                    	1356	1272	84
+15:25:49  Camera: Level 0 Entry                           	147	178
+15:25:52  Camera: Science Centre Entry                    	151	221
+15:26:05  Zone: Zone1                    	1357	1272	85
+15:26:05  Zone: Zone2                    	151	144	7
+15:26:53  Camera: Science Centre Entry                    	151	222
+15:26:54  Zone: Zone2                    	151	145	6
+15:27:46  Camera: Level 2 Main Entry                      	393	367
+15:27:46  Zone: Zone1                    	1357	1274	83
+15:27:51  Camera: Level 0 Entry                           	147	180
+15:27:54  Camera: Science Centre Entry                    	151	223
+15:28:02  Zone: Zone1                    	1357	1276	81
+15:28:02  Zone: Zone2                    	151	146	5
+15:28:10  Camera: Level 1 Entry 1                         	147	150
+15:28:18  Zone: Zone1                    	1359	1276	83
+15:28:36  Camera: Level 1 Entry 2                         	249	203
+15:28:47  Camera: Level 2 Main Entry                      	394	367
+15:28:49  Zone: Zone1                    	1360	1278	82
+15:28:55  Camera: Science Centre Entry                    	152	226
+15:29:05  Zone: Zone2                    	152	149	3
+15:29:37  Camera: Level 1 Entry 2                         	249	204
+15:29:37  Zone: Zone1                    	1360	1279	81
+15:29:48  Camera: Level 2 Main Entry                      	395	375
+15:29:53  Zone: Zone1                    	1361	1287	74
+15:29:56  Camera: Science Centre Entry                    	153	226
+15:30:09  Zone: Zone2                    	153	149	4
+15:30:09  Logging to daily summary: "15:30 71 69 82 17 14 3"
+15:30:09  Service running OK
+15:30:49  Camera: Level 2 Main Entry                      	396	375
+15:31:00  Zone: Zone1                    	1362	1287	75
+15:31:13  Camera: Level 1 Entry 1                         	149	152
+15:31:16  Zone: Zone1                    	1364	1289	75
+15:31:48  Camera: Level 2 Lift                            	169	123
+15:31:50  Zone: Zone1                    	1364	1291	73
+15:32:14  Camera: Level 1 Entry 1                         	154	152
+15:32:24  Zone: Zone1                    	1369	1291	78
+15:32:52  Camera: Level 2 Main Entry                      	399	376
+15:32:57  Camera: Level 0 Entry                           	149	180
+15:32:58  Zone: Zone1                    	1374	1292	82
+15:33:41  Camera: Level 1 Entry 2                         	251	204
+15:33:47  Camera: Level 1 Lift                            	71	66
+15:33:48  Zone: Zone1                    	1376	1294	82
+15:34:52  Camera: Level 2 Lift                            	171	123
+15:34:54  Camera: Level 2 Main Entry                      	399	378
+15:34:56  Zone: Zone1                    	1378	1296	82
+15:34:59  Camera: Level 0 Entry                           	149	181
+15:35:02  Camera: Science Centre Entry                    	154	227
+15:35:12  Zone: Zone1                    	1378	1297	81
+15:35:12  Zone: Zone2                    	154	150	4
+15:35:17  Camera: Level 1 Entry 1                         	155	152
+15:35:28  Zone: Zone1                    	1379	1297	82
+15:35:49  Camera: Level 1 Lift                            	71	67
+15:35:55  Camera: Level 2 Main Entry                      	401	378
+15:35:59  Zone: Zone1                    	1381	1298	83
+15:36:00  Camera: Level 0 Entry                           	149	187
+15:36:03  Camera: Science Centre Entry                    	157	227
+15:36:15  Zone: Zone1                    	1381	1304	77
+15:36:15  Zone: Zone2                    	157	150	7
+15:36:18  Camera: Level 1 Entry 1                         	155	153
+15:36:30  Zone: Zone1                    	1381	1305	76
+15:36:54  Camera: Level 2 Lift                            	175	123
+15:36:56  Camera: Level 2 Main Entry                      	401	382
+15:37:02  Zone: Zone1                    	1385	1309	76
+15:37:57  Camera: Level 2 Main Entry                      	402	383
+15:38:02  Camera: Level 0 Entry                           	149	188
+15:38:05  Camera: Science Centre Entry                    	159	229
+15:38:07  Zone: Zone1                    	1386	1311	75
+15:38:07  Zone: Zone2                    	159	152	7
+15:38:58  Camera: Level 2 Main Entry                      	402	385
+15:39:12  Zone: Zone1                    	1386	1313	73
+15:39:59  Camera: Level 2 Main Entry                      	402	387
+15:40:04  Zone: Zone1                    	1386	1315	71
+15:40:04  Camera: Level 0 Entry                           	149	191
+15:40:20  Zone: Zone1                    	1386	1318	68
+15:41:50  Camera: Level 1 Entry 2                         	253	204
+15:41:50  Zone: Zone1                    	1388	1318	70
+15:42:01  Camera: Level 2 Main Entry                      	402	388
+15:42:06  Zone: Zone1                    	1388	1319	69
+15:42:25  Camera: Level 1 Entry 1                         	156	153
+15:42:40  Zone: Zone1                    	1389	1319	70
+15:43:02  Camera: Level 2 Main Entry                      	403	388
+15:43:14  Zone: Zone1                    	1390	1319	71
+15:43:52  Camera: Level 1 Entry 2                         	254	206
+15:43:56  Camera: Shop A                                  	183	199
+15:44:06  Zone: Zone1                    	1391	1322	69
+15:44:27  Camera: Level 1 Entry 1                         	156	155
+15:44:38  Zone: Zone1                    	1391	1324	67
+15:45:05  Camera: Level 2 Main Entry                      	409	388
+15:45:10  Camera: Level 0 Entry                           	149	193
+15:45:11  Zone: Zone1                    	1397	1326	71
+15:45:11  Service running OK
+15:45:28  Camera: Level 1 Entry 1                         	158	155
+15:45:43  Zone: Zone1                    	1399	1326	73
+15:46:04  Camera: Level 2 Lift                            	175	126
+15:46:16  Zone: Zone1                    	1399	1329	70
+15:46:29  Camera: Level 1 Entry 1                         	158	156
+15:46:32  Zone: Zone1                    	1399	1330	69
+15:46:55  Camera: Level 1 Entry 2                         	255	206
+15:47:06  Zone: Zone1                    	1400	1330	70
+15:47:56  Camera: Level 1 Entry 2                         	257	206
+15:47:58  Zone: Zone1                    	1402	1330	72
+15:48:06  Camera: Level 2 Lift                            	175	131
+15:48:08  Camera: Level 2 Main Entry                      	409	389
+15:48:14  Zone: Zone1                    	1402	1336	66
+15:48:16  Camera: Science Centre Entry                    	161	229
+15:48:30  Zone: Zone2                    	161	152	9
+15:49:09  Camera: Level 2 Main Entry                      	409	391
+15:49:19  Zone: Zone1                    	1402	1338	64
+15:49:59  Camera: Level 1 Entry 2                         	257	209
+15:50:11  Zone: Zone1                    	1402	1341	61
+15:50:34  Camera: Level 1 Entry 1                         	161	158
+15:50:45  Zone: Zone1                    	1405	1343	62
+15:51:00  Camera: Level 1 Entry 2                         	260	209
+15:51:01  Zone: Zone1                    	1408	1343	65
+15:51:11  Camera: Level 2 Main Entry                      	409	392
+15:51:16  Camera: Level 0 Entry                           	149	195
+15:51:17  Zone: Zone1                    	1408	1346	62
+15:51:35  Camera: Level 1 Entry 1                         	161	162
+15:51:48  Zone: Zone1                    	1408	1350	58
+15:52:12  Camera: Level 2 Main Entry                      	411	392
+15:52:20  Camera: Science Centre Entry                    	162	231
+15:52:22  Zone: Zone1                    	1410	1350	60
+15:52:22  Zone: Zone2                    	162	154	8
+15:53:02  Camera: Level 1 Entry 2                         	260	211
+15:53:12  Zone: Zone1                    	1410	1352	58
+15:53:13  Camera: Level 2 Main Entry                      	411	397
+15:53:18  Camera: Level 0 Entry                           	149	196
+15:53:28  Zone: Zone1                    	1410	1358	52
+15:54:03  Camera: Level 1 Entry 2                         	260	216
+15:54:14  Camera: Level 2 Main Entry                      	411	399
+15:54:17  Zone: Zone1                    	1410	1365	45
+15:54:22  Camera: Science Centre Entry                    	163	231
+15:54:33  Zone: Zone2                    	163	154	9
+15:54:38  Camera: Level 1 Entry 1                         	161	164
+15:54:49  Zone: Zone1                    	1410	1367	43
+15:55:15  Camera: Level 2 Main Entry                      	411	401
+15:55:20  Zone: Zone1                    	1410	1369	41
+15:55:39  Camera: Level 1 Entry 1                         	161	165
+15:55:54  Zone: Zone1                    	1410	1370	40
+15:56:16  Camera: Level 2 Main Entry                      	411	402
+15:56:28  Zone: Zone1                    	1410	1371	39
+15:56:40  Camera: Level 1 Entry 1                         	162	168
+15:56:44  Zone: Zone1                    	1411	1374	37
+15:57:12  Camera: Level 1 Lift                            	71	70
+15:57:18  Camera: Level 2 Main Entry                      	413	402
+15:57:18  Zone: Zone1                    	1413	1377	36
+15:57:25  Camera: Science Centre Entry                    	163	232
+15:57:34  Zone: Zone2                    	163	155	8
+15:57:41  Camera: Level 1 Entry 1                         	163	168
+15:57:50  Zone: Zone1                    	1414	1377	37
+15:58:19  Camera: Level 2 Main Entry                      	414	402
+15:58:21  Zone: Zone1                    	1415	1377	38
+15:59:18  Camera: Level 2 Lift                            	177	131
+15:59:20  Camera: Level 2 Main Entry                      	415	402
+15:59:31  Zone: Zone1                    	1418	1377	41
+16:00:06  Logging to daily summary: "16:00 57 90 63 10 6 7"
+16:00:06  Service running OK
+16:00:09  Camera: Level 1 Entry 2                         	261	216
+16:00:21  Camera: Level 2 Main Entry                      	417	403
+16:00:21  Zone: Zone1                    	1421	1378	43
+16:01:11  Camera: Level 1 Entry 2                         	261	217
+16:01:11  Zone: Zone1                    	1421	1379	42
+16:01:22  Camera: Level 2 Main Entry                      	419	404
+16:01:27  Zone: Zone1                    	1423	1380	43
+16:02:23  Camera: Level 2 Main Entry                      	419	405
+16:02:37  Zone: Zone1                    	1423	1381	42
+16:02:47  Camera: Level 1 Entry 1                         	163	170
+16:02:53  Zone: Zone1                    	1423	1383	40
+16:03:24  Camera: Level 2 Main Entry                      	420	405
+16:03:27  Zone: Zone1                    	1424	1383	41
+16:03:32  Camera: Science Centre Entry                    	164	237
+16:03:43  Zone: Zone2                    	164	160	4
+16:04:17  Camera: Shop A                                  	183	200
+16:04:17  Zone: Zone1                    	1424	1384	40
+16:04:25  Camera: Level 2 Main Entry                      	420	409
+16:04:33  Camera: Science Centre Entry                    	166	238
+16:04:33  Zone: Zone1                    	1424	1388	36
+16:04:33  Zone: Zone2                    	166	161	5
+16:05:34  Camera: Science Centre Entry                    	167	239
+16:05:40  Zone: Zone2                    	167	162	5
+16:06:16  Camera: Level 1 Entry 2                         	263	220
+16:06:16  Zone: Zone1                    	1426	1391	35
+16:06:35  Camera: Science Centre Entry                    	167	240
+16:06:50  Zone: Zone2                    	167	163	4
+16:06:51  Camera: Level 1 Entry 1                         	163	171
+16:07:06  Zone: Zone1                    	1426	1392	34
+16:08:18  Camera: Level 1 Entry 2                         	266	220
+16:08:18  Zone: Zone1                    	1429	1392	37
+16:08:29  Camera: Level 2 Main Entry                      	421	412
+16:08:34  Zone: Zone1                    	1430	1395	35
+16:09:30  Camera: Level 2 Main Entry                      	422	412
+16:09:38  Camera: Science Centre Entry                    	169	240
+16:09:44  Zone: Zone1                    	1431	1395	36
+16:09:44  Zone: Zone2                    	169	163	6
+16:09:54  Camera: Level 1 Entry 1                         	165	171
+16:10:00  Zone: Zone1                    	1433	1395	38
+16:10:29  Camera: Level 2 Lift                            	177	132
+16:10:31  Zone: Zone1                    	1433	1396	37
+16:10:55  Camera: Level 1 Entry 1                         	165	173
+16:11:05  Zone: Zone1                    	1433	1398	35
+16:11:33  Camera: Level 2 Main Entry                      	424	413
+16:11:39  Zone: Zone1                    	1435	1399	36
+16:11:56  Camera: Level 1 Entry 1                         	167	173
+16:11:56  Zone: Zone1                    	1437	1399	38
+16:12:34  Camera: Level 2 Main Entry                      	425	414
+16:12:41  Camera: Science Centre Entry                    	171	240
+16:12:48  Zone: Zone1                    	1438	1400	38
+16:12:48  Zone: Zone2                    	171	163	8
+16:13:43  Camera: Science Centre Entry                    	172	240
+16:13:56  Zone: Zone2                    	172	163	9
+16:14:25  Camera: Level 1 Entry 2                         	266	224
+16:14:30  Zone: Zone1                    	1438	1404	34
+16:14:34  Camera: Level 2 Lift                            	177	133
+16:14:44  Camera: Science Centre Entry                    	173	241
+16:14:46  Zone: Zone1                    	1438	1405	33
+16:14:46  Zone: Zone2                    	173	164	9
+16:15:02  Service running OK
+16:15:26  Camera: Level 1 Entry 2                         	266	225
+16:15:35  Zone: Zone1                    	1438	1406	32
+16:15:37  Camera: Level 2 Main Entry                      	425	415
+16:15:51  Zone: Zone1                    	1438	1407	31
+16:16:27  Camera: Level 1 Entry 2                         	268	225
+16:16:27  Zone: Zone1                    	1440	1407	33
+16:16:38  Camera: Level 2 Main Entry                      	429	415
+16:16:42  Zone: Zone1                    	1444	1407	37
+16:17:39  Camera: Level 2 Main Entry                      	429	416
+16:17:52  Zone: Zone1                    	1444	1408	36
+16:19:04  Camera: Level 1 Entry 1                         	169	176
+16:19:04  Zone: Zone1                    	1446	1411	35
+16:19:39  Camera: Level 2 Lift                            	177	134
+16:19:39  Zone: Zone1                    	1446	1412	34
+16:20:48  Camera: Level 0 Entry                           	150	196
+16:20:49  Zone: Zone1                    	1447	1412	35
+16:23:34  Camera: Level 1 Entry 2                         	268	226
+16:23:38  Camera: Shop A                                  	204	200
+16:23:46  Camera: Level 2 Main Entry                      	430	417
+16:23:47  Zone: Zone1                    	1469	1414	55
+16:23:51  Camera: Level 0 Entry                           	150	198
+16:24:03  Zone: Zone1                    	1469	1416	53
+16:24:09  Camera: Level 1 Entry 1                         	169	179
+16:24:19  Zone: Zone1                    	1469	1419	50
+16:24:39  Camera: Shop A                                  	204	201
+16:24:47  Camera: Level 2 Main Entry                      	430	419
+16:24:50  Zone: Zone1                    	1469	1422	47
+16:24:52  Camera: Level 0 Entry                           	151	199
+16:25:06  Zone: Zone1                    	1470	1423	47
+16:25:36  Camera: Level 1 Entry 2                         	270	226
+16:25:37  Zone: Zone1                    	1472	1423	49
+16:25:40  Camera: Shop A                                  	204	203
+16:25:53  Zone: Zone1                    	1472	1425	47
+16:26:41  Camera: Shop A                                  	204	205
+16:26:45  Zone: Zone1                    	1472	1427	45
+16:26:49  Camera: Level 2 Main Entry                      	433	420
+16:27:01  Zone: Zone1                    	1475	1428	47
+16:27:50  Camera: Level 2 Main Entry                      	435	420
+16:27:53  Zone: Zone1                    	1477	1428	49
+16:27:58  Camera: Science Centre Entry                    	174	242
+16:28:09  Zone: Zone2                    	174	165	9
+16:28:40  Camera: Level 1 Entry 2                         	272	226
+16:28:43  Zone: Zone1                    	1479	1428	51
+16:28:49  Camera: Level 2 Lift                            	177	136
+16:28:51  Camera: Level 2 Main Entry                      	435	421
+16:28:56  Camera: Level 0 Entry                           	151	202
+16:28:59  Zone: Zone1                    	1479	1434	45
+16:29:50  Camera: Level 2 Lift                            	177	137
+16:29:52  Camera: Level 2 Main Entry                      	437	422
+16:30:06  Zone: Zone1                    	1481	1436	45
+16:30:06  Logging to daily summary: "16:30 63 59 39 11 10 7"
+16:30:07  Service running OK
+16:30:51  Camera: Level 2 Lift                            	177	141
+16:30:53  Camera: Level 2 Main Entry                      	438	424
+16:31:00  Zone: Zone1                    	1482	1442	40
+16:31:17  Camera: Level 1 Entry 1                         	170	179
+16:31:32  Zone: Zone1                    	1483	1442	41
+16:31:46  Camera: Shop A                                  	205	207
+16:31:47  Zone: Zone1                    	1484	1444	40
+16:31:49  Camera: Level 1 Lift                            	71	71
+16:31:54  Camera: Level 2 Main Entry                      	438	425
+16:32:03  Zone: Zone1                    	1484	1446	38
+16:32:55  Camera: Level 2 Main Entry                      	441	427
+16:33:03  Camera: Science Centre Entry                    	174	243
+16:33:10  Zone: Zone1                    	1487	1448	39
+16:33:10  Zone: Zone2                    	174	166	8
+16:33:45  Camera: Level 1 Entry 2                         	272	228
+16:33:56  Camera: Level 2 Main Entry                      	444	429
+16:34:00  Zone: Zone1                    	1490	1452	38
+16:34:20  Camera: Level 1 Entry 1                         	170	181
+16:34:32  Zone: Zone1                    	1490	1454	36
+16:34:46  Camera: Level 1 Entry 2                         	274	228
+16:34:47  Zone: Zone1                    	1492	1454	38
+16:34:57  Camera: Level 2 Main Entry                      	444	430
+16:35:03  Camera: Level 0 Entry                           	151	204
+16:35:03  Zone: Zone1                    	1492	1457	35
+16:35:05  Camera: Science Centre Entry                    	176	243
+16:35:19  Zone: Zone2                    	176	166	10
+16:35:59  Camera: Level 2 Main Entry                      	444	432
+16:36:08  Zone: Zone1                    	1492	1459	33
+16:37:00  Camera: Level 2 Main Entry                      	445	432
+16:37:00  Zone: Zone1                    	1493	1459	34
+16:38:01  Camera: Level 2 Main Entry                      	445	433
+16:38:10  Zone: Zone1                    	1493	1460	33
+16:38:24  Camera: Level 1 Entry 1                         	170	188
+16:38:26  Zone: Zone1                    	1493	1467	26
+16:40:03  Camera: Level 2 Main Entry                      	445	434
+16:40:12  Zone: Zone1                    	1493	1468	25
+16:40:53  Camera: Level 1 Entry 2                         	275	228
+16:41:04  Zone: Zone1                    	1494	1468	26
+16:41:12  Camera: Science Centre Entry                    	176	244
+16:41:20  Zone: Zone2                    	176	167	9
+16:43:06  Camera: Level 2 Main Entry                      	445	435
+16:43:06  Zone: Zone1                    	1494	1469	25
+16:43:14  Camera: Science Centre Entry                    	177	244
+16:43:22  Zone: Zone2                    	177	167	10
+16:44:07  Camera: Level 2 Main Entry                      	445	438
+16:44:14  Zone: Zone1                    	1494	1472	22
+16:44:15  Camera: Science Centre Entry                    	179	245
+16:44:30  Zone: Zone2                    	179	168	11
+16:45:07  Service running OK
+16:45:16  Camera: Science Centre Entry                    	180	245
+16:45:22  Zone: Zone2                    	180	168	12
+16:45:32  Camera: Level 1 Entry 1                         	170	189
+16:45:38  Zone: Zone1                    	1494	1473	21
+16:46:09  Camera: Level 2 Main Entry                      	445	439
+16:46:12  Zone: Zone1                    	1494	1474	20
+16:47:08  Camera: Level 2 Lift                            	178	142
+16:47:10  Camera: Level 2 Main Entry                      	445	440
+16:47:22  Zone: Zone1                    	1495	1476	19
+16:48:00  Camera: Level 1 Entry 2                         	277	228
+16:48:03  Camera: Shop A                                  	205	214
+16:48:12  Zone: Zone1                    	1497	1483	14
+16:49:01  Camera: Level 1 Entry 2                         	278	228
+16:49:02  Zone: Zone1                    	1498	1483	15
+16:49:05  Camera: Shop A                                  	205	224
+16:49:13  Camera: Level 2 Main Entry                      	446	442
+16:49:18  Zone: Zone1                    	1499	1495	4
+16:50:02  Camera: Level 1 Entry 2                         	278	229
+16:50:07  Zone: Zone1                    	1499	1496	3
+16:50:14  Camera: Level 2 Main Entry                      	446	443
+16:50:21  Camera: Science Centre Entry                    	180	246
+16:50:23  Zone: Zone1                    	1499	1497	2
+16:50:23  Zone: Zone2                    	180	169	11
+16:51:15  Camera: Level 2 Main Entry                      	446	445
+16:51:22  Camera: Science Centre Entry                    	182	246
+16:51:30  Zone: Zone1                    	1499	1499	0
+16:51:30  Zone: Zone2                    	182	169	13
+16:52:04  Camera: Level 1 Entry 2                         	278	232
+16:52:04  Zone: Zone1                    	1499	1499	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+16:52:16  Camera: Level 2 Main Entry                      	446	447
+16:52:20  Zone: Zone1                    	1499	1499	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:52:39  Camera: Level 1 Entry 1                         	174	189
+16:52:54  Zone: Zone1                    	1503	1499	4
+16:53:06  Camera: Level 1 Entry 2                         	278	234
+16:53:10  Zone: Zone1                    	1503	1501	2
+16:53:17  Camera: Level 2 Main Entry                      	446	448
+16:53:26  Zone: Zone1                    	1503	1502	1
+16:53:41  Camera: Level 1 Entry 1                         	174	199
+16:53:41  Zone: Zone1                    	1503	1503	0	Net-count has gone negative (-9).  Resetting to zero. (No Balancing Zone)
+16:53:41  Zone: Zone1                    	1503	1503	0
+16:54:07  Camera: Level 1 Entry 2                         	278	240
+16:54:15  Zone: Zone1                    	1503	1503	0	Net-count has gone negative (-6).  Resetting to zero. (No Balancing Zone)
+16:54:42  Camera: Level 1 Entry 1                         	174	203
+16:54:49  Zone: Zone1                    	1503	1503	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+16:55:19  Camera: Level 2 Main Entry                      	446	451
+16:55:23  Zone: Zone1                    	1503	1503	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+16:55:27  Camera: Science Centre Entry                    	183	247
+16:55:39  Zone: Zone2                    	183	170	13
+16:56:20  Camera: Level 2 Main Entry                      	446	452
+16:56:25  Camera: Level 0 Entry                           	151	205
+16:56:31  Zone: Zone1                    	1503	1503	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+16:56:44  Camera: Level 1 Entry 1                         	174	207
+16:56:47  Zone: Zone1                    	1503	1503	0	Net-count has gone negative (-4).  Resetting to zero. (No Balancing Zone)
+16:57:21  Camera: Level 2 Main Entry                      	446	457
+16:57:36  Zone: Zone1                    	1503	1503	0	Net-count has gone negative (-5).  Resetting to zero. (No Balancing Zone)
+16:57:45  Camera: Level 1 Entry 1                         	174	212
+16:57:52  Zone: Zone1                    	1503	1503	0	Net-count has gone negative (-5).  Resetting to zero. (No Balancing Zone)
+16:58:46  Camera: Level 1 Entry 1                         	174	213
+16:58:46  Zone: Zone1                    	1503	1503	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:59:23  Camera: Level 2 Main Entry                      	446	458
+16:59:38  Zone: Zone1                    	1503	1503	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+16:59:47  Camera: Level 1 Entry 1                         	174	214
+16:59:54  Zone: Zone1                    	1503	1503	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:00:13  Logging to daily summary: "17:00 22 67 17 9 5 10"
+17:00:13  Service running OK
+17:00:13  Camera: Level 1 Entry 2                         	278	241
+17:00:19  Camera: Level 1 Lift                            	72	72
+17:00:28  Zone: Zone1                    	1504	1504	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:00:28  Zone: Zone1                    	1504	1504	0
+17:00:48  Camera: Level 1 Entry 1                         	174	219
+17:01:00  Zone: Zone1                    	1504	1504	0	Net-count has gone negative (-5).  Resetting to zero. (No Balancing Zone)
+17:01:14  Camera: Level 1 Entry 2                         	280	242
+17:01:15  Zone: Zone1                    	1506	1505	1
+17:01:25  Camera: Level 2 Main Entry                      	446	459
+17:01:31  Zone: Zone1                    	1506	1506	0
+17:01:49  Camera: Level 1 Entry 1                         	175	226
+17:01:49  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-6).  Resetting to zero. (No Balancing Zone)
+17:01:49  Zone: Zone1                    	1507	1507	0
+17:02:32  Camera: Level 0 Entry                           	151	206
+17:02:41  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:02:50  Camera: Level 1 Entry 1                         	175	227
+17:02:57  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:03:22  Camera: Level 1 Lift                            	72	73
+17:03:28  Camera: Level 2 Main Entry                      	446	461
+17:03:31  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+17:04:29  Camera: Level 2 Main Entry                      	446	464
+17:04:39  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+17:05:30  Camera: Level 2 Main Entry                      	446	466
+17:05:31  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:06:31  Camera: Level 2 Main Entry                      	446	467
+17:06:41  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:07:32  Camera: Level 2 Main Entry                      	446	469
+17:07:33  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:10:35  Camera: Level 2 Main Entry                      	446	470
+17:10:49  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:15:02  Service running OK
+17:15:41  Camera: Level 2 Main Entry                      	446	475
+17:15:53  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-5).  Resetting to zero. (No Balancing Zone)
+17:20:46  Camera: Level 2 Main Entry                      	446	476
+17:20:57  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:21:48  Camera: Level 2 Main Entry                      	446	477
+17:21:49  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:22:49  Camera: Level 2 Main Entry                      	446	478
+17:22:59  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:23:50  Camera: Level 2 Main Entry                      	446	480
+17:23:51  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:27:55  Camera: Level 2 Main Entry                      	446	481
+17:28:01  Zone: Zone1                    	1507	1507	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:28:54  Camera: Level 2 Lift                            	179	143
+17:28:54  Zone: Zone1                    	1508	1508	0
+17:28:56  Camera: Level 2 Main Entry                      	446	484
+17:29:09  Zone: Zone1                    	1508	1508	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+17:29:57  Camera: Level 2 Main Entry                      	446	487
+17:30:01  Zone: Zone1                    	1508	1508	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+17:30:01  Logging to daily summary: "17:30 5 5 0 0 0 13"
+17:30:01  Service running OK
+17:30:58  Camera: Level 2 Main Entry                      	447	487
+17:31:11  Zone: Zone1                    	1509	1508	1
+17:31:59  Camera: Level 2 Main Entry                      	447	491
+17:32:03  Zone: Zone1                    	1509	1509	0	Net-count has gone negative (-3).  Resetting to zero. (No Balancing Zone)
+17:32:03  Zone: Zone1                    	1509	1509	0
+17:33:00  Camera: Level 2 Main Entry                      	447	492
+17:33:13  Zone: Zone1                    	1509	1509	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:38:06  Camera: Level 2 Main Entry                      	447	493
+17:38:17  Zone: Zone1                    	1509	1509	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:40:08  Camera: Level 2 Main Entry                      	447	494
+17:40:22  Zone: Zone1                    	1509	1509	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:40:57  Camera: Level 1 Entry 2                         	280	243
+17:40:58  Zone: Zone1                    	1509	1509	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:44:12  Camera: Level 2 Main Entry                      	447	495
+17:44:13  Zone: Zone1                    	1509	1509	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:45:08  Service running OK
+17:45:13  Camera: Level 2 Main Entry                      	448	496
+17:45:23  Zone: Zone1                    	1510	1510	0
+17:47:15  Camera: Level 2 Main Entry                      	448	498
+17:47:27  Zone: Zone1                    	1510	1510	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+17:48:16  Camera: Level 2 Main Entry                      	448	499
+17:48:19  Zone: Zone1                    	1510	1510	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:50:19  Camera: Level 2 Main Entry                      	448	500
+17:50:23  Zone: Zone1                    	1510	1510	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+17:55:24  Camera: Level 2 Main Entry                      	448	501
+17:55:27  Zone: Zone1                    	1510	1510	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+18:00:16  Logging to daily summary: "18:00 2 2 0 0 0 13"
+18:00:16  Service running OK
+18:15:16  Service running OK
+18:30:16  Logging to daily summary: "18:30 0 0 0 0 0 13"
+18:30:16  Service running OK
+18:45:16  Service running OK
+19:00:16  Logging to daily summary: "19:00 0 0 0 0 0 13"
+19:00:16  Service running OK
+19:15:16  Service running OK
+19:30:16  Logging to daily summary: "19:30 0 0 0 0 0 13"
+19:30:16  Service running OK
+19:45:16  Service running OK
+20:00:16  Logging to daily summary: "20:00 0 0 0 0 0 13"
+20:00:16  Service running OK
+20:15:16  Service running OK
+20:30:16  Logging to daily summary: "20:30 0 0 0 0 0 13"
+20:30:16  Service running OK
+20:45:16  Service running OK
+21:00:16  Logging to daily summary: "21:00 0 0 0 0 0 13"
+21:00:16  Service running OK
+21:15:16  Service running OK
+21:30:16  Logging to daily summary: "21:30 0 0 0 0 0 13"
+21:30:16  Service running OK
+21:45:16  Service running OK
+22:00:16  Logging to daily summary: "22:00 0 0 0 0 0 13"
+22:00:16  Service running OK
+22:00:31  Stop time reached.
+22:00:31  Camera 'Level 1 Entry 1' - final counts 175 227
+22:00:31  Camera 'Level 1 Entry 2' - final counts 280 243
+22:00:31  Camera 'Level 1 Lift' - final counts 72 73
+22:00:31  Camera 'Level 2 Main Entry' - final counts 448 501
+22:00:31  Camera 'Level 2 Lift' - final counts 179 143
+22:00:31  Camera 'Shop A' - final counts 205 224
+22:00:31  Camera 'Level 0 Entry' - final counts 151 206
+22:00:31  Camera 'Science Centre Entry' - final counts 183 247
+22:00:31  Camera 'Spare' - final counts 0 0
+22:00:31  Zone: Zone1                    	1510	1510	0
+22:00:31  Zone: Zone2                    	183	170	13
+22:00:31  Level 1 Entry 1: IrisysIP counts reset requested.
+22:00:31  Level 1 Entry 2: IrisysIP counts reset requested.
+22:00:31  Level 1 Lift: IrisysIP counts reset requested.
+22:00:31  Level 2 Main Entry: IrisysIP counts reset requested.
+22:00:31  Level 2 Lift: IrisysIP counts reset requested.
+22:00:31  Shop A: IrisysIP counts reset requested.
+22:00:31  Level 0 Entry: IrisysIP counts reset requested.
+22:00:31  Science Centre Entry: IrisysIP counts reset requested.
+22:00:31  Spare: IrisysIP counts reset requested.
+22:00:40  Attempting to reset counts for IrisysIP Camera Level 1 Entry 2
+22:00:44  Attempting to reset counts for IrisysIP Camera Shop A
+22:00:46  Attempting to reset counts for IrisysIP Camera Level 1 Lift
+22:00:57  Failed to send email.
+22:00:57  Displaying shutdown on 0 display(s)
+22:00:57  End the manager threads.
+22:00:57  Close all CAN threads.
+22:00:57  All CAN threads, now flagged to be closed.
+22:00:57  Close all IrisysIP threads.
+22:01:32  Level 1 Entry 2: InCountCorrection set in registry to: 0
+22:01:32  Level 1 Entry 2: OutCountCorrection set in registry to: 0
+22:01:33  Level 1 Entry 2: has reset camera
+22:01:36  Shop A: InCountCorrection set in registry to: 0
+22:01:36  Shop A: OutCountCorrection set in registry to: 0
+22:01:37  Shop A: has reset camera
+22:01:38  Level 1 Lift: InCountCorrection set in registry to: 0
+22:01:38  Level 1 Lift: OutCountCorrection set in registry to: 0
+22:01:39  Level 1 Lift: has reset camera
+22:01:41  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+22:01:42  Level 2 Lift: InCountCorrection set in registry to: 0
+22:01:42  Level 2 Lift: OutCountCorrection set in registry to: 0
+22:01:43  Level 2 Lift: has reset camera
+22:01:43  Error! Level 1 Entry 1: The IrisysIP thread needs to be terminated but has not reset.
+22:01:43  Level 1 Entry 1: The Irisys IP thread has been flagged to end.
+22:01:43  Level 1 Entry 1: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:01:43  Level 1 Entry 1: The Irisys IP thread has ended.
+22:01:43  Level 1 Entry 2: The Irisys IP thread has been flagged to end.
+22:01:45  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+22:01:45  Level 2 Main Entry: InCountCorrection set in registry to: 0
+22:01:45  Level 2 Main Entry: OutCountCorrection set in registry to: 0
+22:01:46  Level 2 Main Entry: has reset camera
+22:01:47  Attempting to reset counts for IrisysIP Camera Level 0 Entry
+22:01:47  Attempting to reset counts for IrisysIP Camera Science Centre Entry
+22:01:49  Level 0 Entry: InCountCorrection set in registry to: 0
+22:01:49  Level 0 Entry: OutCountCorrection set in registry to: 0
+22:01:50  Level 0 Entry: has reset camera
+22:01:51  Science Centre Entry: InCountCorrection set in registry to: 0
+22:01:51  Science Centre Entry: OutCountCorrection set in registry to: 0
+22:01:52  Science Centre Entry: has reset camera
+22:02:32  Level 1 Entry 2: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:32  Level 1 Entry 2: The Irisys IP thread has ended.
+22:02:32  Level 1 Lift: The Irisys IP thread has been flagged to end.
+22:02:38  Camera: Shop A                                  	0	0
+22:02:38  Shop A IrisysIP camera has reset
+22:02:38  Level 1 Lift: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:38  Level 1 Lift: The Irisys IP thread has ended.
+22:02:38  Level 2 Main Entry: The Irisys IP thread has been flagged to end.
+22:02:44  Camera: Level 2 Lift                            	0	0
+22:02:44  Level 2 Lift IrisysIP camera has reset
+22:02:45  Level 2 Main Entry: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:45  Level 2 Main Entry: The Irisys IP thread has ended.
+22:02:45  Level 2 Lift: The Irisys IP thread has been flagged to end.
+22:02:45  Level 2 Lift: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:45  Level 2 Lift: The Irisys IP thread has ended.
+22:02:45  Shop A: The Irisys IP thread has been flagged to end.
+22:02:45  Shop A: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:45  Shop A: The Irisys IP thread has ended.
+22:02:45  Level 0 Entry: The Irisys IP thread has been flagged to end.
+22:02:49  Level 0 Entry: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:49  Level 0 Entry: The Irisys IP thread has ended.
+22:02:49  Science Centre Entry: The Irisys IP thread has been flagged to end.
+22:02:51  Science Centre Entry: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:51  Science Centre Entry: The Irisys IP thread has ended.
+22:02:51  Spare: The Irisys IP thread has been flagged to end.
+22:02:51  Spare: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:02:51  Spare: The Irisys IP thread has ended.
+22:02:51  All IrisysIP threads, now flagged to be closed.
+22:02:51  Close all iCount threads.
+22:02:51  All iCount threads, now flagged to be closed.
+22:02:51  Close all eDAM threads.
+22:02:51  All eDAM threads, now flagged to be closed.
+22:02:51  Zone1 Zone: OutCountAdjust (-107).
+22:02:51  Zone2 Zone: OutCountAdjust (-77).
+22:02:51  Camera 'Level 1 Entry 1' - maximum flow 10 at 16:54:00
+22:02:51  Camera 'Level 1 Entry 2' - maximum flow 10 at 12:20:00
+22:02:51  Camera 'Level 1 Lift' - maximum flow 8 at 09:49:01
+22:02:51  Camera 'Level 2 Main Entry' - maximum flow 12 at 15:15:11
+22:02:51  Camera 'Level 2 Lift' - maximum flow 7 at 13:11:14
+22:02:51  Camera 'Shop A' - maximum flow 21 at 16:24:03
+22:02:51  Camera 'Level 0 Entry' - maximum flow 22 at 14:43:12
+22:02:51  Camera 'Science Centre Entry' - maximum flow 10 at 11:32:07
+22:02:51  Camera 'Spare' - maximum flow 0 at 09:30:00
+22:02:51  Camera 'Level 1 Entry 1' refreshing registry counts
+22:02:51  Camera 'Level 1 Entry 2' refreshing registry counts
+22:02:51  Camera 'Level 1 Lift' refreshing registry counts
+22:02:52  Camera 'Level 2 Main Entry' refreshing registry counts
+22:02:52  Camera 'Level 2 Lift' refreshing registry counts
+22:02:52  Camera 'Shop A' refreshing registry counts
+22:02:52  Camera 'Level 0 Entry' refreshing registry counts
+22:02:52  Camera 'Science Centre Entry' refreshing registry counts
+22:02:52  Camera 'Spare' refreshing registry counts
+22:02:52  Zone 'Zone1' refreshing file counts
+22:02:52  Zone 'Zone2' refreshing file counts
+22:02:52  Processing application not specified
+22:02:52  Logging Counting Stopped
+

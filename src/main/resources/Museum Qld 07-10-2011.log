@@ -1,0 +1,860 @@
+
+07:28:01  RECAP $Revision: 3.13.2.13 $ ($State: Exp $) built 09:15:45, Aug  3 2010
+07:28:01  Logging Counting Started
+07:28:01  Start time: 09:30 (570 minutes past midnight)
+07:28:01  Stop time: 22:00 (1320 minutes past midnight)
+07:28:01  Log period: 30 minutes
+07:28:01  Initialising 0 display(s)
+07:28:01  Initialising 9 camera(s)
+07:28:01  IrisysIP counter(s) in use, Starting BlackFin API
+07:28:01  If RECAP crashes, check .NET framework and VCRedist are installed.
+07:28:01  BlackFin API Started.
+07:28:01  BlackFin API Started up OK. Version: 1.10.0.5
+07:28:01  Initialising 2 zone(s)
+07:28:01  Outputting 'Zone1' zone data to 'Zones\Zone1.txt'
+07:28:01  Outputting 'Zone2' zone data to 'Zones\Zone2.txt'
+07:28:01  Displaying shutdown on 0 display(s)
+07:28:01  Waiting till start time
+09:30:00  Start time reached
+09:30:00  Adding Level 1 Science Centre Entry 1 thread to Watchdog
+09:30:00  Level 1 Science Centre Entry 1: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Science Centre Entry 1: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 1 Science Centre Entry 2 thread to Watchdog
+09:30:00  Level 1 Science Centre Entry 2: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Science Centre Entry 2: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 1 Science Centre Lift thread to Watchdog
+09:30:00  Level 1 Science Centre Lift: InCountCorrection set in registry to: 0
+09:30:00  Level 1 Science Centre Lift: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 2 Main Entry thread to Watchdog
+09:30:00  Level 2 Main Entry: InCountCorrection set in registry to: 0
+09:30:00  Level 2 Main Entry: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 2 Lift thread to Watchdog
+09:30:00  Level 2 Lift: InCountCorrection set in registry to: 0
+09:30:00  Level 2 Lift: OutCountCorrection set in registry to: 0
+09:30:00  Adding Shop A thread to Watchdog
+09:30:00  Shop A: InCountCorrection set in registry to: 0
+09:30:00  Shop A: OutCountCorrection set in registry to: 0
+09:30:00  Adding Shop B thread to Watchdog
+09:30:00  Shop B: InCountCorrection set in registry to: 0
+09:30:00  Shop B: OutCountCorrection set in registry to: 0
+09:30:00  Adding Shop Whale Mall thread to Watchdog
+09:30:00  Shop Whale Mall: InCountCorrection set in registry to: 0
+09:30:00  Shop Whale Mall: OutCountCorrection set in registry to: 0
+09:30:00  Adding Level 2 Cafe thread to Watchdog
+09:30:00  Level 2 Cafe: InCountCorrection set in registry to: 0
+09:30:00  Level 2 Cafe: OutCountCorrection set in registry to: 0
+09:30:01  New day, Reset counts and busiest times in registry
+09:30:01  Camera Level 1 Science Centre Entry 1 Counts 	= In:0, Out:0
+09:30:01  Camera Level 1 Science Centre Entry 2 Counts 	= In:0, Out:0
+09:30:01  Camera Level 1 Science Centre Lift Counts 	= In:0, Out:0
+09:30:01  Camera Level 2 Main Entry Counts 	= In:0, Out:0
+09:30:01  Camera Level 2 Lift Counts 	= In:0, Out:0
+09:30:01  Camera Shop A Counts 	= In:0, Out:0
+09:30:01  Camera Shop B Counts 	= In:0, Out:0
+09:30:01  Camera Shop Whale Mall Counts 	= In:0, Out:0
+09:30:01  Camera Level 2 Cafe Counts 	= In:0, Out:0
+09:30:02  Starting main data collection loop.
+09:30:05  Zone: Zone1                    	0	0	0
+09:30:05  Zone: Zone2                    	0	0	0
+09:30:05  Logging to daily summary: "09:30 0 0 0 0 0 0"
+09:30:05  Service running OK
+09:30:44  Level 2 Main Entry: Connect Success (4) (serial num:2158593780)
+09:30:45  Level 1 Science Centre Entry 1: Connect Success (1) (serial num:2158593798)
+09:30:45  Level 2 Main Entry: MAC:00-21-AC-00-30-D9 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:47  Level 1 Science Centre Entry 1: MAC:00-21-AC-00-30-39 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:47  Level 2 Cafe: Connect Success (9) (serial num:2158593773)
+09:30:48  Level 2 Cafe: MAC:00-21-AC-00-30-14 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:49  Level 1 Science Centre Entry 1: Status msgs: 0,0
+09:30:49  Shop A: Connect Success (6) (serial num:2158593779)
+09:30:49  Level 2 Lift: Connect Success (5) (serial num:2158593872)
+09:30:49  Level 1 Science Centre Entry 1: Current DeviceID: DefaultID
+09:30:50  Level 1 Science Centre Entry 2: Connect Success (2) (serial num:2158593777)
+09:30:50  Shop A: MAC:00-21-AC-00-30-21 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:50  Level 2 Lift: MAC:00-21-AC-00-2F-8C IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:51  Level 1 Science Centre Entry 2: MAC:00-21-AC-00-30-3B IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:53  Shop Whale Mall: Connect Success (8) (serial num:2158593785)
+09:30:53  Shop B: Connect Success (7) (serial num:2158593790)
+09:30:54  Shop Whale Mall: MAC:00-21-AC-00-30-1F IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:54  Shop B: MAC:00-21-AC-00-30-38 IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:30:54  Level 1 Science Centre Entry 2: Status msgs: 0,0
+09:30:55  Level 1 Science Centre Entry 2: Current DeviceID: DefaultID
+09:31:00  Level 1 Science Centre Lift: Connect Success (3) (serial num:2158593853)
+09:31:00  Level 1 Science Centre Lift: MAC:00-21-AC-00-30-1A IP Firmware:4.0.2.30311 Monitor Firmware:42.4.0.404
+09:31:03  Level 1 Science Centre Lift: Status msgs: 0,0
+09:31:03  Level 1 Science Centre Lift: Current DeviceID: DefaultID
+09:31:21  Level 2 Main Entry: Status msgs: 0,0
+09:31:21  Level 2 Main Entry: Current DeviceID: DefaultID
+09:31:24  Level 2 Cafe: Status msgs: 0,0
+09:31:24  Level 2 Cafe: Current DeviceID: DefaultID
+09:31:26  Shop A: Status msgs: 0,0
+09:31:26  Shop A: Current DeviceID: DefaultID
+09:31:26  Level 2 Lift: Status msgs: 0,0
+09:31:27  Level 2 Lift: Current DeviceID: DefaultID
+09:31:29  Shop Whale Mall: Status msgs: 0,0
+09:31:29  Shop Whale Mall: Current DeviceID: DefaultID
+09:31:30  Shop B: Status msgs: 0,0
+09:31:30  Shop B: Current DeviceID: DefaultID
+09:32:53  Initial Camera Level 1 Science Centre Entry 1 Counts 	= In:0, Out:1
+09:32:57  Level 1 Science Centre Entry 1: Date last reset in registry is not today (reset required): 06/10/11
+09:32:57  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 1
+09:33:52  Level 1 Science Centre Entry 1: InCountCorrection set in registry to: 0
+09:33:52  Level 1 Science Centre Entry 1: OutCountCorrection set in registry to: 0
+09:33:53  Level 1 Science Centre Entry 1: has reset camera
+09:33:53  Initial Camera Level 1 Science Centre Entry 2 Counts 	= In:13, Out:14
+09:33:53  Camera: Level 1 Science Centre Entry 1 - Counts are now valid.
+09:33:53  Initial Camera Level 1 Science Centre Lift Counts 	= In:0, Out:0
+09:33:53  Initial Camera Level 2 Main Entry Counts 	= In:2, Out:2
+09:33:53  Initial Camera Level 2 Cafe Counts 	= In:5, Out:10
+09:33:53  Initial Camera Shop A Counts 	= In:0, Out:0
+09:33:53  Initial Camera Level 2 Lift Counts 	= In:0, Out:2
+09:33:53  Initial Camera Shop Whale Mall Counts 	= In:8, Out:9
+09:33:53  Initial Camera Shop B Counts 	= In:93, Out:77
+09:33:57  Level 1 Science Centre Lift: Date last reset in registry is not today (reset required): 06/10/11
+09:33:57  Level 1 Science Centre Entry 2: Date last reset in registry is not today (reset required): 06/10/11
+09:33:57  Level 2 Main Entry: Date last reset in registry is not today (reset required): 06/10/11
+09:33:57  Level 2 Cafe: Date last reset in registry is not today (reset required): 06/10/11
+09:33:57  Shop A: Date last reset in registry is not today (reset required): 06/10/11
+09:33:57  Level 2 Lift: Date last reset in registry is not today (reset required): 06/10/11
+09:33:57  Shop Whale Mall: Date last reset in registry is not today (reset required): 06/10/11
+09:33:57  Shop B: Date last reset in registry is not today (reset required): 06/10/11
+09:33:57  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Lift
+09:33:57  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 2
+09:33:57  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+09:33:57  Attempting to reset counts for IrisysIP Camera Level 2 Cafe
+09:33:57  Attempting to reset counts for IrisysIP Camera Shop A
+09:33:57  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+09:33:57  Attempting to reset counts for IrisysIP Camera Shop Whale Mall
+09:33:57  Attempting to reset counts for IrisysIP Camera Shop B
+09:34:06  Level 1 Science Centre Lift: InCountCorrection set in registry to: 0
+09:34:06  Level 1 Science Centre Lift: OutCountCorrection set in registry to: 0
+09:34:07  Level 1 Science Centre Lift: has reset camera
+09:34:07  Camera: Level 1 Science Centre Lift - Counts are now valid.
+09:34:08  Level 1 Science Centre Entry 2: InCountCorrection set in registry to: 0
+09:34:08  Level 1 Science Centre Entry 2: OutCountCorrection set in registry to: 0
+09:34:09  Level 1 Science Centre Entry 2: has reset camera
+09:34:09  Camera: Level 1 Science Centre Entry 2 - Counts are now valid.
+09:34:24  Level 2 Main Entry: InCountCorrection set in registry to: 0
+09:34:24  Level 2 Main Entry: OutCountCorrection set in registry to: 0
+09:34:25  Level 2 Main Entry: has reset camera
+09:34:25  Camera: Level 2 Main Entry - Counts are now valid.
+09:34:27  Level 2 Cafe: InCountCorrection set in registry to: 0
+09:34:27  Level 2 Cafe: OutCountCorrection set in registry to: 0
+09:34:28  Level 2 Cafe: has reset camera
+09:34:28  Camera: Level 2 Cafe - Counts are now valid.
+09:34:29  Shop A: InCountCorrection set in registry to: 0
+09:34:29  Shop A: OutCountCorrection set in registry to: 0
+09:34:30  Shop A: has reset camera
+09:34:30  Camera: Shop A - Counts are now valid.
+09:34:31  Level 2 Lift: InCountCorrection set in registry to: 0
+09:34:31  Level 2 Lift: OutCountCorrection set in registry to: 0
+09:34:32  Level 2 Lift: has reset camera
+09:34:32  Camera: Level 2 Lift - Counts are now valid.
+09:34:33  Shop Whale Mall: InCountCorrection set in registry to: 0
+09:34:33  Shop Whale Mall: OutCountCorrection set in registry to: 0
+09:34:34  Shop Whale Mall: has reset camera
+09:34:34  Camera: Shop Whale Mall - Counts are now valid.
+09:34:35  Shop B: InCountCorrection set in registry to: 0
+09:34:35  Shop B: OutCountCorrection set in registry to: 0
+09:34:36  Shop B: has reset camera
+09:34:36  Camera: Shop B - Counts are now valid.
+09:34:36  Zone: Zone2 - Counts are now valid.
+09:34:54  Camera: Level 1 Science Centre Entry 1          	0	0
+09:34:54  Level 1 Science Centre Entry 1 IrisysIP camera has reset
+09:34:54  Zone: Zone1 - Counts are now valid.
+09:35:08  Camera: Level 1 Science Centre Lift             	0	0
+09:35:08  Level 1 Science Centre Lift IrisysIP camera has reset
+09:35:10  Camera: Level 1 Science Centre Entry 2          	0	0
+09:35:10  Level 1 Science Centre Entry 2 IrisysIP camera has reset
+09:35:27  Camera: Level 2 Main Entry                      	1	0
+09:35:29  Camera: Level 2 Cafe                            	0	0
+09:35:29  Level 2 Cafe IrisysIP camera has reset
+09:35:32  Camera: Shop A                                  	0	0
+09:35:32  Shop A IrisysIP camera has reset
+09:35:33  Camera: Level 2 Lift                            	0	0
+09:35:33  Level 2 Lift IrisysIP camera has reset
+09:35:35  Camera: Shop Whale Mall                         	0	0
+09:35:35  Shop Whale Mall IrisysIP camera has reset
+09:35:37  Camera: Shop B                                  	0	0
+09:35:37  Shop B IrisysIP camera has reset
+09:35:42  Zone: Zone1                    	1	0	1
+09:38:59  Camera: Level 1 Science Centre Entry 1          	0	2
+09:39:04  Zone: Zone1                    	1	1	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+09:39:04  Zone: Zone1                    	1	1	0
+09:39:14  Camera: Level 1 Science Centre Entry 2          	1	1
+09:39:20  Zone: Zone1                    	2	2	0
+09:40:00  Camera: Level 1 Science Centre Entry 1          	1	4
+09:40:12  Zone: Zone1                    	3	3	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+09:40:12  Zone: Zone1                    	3	3	0
+09:40:42  Camera: Shop B                                  	0	2
+09:40:46  Zone: Zone1                    	5	3	2
+09:40:46  Zone: Zone2                    	0	0	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+09:41:01  Camera: Level 1 Science Centre Entry 1          	4	4
+09:41:02  Zone: Zone1                    	8	3	5
+09:41:44  Camera: Shop B                                  	2	2
+09:41:54  Zone: Zone1                    	8	5	3
+09:41:54  Zone: Zone2                    	2	0	2
+09:42:02  Camera: Level 1 Science Centre Entry 1          	12	7
+09:42:10  Zone: Zone1                    	16	8	8
+09:44:04  Camera: Level 1 Science Centre Entry 1          	12	9
+09:44:14  Zone: Zone1                    	16	10	6
+09:45:05  Camera: Level 1 Science Centre Entry 1          	17	12
+09:45:06  Zone: Zone1                    	21	13	8
+09:45:06  Service running OK
+09:45:48  Camera: Shop B                                  	2	4
+09:45:58  Zone: Zone1                    	23	13	10
+09:45:58  Zone: Zone2                    	2	2	0
+09:46:06  Camera: Level 1 Science Centre Entry 1          	19	15
+09:46:14  Zone: Zone1                    	25	16	9
+09:47:07  Camera: Level 1 Science Centre Entry 1          	25	16
+09:47:07  Zone: Zone1                    	31	17	14
+09:48:08  Camera: Level 1 Science Centre Entry 1          	26	20
+09:48:17  Zone: Zone1                    	32	21	11
+09:48:43  Camera: Level 2 Cafe                            	0	1
+09:48:51  Zone: Zone1                    	32	22	10
+09:49:10  Camera: Level 1 Science Centre Entry 1          	28	21
+09:49:25  Zone: Zone1                    	34	23	11
+09:49:44  Camera: Level 2 Cafe                            	3	3
+09:49:59  Zone: Zone1                    	37	25	12
+09:50:11  Camera: Level 1 Science Centre Entry 1          	32	22
+09:50:15  Zone: Zone1                    	41	26	15
+09:50:53  Camera: Shop B                                  	8	4
+09:51:07  Zone: Zone1                    	41	32	9
+09:51:07  Zone: Zone2                    	8	2	6
+09:51:12  Camera: Level 1 Science Centre Entry 1          	34	24
+09:51:23  Zone: Zone1                    	43	34	9
+09:51:51  Camera: Level 2 Lift                            	0	1
+09:51:57  Zone: Zone1                    	43	35	8
+09:52:13  Camera: Level 1 Science Centre Entry 1          	34	26
+09:52:13  Zone: Zone1                    	43	37	6
+09:52:55  Camera: Shop B                                  	10	4
+09:53:05  Zone: Zone1                    	43	39	4
+09:53:05  Zone: Zone2                    	10	2	8
+09:53:56  Camera: Shop B                                  	12	10
+09:53:57  Zone: Zone1                    	49	41	8
+09:53:57  Zone: Zone2                    	12	8	4
+09:55:16  Camera: Level 1 Science Centre Entry 1          	38	26
+09:55:25  Zone: Zone1                    	53	41	12
+09:55:59  Camera: Shop B                                  	16	10
+09:55:59  Zone: Zone1                    	53	45	8
+09:55:59  Zone: Zone2                    	16	8	8
+09:56:17  Camera: Level 1 Science Centre Entry 1          	39	26
+09:56:17  Zone: Zone1                    	54	45	9
+09:57:00  Camera: Shop B                                  	16	17
+09:57:09  Zone: Zone1                    	61	45	16
+09:57:09  Zone: Zone2                    	16	15	1
+10:00:10  Logging to daily summary: "10:00 61 45 6 16 15 1"
+10:00:10  Service running OK
+10:00:21  Camera: Level 1 Science Centre Entry 1          	40	27
+10:00:25  Zone: Zone1                    	62	46	16
+10:04:07  Camera: Shop B                                  	17	24
+10:04:17  Zone: Zone1                    	69	47	22
+10:04:17  Zone: Zone2                    	17	17	0	Net-count has gone negative (-5).  Resetting to zero. (No Balancing Zone)
+10:04:17  Zone: Zone2                    	17	17	0
+10:12:12  Camera: Level 2 Lift                            	0	2
+10:12:14  Camera: Shop Whale Mall                         	0	2
+10:12:21  Zone: Zone1                    	69	48	21
+10:12:21  Zone: Zone2                    	17	17	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+10:13:15  Camera: Shop Whale Mall                         	3	2
+10:13:29  Zone: Zone2                    	20	17	3
+10:15:00  Service running OK
+10:17:18  Camera: Level 2 Lift                            	2	5
+10:17:21  Zone: Zone1                    	71	51	20
+10:18:41  Camera: Level 1 Science Centre Entry 1          	42	28
+10:18:49  Zone: Zone1                    	73	52	21
+10:19:42  Camera: Level 1 Science Centre Entry 1          	43	29
+10:19:42  Zone: Zone1                    	74	53	21
+10:26:31  Camera: Shop B                                  	19	24
+10:26:34  Zone: Zone1                    	74	55	19
+10:26:34  Zone: Zone2                    	22	17	5
+10:29:34  Camera: Shop B                                  	19	26
+10:29:34  Zone: Zone1                    	76	55	21
+10:29:34  Zone: Zone2                    	22	19	3
+10:30:11  Logging to daily summary: "10:30 15 10 20 6 4 2"
+10:30:11  Service running OK
+10:30:35  Camera: Shop B                                  	19	36
+10:30:44  Zone: Zone1                    	86	55	31
+10:30:44  Zone: Zone2                    	22	22	0	Net-count has gone negative (-7).  Resetting to zero. (No Balancing Zone)
+10:30:44  Zone: Zone2                    	22	22	0
+10:32:37  Camera: Shop B                                  	21	36
+10:32:48  Zone: Zone1                    	86	57	29
+10:32:48  Zone: Zone2                    	24	22	2
+10:33:39  Camera: Shop B                                  	23	39
+10:33:40  Zone: Zone1                    	89	59	30
+10:33:40  Zone: Zone2                    	26	25	1
+10:36:42  Camera: Shop B                                  	23	41
+10:36:56  Zone: Zone1                    	91	59	32
+10:36:56  Zone: Zone2                    	26	26	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+10:36:56  Zone: Zone2                    	26	26	0
+10:37:43  Camera: Shop B                                  	24	44
+10:37:48  Zone: Zone1                    	94	60	34
+10:37:48  Zone: Zone2                    	27	27	0	Net-count has gone negative (-2).  Resetting to zero. (No Balancing Zone)
+10:37:48  Zone: Zone2                    	27	27	0
+10:40:46  Camera: Shop B                                  	26	44
+10:40:46  Zone: Zone1                    	94	62	32
+10:40:46  Zone: Zone2                    	29	27	2
+10:45:17  Service running OK
+10:48:55  Camera: Shop B                                  	28	44
+10:49:08  Zone: Zone1                    	94	64	30
+10:49:08  Zone: Zone2                    	31	27	4
+10:49:56  Camera: Shop B                                  	28	49
+10:50:00  Zone: Zone1                    	99	64	35
+10:50:00  Zone: Zone2                    	31	31	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+10:50:00  Zone: Zone2                    	31	31	0
+10:50:57  Camera: Shop B                                  	30	49
+10:51:10  Zone: Zone1                    	99	66	33
+10:51:10  Zone: Zone2                    	33	31	2
+10:51:58  Camera: Shop B                                  	32	51
+10:52:02  Zone: Zone1                    	101	68	33
+10:52:02  Zone: Zone2                    	35	33	2
+10:54:00  Camera: Shop B                                  	38	51
+10:54:06  Zone: Zone1                    	101	74	27
+10:54:06  Zone: Zone2                    	41	33	8
+10:55:01  Camera: Shop B                                  	39	51
+10:55:16  Zone: Zone1                    	101	75	26
+10:55:16  Zone: Zone2                    	42	33	9
+11:00:05  Logging to daily summary: "11:00 25 20 30 20 14 3"
+11:00:05  Service running OK
+11:01:08  Camera: Shop B                                  	41	51
+11:01:14  Zone: Zone1                    	101	77	24
+11:01:14  Zone: Zone2                    	44	33	11
+11:02:09  Camera: Shop B                                  	41	53
+11:02:24  Zone: Zone1                    	103	77	26
+11:02:24  Zone: Zone2                    	44	35	9
+11:10:17  Camera: Shop B                                  	43	53
+11:10:28  Zone: Zone1                    	103	79	24
+11:10:28  Zone: Zone2                    	46	35	11
+11:11:19  Camera: Shop B                                  	45	53
+11:11:20  Zone: Zone1                    	103	81	22
+11:11:20  Zone: Zone2                    	48	35	13
+11:12:20  Camera: Shop B                                  	45	57
+11:12:30  Zone: Zone1                    	107	81	26
+11:12:30  Zone: Zone2                    	48	39	9
+11:15:13  Service running OK
+11:17:25  Camera: Shop B                                  	45	60
+11:17:34  Zone: Zone1                    	110	81	29
+11:17:34  Zone: Zone2                    	48	42	6
+11:23:31  Camera: Shop B                                  	47	60
+11:23:32  Zone: Zone1                    	110	83	27
+11:23:32  Zone: Zone2                    	50	42	8
+11:24:33  Camera: Shop B                                  	47	62
+11:24:42  Zone: Zone1                    	112	83	29
+11:24:42  Zone: Zone2                    	50	44	6
+11:25:34  Camera: Shop B                                  	49	64
+11:25:34  Zone: Zone1                    	114	85	29
+11:25:34  Zone: Zone2                    	52	46	6
+11:27:36  Camera: Shop B                                  	51	64
+11:27:38  Zone: Zone1                    	114	87	27
+11:27:38  Zone: Zone2                    	54	46	8
+11:28:37  Camera: Shop B                                  	51	66
+11:28:48  Zone: Zone1                    	116	87	29
+11:28:48  Zone: Zone2                    	54	48	6
+11:29:38  Camera: Shop B                                  	57	69
+11:29:40  Zone: Zone1                    	119	93	26
+11:29:40  Zone: Zone2                    	60	51	9
+11:30:17  Logging to daily summary: "11:30 18 18 26 18 18 8"
+11:30:17  Service running OK
+11:30:39  Camera: Shop B                                  	59	69
+11:30:50  Zone: Zone1                    	119	95	24
+11:30:50  Zone: Zone2                    	62	51	11
+11:39:49  Camera: Shop B                                  	61	71
+11:39:49  Zone: Zone1                    	121	97	24
+11:39:49  Zone: Zone2                    	64	53	11
+11:40:50  Camera: Shop B                                  	61	73
+11:40:58  Zone: Zone1                    	123	97	26
+11:40:58  Zone: Zone2                    	64	55	9
+11:45:11  Service running OK
+11:48:58  Camera: Shop B                                  	63	74
+11:49:02  Zone: Zone1                    	124	99	25
+11:49:02  Zone: Zone2                    	66	56	10
+11:51:01  Camera: Shop B                                  	65	76
+11:51:06  Zone: Zone1                    	126	101	25
+11:51:06  Zone: Zone2                    	68	58	10
+11:52:02  Camera: Shop B                                  	67	76
+11:52:16  Zone: Zone1                    	126	103	23
+11:52:16  Zone: Zone2                    	70	58	12
+11:53:03  Camera: Shop B                                  	67	77
+11:53:08  Zone: Zone1                    	127	103	24
+11:53:08  Zone: Zone2                    	70	59	11
+11:54:04  Camera: Shop B                                  	70	77
+11:54:18  Zone: Zone1                    	127	106	21
+11:54:18  Zone: Zone2                    	73	59	14
+11:57:07  Camera: Shop B                                  	70	79
+11:57:16  Zone: Zone1                    	129	106	23
+11:57:16  Zone: Zone2                    	73	61	12
+12:00:10  Camera: Shop B                                  	72	79
+12:00:14  Zone: Zone1                    	129	108	21
+12:00:14  Zone: Zone2                    	75	61	14
+12:00:14  Logging to daily summary: "12:00 10 15 24 15 10 10"
+12:00:14  Service running OK
+12:03:14  Camera: Shop B                                  	72	80
+12:03:14  Zone: Zone1                    	130	108	22
+12:03:14  Zone: Zone2                    	75	62	13
+12:04:15  Camera: Shop B                                  	72	81
+12:04:23  Zone: Zone1                    	131	108	23
+12:04:23  Zone: Zone2                    	75	63	12
+12:05:16  Camera: Shop B                                  	73	81
+12:05:16  Zone: Zone1                    	131	109	22
+12:05:16  Zone: Zone2                    	76	63	13
+12:07:18  Camera: Shop B                                  	73	83
+12:07:20  Zone: Zone1                    	133	109	24
+12:07:20  Zone: Zone2                    	76	65	11
+12:14:25  Camera: Shop B                                  	75	83
+12:14:30  Zone: Zone1                    	133	111	22
+12:14:30  Zone: Zone2                    	78	65	13
+12:15:07  Service running OK
+12:16:28  Camera: Shop B                                  	78	91
+12:16:34  Zone: Zone1                    	141	114	27
+12:16:34  Zone: Zone2                    	81	73	8
+12:18:30  Camera: Shop B                                  	80	91
+12:18:38  Zone: Zone1                    	141	116	25
+12:18:38  Zone: Zone2                    	83	73	10
+12:25:37  Camera: Shop B                                  	82	91
+12:25:48  Zone: Zone1                    	141	118	23
+12:25:48  Zone: Zone2                    	85	73	12
+12:30:01  Logging to daily summary: "12:30 12 10 23 10 12 11"
+12:30:01  Service running OK
+12:37:50  Camera: Shop B                                  	82	93
+12:38:04  Zone: Zone1                    	143	118	25
+12:38:04  Zone: Zone2                    	85	75	10
+12:39:52  Camera: Shop B                                  	84	95
+12:39:53  Zone: Zone1                    	145	120	25
+12:39:53  Zone: Zone2                    	87	77	10
+12:43:55  Camera: Shop Whale Mall                         	5	3
+12:43:57  Camera: Shop B                                  	86	95
+12:44:00  Zone: Zone1                    	145	122	23
+12:44:00  Zone: Zone2                    	91	78	13
+12:45:11  Service running OK
+12:48:01  Camera: Shop B                                  	88	95
+12:48:08  Zone: Zone1                    	145	124	21
+12:48:08  Zone: Zone2                    	93	78	15
+13:00:09  Logging to daily summary: "13:00 4 6 22 8 5 13"
+13:00:09  Service running OK
+13:08:23  Camera: Shop B                                  	88	97
+13:08:30  Zone: Zone1                    	147	124	23
+13:08:30  Zone: Zone2                    	93	80	13
+13:11:26  Camera: Shop B                                  	90	97
+13:11:28  Zone: Zone1                    	147	126	21
+13:11:28  Zone: Zone2                    	95	80	15
+13:12:27  Camera: Shop B                                  	90	102
+13:12:38  Zone: Zone1                    	152	126	26
+13:12:38  Zone: Zone2                    	95	85	10
+13:15:03  Service running OK
+13:19:33  Camera: Shop Whale Mall                         	8	6
+13:19:35  Camera: Shop B                                  	90	103
+13:19:48  Zone: Zone1                    	153	126	27
+13:19:48  Zone: Zone2                    	98	89	9
+13:21:37  Camera: Shop B                                  	91	103
+13:21:50  Zone: Zone1                    	153	127	26
+13:21:50  Zone: Zone2                    	99	89	10
+13:22:38  Camera: Shop B                                  	91	105
+13:22:42  Zone: Zone1                    	155	127	28
+13:22:42  Zone: Zone2                    	99	91	8
+13:24:40  Camera: Shop B                                  	93	105
+13:24:46  Zone: Zone1                    	155	129	26
+13:24:46  Zone: Zone2                    	101	91	10
+13:30:11  Logging to daily summary: "13:30 10 5 24 8 13 11"
+13:30:11  Service running OK
+13:45:02  Camera: Shop B                                  	93	107
+13:45:08  Zone: Zone1                    	157	129	28
+13:45:08  Zone: Zone2                    	101	93	8
+13:45:08  Service running OK
+13:48:05  Camera: Shop B                                  	95	107
+13:48:06  Zone: Zone1                    	157	131	26
+13:48:06  Zone: Zone2                    	103	93	10
+13:49:04  Camera: Shop Whale Mall                         	8	9
+13:49:16  Zone: Zone2                    	103	96	7
+13:50:05  Camera: Shop Whale Mall                         	10	9
+13:50:12  Zone: Zone2                    	105	96	9
+13:53:10  Camera: Shop B                                  	95	111
+13:53:10  Zone: Zone1                    	161	131	30
+13:53:10  Zone: Zone2                    	105	100	5
+13:54:11  Camera: Shop B                                  	97	111
+13:54:20  Zone: Zone1                    	161	133	28
+13:54:20  Zone: Zone2                    	107	100	7
+13:55:12  Camera: Shop B                                  	99	113
+13:55:12  Zone: Zone1                    	163	135	28
+13:55:12  Zone: Zone2                    	109	102	7
+13:57:15  Camera: Shop B                                  	99	115
+13:57:16  Zone: Zone1                    	165	135	30
+13:57:16  Zone: Zone2                    	109	104	5
+13:59:17  Camera: Shop B                                  	101	115
+13:59:20  Zone: Zone1                    	165	137	28
+13:59:20  Zone: Zone2                    	111	104	7
+14:00:15  Logging to daily summary: "14:00 10 8 27 10 13 8"
+14:00:15  Service running OK
+14:00:18  Camera: Shop B                                  	101	122
+14:00:30  Zone: Zone1                    	172	137	35
+14:00:30  Zone: Zone2                    	111	111	0
+14:02:20  Camera: Shop B                                  	108	126
+14:02:34  Zone: Zone1                    	176	144	32
+14:02:34  Zone: Zone2                    	118	115	3
+14:08:26  Camera: Shop B                                  	111	128
+14:08:32  Zone: Zone1                    	178	147	31
+14:08:32  Zone: Zone2                    	121	117	4
+14:14:33  Camera: Shop B                                  	111	130
+14:14:48  Zone: Zone1                    	180	147	33
+14:14:48  Zone: Zone2                    	121	119	2
+14:15:07  Service running OK
+14:15:34  Camera: Shop B                                  	113	130
+14:15:40  Zone: Zone1                    	180	149	31
+14:15:40  Zone: Zone2                    	123	119	4
+14:22:42  Camera: Shop B                                  	113	135
+14:22:50  Zone: Zone1                    	185	149	36
+14:22:50  Zone: Zone2                    	123	123	0	Net-count has gone negative (-1).  Resetting to zero. (No Balancing Zone)
+14:22:50  Zone: Zone2                    	123	123	0
+14:24:44  Camera: Shop B                                  	115	137
+14:24:54  Zone: Zone1                    	187	151	36
+14:24:54  Zone: Zone2                    	125	125	0
+14:26:46  Camera: Shop B                                  	121	137
+14:26:58  Zone: Zone1                    	187	157	30
+14:26:58  Zone: Zone2                    	131	125	6
+14:27:47  Camera: Shop B                                  	121	138
+14:27:50  Zone: Zone1                    	188	157	31
+14:27:50  Zone: Zone2                    	131	126	5
+14:30:15  Logging to daily summary: "14:30 23 20 32 20 22 3"
+14:30:15  Service running OK
+14:31:50  Camera: Shop Whale Mall                         	17	9
+14:31:51  Camera: Shop B                                  	121	143
+14:32:00  Zone: Zone1                    	193	157	36
+14:32:00  Zone: Zone2                    	138	131	7
+14:33:52  Camera: Shop Whale Mall                         	17	11
+14:33:54  Camera: Shop B                                  	125	143
+14:34:02  Zone: Zone1                    	193	161	32
+14:34:02  Zone: Zone2                    	142	133	9
+14:34:55  Camera: Shop B                                  	125	145
+14:35:10  Zone: Zone1                    	195	161	34
+14:35:10  Zone: Zone2                    	142	135	7
+14:35:56  Camera: Shop B                                  	130	145
+14:36:02  Zone: Zone1                    	195	166	29
+14:36:02  Zone: Zone2                    	147	135	12
+14:37:58  Camera: Shop B                                  	130	147
+14:38:06  Zone: Zone1                    	197	166	31
+14:38:06  Zone: Zone2                    	147	137	10
+14:42:02  Camera: Shop B                                  	134	149
+14:42:16  Zone: Zone1                    	199	170	29
+14:42:16  Zone: Zone2                    	151	139	12
+14:43:03  Camera: Shop B                                  	140	155
+14:43:08  Zone: Zone1                    	205	176	29
+14:43:08  Zone: Zone2                    	157	145	12
+14:44:04  Camera: Shop B                                  	146	159
+14:44:18  Zone: Zone1                    	209	182	27
+14:44:18  Zone: Zone2                    	163	149	14
+14:45:05  Camera: Shop B                                  	150	163
+14:45:10  Zone: Zone1                    	213	186	27
+14:45:10  Zone: Zone2                    	167	153	14
+14:45:10  Service running OK
+14:46:06  Camera: Shop B                                  	156	169
+14:46:20  Zone: Zone1                    	219	192	27
+14:46:20  Zone: Zone2                    	173	159	14
+14:47:08  Camera: Shop B                                  	161	176
+14:47:12  Zone: Zone1                    	226	197	29
+14:47:12  Zone: Zone2                    	178	166	12
+14:48:09  Camera: Shop B                                  	164	179
+14:48:22  Zone: Zone1                    	229	200	29
+14:48:22  Zone: Zone2                    	181	169	12
+14:49:10  Camera: Shop B                                  	164	181
+14:49:14  Zone: Zone1                    	231	200	31
+14:49:14  Zone: Zone2                    	181	171	10
+14:56:17  Camera: Shop B                                  	164	183
+14:56:24  Zone: Zone1                    	233	200	33
+14:56:24  Zone: Zone2                    	181	173	8
+14:57:18  Camera: Shop B                                  	168	185
+14:57:18  Zone: Zone1                    	235	204	31
+14:57:18  Zone: Zone2                    	185	175	10
+14:58:19  Camera: Shop B                                  	170	185
+14:58:28  Zone: Zone1                    	235	206	29
+14:58:28  Zone: Zone2                    	187	175	12
+14:59:19  Camera: Shop Whale Mall                         	17	13
+14:59:20  Zone: Zone2                    	187	177	10
+15:00:15  Logging to daily summary: "15:00 47 49 30 56 51 10"
+15:00:15  Service running OK
+15:00:20  Camera: Shop Whale Mall                         	20	13
+15:00:30  Zone: Zone2                    	190	177	13
+15:01:21  Camera: Shop Whale Mall                         	20	15
+15:01:22  Zone: Zone2                    	190	179	11
+15:02:22  Camera: Shop Whale Mall                         	20	20
+15:02:32  Zone: Zone2                    	190	184	6
+15:10:32  Camera: Shop B                                  	172	185
+15:10:38  Zone: Zone1                    	235	208	27
+15:10:38  Zone: Zone2                    	192	184	8
+15:11:32  Camera: Shop Whale Mall                         	22	22
+15:11:32  Zone: Zone2                    	194	186	8
+15:12:29  Camera: Shop A                                  	0	1
+15:12:41  Zone: Zone1                    	236	208	28
+15:12:41  Zone: Zone2                    	194	187	7
+15:13:30  Camera: Shop A                                  	0	3
+15:13:33  Zone: Zone1                    	238	208	30
+15:13:33  Zone: Zone2                    	194	189	5
+15:13:36  Camera: Shop B                                  	174	185
+15:13:49  Zone: Zone1                    	238	210	28
+15:13:49  Zone: Zone2                    	196	189	7
+15:14:31  Camera: Shop A                                  	0	4
+15:14:37  Camera: Shop B                                  	178	185
+15:14:41  Zone: Zone1                    	239	214	25
+15:14:41  Zone: Zone2                    	200	190	10
+15:15:16  Service running OK
+15:16:33  Camera: Shop A                                  	0	5
+15:16:39  Camera: Shop B                                  	179	190
+15:16:43  Zone: Zone1                    	245	215	30
+15:16:43  Zone: Zone2                    	201	196	5
+15:17:38  Camera: Shop Whale Mall                         	26	24
+15:17:40  Camera: Shop B                                  	181	190
+15:17:51  Zone: Zone1                    	245	217	28
+15:17:51  Zone: Zone2                    	207	198	9
+15:18:41  Camera: Shop B                                  	183	192
+15:18:41  Zone: Zone1                    	247	219	28
+15:18:41  Zone: Zone2                    	209	200	9
+15:19:42  Camera: Shop B                                  	183	197
+15:19:51  Zone: Zone1                    	252	219	33
+15:19:51  Zone: Zone2                    	209	205	4
+15:21:44  Camera: Shop B                                  	183	199
+15:21:55  Zone: Zone1                    	254	219	35
+15:21:55  Zone: Zone2                    	209	207	2
+15:25:21  Camera: Level 1 Science Centre Entry 2          	3	2
+15:25:29  Zone: Zone1                    	256	220	36
+15:25:49  Camera: Shop B                                  	185	201
+15:26:03  Zone: Zone1                    	258	222	36
+15:26:03  Zone: Zone2                    	211	209	2
+15:27:49  Camera: Shop Whale Mall                         	26	26
+15:27:49  Zone: Zone2                    	211	211	0
+15:27:51  Camera: Shop B                                  	187	201
+15:28:05  Zone: Zone1                    	258	224	34
+15:28:05  Zone: Zone2                    	213	211	2
+15:28:25  Camera: Level 1 Science Centre Entry 2          	3	4
+15:28:39  Zone: Zone1                    	258	226	32
+15:28:50  Camera: Shop Whale Mall                         	28	26
+15:28:52  Camera: Shop B                                  	187	203
+15:28:55  Zone: Zone1                    	260	226	34
+15:28:55  Zone: Zone2                    	215	213	2
+15:29:53  Camera: Shop B                                  	189	204
+15:30:02  Zone: Zone1                    	261	228	33
+15:30:02  Zone: Zone2                    	217	214	3
+15:30:02  Logging to daily summary: "15:30 26 22 30 30 37 5"
+15:30:02  Service running OK
+15:34:58  Camera: Shop B                                  	191	206
+15:35:06  Zone: Zone1                    	263	230	33
+15:35:06  Zone: Zone2                    	219	216	3
+15:35:59  Camera: Shop B                                  	193	206
+15:36:00  Zone: Zone1                    	263	232	31
+15:36:00  Zone: Zone2                    	221	216	5
+15:39:01  Camera: Shop Whale Mall                         	30	27
+15:39:03  Camera: Shop B                                  	196	208
+15:39:15  Zone: Zone1                    	265	235	30
+15:39:15  Zone: Zone2                    	226	219	7
+15:41:05  Camera: Shop B                                  	198	210
+15:41:17  Zone: Zone1                    	267	237	30
+15:41:17  Zone: Zone2                    	228	221	7
+15:45:12  Service running OK
+15:51:14  Camera: Shop Whale Mall                         	32	29
+15:51:16  Camera: Shop B                                  	200	210
+15:51:27  Zone: Zone1                    	267	239	28
+15:51:27  Zone: Zone2                    	232	223	9
+15:52:17  Camera: Shop B                                  	200	212
+15:52:17  Zone: Zone1                    	269	239	30
+15:52:17  Zone: Zone2                    	232	225	7
+16:00:06  Logging to daily summary: "16:00 8 11 30 15 11 6"
+16:00:06  Service running OK
+16:15:06  Service running OK
+16:23:50  Camera: Shop B                                  	200	214
+16:24:03  Zone: Zone1                    	271	239	32
+16:24:03  Zone: Zone2                    	232	227	5
+16:24:51  Camera: Shop B                                  	201	216
+16:24:55  Zone: Zone1                    	273	240	33
+16:24:55  Zone: Zone2                    	233	229	4
+16:28:56  Camera: Shop B                                  	203	216
+16:29:05  Zone: Zone1                    	273	242	31
+16:29:05  Zone: Zone2                    	235	229	6
+16:30:00  Logging to daily summary: "16:30 4 3 30 3 4 6"
+16:30:00  Service running OK
+16:30:31  Camera: Level 1 Science Centre Entry 2          	6	4
+16:30:33  Zone: Zone1                    	276	242	34
+16:31:32  Camera: Level 1 Science Centre Entry 2          	13	11
+16:31:43  Zone: Zone1                    	283	249	34
+16:31:59  Camera: Shop B                                  	205	218
+16:31:59  Zone: Zone1                    	285	251	34
+16:31:59  Zone: Zone2                    	237	231	6
+16:32:35  Camera: Level 1 Science Centre Entry 2          	13	12
+16:32:35  Zone: Zone1                    	285	252	33
+16:35:53  Camera: Level 2 Main Entry                      	7	4
+16:35:54  Zone: Zone1                    	291	256	35
+16:36:55  Camera: Level 2 Main Entry                      	7	6
+16:37:01  Zone: Zone1                    	291	258	33
+16:45:08  Service running OK
+17:00:08  Logging to daily summary: "17:00 18 16 33 2 2 6"
+17:00:08  Service running OK
+17:15:09  Service running OK
+17:18:41  Camera: Level 2 Cafe                            	5	5
+17:18:42  Zone: Zone1                    	293	260	33
+17:19:42  Camera: Level 2 Cafe                            	5	6
+17:19:52  Zone: Zone1                    	293	261	32
+17:30:05  Logging to daily summary: "17:30 2 3 32 0 0 6"
+17:30:05  Service running OK
+17:31:01  Camera: Shop B                                  	207	219
+17:31:14  Zone: Zone1                    	294	263	31
+17:31:14  Zone: Zone2                    	239	232	7
+17:33:04  Camera: Shop B                                  	209	219
+17:33:18  Zone: Zone1                    	294	265	29
+17:33:18  Zone: Zone2                    	241	232	9
+17:45:01  Service running OK
+17:51:44  Camera: Level 1 Science Centre Entry 1          	45	29
+17:51:52  Zone: Zone1                    	296	265	31
+18:00:17  Logging to daily summary: "18:00 3 4 29 4 1 8"
+18:00:17  Service running OK
+18:15:17  Service running OK
+18:26:59  Camera: Shop Whale Mall                         	34	31
+18:27:01  Camera: Shop B                                  	211	221
+18:27:14  Zone: Zone1                    	298	267	31
+18:27:14  Zone: Zone2                    	245	236	9
+18:30:13  Logging to daily summary: "18:30 2 2 31 4 4 9"
+18:30:13  Service running OK
+18:45:13  Service running OK
+19:00:13  Logging to daily summary: "19:00 0 0 31 0 0 9"
+19:00:13  Service running OK
+19:15:13  Service running OK
+19:30:13  Logging to daily summary: "19:30 0 0 31 0 0 9"
+19:30:13  Service running OK
+19:45:13  Service running OK
+20:00:13  Logging to daily summary: "20:00 0 0 31 0 0 9"
+20:00:13  Service running OK
+20:15:13  Service running OK
+20:30:13  Logging to daily summary: "20:30 0 0 31 0 0 9"
+20:30:13  Service running OK
+20:45:13  Service running OK
+21:00:00  Logging to daily summary: "21:00 0 0 31 0 0 9"
+21:00:00  Service running OK
+21:15:02  Service running OK
+21:30:02  Logging to daily summary: "21:30 0 0 31 0 0 9"
+21:30:02  Service running OK
+21:45:02  Service running OK
+22:00:02  Logging to daily summary: "22:00 0 0 31 0 0 9"
+22:00:02  Service running OK
+22:00:35  Stop time reached.
+22:00:35  Camera 'Level 1 Science Centre Entry 1' - final counts 45 29
+22:00:35  Camera 'Level 1 Science Centre Entry 2' - final counts 13 12
+22:00:35  Camera 'Level 1 Science Centre Lift' - final counts 0 0
+22:00:35  Camera 'Level 2 Main Entry' - final counts 7 6
+22:00:35  Camera 'Level 2 Lift' - final counts 2 5
+22:00:35  Camera 'Shop A' - final counts 0 5
+22:00:35  Camera 'Shop B' - final counts 211 221
+22:00:35  Camera 'Shop Whale Mall' - final counts 34 31
+22:00:35  Camera 'Level 2 Cafe' - final counts 5 6
+22:00:35  Zone: Zone1                    	298	267	31
+22:00:35  Zone: Zone2                    	245	236	9
+22:00:35  Level 1 Science Centre Entry 1: IrisysIP counts reset requested.
+22:00:35  Level 1 Science Centre Entry 2: IrisysIP counts reset requested.
+22:00:35  Level 1 Science Centre Lift: IrisysIP counts reset requested.
+22:00:35  Level 2 Main Entry: IrisysIP counts reset requested.
+22:00:35  Level 2 Lift: IrisysIP counts reset requested.
+22:00:35  Shop A: IrisysIP counts reset requested.
+22:00:35  Shop B: IrisysIP counts reset requested.
+22:00:35  Shop Whale Mall: IrisysIP counts reset requested.
+22:00:35  Level 2 Cafe: IrisysIP counts reset requested.
+22:00:38  Failed to send email.
+22:00:38  Displaying shutdown on 0 display(s)
+22:00:38  End the manager threads.
+22:00:38  Close all CAN threads.
+22:00:38  All CAN threads, now flagged to be closed.
+22:00:38  Close all IrisysIP threads.
+22:00:46  Attempting to reset counts for IrisysIP Camera Level 2 Main Entry
+22:00:48  Attempting to reset counts for IrisysIP Camera Level 2 Cafe
+22:00:50  Attempting to reset counts for IrisysIP Camera Shop A
+22:00:52  Attempting to reset counts for IrisysIP Camera Level 2 Lift
+22:01:25  Error! Level 1 Science Centre Entry 1: The IrisysIP thread needs to be terminated but has not reset.
+22:01:25  Level 1 Science Centre Entry 1: The Irisys IP thread has been flagged to end.
+22:01:38  Level 2 Main Entry: InCountCorrection set in registry to: 0
+22:01:38  Level 2 Main Entry: OutCountCorrection set in registry to: 0
+22:01:39  Level 2 Main Entry: has reset camera
+22:01:40  Level 2 Cafe: InCountCorrection set in registry to: 0
+22:01:40  Level 2 Cafe: OutCountCorrection set in registry to: 0
+22:01:41  Level 2 Cafe: has reset camera
+22:01:42  Shop A: InCountCorrection set in registry to: 0
+22:01:42  Shop A: OutCountCorrection set in registry to: 0
+22:01:43  Shop A: has reset camera
+22:01:44  Level 2 Lift: InCountCorrection set in registry to: 0
+22:01:44  Level 2 Lift: OutCountCorrection set in registry to: 0
+22:01:45  Level 2 Lift: has reset camera
+22:01:45  Level 1 Science Centre Entry 1: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:01:45  Level 1 Science Centre Entry 1: The Irisys IP thread has ended.
+22:01:47  Attempting to reset counts for IrisysIP Camera Shop Whale Mall
+22:01:47  Attempting to reset counts for IrisysIP Camera Shop B
+22:01:47  Shop Whale Mall: InCountCorrection set in registry to: 0
+22:01:47  Shop Whale Mall: OutCountCorrection set in registry to: 0
+22:01:48  Shop Whale Mall: has reset camera
+22:01:49  Shop B: InCountCorrection set in registry to: 0
+22:01:49  Shop B: OutCountCorrection set in registry to: 0
+22:01:50  Shop B: has reset camera
+22:01:53  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Lift
+22:01:53  Attempting to reset counts for IrisysIP Camera Level 1 Science Centre Entry 2
+22:02:19  Level 1 Science Centre Lift: InCountCorrection set in registry to: 0
+22:02:19  Level 1 Science Centre Lift: OutCountCorrection set in registry to: 0
+22:02:20  Level 1 Science Centre Lift: has reset camera
+22:02:24  Level 1 Science Centre Entry 2: InCountCorrection set in registry to: 0
+22:02:24  Level 1 Science Centre Entry 2: OutCountCorrection set in registry to: 0
+22:02:25  Level 1 Science Centre Entry 2: has reset camera
+22:02:25  Level 1 Science Centre Entry 2: The Irisys IP thread has been flagged to end.
+22:02:40  Camera: Level 2 Main Entry                      	0	0
+22:02:40  Level 2 Main Entry IrisysIP camera has reset
+22:02:42  Camera: Level 2 Cafe                            	0	0
+22:02:42  Level 2 Cafe IrisysIP camera has reset
+22:02:44  Camera: Shop A                                  	0	0
+22:02:44  Shop A IrisysIP camera has reset
+22:02:46  Camera: Level 2 Lift                            	0	0
+22:02:46  Level 2 Lift IrisysIP camera has reset
+22:02:50  Camera: Shop Whale Mall                         	0	0
+22:02:50  Shop Whale Mall IrisysIP camera has reset
+22:02:51  Camera: Shop B                                  	0	0
+22:02:51  Shop B IrisysIP camera has reset
+22:03:22  Camera: Level 1 Science Centre Lift             	0	0
+22:03:24  Level 1 Science Centre Entry 2: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:03:24  Level 1 Science Centre Entry 2: The Irisys IP thread has ended.
+22:03:24  Level 1 Science Centre Lift: The Irisys IP thread has been flagged to end.
+22:03:24  Level 1 Science Centre Lift: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:03:24  Level 1 Science Centre Lift: The Irisys IP thread has ended.
+22:03:24  Level 2 Main Entry: The Irisys IP thread has been flagged to end.
+22:03:39  Level 2 Main Entry: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:03:39  Level 2 Main Entry: The Irisys IP thread has ended.
+22:03:39  Level 2 Lift: The Irisys IP thread has been flagged to end.
+22:03:45  Level 2 Lift: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:03:45  Level 2 Lift: The Irisys IP thread has ended.
+22:03:45  Shop A: The Irisys IP thread has been flagged to end.
+22:03:45  Shop A: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:03:45  Shop A: The Irisys IP thread has ended.
+22:03:45  Shop B: The Irisys IP thread has been flagged to end.
+22:03:50  Shop B: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:03:50  Shop B: The Irisys IP thread has ended.
+22:03:50  Shop Whale Mall: The Irisys IP thread has been flagged to end.
+22:03:50  Shop Whale Mall: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:03:50  Shop Whale Mall: The Irisys IP thread has ended.
+22:03:50  Level 2 Cafe: The Irisys IP thread has been flagged to end.
+22:03:50  Level 2 Cafe: Main Data Collection loop has finished (g_bStopFlag=0, m_bEndThread=1).
+22:03:50  Level 2 Cafe: The Irisys IP thread has ended.
+22:03:50  All IrisysIP threads, now flagged to be closed.
+22:03:50  Close all iCount threads.
+22:03:50  All iCount threads, now flagged to be closed.
+22:03:50  Close all eDAM threads.
+22:03:50  All eDAM threads, now flagged to be closed.
+22:03:50  Zone1 Zone: OutCountAdjust (-2).
+22:03:50  Zone2 Zone: OutCountAdjust (-21).
+22:03:50  Camera 'Level 1 Science Centre Entry 1' - maximum flow 11 at 09:42:10
+22:03:50  Camera 'Level 1 Science Centre Entry 2' - maximum flow 14 at 16:32:18
+22:03:50  Camera 'Level 1 Science Centre Lift' - maximum flow 0 at 09:30:00
+22:03:50  Camera 'Level 2 Main Entry' - maximum flow 10 at 16:36:09
+22:03:50  Camera 'Level 2 Lift' - maximum flow 5 at 10:18:16
+22:03:50  Camera 'Shop A' - maximum flow 2 at 15:14:08
+22:03:50  Camera 'Shop B' - maximum flow 24 at 14:47:12
+22:03:50  Camera 'Shop Whale Mall' - maximum flow 7 at 14:32:00
+22:03:50  Camera 'Level 2 Cafe' - maximum flow 5 at 09:50:15
+22:03:50  Camera 'Level 1 Science Centre Entry 1' refreshing registry counts
+22:03:50  Camera 'Level 1 Science Centre Entry 2' refreshing registry counts
+22:03:50  Camera 'Level 1 Science Centre Lift' refreshing registry counts
+22:03:50  Camera 'Level 2 Main Entry' refreshing registry counts
+22:03:50  Camera 'Level 2 Lift' refreshing registry counts
+22:03:50  Camera 'Shop A' refreshing registry counts
+22:03:50  Camera 'Shop B' refreshing registry counts
+22:03:50  Camera 'Shop Whale Mall' refreshing registry counts
+22:03:50  Camera 'Level 2 Cafe' refreshing registry counts
+22:03:50  Zone 'Zone1' refreshing file counts
+22:03:50  Zone 'Zone2' refreshing file counts
+22:03:50  Processing application not specified
+22:03:50  Logging Counting Stopped
+
