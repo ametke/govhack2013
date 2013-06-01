@@ -1,0 +1,130 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js" type="text/javascript"></script>
+<script>
+
+function rgb(array){
+  return 'rgb('+ array.map(function(r){return Math.round(r);}).join(',') +')';
+}
+
+// Our "canvas"
+var
+  width = 847, height = 360,
+  margin = 10,
+  gridx = width/25, gridy = height/10,
+  svg = d3.select('body')
+          .append('svg')
+            .attr('width', width).attr('height', height)
+            .style('background-image', 'url("Level2.png")')
+            .style('background-repeat', 'no-repeat')
+;
+
+// level data
+var
+  defs = svg.append('defs'),
+  l2 = svg.append('g').attr('class','level').attr('transform','translate('+margin+', '+margin+')'),
+  level2 = [
+    {"id": "c1",	"name": "Level 2 Lift",		"y": 4,	"x": 8.5, "r": 5, "scale": 300, "value": 200},
+    {"id": "c2",	"name": "Level 2 Cafe",		"y": 6,	"x": 23, "r": 5, "scale": 300, "value": 150},
+    {"id": "c3",	"name": "Level 2 Main Entry",	"y": 7, "x": 4.3, "r": 5, "scale": 300, "value": 233},
+  ];
+
+var
+  log = [
+    [220, 240, 220],
+    [120, 220, 200],
+    [220, 240, 220],
+    [120, 220, 200],
+    [120, 180, 120],
+    [20, 80, 10],
+    [120, 180, 120],
+    [20, 80, 10],
+  ];
+
+d3.json("/govhack/rest/observations/2013/01/01", function(error, json) {
+    //rendering logic here
+}
+
+var gradient =
+  defs.selectAll('rect')
+    .data(level2)
+var gradientEnter =
+  gradient.enter().append('radialGradient')
+    .attr('id', function(l){return "g"+l.id;})
+    .attr('cx', '50%')
+    .attr('cy', '50%')
+    .attr('r', '50%')
+    .attr('fx', '50%')
+    .attr('fy', '50%')
+
+gradientEnter
+  .append('stop')
+    .attr('class', 'color')
+    .attr('offset', '0%')
+    .style('stop-color', function(l){console.log(l.id + ":" + l.value); return rgb([l.value,0,0]);})
+    .style('stop-opacity', 0.9)
+
+gradientEnter
+  .append('stop')
+    .attr('offset', '100%')
+    .style('stop-color', rgb([255,255,255]))
+    .style('stop-opacity', 0.5)
+
+l2.selectAll('rect')
+  .data(level2)
+  .enter().append('circle')
+    .attr('class','locn')
+    .attr('id', function(l){return l.id;})
+    .attr('cx', function(l){return l.x * gridx;})
+    .attr('cy', function(l){return l.y * gridy;})
+    .attr('r', function(l){return l.r * 10;})
+    .attr('fill', function(l){return "url(#g"+l.id+")";})
+    // .style('fill', function(l){return rgb([l.value,0,0]);})
+    // .attr('stroke','black')
+    .attr('fill-opacity', 0.8)
+
+function update(){
+  // Iterate over each location
+  
+
+  for (var i=0;i < 3; i++) {
+    level2[i].value = log[count][i];
+  }
+  // l2.selectAll('circle').transition().style('fill', function(l){return rgb([l.value,0,0]);})
+  defs.selectAll('stop.color')
+    .transition()
+    .style('stop-color', function(l){return rgb([l.value,0,0]);})
+    .duration(delay)
+}
+
+var delay = 400;
+var count = 0;
+var callback = function(){
+  update();
+  count++;
+  if (count >= log.length) {
+    console.log('loop');
+    // clearInterval(timer);
+    count=0;
+    return;
+  }
+  delay = document.getElementById('delay').value;
+  clearInterval(timer);
+  timer = setInterval(callback, delay);
+  // console.log('tick: ' + count);
+}
+var timer = setInterval(callback, 400);
+
+</script>
+<p>
+<input name="year" type="hidden" value="2012"/>
+<input name="month" type="hidden" value="5"/>
+<input name="day" type="hidden" value="7"/>
+faster <input id="delay" type="range" min="100" max="1000"/> slower
+</p>
+</body>
+
