@@ -34,6 +34,14 @@
                 <target>1.7</target>
             </configuration>
         </plugin>
+        <plugin>
+           <artifactId>maven-war-plugin</artifactId>
+           <version>2.3</version>
+           
+           <configuration>
+			  <warName>govhack</warName>
+			</configuration>
+       </plugin>
     </plugins>
   </build>
 </project>
