@@ -3,11 +3,13 @@
  */
 package org.govhack;
 
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * @author ametke
  *
  */
+@XmlRootElement
 public class Observation {
 	
 	protected String id;
