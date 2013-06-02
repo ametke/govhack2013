@@ -3,10 +3,13 @@
  */
 package org.govhack;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * @author ametke
  *
  */
+@XmlRootElement
 public class Flow {
 	protected String time;
 	protected int total;
@@ -14,6 +17,8 @@ public class Flow {
 	protected int toCafe;
 	protected int toLevel1;
 	protected int out;
+
+	public Flow() {}
 	
 	public Flow(String time, int total, int in, int toCafe, int toLevel1, int out) {
 		super();
