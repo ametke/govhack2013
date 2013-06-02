@@ -46,14 +46,13 @@ public class LogParser {
 		}
 	}
 	
-	public List<Observation> normaliseObservations(List<Observation> original) throws ParseException {
+	public List<Observation> normaliseObservations(List<Observation> original, long[] intTimes, long minTime) throws ParseException {
 		String id = original.get(0).getId();
 		List<Observation> res = new ArrayList<>();
 		
 		long[] times = new long[original.size()];
 		int[] ins = new int[times.length];
 		int[] outs = new int[times.length];
-		
 		
 		int i = 0;
 		for(Observation obs : original) {
@@ -63,17 +62,9 @@ public class LogParser {
 			i++;
 		}
 		
-		long totalTime = times[times.length-1] - times[0];
-		int numIntervals = (int) (totalTime / INTERVAL);
-		long[] intTimes = new long[numIntervals];
-		
-		intTimes[0] = times[0];
-		
-		res.add(original.get(0));
-		
 		// Start with the second one
-		for(int j = 1; j < intTimes.length - 1; j++) {
-			long intTime = intTimes[j-1] + INTERVAL;
+		for(int j = 0; j < intTimes.length - 1; j++) {
+			long intTime = (j == 0) ? minTime : intTimes[j-1] + INTERVAL;
 			intTimes[j] = intTime;
 			int pos = getPos(times, intTime);
 			int nextPos = (pos < times.length ) ? pos : pos - 1;
@@ -112,15 +103,9 @@ public class LogParser {
 		List<Observation> res = new ArrayList<>();
 		BufferedReader br = new BufferedReader(new InputStreamReader(in));
 		
-        StringBuilder sb = new StringBuilder();
         String line = br.readLine();
 
         while (line != null) {
-        	if(line.indexOf("Camera: Cafe Entry") != -1) {
-        		sb.append(line);
-            	sb.append("\n");
-        	}
-        	
         	String[] parts = line.split("[\\t]");
         	if(parts.length == 3) {
         		Observation o = getObservation(parts);
@@ -132,7 +117,6 @@ public class LogParser {
         	
         }
         
-        //System.out.println(sb.toString());
         br.close();
         
         return res;
@@ -169,8 +153,25 @@ public class LogParser {
 			obs.add(ob);
 		}
 		
+		long minStartTime = Long.MAX_VALUE;
+		long maxStartTime = 0;
+		
 		for(String key : res.keySet()) {
-			res.put(key, normaliseObservations(res.get(key)));
+			List<Observation> obs = res.get(key);
+			long time = sdf.parse("71"+obs.get(0).getTime()).getTime();
+			if(time < minStartTime) minStartTime = time;
+			
+			time = sdf.parse("71"+obs.get(obs.size()-1).getTime()).getTime();
+			if(time > maxStartTime) maxStartTime = time;
+		}
+		
+		long totalTime = maxStartTime - minStartTime;
+		int numIntervals = (int) (totalTime / INTERVAL);
+		long[] intTimes = new long[numIntervals];
+		intTimes[0] = minStartTime;
+		
+		for(String key : res.keySet()) {
+			res.put(key, normaliseObservations(res.get(key), intTimes, minStartTime));
 		}
 		
 		return res;
@@ -184,11 +185,82 @@ public class LogParser {
 	public static void main(String[] args) throws IOException, ParseException {
 		InputStream in = LogParser.class.getClassLoader().getResourceAsStream("test.log");
 		LogParser lp = new LogParser();
-		Map<String, List<Observation>> map = lp.getObservationsMap(in);
-		List<Observation> shopObs = map.get("Shop A");
-		for(Observation ob : lp.normaliseObservations(shopObs)) {
-			System.out.println(ob);
+		Map<String, List<Observation>> map = lp.getNormalisedObservationsMap(in);
+		for(String key : map.keySet()) {
+			List<Observation> obs = map.get(key);
+			for(int j = 0; j < obs.size(); j++) {
+				Observation ob = obs.get(j);
+				int i = ob.getIn();
+				int o = ob.getOut();
+				String time = ob.getTime();
+				
+				int nexti = (j < obs.size() - 1) ? obs.get(j+1).getIn() : 0;
+				int nexto = (j < obs.size() - 1) ? obs.get(j+1).getOut() : 0;
+				
+				int wl = nexto - o;
+				int we = nexti - i;
+				int curr = i - o;
+				
+				System.out.println(ob.getId()+","+time+","+i+","+o+","+curr+","+wl+","+we);
+			}
 		}
+		
+	}
+	
+	public List<Flow> getFlow(InputStream in) throws IOException, ParseException {
+		List<Flow> res = new ArrayList<>();
+		
+		Map<String, List<Observation>> map = getObservationsMap(in);
+		
+		List<Observation> entryCamera = map.get("Level 2 Main Entry");
+		List<Observation> scienceCamera = map.get("Science Centre Entry");
+		List<Observation> cafeCamera = map.get("Cafe Entry");
+		
+		long[] intTimes = new long[38];
+		long initialTime = sdf.parse("7109:00:00").getTime();
+		intTimes[0] = initialTime;
+		for(int i = 1; i < intTimes.length; i++) {
+			intTimes[i] = intTimes[i-1] + INTERVAL;
+		}
+		
+		entryCamera = normaliseObservations(entryCamera, intTimes, initialTime);
+		scienceCamera = normaliseObservations(scienceCamera, intTimes, initialTime);
+		cafeCamera = normaliseObservations(cafeCamera, intTimes, initialTime);
+		
+		int totalIn = 0;
+		int prevIn = 0;
+		int prevOut = 0;
+		int prevScience = 0;
+		int prevCafe = 0;
+		for(int i = 0; i < intTimes.length-1; i++) {
+			Observation entry = entryCamera.get(i);
+			Observation science = scienceCamera.get(i);
+			Observation cafe = cafeCamera.get(i);
+			
+			int deltaIn = entry.getIn() - prevIn;
+			prevIn = entry.getIn();
+			
+			int deltaOut = entry.getOut() - prevOut;
+			prevOut = entry.getOut();
+			
+			int deltaCafe = cafe.getIn() - prevCafe;
+			prevCafe = cafe.getIn();
+			
+			int deltaScience = science.getIn() - prevScience;
+			prevScience = science.getIn();
+			
+			totalIn += deltaIn - deltaOut;
+			
+			float total = deltaCafe + deltaScience;
+			float percentageToCafe = (float) deltaCafe / total;
+			
+			int toCafe = (int)Math.ceil(((float)totalIn * percentageToCafe));
+			int toScience = totalIn - toCafe;
+			
+			res.add(new Flow(sdf.format(new Date(intTimes[i])), totalIn, deltaIn, toCafe, toScience, deltaOut));
+		}
+		
+		return res;
 	}
 
 }
