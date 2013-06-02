@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Sun, 02 Jun 2013 02:02:42 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Pathways through History</title>
+    
+    <style type="text/css">
+    <!--
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: white;
+    }
+    h3,h4,h5,h1,h2 { color: white; }
+    div,span,body,p { color: silver; }
+    body {
+      color:#000000;
+      background-color:#6666CC;
+    }
+    a  { color:#0000FF; }
+    a:visited { color:#800080; }
+    a:hover { color:#008000; }
+    a:active { color:#FF0000; }
+    -->
+    </style>
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+  <body>
+<div style="width:800px;">
+<h1>Pathways through History</h1>
+
+<h2>About</h2>
+<i>Pathways through History</i> describes a day at the Queensland Museum & Sciencecentre: a journey through time illustrating the exhibitions depicting life in Australia throughout the decades.
+<p>
+You will be taken back, a day at a time, to the number of people congregating around the eight cameras installed at the museum as we attempt to recreate their path around the exhibits.
+</p>
+<p>
+To liven up the experience, we provide a snapshot of what the weather would have been like on these particular days.
+</p> 
+<p>
+Welcome to <a href="http://115.146.85.35/" color="#FF3D39">your</a> <i>pathway through history</i> and let the adventure begin!
+</p>
+
+<h2>Resources</h2>
+<h3>Data Sets</h3>
+This project makes use of three data sets:<p>
+<li><a href="https://www.dropbox.com/sh/9nignluyoolx2ne/me0hkgDj1I/">Queensland Museum People Counter</a>
+<p>
+Queensland Museum People Counter data (raw logs from their various camera-based counters).
+</p>
+<li> <a href="http://www.bom.gov.au/climate/dwo/IDCJDW4019.latest.shtml">Bureau of Meteorology Daily Weather Observations</a>
+<p>
+Provides weather observations for each day of the month. We used the minimum and maximum temperature, the number of hours of sunshine available and the amount of rainfall.
+</p>
+<li> <a href="http://www.southbank.qm.qld.gov.au/Events+and+Exhibitions/Exhibition/Past+Exhibitions">Queensland Museum South Bank (Past Exhibitions)</a>
+
+<h3>Tools</h3>
+We made use of a number of online resources to guide us through the incredible feat of completing this project in two days.  
+<p><a href="http://www.w3schools.com/">W3schools</a>, 
+<a href="http://glyphicons.com/">Glyph Icons</a>, 
+<a href="https://github.com/">Git Hub</a>, 
+<a href="http://enunciate.codehaus.org/">Enunciate</a>, 
+<a href="https://jersey.java.net/">Jersey</a>, 
+<a href="http://d3js.org/">D3</a>, 
+<a href="http://maven.apache.org/">Maven</a>, 
+<a href="http://www.w3.org/Graphics/SVG/">SVG</a>,
+<a href="http://www.w3schools.com/js/">Javascript</a>,
+<a href="http://www.w3schools.com/css/">Cascading Style Sheets (CSS)</a>
+</p>
+<h2>
+Description
+</h2>
+<h3>Website</h3>
+The opening page of the <i>Pathways through history</i> website takes you back to some of the most successful exhibitions at the <em>Queensland Museum & Science centre</em>. 
+<br/><br/>Click on one of the icons to relive the moment when hundreds of people visited these truly wonderful events. You will explore an aerial view of levels 1 and 2 of the museum and dicover the hotspots of people congregating around the eight cameras throughout the museum.
+<br/><br/>To liven up the experience we have linked the people's journey through the museum with daily weather observations from the Bureau of Meteorology and provided a snapshot of what the weather was likely to have been like for the visitors to the museum.
+<br/><br/>A calendar icon, on the top right, depicts the day of interest and slightly below, icons illustrate the weather condition (sunny, cloudy, rainy) together with minimum and maximum temperatures of the day of interest.
+<br/><br/>A slider at the top offers the user the opportunity to adjust the speed of execution to <em>crawling</em> tortoise speed or rabbit <em>lightning</em> fast.   
+
+<h3>Application Programming Interface (API)</h3>
+
+The People Mover API makes use of a Representational State Transfer (REST) model to extract the information from the online resources and to provide access to a fixed set of operations. The REST resources and Data Model are accessible from <a href="http://115.146.85.35/govhack/docs/apidocs.html">here</a>.
+
+<h3>Project Goals</h3>
+The overarching goal of the project was to provide a visual depiction of the journey of visitors to the Queensland Museum & Science centre. We also wanted to link this activity with a snapshot of the weather on that day and provide some context in the form of running exhibitions at the time of the visits.
+<br/><br/>
+To achieve this goal, we have data mined the camera log files provided by the museum and extracted the timestamp and the <em>in</em> and out counter for each of the cameras.
+<br/><br/> Next we have retrieved the Daily Weather Observations files organised by month, from the Bureau of Meteorology website. From these, we have extracted the daily minimum and maximum temperatures and the number of hours of sunshine during the day to reenact what the weather would have been like on that day.  
+
+
+<br/><br/>
+<h2>Contributors</h2>
+<div style="font-size: 18pt;" align="center">The Flaky Coders</div>
+
+<p align="center">	
+Michael Lawley<br>
+	Alejandro Metke Jimenez<br>
+	Hugo Leroux<br>
+	Louis Delachat<br><br>	
+</p>
+
+
+
+
+</div>
+
+</body>
+</html>
