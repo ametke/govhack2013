@@ -80,15 +80,16 @@ img.exhib {
   </span>
 </div>
 
-<div id="weather" style="position: absolute; right: 10px; top:100px; width: 100px;">
-  <span class="min"></span>
-  <span class="max"></span>
+<div id="weather" style="position: absolute; right: 0px; top:90px; width: 120px;">
+  <img style="height: 40px;" class="min"></img>
+  <img style="width: 40px; margin-left: -20px;" class="rain"></img>
+  <img style="height: 40px;" class="max"></img>
 </div>
 
 <img class="exhib" style="z-index:0;" width="100%" id="pic"></img>
-<div class="exhib" style="text-align:right; z-index:-1; font-family: 'Helvetica Neue', Arial, sans-serif; position: absolute; right: 10px; top:120px; width: 30%;">
-  <span style="color: white; font-size: 12pt;" class="title"></span>
-  <p style="text-align:justify; color: white; font-size: 10pt;" class="desc"></p>
+<div class="exhib" style="text-align:center; z-index:-1; font-family: 'Helvetica Neue', Arial, sans-serif; position: absolute; right: 10px; top:140px; width: 25%;">
+  <span style="color: white; font-size: 16pt;" class="title"></span>
+  <p style="text-align:justify; color: white; font-size: 12pt;" class="desc"></p>
 </div>
 
 <!-- <script src="d3.v3.min.js" type="text/javascript"></script> -->
@@ -168,7 +169,7 @@ var
     {"id": "c10",	"name": "Level 1 Lift", 	"y": 13, "x": 8.5, "r": 5,	"hscale": 40, "scale": 255/525, "value": 23},
     {"id": "c11",	"name": "Level 1 Science Centre Entry 1",	"y": 16, "x": 4, "r": 5,	"hscale": 40, "scale": 255/1141, "value": 23},
     {"id": "c12",	"name": "Level 1 Science Centre Entry 2",	"y": 16, "x": 5, "r": 5,	"hscale": 40, "scale": 255/1830, "value": 23},
-    {"id": "c13",	"name": "Level 0 Entry",	"y": 22, "x": 14.3, "r": 5,	"hscale": 40, "scale": 255/1211, "value": 23},
+    // {"id": "c13",	"name": "Level 0 Entry",	"y": 22, "x": 14.3, "r": 5,	"hscale": 40, "scale": 255/1211, "value": 23},
   ];
 
 var
@@ -220,7 +221,7 @@ function exhibition() {
     var startDate = exhib["Start date"],
         endDate   = exhib["End date"];
     if (startDate <= theDate && theDate <= endDate) {
-      console.log(exhib['Description ']);
+      // console.log(exhib['Description ']);
       if ("none" != exhib['Picture']) {
         options.push([
           exhib['Picture'], exhib['Description '], exhib['Name of exhibition']
@@ -297,6 +298,9 @@ function fetchLogData() {
     // update globale
     data = json;
     heat = newHeat;
+
+    // handle weather
+    weather();
   });
 }
 
@@ -375,24 +379,68 @@ function update(){
     .transition().ease('linear')
     .style('stop-color', function(l){return rgb([l.value[0],l.value[1],0]);})
     .duration(delay)
-
-  // handle weather
-  weather(time);
 }
 
-function weather(time) {
+tempIcons = [
+  "images/Temp1.png",
+  "images/Temp2.png",
+  "images/Temp3.png",
+  "images/Temp4.png",
+  "images/Temp5.png",
+];
+
+rainIcons = [
+  "images/Weather_Icons_-_skc.png",
+  "images/Weather_Icons_-_ra1.png",
+  "images/Weather_Icons_-_ra.png",
+];
+
+function weather() {
   var dataUrl = year+"/"+month+".json",
-      dayInt = parseInt(day),
-      wmin = d3.select('span.min'),
-      wmax = d3.select('span.max')
+      dayInt = parseInt(day) - 1 ,
+      wmin = d3.select('img.min'),
+      wmax = d3.select('img.max'),
+      wrain = d3.select('img.rain')
 
   d3.json(dataUrl, function(error, json) {
-    if (error) {
-        wmin.html('');
-        wmax.html('');
+    if (error || !json[dayInt]) {
+        wmin.style('visibility','hidden');
+        wmax.style('visibility','hidden');
+        wrain.style('visibility','hidden');
     } else {
-        wmin.html(json[dayInt]['Minimum temperature (�C)']);
-        wmax.html(json[dayInt]['Maximum temperature (�C)']);
+        // Rain Icon
+        var ridx = 0, rain = json[dayInt]['Rainfall (mm)'];
+        if (rain > 5) ridx++;
+        if (rain > 10) ridx++;
+        wrain
+          .attr('src',rainIcons[ridx])
+          .style('visibility','visible');
+
+        // Temp thermometers
+        var t1Idx = 0, t1 = json[dayInt]['9am Temperature (�C)'],
+            t2Idx = 0, t2 = json[dayInt]['3pm Temperature (�C)']
+
+        if (t1 > 10) t1Idx++;
+        if (t1 > 15) t1Idx++;
+        if (t1 > 20) t1Idx++;
+        if (t1 > 25) t1Idx++;
+
+        if (t2 > 10) t2Idx++;
+        if (t2 > 15) t2Idx++;
+        if (t2 > 20) t2Idx++;
+        if (t2 > 25) t2Idx++;
+
+console.log(t1Idx + " " + t2Idx);
+
+        // wmin.html(json[dayInt]['9am Temperature (�C)']);
+        // wmax.html(json[dayInt]['3pm Temperature (�C)']);
+        wmin
+          .attr('src',tempIcons[t1Idx])
+          .style('visibility','visible');
+        wmax
+          .attr('src',tempIcons[t2Idx])
+          .style('visibility','visible');
+
     }
   });
 }
@@ -443,13 +491,16 @@ var timer = setInterval(callback, 200);
 <input name="year" type="hidden" value="2012"/>
 <input name="month" type="hidden" value="5"/>
 <input name="day" type="hidden" value="7"/>
-<div style="position: absolute; right: 10px; bottom:10px; width: 200px;">
+<div style="z-index: 1; position: absolute; right: 10px; bottom:10px; width: 200px;">
 <img src="glyphicons_338_turtle.png" alt="slower"/>
-<input id="delay" type="range" min="1" max="1000"/>
+<input id="delay" type="range" min="1" max="1000" value="800"/>
 <img src="glyphicons_339_rabbit.png" alt="faster"/>
 </div>
 </p>
 
-<div style="position: absolute; bottom: 5px; width: 100%; font-size:10pt; text-align:center"><a style="z-index:1;" href="/govhack/docs/apidocs.html">backend</a> by Jersey, and <a style="z-index:1;" href="http://www.glyphicons.com">glyphicons</a> in use</div>
+<div style="position: absolute; bottom: 5px; width: 100%; font-size:10pt; text-align:center">
+<a style="z-index:1;" href="/govhack/docs/apidocs.html">backend</a> by Jersey, and <a style="z-index:1;" href="http://www.glyphicons.com">glyphicons</a> in use
+<button onClick="clearInterval(timer);">stop</button>
+</div>
 </body>
 
