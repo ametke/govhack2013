@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enunciate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="enunciate-1.26.xsd">
+  <api-import pattern="org.govhack.*"/>
+  <api-import pattern="java.util.*"/>
+  
+  <deployment context="/govhack"/>
+  
+  <services>
+  <!-- Not needed due to disabling below -->
+    <rest defaultRestSubcontext="/resources">
+    </rest>
+  </services>
+
+  <modules>
+    <xml disabled="false"></xml>
+    <docs
+      title="People Counter REST API"
+      copyright="Flaky Coders"
+      disableRestMountpoint="true"
+      includeDefaultDownloads="false"
+      includeExampleXml="false"
+      includeExampleJson="true"
+      forceExampleJson="true">
+    </docs>
+    <java-client disabled="true"/>
+    <csharp disableCompile="true " disabled="true"/>
+    <obj-c disabled="true"/>
+    <c disabled="true"/>
+  </modules>
+</enunciate>
+

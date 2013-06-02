@@ -15,15 +15,15 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-	  <groupId>com.sun.jersey</groupId>
-	  <artifactId>jersey-server</artifactId>
-	  <version>1.8</version>
-	</dependency>
-	<dependency>
-	  <groupId>com.sun.jersey</groupId>
-	  <artifactId>jersey-json</artifactId>
-	  <version>1.8</version>
-	</dependency>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-server</artifactId>
+      <version>1.8</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-json</artifactId>
+      <version>1.8</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -39,9 +39,33 @@
            <version>2.3</version>
            
            <configuration>
-			  <warName>govhack</warName>
-			</configuration>
+              <warName>govhack</warName>
+           </configuration>
        </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.enunciate</groupId>
+        <artifactId>maven-enunciate-plugin</artifactId>
+        <version>1.26.2</version>
+
+        <configuration>
+          <configFile>enunciate.xml</configFile>
+
+          <indexPageName>apidocs.html</indexPageName>
+          <docsDir>${project.build.directory}/${project.artifactId}-${project.version}/docs</docsDir>
+
+        </configuration>
+        <executions>
+          <execution>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>docs</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
     </plugins>
   </build>
 </project>
+
