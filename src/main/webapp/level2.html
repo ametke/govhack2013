@@ -73,6 +73,8 @@ img.exhib {
 <body style="background: rgb(102,102,204);">
 <div><img src="glyphicons_231_sun.png" alt="DAY"/><input style="width: 80%" id="day" type="range" min="0" max="20" value="0"/><img src="glyphicons_230_moon.png" alt="NIGHT"/></div>
 
+<div style="position: absolute; right: 20px; top:05px; width: 100px; height: 140px; border-radius: 10px; background: rgba(255,255,255,0.2); ">
+</div>
 <div id="calendar" style="position: absolute; right: 10px; top:10px; width: 100px;">
   <span rel="bookmark">
     <abbr class="month"></abbr> <span class="day"></span><sup class="suff"></sup> <abbr class="year"></abbr>
@@ -80,16 +82,20 @@ img.exhib {
   </span>
 </div>
 
-<div id="weather" style="position: absolute; right: 0px; top:90px; width: 120px;">
+<div id="weather" style="position: absolute; right: -4px; top:90px; width: 120px;">
   <img style="height: 40px;" class="min"></img>
   <img style="width: 40px; margin-left: -20px;" class="rain"></img>
   <img style="height: 40px;" class="max"></img>
 </div>
 
 <img class="exhib" style="z-index:0;" width="100%" id="pic"></img>
-<div class="exhib" style="text-align:center; z-index:-1; font-family: 'Helvetica Neue', Arial, sans-serif; position: absolute; right: 10px; top:140px; width: 25%;">
+<div class="exhib" style="border-radius: 10px; background: rgba(255,255,255,0.2); text-align:center; z-index:-1; font-family: 'Helvetica Neue', Arial, sans-serif; position: absolute; right: 10px; top:150px; width: 25%;">
   <span style="color: white; font-size: 16pt;" class="title"></span>
-  <p style="text-align:justify; color: white; font-size: 12pt;" class="desc"></p>
+  <p style="margin: 5px 5px 5px 5px; text-align:justify; color: white; font-size: 12pt;" class="desc"></p>
+</div>
+
+<div style="text-align: center; font-size: 18pt; font-family: 'Helvetica Neue', Arial, sans-serif; color: white; position: absolute; right: 10px; top:490px; width: 25%;">
+<a style="color:white;" href="index2.html">Pathways through History</a>
 </div>
 
 <!-- <script src="d3.v3.min.js" type="text/javascript"></script> -->
