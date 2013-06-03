@@ -81,23 +81,24 @@ if (i>0) {
     flowIndex = 0, flowMax = flowData[0].in.length, flowCounter = 0, flowSlices = 2,
     // Range of random deviation from path
     wanderRadius = 100,
-    easingType = "linear", // "sin-out-in", // "cubic-out-in",
+    easingType = "linear", // "sin-out-in", // "cubic-out-in", // 
     // Time between flow events
-    tickLength = 400;
+    tickLength = 800,
+    margin = 10;
 
   d3.select('body')
     .style("background-color", "#6666CC");
 
   var svg = d3.select('g');
 
-  function animatePeople() {
+  function animatePeople(radius) {
     // update destination
     for (i=0; i<people.length; i++) {
       var person = people[i],
-          dx = (Math.random() * wanderRadius)-(wanderRadius/2),
-          dy = (Math.random() * wanderRadius)-(wanderRadius/2),
-          x = circuit.x[person.loop] + dx,
-          y = circuit.y[person.loop] + dy;
+          dx = (Math.random() * radius)-(radius/2),
+          dy = (Math.random() * radius)-(radius/2),
+          x = Math.max(Math.min(circuit.x[person.loop] + person.dx + dx, width-margin), margin),
+          y = Math.max(Math.min(circuit.y[person.loop] + person.dy + dy, height-margin), margin);
 
       person.x = x,
       person.y = y;
@@ -108,31 +109,34 @@ if (i>0) {
         .duration(tickLength);
 
       // move them around the loop mostly
-      if (Math.random() > 0.8) {
+      if (Math.random() > 0.7) {
         person.loop = (person.loop + 1) % circuitLength;
       }
     }
   }
 
-  function handleArrivals() {
+  function handleArrivals(radius) {
     // handle incoming people
     for (var enterDoor=0; enterDoor<flowData.length; enterDoor++) {
       var inCount = flowData[enterDoor].in[flowIndex];
       for (var i=0; i < inCount; i++) {
         // create a new person
-        var person =
-          { "dot": svg.append('circle')
-                        .attr("fill", "black")
-                        .attr("stroke", "grey")
-                        .attr("r", blob)
-                        .attr("cx", doors.x[enterDoor])
-                        .attr("cy", doors.y[enterDoor]),
-            "x": doors.x[enterDoor],
-            "y": doors.y[enterDoor],
-            "loop": circuitStart[enterDoor], // Math.floor(circuitLength * Math.random()),
-          },
-          dx = (Math.random() * wanderRadius)-(wanderRadius/2),
-          dy = (Math.random() * wanderRadius)-(wanderRadius/2),
+        var
+          dx = (Math.random() * radius)-(radius/2),
+          dy = (Math.random() * radius)-(radius/2),
+          person =
+            { "dot": svg.append('circle')
+                          .attr("fill", "black")
+                          .attr("stroke", "grey")
+                          .attr("r", blob)
+                          .attr("cx", doors.x[enterDoor])
+                          .attr("cy", doors.y[enterDoor]),
+              "x": doors.x[enterDoor],
+              "y": doors.y[enterDoor],
+              "dx": dx,
+              "dy": dy,
+              "loop": circuitStart[enterDoor], // Math.floor(circuitLength * Math.random()),
+            },
           x = circuit.x[person.loop] + dx,
           y = circuit.y[person.loop] + dy;
 
@@ -173,23 +177,19 @@ if (i>0) {
   var flowTimer = setInterval(function() {
     // var dots = svg.selectAll('circle').data(people, function(d) {return d.id});
 
-    if (flowCounter == 0) {
+    if (flowCounter > 0) {
+      animatePeople(wanderRadius/10);
+    } else {
       handleDepartures();
-    }
+      animatePeople(wanderRadius);
+      handleArrivals(wanderRadius);
 
-    animatePeople();
-
-    if (flowCounter == 0) {
-      handleArrivals();
-    }
-
-    if (flowCounter == 0) {
-      // time has passed
+      // next interval
       flowIndex++;
-      console.log("TICK " + flowIndex);
+
+      // we're done
       if (flowIndex >= flowMax) {
         clearInterval(flowTimer);
-        console.log("DONE");
       }
     }
     flowCounter = (flowCounter + 1) % flowSlices;
