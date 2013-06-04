@@ -2,7 +2,6 @@
 <head>
   <meta charset="utf-8">
   <title>People</title>
-<script src="js/libs/modernizr-1.7.min.js"></script>
 </head>
 <body>
   <svg style="position:fixed; top:5%; left:5%;" width="90%" height="90%" viewbox="0 0 800 600">
@@ -10,12 +9,28 @@
      <path d="M2 2 L798,2 L798 598 L2 598 Z" stroke="white" stroke-width="3" />
    </g>
   </svg>
+
   <!-- Grab D3, with a protocol relative URL; fall back to local if necessary -->
   <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
   <script>window.d3 || document.write("<script src='js/d3.v3.min.js'>\x3C/script>")</script>
 
   <script>
   var width=800, height=600, aspect=width/height;
+
+  function getURLParameter(name) {
+    return decodeURI(
+      (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,""])[1]
+    );
+  }
+
+  var
+    year = getURLParameter("year"),
+    month = getURLParameter("month"),
+    day = getURLParameter("day");
+
+  if ("" == year) {year = "2012";}
+  if ("" == month) {month = "05";}
+  if ("" == day) {day = "05";}
 
   function smooth(points) {
     var result = [points[0]];
@@ -34,8 +49,24 @@
   // A Day of sample data from our REST API: http://115.146.85.35/govhack/rest/flow/2012/05/05
   var sample = [{"in":0,"toCafe":0,"toLevel1":0,"total":0,"time":"7109:00:00","out":0},{"in":23,"toCafe":16,"toLevel1":2,"total":18,"time":"7109:15:00","out":5},{"in":29,"toCafe":29,"toLevel1":15,"total":44,"time":"7109:30:00","out":3},{"in":54,"toCafe":35,"toLevel1":58,"total":93,"time":"7109:45:00","out":5},{"in":35,"toCafe":68,"toLevel1":48,"total":116,"time":"7110:00:00","out":12},{"in":43,"toCafe":126,"toLevel1":20,"total":146,"time":"7110:15:00","out":13},{"in":68,"toCafe":158,"toLevel1":41,"total":199,"time":"7110:30:00","out":15},{"in":75,"toCafe":196,"toLevel1":59,"total":255,"time":"7110:45:00","out":19},{"in":51,"toCafe":207,"toLevel1":72,"total":279,"time":"7111:00:00","out":27},{"in":67,"toCafe":206,"toLevel1":104,"total":310,"time":"7111:15:00","out":36},{"in":45,"toCafe":233,"toLevel1":78,"total":311,"time":"7111:30:00","out":44},{"in":87,"toCafe":293,"toLevel1":70,"total":363,"time":"7111:45:00","out":35},{"in":83,"toCafe":205,"toLevel1":174,"total":379,"time":"7112:00:00","out":67},{"in":78,"toCafe":217,"toLevel1":167,"total":384,"time":"7112:15:00","out":73},{"in":64,"toCafe":258,"toLevel1":109,"total":367,"time":"7112:30:00","out":81},{"in":74,"toCafe":220,"toLevel1":164,"total":384,"time":"7112:45:00","out":57},{"in":71,"toCafe":240,"toLevel1":148,"total":388,"time":"7113:00:00","out":67},{"in":82,"toCafe":221,"toLevel1":181,"total":402,"time":"7113:15:00","out":68},{"in":93,"toCafe":267,"toLevel1":156,"total":423,"time":"7113:30:00","out":72},{"in":91,"toCafe":277,"toLevel1":190,"total":467,"time":"7113:45:00","out":47},{"in":95,"toCafe":276,"toLevel1":207,"total":483,"time":"7114:00:00","out":79},{"in":66,"toCafe":273,"toLevel1":203,"total":476,"time":"7114:15:00","out":73},{"in":49,"toCafe":242,"toLevel1":234,"total":476,"time":"7114:30:00","out":49},{"in":77,"toCafe":248,"toLevel1":221,"total":469,"time":"7114:45:00","out":84},{"in":68,"toCafe":305,"toLevel1":166,"total":471,"time":"7115:00:00","out":66},{"in":67,"toCafe":227,"toLevel1":258,"total":485,"time":"7115:15:00","out":53},{"in":64,"toCafe":249,"toLevel1":249,"total":498,"time":"7115:30:00","out":51},{"in":35,"toCafe":258,"toLevel1":205,"total":463,"time":"7115:45:00","out":70},{"in":29,"toCafe":244,"toLevel1":172,"total":416,"time":"7116:00:00","out":76},{"in":31,"toCafe":253,"toLevel1":144,"total":397,"time":"7116:15:00","out":50},{"in":25,"toCafe":317,"toLevel1":59,"total":376,"time":"7116:30:00","out":46},{"in":17,"toCafe":65,"toLevel1":280,"total":345,"time":"7116:45:00","out":48},{"in":11,"toCafe":175,"toLevel1":120,"total":295,"time":"7117:00:00","out":61},{"in":3,"toCafe":144,"toLevel1":95,"total":239,"time":"7117:15:00","out":59},{"in":0,"toCafe":140,"toLevel1":94,"total":234,"time":"7117:30:00","out":5},{"in":0,"toCafe":139,"toLevel1":90,"total":229,"time":"7117:45:00","out":5},{"in":0,"toCafe":136,"toLevel1":92,"total":228,"time":"7118:00:00","out":1}];
 
+function loadData() {
+  try {
+  var url = "rest/flow/"+year+"/"+month+"/"+day;
+  d3.json(url, function(error, jsonData) {
+    if (!error && jsonData) {
+      flowData = makeFlow(jsonData);
+    } else {
+      console.log("Failed to get flow data: " + jsonData);
+      console.log(error);
+    }
+  });
+  } catch (e) {
+    console.log(e);
+  }
+}
+
   function makeFlow(restFlow) {
-    var enter = [], exit = [], p1 = 0, p2 = 0;
+    var enter = [], exit = [], p1 = 0, p2 = 0, total = 0;
     for (i in restFlow) {
 if (i>0) {
       var datum = restFlow[i];
@@ -43,10 +74,11 @@ if (i>0) {
       exit.push(Math.max(datum["out"] - p2, 0));
       p1 = datum["in"];
       p2 = datum["out"];
+      if ("total" in datum) total = datum.total;
 }
     }
     enter.push(0);
-    exit.push(restFlow[restFlow.length-1].total);
+    exit.push(total);
     return [{"in":enter, "out":exit}, {"in":enter, "out":exit}];
   }
 
@@ -85,6 +117,8 @@ if (i>0) {
     // Time between flow events
     tickLength = 800,
     margin = 10;
+
+  loadData();
 
   d3.select('body')
     .style("background-color", "#6666CC");
